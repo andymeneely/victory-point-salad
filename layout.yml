@@ -1,9 +1,9 @@
 title: 
-    font: 'Open Sans weight=800 64'
-    align: !ruby/symbol center
+    font: 'Sans Extrabold 56'
+    align: !ruby/symbol right
     x: 75
     y: 75
     width: 675
     ellipsize: !ruby/symbol none
-    spacing: -30
+    spacing: -10
 
