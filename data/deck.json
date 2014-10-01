@@ -374,7 +374,7 @@
     "Requires2": null,
     "": null,
     "Description": "You may substitute Silk for any Resource.",
-    "VP": null,
+    "VP": "2",
     "Snark": null
   },
   "27": {
@@ -388,10 +388,38 @@
     "Requires2": "The Military Strategy",
     "": null,
     "Description": null,
-    "VP": null,
+    "VP": "2",
     "Snark": null
   },
   "28": {
+    "Phase": "Midgame",
+    "Qty": "1",
+    "Type": "Special",
+    "Title": "Sheep Breed!",
+    "Bonus1": "Sheep",
+    "Bonus2": "Sheep",
+    "Requires1": "Sheep",
+    "Requires2": "Sheep",
+    "": null,
+    "Description": null,
+    "VP": "2",
+    "Snark": null
+  },
+  "29": {
+    "Phase": "Midgame",
+    "Qty": "1",
+    "Type": "Special",
+    "Title": "Cattle Breed!",
+    "Bonus1": "Cattle",
+    "Bonus2": null,
+    "Requires1": "Cattle",
+    "Requires2": "Cattle",
+    "": null,
+    "Description": null,
+    "VP": "2",
+    "Snark": null
+  },
+  "30": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Building",
@@ -401,14 +429,14 @@
     "Requires1": "Building",
     "Requires2": "Stone",
     "": null,
-    "Description": "You may substitute 2 Grain or 1 Vegetable for any Resource.",
+    "Description": "You may use 2 Grain or 1 Vegetable for any 1 Resource.",
     "VP": null,
     "Snark": null
   },
-  "29": {
-    "Phase": null,
+  "31": {
+    "Phase": "Midgame",
     "Qty": "1",
-    "Type": "Building",
+    "Type": "Special",
     "Title": "The Animal Building",
     "Bonus1": null,
     "Bonus2": null,
@@ -419,7 +447,7 @@
     "VP": null,
     "Snark": null
   },
-  "30": {
+  "32": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -433,7 +461,7 @@
     "VP": "-3",
     "Snark": null
   },
-  "31": {
+  "33": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -447,7 +475,7 @@
     "VP": "1",
     "Snark": "I'm sure I'll use this enough to justify its purchase."
   },
-  "32": {
+  "34": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -461,7 +489,7 @@
     "VP": null,
     "Snark": null
   },
-  "33": {
+  "35": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -475,7 +503,7 @@
     "VP": "2",
     "Snark": "I swear this strategy worked for me once."
   },
-  "34": {
+  "36": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -487,9 +515,9 @@
     "": null,
     "Description": "Upon playing this card, you may obtain any card in the discard pile and place it in your hand.",
     "VP": "-1",
-    "Snark": "Please use this card. People just hate it so much."
+    "Snark": "Playing this has the hidden advantage of making your opponents hate you."
   },
-  "35": {
+  "37": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -499,11 +527,11 @@
     "Requires1": null,
     "Requires2": "Sheep",
     "": null,
-    "Description": "You may substitute 1 Animal for 1 Wood or 1 Stone",
+    "Description": "Instead of a Wood or Stone, you may substitute 1 Animal once per play.",
     "VP": null,
     "Snark": null
   },
-  "36": {
+  "38": {
     "Phase": "Midgame",
     "Qty": "1",
     "Type": "Special",
@@ -513,13 +541,55 @@
     "Requires1": null,
     "Requires2": null,
     "": null,
-    "Description": null,
+    "Description": "Place this in front of another player. They may pay 1 Stone to move it to another player, or 2 Stone to remove it from the game.",
+    "VP": "-2",
+    "Snark": "Do it not for the competitive advantage, but for the schadenfreude. "
+  },
+  "39": {
+    "Phase": "Midgame",
+    "Qty": "1",
+    "Type": "Special",
+    "Title": "The Grain Engine",
+    "Bonus1": null,
+    "Bonus2": null,
+    "Requires1": "Wood",
+    "Requires2": "Clay",
+    "": null,
+    "Description": "You may use 1 Grain for any 1 Resource, once per play.",
     "VP": null,
     "Snark": null
   },
-  "37": {
+  "40": {
+    "Phase": "Midgame",
+    "Qty": "1",
+    "Type": "Special",
+    "Title": "The Expensive Yet Efficient Engine",
+    "Bonus1": null,
+    "Bonus2": null,
+    "Requires1": "Stone",
+    "Requires2": "Stone",
+    "": null,
+    "Description": "You may use 1 Resource for other Resource, twice per play.",
+    "VP": null,
+    "Snark": null
+  },
+  "41": {
+    "Phase": "Midgame",
+    "Qty": "1",
+    "Type": "Special",
+    "Title": "The Animal Engine",
+    "Bonus1": null,
+    "Bonus2": null,
+    "Requires1": "Sheep",
+    "Requires2": null,
+    "": null,
+    "Description": "You may use 1 Animal for any 1 Resource.",
+    "VP": null,
+    "Snark": null
+  },
+  "42": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Payoff Payoff",
     "Bonus1": null,
@@ -531,9 +601,9 @@
     "VP": "*",
     "Snark": "The only thing better than VPs are VPs that spawned from the production of other VPs."
   },
-  "38": {
+  "43": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The High-Risk Payoff",
     "Bonus1": null,
@@ -541,13 +611,13 @@
     "Requires1": "Silk Market",
     "Requires2": "Clay Building",
     "": null,
-    "Description": null,
+    "Description": "2 VPs for each Cattle, Vegetable",
     "VP": "*",
     "Snark": "Was it really worth it??"
   },
-  "39": {
+  "44": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Easily-Disrupted Payoff",
     "Bonus1": null,
@@ -555,27 +625,27 @@
     "Requires1": null,
     "Requires2": null,
     "": null,
-    "Description": "8 VPs only if you have Starting Player at the end of the game. Once you play this card, you may not steal starting player.",
+    "Description": "8 VPs  if you have Starting Player at the end of the game. Once you play this card, you may not steal starting player.",
     "VP": "*",
     "Snark": "I REALLY hope nobody notices that I played this."
   },
-  "40": {
+  "45": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
-    "Title": "The Unexpected Payoff Card",
+    "Title": "The Unexpected Payoff",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "": null,
-    "Description": "5 VP only if you have 1 Glass, 1 Gold, and 1 Vegetable.",
+    "Description": "5 VP if you have 1 Glass, 1 Gold, and 1 Vegetable.",
     "VP": "*",
     "Snark": "This card favors those who have this deck memorized."
   },
-  "41": {
+  "46": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Suboptimal Strategy Payoff",
     "Bonus1": null,
@@ -585,11 +655,11 @@
     "": null,
     "Description": "1 VP for each type of Resource.",
     "VP": "*",
-    "Snark": "This is to make you feel better about having stuff leftover."
+    "Snark": "This is to make you feel better about having unused stuff."
   },
-  "42": {
+  "47": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Early Investment Payoff",
     "Bonus1": null,
@@ -599,11 +669,11 @@
     "": null,
     "Description": null,
     "VP": "5",
-    "Snark": "See! I knew that would pay off."
+    "Snark": "See! I told you that card would pay off."
   },
-  "43": {
+  "48": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Low-Risk Payoff",
     "Bonus1": null,
@@ -611,13 +681,13 @@
     "Requires1": null,
     "Requires2": null,
     "": null,
-    "Description": null,
+    "Description": "1 VP for each Wood, Sheep, or Grain",
     "VP": "*",
     "Snark": "Hey, at least you know nobody else is going for it."
   },
-  "44": {
+  "49": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Payoff With Math",
     "Bonus1": null,
@@ -627,11 +697,11 @@
     "": null,
     "Description": "The number of Glass you have in your hand squared plus the number of Silks you have.",
     "VP": "*",
-    "Snark": null
+    "Snark": "Go ahead and take your next turn, this is gonna take me a moment."
   },
-  "45": {
+  "50": {
     "Phase": "Endgame",
-    "Qty": null,
+    "Qty": "1",
     "Type": "Payoff",
     "Title": "The Military Payoff",
     "Bonus1": null,
@@ -641,6 +711,20 @@
     "": null,
     "Description": "2 VP for each Military, +2 additional VP if you end the game with the most military (ties don't count).",
     "VP": "*",
-    "Snark": "Agression does have its benefits."
+    "Snark": "Aggression does have its benefits."
+  },
+  "51": {
+    "Phase": "Endgame",
+    "Qty": "1",
+    "Type": "Payoff",
+    "Title": "The Building Payoff Building",
+    "Bonus1": null,
+    "Bonus2": null,
+    "Requires1": "Building",
+    "Requires2": null,
+    "": null,
+    "Description": "2 VP for each Building you've played",
+    "VP": null,
+    "Snark": null
   }
 }

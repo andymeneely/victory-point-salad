@@ -11,7 +11,12 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
 
   text str: deck['Title'], layout: :title
 
-  #png file: 'tgc-proof-overlay.png'
+  # text str: 'Requires', layout: :Requires
+  # %w(Bonus1 Bonus2 Requires1 Requires2 Requires Description Snark).each do |key|
+  # 	text str: deck[key], layout: key
+  # end
+
+  png file: 'tgc-proof-overlay.png'
 
   save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"

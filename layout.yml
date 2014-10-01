@@ -7,3 +7,59 @@ title:
     ellipsize: !ruby/symbol none
     spacing: -10
 
+text: &text
+    font: 'Sans'
+
+large_text: &large_text
+    <<: *text
+    font_size: 56
+
+medium_text: &medium_text
+    <<: *text
+    font_size: 36
+
+descriptor: &descriptor
+    font: 'Sans Italic'
+    font_size: 24
+
+small_text: &small_text
+    <<: *text
+    font_size: 18
+
+Bonus1:
+    <<: *large_text
+    x: 200
+    y: 700
+
+Bonus2:
+    extends: Bonus1
+    x: += 150
+
+Requires:
+    <<: *descriptor
+    x: 550
+    y: 450
+
+Requires1:
+    extends: Requires
+    x: 600
+    y: 550
+
+Requires2:
+    extends: Requires1
+    y: += 100
+
+Requires3:
+    extends: Requires2
+    y: += 100
+
+Description:
+    <<: *medium_text
+    x: 100
+    y: 400
+    width: 500
+
+Snark:
+    <<: *small_text
+    x: 75
+    y: 900
