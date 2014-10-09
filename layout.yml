@@ -9,6 +9,7 @@ title:
 
 text: &text
     font: 'Sans'
+    ellipsize: !ruby/symbol none
 
 large_text: &large_text
     <<: *text
@@ -16,50 +17,85 @@ large_text: &large_text
 
 medium_text: &medium_text
     <<: *text
-    font_size: 36
+    font_size: 32
 
 descriptor: &descriptor
     font: 'Sans Italic'
     font_size: 24
 
-small_text: &small_text
-    <<: *text
-    font_size: 18
+Bonus1Box:
+    x: -15
+    y: 300
+    width: 415
+    height: 80
+    fill_color: foreground
+    radius: 15
 
 Bonus1:
-    <<: *large_text
-    x: 200
-    y: 700
+    x: 75
+    extends: Bonus1Box
+    font: 'Sans Extrabold'
+    font_size: 42
+    align: !ruby/symbol left
+    valign: !ruby/symbol middle
+    fill_color: foreground
+    color: background
+
+Bonus2Box:
+    extends: Bonus1Box
+    y: += 100
 
 Bonus2:
     extends: Bonus1
-    x: += 150
+    y: += 100
 
 Requires:
     <<: *descriptor
-    x: 550
-    y: 450
+    x: 575
+    y: 275
+    width: 170
+    align: !ruby/symbol right
 
 Requires1:
     extends: Requires
-    x: 600
-    y: 550
+    y: += 50
 
 Requires2:
     extends: Requires1
-    y: += 100
+    y: += 40
 
 Requires3:
     extends: Requires2
-    y: += 100
+    y: += 40
 
 Description:
     <<: *medium_text
-    x: 100
-    y: 400
-    width: 500
+    x: 75
+    y: 565
+    width: 675
+    height: 320
+    align: !ruby/symbol center
+    valign: !ruby/symbol middle
 
 Snark:
-    <<: *small_text
+    font: 'Sans Italic 18'
     x: 75
     y: 900
+    width: 515
+    height: 145
+    valign: !ruby/symbol bottom
+
+VP_img: 
+    width: 150
+    height: 150
+    x: 595
+    y: 900
+
+VP:
+    extends: VP_img
+    color: background
+    y: -= 10
+    font: 'Sans Extrabold 64'
+    align: !ruby/symbol center
+    valign: !ruby/symbol middle
+
