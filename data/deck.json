@@ -93,7 +93,7 @@
   "7": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "A Middle-Tier Resource",
+    "Title": "A Better Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -106,7 +106,7 @@
   "8": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "A Middle-Tier Resource",
+    "Title": "A Better Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -145,7 +145,7 @@
   "11": {
     "Type": "Resource",
     "Qty": "5",
-    "Title": "The Premium Stone Resource",
+    "Title": "The Premium Resource",
     "Bonus1": "Stone",
     "Bonus2": null,
     "Requires1": null,
@@ -158,7 +158,7 @@
   "12": {
     "Type": "Resource",
     "Qty": "5",
-    "Title": "The Premium Stone Resource",
+    "Title": "The Premium Resource",
     "Bonus1": "Stone",
     "Bonus2": null,
     "Requires1": null,
@@ -171,7 +171,7 @@
   "13": {
     "Type": "Resource",
     "Qty": "5",
-    "Title": "The Premium Stone Resource",
+    "Title": "The Premium Resource",
     "Bonus1": "Stone",
     "Bonus2": null,
     "Requires1": null,
@@ -184,7 +184,7 @@
   "14": {
     "Type": "Resource",
     "Qty": "5",
-    "Title": "The Premium Stone Resource",
+    "Title": "The Premium Resource",
     "Bonus1": "Stone",
     "Bonus2": null,
     "Requires1": null,
@@ -197,7 +197,7 @@
   "15": {
     "Type": "Resource",
     "Qty": "5",
-    "Title": "The Premium Stone Resource",
+    "Title": "The Premium Resource",
     "Bonus1": "Stone",
     "Bonus2": null,
     "Requires1": null,
@@ -400,7 +400,7 @@
     "Requires3": null,
     "Description": "You may also trash this card for 2 Food.",
     "VP": "0",
-    "Snark": null
+    "Snark": "Personally, I find grain to much more filling than vegetables."
   },
   "31": {
     "Type": "Resource",
@@ -452,7 +452,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Just don't miss your opportunity to use it."
   },
   "35": {
     "Type": "Resource",
@@ -465,7 +465,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Just don't miss your opportunity to use it."
   },
   "36": {
     "Type": "Resource",
@@ -478,7 +478,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Just don't miss your opportunity to use it."
   },
   "37": {
     "Type": "Resource",
@@ -491,7 +491,7 @@
     "Requires3": null,
     "Description": "At any time, you may substitute 2 Gold for any Resource when playing a card.",
     "VP": "1",
-    "Snark": null
+    "Snark": "Think of it like breeding VPs."
   },
   "38": {
     "Type": "Resource",
@@ -504,7 +504,7 @@
     "Requires3": null,
     "Description": "At any time, you may substitute 2 Gold for any Resource when playing a card.",
     "VP": "1",
-    "Snark": null
+    "Snark": "Think of it like breeding VPs."
   },
   "39": {
     "Type": "Resource",
@@ -517,7 +517,7 @@
     "Requires3": null,
     "Description": "At any time, you may substitute 2 Gold for any Resource when playing a card.",
     "VP": "1",
-    "Snark": null
+    "Snark": "Think of it like breeding VPs."
   },
   "40": {
     "Type": "Resource",
@@ -530,7 +530,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Plus, you don't have to think about how to make your food!"
   },
   "41": {
     "Type": "Resource",
@@ -543,7 +543,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Plus, you don't have to think about how to make your food!"
   },
   "42": {
     "Type": "Resource",
@@ -556,7 +556,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Plus, you don't have to think about how to make your food!"
   },
   "43": {
     "Type": "Resource",
@@ -569,7 +569,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Plus, you don't have to think about how to make your food!"
   },
   "44": {
     "Type": "Resource",
@@ -582,18 +582,18 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Plus, you don't have to think about how to make your food!"
   },
   "45": {
     "Type": "Early Game",
     "Qty": "1",
     "Title": "Rotating Advantage",
-    "Bonus1": "Extra Move",
+    "Bonus1": "Resource",
     "Bonus2": null,
     "Requires1": "Stone",
     "Requires2": null,
     "Requires3": null,
-    "Description": "Make an extra play. May be bought by other players on their turn for one of any of the following: Clay, Stone, Silk, Gold, Cattle, Veggie.",
+    "Description": "Each turn, take an extra Resource card. Other players may transfer this card to their playing area for one of any of the following: Stone, Silk, Gold, Cattle, Veggie.",
     "VP": "0",
     "Snark": "Just in case you needed another option to consider."
   },
@@ -608,7 +608,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "2",
-    "Snark": "Does nothing now, but will pay off later."
+    "Snark": "Does nothing now, but it will pay off later. The engine can wait."
   },
   "47": {
     "Type": "Early Game",
@@ -621,7 +621,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "2",
-    "Snark": "Does nothing now, but will pay off later."
+    "Snark": "Does nothing now, but it will pay off later. The engine can wait."
   },
   "48": {
     "Type": "Early Game",
@@ -632,9 +632,9 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "Allows you to build buildings. ",
+    "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
-    "Snark": "Is it the skill of building, or an actual building? Does that ambiguity bother you?"
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
   },
   "49": {
     "Type": "Early Game",
@@ -645,9 +645,9 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "Allows you to build buildings. ",
+    "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
-    "Snark": "Is it the skill of building, or an actual building? Does that ambiguity bother you?"
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
   },
   "50": {
     "Type": "Early Game",
@@ -658,9 +658,9 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "Allows you to build buildings. ",
+    "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
-    "Snark": "Is it the skill of building, or an actual building? Does that ambiguity bother you?"
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
   },
   "51": {
     "Type": "Early Game",
@@ -671,9 +671,9 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "Allows you to build buildings. ",
+    "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
-    "Snark": "Is it the skill of building, or an actual building? Does that ambiguity bother you?"
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
   },
   "52": {
     "Type": "Early Game",
@@ -723,7 +723,7 @@
     "Requires1": "Grain",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may also use this card for 1 Food",
+    "Description": "You may also trash this card for 1 Food",
     "VP": "1",
     "Snark": null
   },
@@ -736,7 +736,7 @@
     "Requires1": "Grain",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may also use this card for 1 Food",
+    "Description": "You may also trash this card for 1 Food",
     "VP": "1",
     "Snark": null
   },
@@ -749,7 +749,7 @@
     "Requires1": "Vegetable",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may also use this card for 2 Food",
+    "Description": "You may also trash this card for 2 Food",
     "VP": "1",
     "Snark": null
   },
@@ -762,7 +762,7 @@
     "Requires1": "Vegetable",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may also use this card for 2 Food",
+    "Description": "You may also trash this card for 2 Food",
     "VP": "1",
     "Snark": null
   },
@@ -788,7 +788,7 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may use any Animals as a 1-1 replacement for Food.",
+    "Description": "You may substitute 1 Animal for 1 Food, any number of times.",
     "VP": "1",
     "Snark": "Can we go back to an abstract theme please?"
   },
@@ -801,7 +801,7 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may use any Animals as a 1-1 replacement for Food.",
+    "Description": "You may substitute 1 Animal for 1 Food, any number of times.",
     "VP": "1",
     "Snark": "Can we go back to an abstract theme please?"
   },
@@ -814,9 +814,9 @@
     "Requires1": "Building",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may substitute Silk for any Resource.",
+    "Description": "You may substitute 1 Silk for any 1 Resource, any number of times.",
     "VP": "2",
-    "Snark": null
+    "Snark": "Be sure to take this from someone who has collected silk."
   },
   "63": {
     "Type": "Blocker",
@@ -829,7 +829,7 @@
     "Requires3": null,
     "Description": "Give one to each player. To trash this card, you must trash 3 Food.",
     "VP": "-5",
-    "Snark": "Sorry, we can't just have you do whatever you want."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
   },
   "64": {
     "Type": "Blocker",
@@ -842,7 +842,7 @@
     "Requires3": null,
     "Description": "Give one to each player. To trash this card, you must trash 3 Food.",
     "VP": "-5",
-    "Snark": "Sorry, we can't just have you do whatever you want."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
   },
   "65": {
     "Type": "Blocker",
@@ -855,7 +855,7 @@
     "Requires3": null,
     "Description": "Give one to each player. To trash this card, you must trash 3 Food.",
     "VP": "-5",
-    "Snark": "Sorry, we can't just have you do whatever you want."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
   },
   "66": {
     "Type": "Blocker",
@@ -868,7 +868,7 @@
     "Requires3": null,
     "Description": "Give one to each player. To trash this card, you must trash 3 Food.",
     "VP": "-5",
-    "Snark": "Sorry, we can't just have you do whatever you want."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
   },
   "67": {
     "Type": "Midgame",
@@ -881,7 +881,7 @@
     "Requires3": null,
     "Description": "You do not need to pay any required Stone for Buildings.",
     "VP": "1",
-    "Snark": null
+    "Snark": "It is by pure coincidence that we actually need stone for our building."
   },
   "68": {
     "Type": "Midgame",
@@ -894,7 +894,7 @@
     "Requires3": null,
     "Description": "You do not need to pay any required Wood for Buildings",
     "VP": "1",
-    "Snark": null
+    "Snark": "It is by pure coincidence that we actually need Wood for our building."
   },
   "69": {
     "Type": "Midgame",
@@ -907,7 +907,7 @@
     "Requires3": null,
     "Description": "You do not need to pay any required Clay for Buildings.",
     "VP": "1",
-    "Snark": null
+    "Snark": "It is by pure coincidence that we actually need Clay for our building."
   },
   "70": {
     "Type": "Midgame",
@@ -920,7 +920,7 @@
     "Requires3": "Wood",
     "Description": null,
     "VP": "2",
-    "Snark": null
+    "Snark": "Hey, VPs are VPs. Every little bit counts."
   },
   "71": {
     "Type": "Midgame",
@@ -933,7 +933,7 @@
     "Requires3": "Clay",
     "Description": null,
     "VP": "4",
-    "Snark": null
+    "Snark": "Nice! Way to get some points on the board."
   },
   "72": {
     "Type": "Midgame",
@@ -951,41 +951,41 @@
   "73": {
     "Type": "Midgame",
     "Qty": "1",
-    "Title": "The Clay+Wood Building",
+    "Title": "The Clay, Wood Building",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Building",
     "Requires2": "Clay",
     "Requires3": "Wood",
     "Description": null,
-    "VP": "3",
-    "Snark": null
+    "VP": "4",
+    "Snark": "Nice! Way to get some bigger points on the board."
   },
   "74": {
     "Type": "Midgame",
     "Qty": "1",
-    "Title": "The Clay+Stone Building",
+    "Title": "The Clay, Stone Building",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Building",
     "Requires2": "Clay",
     "Requires3": "Stone",
     "Description": null,
-    "VP": "5",
-    "Snark": null
+    "VP": "6",
+    "Snark": "Don't get all your VPs too early now."
   },
   "75": {
     "Type": "Midgame",
     "Qty": "1",
-    "Title": "The Wood+Stone Building",
+    "Title": "The Wood, Stone Building",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Building",
     "Requires2": "Wood",
     "Requires3": "Stone",
     "Description": null,
-    "VP": "6",
-    "Snark": null
+    "VP": "5",
+    "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this."
   },
   "76": {
     "Type": "Midgame",
@@ -998,7 +998,7 @@
     "Requires3": null,
     "Description": "You may only play this if you already have at least 1 Military.",
     "VP": "2",
-    "Snark": "And how do we feel about military right about now?"
+    "Snark": "And how do we feel about going military right about now?"
   },
   "77": {
     "Type": "Midgame",
@@ -1048,7 +1048,7 @@
     "Requires1": "Stone",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may use 1 Cattle for 2 Food.",
+    "Description": "You may use 1 Cattle for 2 Food, or 1 Cattle for any other Resource. ",
     "VP": "1",
     "Snark": "Wish this had come out sooner…"
   },
@@ -1089,7 +1089,7 @@
     "Requires3": null,
     "Description": "You may use 2 Grain or 1 Vegetable for any 1 Resource.",
     "VP": "2",
-    "Snark": null
+    "Snark": "Flexible, if you invested in farming. "
   },
   "84": {
     "Type": "Midgame",
@@ -1102,7 +1102,7 @@
     "Requires3": null,
     "Description": "You may use 2 Grain or 1 Vegetable for any 1 Resource.",
     "VP": "2",
-    "Snark": null
+    "Snark": "Flexible, if you invested in farming. "
   },
   "85": {
     "Type": "Midgame",
@@ -1115,7 +1115,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "4",
-    "Snark": null
+    "Snark": "Hopefully you didn’t spend all your cattle on Food."
   },
   "86": {
     "Type": "Midgame",
@@ -1128,7 +1128,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "4",
-    "Snark": null
+    "Snark": "Hopefully you didn’t spend all your cattle on Food."
   },
   "87": {
     "Type": "Midgame",
@@ -1140,8 +1140,8 @@
     "Requires2": null,
     "Requires3": null,
     "Description": "You may also use this card for 1 Food",
-    "VP": "1",
-    "Snark": null
+    "VP": "0",
+    "Snark": "Grain: the best breeder of them all."
   },
   "88": {
     "Type": "Midgame",
@@ -1153,8 +1153,8 @@
     "Requires2": null,
     "Requires3": null,
     "Description": "You may also use this card for 2 Food",
-    "VP": "1",
-    "Snark": null
+    "VP": "0",
+    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. "
   },
   "89": {
     "Type": "Midgame",
@@ -1162,17 +1162,17 @@
     "Title": "The Dude",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Food",
+    "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "When played, pass to the player to your left. On their turn, they must trash 1 Food and may continue passing it.",
+    "Description": "When played, place in front of the player to your left. Subsequent players must trash 1 Food and to continue passing.",
     "VP": "-2",
     "Snark": "One move of the dude is a four-point swing. Don't ever forget about him."
   },
   "90": {
     "Type": "Midgame",
     "Qty": "1",
-    "Title": "The Flexible Trader",
+    "Title": "The Obligatory 3:1 Trader",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": null,
@@ -1204,9 +1204,9 @@
     "Requires1": "Military",
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource to build. Ties don't count.",
+    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count.",
     "VP": "2",
-    "Snark": "I swear this strategy worked for me once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
   "93": {
     "Type": "Midgame",
@@ -1217,9 +1217,9 @@
     "Requires1": "Military",
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource to build. Ties don't count.",
+    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count.",
     "VP": "2",
-    "Snark": "I swear this strategy worked for me once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
   "94": {
     "Type": "Midgame",
@@ -1230,9 +1230,9 @@
     "Requires1": "Military",
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource to build. Ties don't count.",
+    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count.",
     "VP": "2",
-    "Snark": "I swear this strategy worked for me once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
   "95": {
     "Type": "Midgame",
@@ -1243,9 +1243,9 @@
     "Requires1": "Military",
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource to build. Ties don't count.",
+    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count.",
     "VP": "2",
-    "Snark": "I swear this strategy worked for me once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
   "96": {
     "Type": "Midgame",
