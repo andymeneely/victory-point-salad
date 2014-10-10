@@ -8,6 +8,7 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   background color: :background
 
   text str: deck['Title'], layout: :title
+  text str: deck['Type'], layout: :type
   svg file: 'vp.svg', layout: :VP_img
 
   range = [] ; deck['Requires1'].each_with_index { |n, i| range << i unless n.nil? }
@@ -26,6 +27,7 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   #png file: 'tgc-proof-overlay.png'
 
   save format: :png
+  save format: :pdf, file: 'deck.pdf', trim: 38
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
 end
 

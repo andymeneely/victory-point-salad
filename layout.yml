@@ -7,6 +7,13 @@ title:
     ellipsize: !ruby/symbol none
     spacing: -10
 
+type:
+    font: 'Sans 18'
+    x: 595
+    y: 870
+    width: 150
+    align: !ruby/symbol center
+
 text: &text
     font: 'Sans'
     ellipsize: !ruby/symbol none
