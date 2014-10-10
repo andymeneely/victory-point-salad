@@ -101,7 +101,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "There are cards that use this. Don't worry."
   },
   "8": {
     "Type": "Resource",
@@ -114,7 +114,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "There are cards that use this. Don't worry."
   },
   "9": {
     "Type": "Resource",
@@ -413,7 +413,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Kinda like the double-wood, only clay."
   },
   "32": {
     "Type": "Resource",
@@ -426,7 +426,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Kinda like the double-wood, only clay."
   },
   "33": {
     "Type": "Resource",
@@ -439,7 +439,7 @@
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": null
+    "Snark": "Kinda like the double-wood, only clay."
   },
   "34": {
     "Type": "Resource",
@@ -686,7 +686,7 @@
     "Requires3": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource. Ties don't count.",
     "VP": "1",
-    "Snark": null
+    "Snark": "This strategy worked for me once. I think."
   },
   "53": {
     "Type": "Early Game",
@@ -699,7 +699,7 @@
     "Requires3": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource. Ties don't count.",
     "VP": "1",
-    "Snark": null
+    "Snark": "This strategy worked for me once. I think."
   },
   "54": {
     "Type": "Early Game",
@@ -712,7 +712,7 @@
     "Requires3": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource. Ties don't count.",
     "VP": "1",
-    "Snark": null
+    "Snark": "This strategy worked for me once. I think."
   },
   "55": {
     "Type": "Early Game",
@@ -725,7 +725,7 @@
     "Requires3": null,
     "Description": "You may also trash this card for 1 Food",
     "VP": "1",
-    "Snark": null
+    "Snark": "Grain: the best breeder of them all."
   },
   "56": {
     "Type": "Early Game",
@@ -738,7 +738,7 @@
     "Requires3": null,
     "Description": "You may also trash this card for 1 Food",
     "VP": "1",
-    "Snark": null
+    "Snark": "Grain: the best breeder of them all."
   },
   "57": {
     "Type": "Early Game",
@@ -751,7 +751,7 @@
     "Requires3": null,
     "Description": "You may also trash this card for 2 Food",
     "VP": "1",
-    "Snark": null
+    "Snark": "What's better than one veggie? Two veggies and a VP."
   },
   "58": {
     "Type": "Early Game",
@@ -764,7 +764,7 @@
     "Requires3": null,
     "Description": "You may also trash this card for 2 Food",
     "VP": "1",
-    "Snark": null
+    "Snark": "What's better than one veggie? Two veggies and a VP."
   },
   "59": {
     "Type": "Early Game",
@@ -777,7 +777,7 @@
     "Requires3": null,
     "Description": "You may use 1 Grain for any 1 Resource, once per play.",
     "VP": "1",
-    "Snark": null
+    "Snark": "A solid choice."
   },
   "60": {
     "Type": "Early Game",
@@ -1007,7 +1007,7 @@
     "Bonus1": "Sheep",
     "Bonus2": "Sheep",
     "Requires1": "Sheep",
-    "Requires2": "Wood",
+    "Requires2": "Clay",
     "Requires3": null,
     "Description": null,
     "VP": "1",
@@ -1020,7 +1020,7 @@
     "Bonus1": "Sheep",
     "Bonus2": "Sheep",
     "Requires1": "Sheep",
-    "Requires2": "Wood",
+    "Requires2": "Clay",
     "Requires3": null,
     "Description": null,
     "VP": "1",
@@ -1033,7 +1033,7 @@
     "Bonus1": "Sheep",
     "Bonus2": "Sheep",
     "Requires1": "Sheep",
-    "Requires2": "Wood",
+    "Requires2": "Clay",
     "Requires3": null,
     "Description": null,
     "VP": "1",
@@ -1367,7 +1367,7 @@
   "105": {
     "Type": "Endgame",
     "Qty": "1",
-    "Title": "The Early Investment Payoff",
+    "Title": "The Investment Payoff",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Investment",
