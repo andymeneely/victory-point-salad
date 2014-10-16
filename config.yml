@@ -14,7 +14,8 @@ progress_bars: true
 #Enable some custom colors that can be used in any color
 custom_colors:
   foreground: 'black'
-  background: '#EDEBD8'
+  background: 'white'
+  # background: '#EDEBD8'
 
 #For reading image file command (e.g. png and svg), read from this directory instead
 img_dir: img
