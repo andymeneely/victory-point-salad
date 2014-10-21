@@ -26,3 +26,24 @@ def explode_quantities(raw_deck)
   end
   return deck
 end
+
+# Estimates the width of a given string to scale the bounding box properly
+def bonusbox_width(strs, font_size)
+  map = Hash.new(1.0)
+  %w(f i j l r t !).each{|thin| map[thin] = 0.5}
+  %w(o) .each{|med|             map[med] = 1.1}
+  %w(m w S G).each{|fat|            map[fat] = 1.5}
+  %w(M W C).each{|vfat|           map[vfat] = 1.7}
+
+  margin = 75 # to overlap the left-side of the card
+  return strs.inject([]) do |widths, str|
+    if str.nil?
+      widths << 0
+    else 
+      width = str.strip.scan(/./).inject(0) do |width, c|
+        width + map[c]*font_size
+      end
+      widths << width + margin
+    end
+  end
+end
