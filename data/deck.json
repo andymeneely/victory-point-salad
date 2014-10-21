@@ -18,8 +18,8 @@
     "Title": "The Building Building Building",
     "Bonus1": "Building",
     "Bonus2": null,
-    "Requires1": "Clay",
-    "Requires2": "Stone",
+    "Requires1": "Wood",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
@@ -31,8 +31,8 @@
     "Title": "The Building Building Building",
     "Bonus1": "Building",
     "Bonus2": null,
-    "Requires1": "Clay",
-    "Requires2": "Stone",
+    "Requires1": "Wood",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
@@ -44,8 +44,8 @@
     "Title": "The Building Building Building",
     "Bonus1": "Building",
     "Bonus2": null,
-    "Requires1": "Clay",
-    "Requires2": "Stone",
+    "Requires1": "Wood",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
@@ -57,8 +57,8 @@
     "Title": "The Building Building Building",
     "Bonus1": "Building",
     "Bonus2": null,
-    "Requires1": "Clay",
-    "Requires2": "Stone",
+    "Requires1": "Wood",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may now build buildings. You may take only one of these into your hand.",
     "VP": "0",
@@ -109,8 +109,8 @@
     "Title": "The Grain Engine",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Wood",
-    "Requires2": "Clay",
+    "Requires1": "Clay",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may use 1 Grain for any 1 Resource, once per play.",
     "VP": "1",
@@ -122,8 +122,8 @@
     "Title": "The Grain Engine",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Wood",
-    "Requires2": "Clay",
+    "Requires1": "Clay",
+    "Requires2": null,
     "Requires3": null,
     "Description": "You may use 1 Grain for any 1 Resource, once per play.",
     "VP": "1",
@@ -135,7 +135,7 @@
     "Title": "Insta-slaughter",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Wood",
+    "Requires1": "Stone",
     "Requires2": null,
     "Requires3": null,
     "Description": "You may use 1 Animal for any 1 Resource, any number of times.",
@@ -148,7 +148,7 @@
     "Title": "Insta-slaughter",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Wood",
+    "Requires1": "Stone",
     "Requires2": null,
     "Requires3": null,
     "Description": "You may use 1 Animal for any 1 Resource, any number of times.",
@@ -404,7 +404,7 @@
   },
   "31": {
     "Type": "Resource",
-    "Qty": "2",
+    "Qty": "3",
     "Title": "Better Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
@@ -417,7 +417,7 @@
   },
   "32": {
     "Type": "Resource",
-    "Qty": "2",
+    "Qty": "3",
     "Title": "Better Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
@@ -430,20 +430,20 @@
   },
   "33": {
     "Type": "Resource",
-    "Qty": "2",
-    "Title": "Decent Resource Combo",
-    "Bonus1": "Wood",
+    "Qty": "3",
+    "Title": "Better Resource Combo",
+    "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Good for more narrow situations."
+    "Snark": "There are cards that use this. Don't worry."
   },
   "34": {
     "Type": "Resource",
-    "Qty": "2",
+    "Qty": "3",
     "Title": "Decent Resource Combo",
     "Bonus1": "Wood",
     "Bonus2": "Stone",
@@ -457,28 +457,28 @@
   "35": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Wildcard Resource",
-    "Bonus1": "Silk",
-    "Bonus2": null,
+    "Title": "Decent Resource Combo",
+    "Bonus1": "Wood",
+    "Bonus2": "Stone",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Look at you, Dr. Fancy Man!"
+    "Snark": "Good for more narrow situations."
   },
   "36": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Wildcard Resource",
-    "Bonus1": "Silk",
-    "Bonus2": null,
+    "Title": "Decent Resource Combo",
+    "Bonus1": "Wood",
+    "Bonus2": "Stone",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Look at you, Dr. Fancy Man!"
+    "Snark": "Good for more narrow situations."
   },
   "37": {
     "Type": "Resource",
@@ -496,28 +496,28 @@
   "38": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Soft, Cuddly Resource",
-    "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
+    "Title": "The Wildcard Resource",
+    "Bonus1": "Silk",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
+    "Snark": "Look at you, Dr. Fancy Man!"
   },
   "39": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Soft, Cuddly Resource",
-    "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
+    "Title": "The Wildcard Resource",
+    "Bonus1": "Silk",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
+    "Snark": "Look at you, Dr. Fancy Man!"
   },
   "40": {
     "Type": "Resource",
@@ -535,32 +535,32 @@
   "41": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Not-as-Cute Yet Expensive Animal",
-    "Bonus1": "Cattle",
-    "Bonus2": null,
+    "Title": "The Soft, Cuddly Resource",
+    "Bonus1": "Sheep",
+    "Bonus2": "Sheep",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Moo."
+    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
   },
   "42": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Not-as-Cute Yet Expensive Animal",
-    "Bonus1": "Cattle",
-    "Bonus2": null,
+    "Title": "The Soft, Cuddly Resource",
+    "Bonus1": "Sheep",
+    "Bonus2": "Sheep",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Moo."
+    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
   },
   "43": {
     "Type": "Resource",
-    "Qty": "3",
+    "Qty": "2",
     "Title": "The Not-as-Cute Yet Expensive Animal",
     "Bonus1": "Cattle",
     "Bonus2": null,
@@ -574,15 +574,15 @@
   "44": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "The Windfall Resource",
-    "Bonus1": "Wild Boar",
-    "Bonus2": "Wild Boar",
+    "Title": "The Not-as-Cute Yet Expensive Animal",
+    "Bonus1": "Cattle",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Everyone just calls them pigs."
+    "Snark": "Moo."
   },
   "45": {
     "Type": "Resource",
@@ -599,20 +599,20 @@
   },
   "46": {
     "Type": "Resource",
-    "Qty": "4",
-    "Title": "Bag of Grain",
-    "Bonus1": "Grain",
-    "Bonus2": null,
+    "Qty": "2",
+    "Title": "The Windfall Resource",
+    "Bonus1": "Wild Boar",
+    "Bonus2": "Wild Boar",
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it wheat? Or corn? "
+    "Snark": "Everyone just calls them pigs."
   },
   "47": {
     "Type": "Resource",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "Bag of Grain",
     "Bonus1": "Grain",
     "Bonus2": null,
@@ -625,7 +625,7 @@
   },
   "48": {
     "Type": "Resource",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "Bag of Grain",
     "Bonus1": "Grain",
     "Bonus2": null,
@@ -638,7 +638,7 @@
   },
   "49": {
     "Type": "Resource",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "Bag of Grain",
     "Bonus1": "Grain",
     "Bonus2": null,
@@ -781,7 +781,7 @@
   },
   "60": {
     "Type": "Early Game",
-    "Qty": "2",
+    "Qty": "1",
     "Title": "An Early Investment",
     "Bonus1": "Invested",
     "Bonus2": null,
@@ -794,70 +794,31 @@
   },
   "61": {
     "Type": "Early Game",
-    "Qty": "2",
-    "Title": "An Early Investment",
-    "Bonus1": "Invested",
-    "Bonus2": null,
-    "Requires1": null,
+    "Qty": "1",
+    "Title": "More Grain!",
+    "Bonus1": "Grain",
+    "Bonus2": "Grain",
+    "Requires1": "Grain",
     "Requires2": null,
     "Requires3": null,
-    "Description": null,
-    "VP": "2",
-    "Snark": "Does nothing now, but it will pay off later. The engine can wait."
+    "Description": "You may also trash this card for 1 Food",
+    "VP": "1",
+    "Snark": "Grain: the best breeder of them all."
   },
   "62": {
     "Type": "Early Game",
-    "Qty": "2",
-    "Title": "More Grain!",
-    "Bonus1": "Grain",
-    "Bonus2": "Grain",
-    "Requires1": "Grain",
+    "Qty": "1",
+    "Title": "More Veggies!",
+    "Bonus1": "Vegetable",
+    "Bonus2": "Vegetable",
+    "Requires1": "Vegetable",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may also trash this card for 1 Food",
+    "Description": "You may also trash this card for 2 Food",
     "VP": "1",
-    "Snark": "Grain: the best breeder of them all."
+    "Snark": "What's better than one veggie? Two veggies and a VP."
   },
   "63": {
-    "Type": "Early Game",
-    "Qty": "2",
-    "Title": "More Grain!",
-    "Bonus1": "Grain",
-    "Bonus2": "Grain",
-    "Requires1": "Grain",
-    "Requires2": null,
-    "Requires3": null,
-    "Description": "You may also trash this card for 1 Food",
-    "VP": "1",
-    "Snark": "Grain: the best breeder of them all."
-  },
-  "64": {
-    "Type": "Early Game",
-    "Qty": "2",
-    "Title": "More Veggies!",
-    "Bonus1": "Vegetable",
-    "Bonus2": "Vegetable",
-    "Requires1": "Vegetable",
-    "Requires2": null,
-    "Requires3": null,
-    "Description": "You may also trash this card for 2 Food",
-    "VP": "1",
-    "Snark": "What's better than one veggie? Two veggies and a VP."
-  },
-  "65": {
-    "Type": "Early Game",
-    "Qty": "2",
-    "Title": "More Veggies!",
-    "Bonus1": "Vegetable",
-    "Bonus2": "Vegetable",
-    "Requires1": "Vegetable",
-    "Requires2": null,
-    "Requires3": null,
-    "Description": "You may also trash this card for 2 Food",
-    "VP": "1",
-    "Snark": "What's better than one veggie? Two veggies and a VP."
-  },
-  "66": {
     "Type": "Early Game",
     "Qty": "1",
     "Title": "Silk Market",
@@ -870,8 +831,21 @@
     "VP": "2",
     "Snark": "Be sure to take this from someone who has collected silk."
   },
-  "67": {
-    "Type": "Midgame",
+  "64": {
+    "Type": "Early Game",
+    "Qty": "1",
+    "Title": "Sheep Breed!",
+    "Bonus1": "Sheep",
+    "Bonus2": "Sheep",
+    "Requires1": "Sheep",
+    "Requires2": null,
+    "Requires3": null,
+    "Description": null,
+    "VP": "1",
+    "Snark": "Sheep: the rabbits of farm animals."
+  },
+  "65": {
+    "Type": "Early Game",
     "Qty": "1",
     "Title": "The Stone Building Building",
     "Bonus1": null,
@@ -883,8 +857,8 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need stone for our building."
   },
-  "68": {
-    "Type": "Midgame",
+  "66": {
+    "Type": "Early Game",
     "Qty": "1",
     "Title": "The Wood Building Building",
     "Bonus1": null,
@@ -896,8 +870,8 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need Wood for our building."
   },
-  "69": {
-    "Type": "Midgame",
+  "67": {
+    "Type": "Early Game",
     "Qty": "1",
     "Title": "The Clay Building Building",
     "Bonus1": null,
@@ -909,7 +883,7 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need Clay for our building."
   },
-  "70": {
+  "68": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cheap Building",
@@ -922,7 +896,7 @@
     "VP": "2",
     "Snark": "Hey, VPs are VPs. Every little bit counts."
   },
-  "71": {
+  "69": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Okay Building",
@@ -935,7 +909,7 @@
     "VP": "4",
     "Snark": "Nice! Way to get some points on the board."
   },
-  "72": {
+  "70": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Premium Building",
@@ -948,7 +922,7 @@
     "VP": "7",
     "Snark": "Seems like a lot now, but we have an epic endgame coming up."
   },
-  "73": {
+  "71": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cheap Combo Building",
@@ -961,7 +935,7 @@
     "VP": "4",
     "Snark": "Nice! Way to get some bigger points on the board."
   },
-  "74": {
+  "72": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Better Combo Building",
@@ -974,7 +948,7 @@
     "VP": "6",
     "Snark": "Don't get all your VPs too early now."
   },
-  "75": {
+  "73": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Decent Combo Building",
@@ -987,7 +961,7 @@
     "VP": "5",
     "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this."
   },
-  "76": {
+  "74": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Military Building",
@@ -1000,46 +974,7 @@
     "VP": "2",
     "Snark": "And how do we feel about going military right about now?"
   },
-  "77": {
-    "Type": "Midgame",
-    "Qty": "3",
-    "Title": "Sheep Breed!",
-    "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
-    "Requires1": "Sheep",
-    "Requires2": "Clay",
-    "Requires3": null,
-    "Description": null,
-    "VP": "1",
-    "Snark": "Sheep: the rabbits of farm animals."
-  },
-  "78": {
-    "Type": "Midgame",
-    "Qty": "3",
-    "Title": "Sheep Breed!",
-    "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
-    "Requires1": "Sheep",
-    "Requires2": "Clay",
-    "Requires3": null,
-    "Description": null,
-    "VP": "1",
-    "Snark": "Sheep: the rabbits of farm animals."
-  },
-  "79": {
-    "Type": "Midgame",
-    "Qty": "3",
-    "Title": "Sheep Breed!",
-    "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
-    "Requires1": "Sheep",
-    "Requires2": "Clay",
-    "Requires3": null,
-    "Description": null,
-    "VP": "1",
-    "Snark": "Sheep: the rabbits of farm animals."
-  },
-  "80": {
+  "75": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cattle Engine",
@@ -1052,7 +987,7 @@
     "VP": "1",
     "Snark": "Wish this had come out sooner…"
   },
-  "81": {
+  "76": {
     "Type": "Midgame",
     "Qty": "2",
     "Title": "Cattle Breed!",
@@ -1065,7 +1000,7 @@
     "VP": "3",
     "Snark": "I won't tell you how we got this cow to breed by itself."
   },
-  "82": {
+  "77": {
     "Type": "Midgame",
     "Qty": "2",
     "Title": "Cattle Breed!",
@@ -1078,7 +1013,7 @@
     "VP": "3",
     "Snark": "I won't tell you how we got this cow to breed by itself."
   },
-  "83": {
+  "78": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "Even More Grain!",
@@ -1091,7 +1026,7 @@
     "VP": "0",
     "Snark": "Grain: the best breeder of them all."
   },
-  "84": {
+  "79": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "Even More Veggies!",
@@ -1104,7 +1039,7 @@
     "VP": "0",
     "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. "
   },
-  "85": {
+  "80": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Dude",
@@ -1117,7 +1052,7 @@
     "VP": "-2",
     "Snark": "One move of the dude is a four-point swing. Don't ever forget about him."
   },
-  "86": {
+  "81": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Obligatory 3:1 Trader",
@@ -1130,9 +1065,9 @@
     "VP": "1",
     "Snark": "I'm sure I'll use this enough to justify its purchase."
   },
-  "87": {
+  "82": {
     "Type": "Midgame",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "The Arms Race",
     "Bonus1": "Military",
     "Bonus2": null,
@@ -1143,9 +1078,9 @@
     "VP": "2",
     "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
-  "88": {
+  "83": {
     "Type": "Midgame",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "The Arms Race",
     "Bonus1": "Military",
     "Bonus2": null,
@@ -1156,9 +1091,9 @@
     "VP": "2",
     "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
-  "89": {
+  "84": {
     "Type": "Midgame",
-    "Qty": "4",
+    "Qty": "3",
     "Title": "The Arms Race",
     "Bonus1": "Military",
     "Bonus2": null,
@@ -1169,20 +1104,7 @@
     "VP": "2",
     "Snark": "I'm pretty sure this strategy worked for me at least once."
   },
-  "90": {
-    "Type": "Midgame",
-    "Qty": "4",
-    "Title": "The Arms Race",
-    "Bonus1": "Military",
-    "Bonus2": null,
-    "Requires1": "Military",
-    "Requires2": null,
-    "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count. You may only play this if you already have at least 1 Military.",
-    "VP": "2",
-    "Snark": "I'm pretty sure this strategy worked for me at least once."
-  },
-  "91": {
+  "85": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Unfair Deck Dive",
@@ -1191,24 +1113,11 @@
     "Requires1": "Glass",
     "Requires2": null,
     "Requires3": null,
-    "Description": "Upon playing this card, you may obtain any card in the Resource deck.",
-    "VP": "0",
+    "Description": "huffle afterward. ",
+    "VP": "1",
     "Snark": "Playing this has the hidden advantage of making your opponents hate you."
   },
-  "92": {
-    "Type": "Midgame",
-    "Qty": "1",
-    "Title": "The Weird Strategy",
-    "Bonus1": null,
-    "Bonus2": null,
-    "Requires1": "Sheep",
-    "Requires2": null,
-    "Requires3": null,
-    "Description": "Instead of a Wood or Stone, you may substitute 1 Animal once per play.",
-    "VP": "1",
-    "Snark": "Forget the theme. We need a card that does this."
-  },
-  "93": {
+  "86": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Expensive Engine",
@@ -1221,7 +1130,7 @@
     "VP": "2",
     "Snark": "Don't base your entire strategy on this card."
   },
-  "94": {
+  "87": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Payoff Payoff",
@@ -1234,7 +1143,7 @@
     "VP": "*",
     "Snark": "The only thing better than VPs are VPs that spawned from the production of other VPs."
   },
-  "95": {
+  "88": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The High-Risk Payoff",
@@ -1247,7 +1156,7 @@
     "VP": "*",
     "Snark": "Was it really worth it??"
   },
-  "96": {
+  "89": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Easily-Disrupted Payoff",
@@ -1260,7 +1169,7 @@
     "VP": "*",
     "Snark": "I REALLY hope nobody notices that I played this."
   },
-  "97": {
+  "90": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Unexpected Payoff",
@@ -1273,7 +1182,7 @@
     "VP": "6",
     "Snark": "This card favors those who have this deck memorized."
   },
-  "98": {
+  "91": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Suboptimal Strategy Payoff",
@@ -1286,20 +1195,20 @@
     "VP": "*",
     "Snark": "This is to make you feel better about having unused stuff."
   },
-  "99": {
+  "92": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Investment Payoff",
     "Bonus1": null,
     "Bonus2": null,
-    "Requires1": "Investment",
+    "Requires1": "Invested",
     "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "5",
     "Snark": "See! I told you that card would pay off."
   },
-  "100": {
+  "93": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Low-Risk Payoff",
@@ -1312,7 +1221,7 @@
     "VP": "*",
     "Snark": "Hey, at least you know nobody else is going for it."
   },
-  "101": {
+  "94": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Payoff With Math",
@@ -1325,7 +1234,7 @@
     "VP": "*",
     "Snark": "Go ahead and take your next turn, this is gonna take me a moment."
   },
-  "102": {
+  "95": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Military Payoff",
@@ -1338,7 +1247,7 @@
     "VP": "*",
     "Snark": "Aggression does have its benefits."
   },
-  "103": {
+  "96": {
     "Type": "Endgame",
     "Qty": "1",
     "Title": "The Building Payoff Building",
