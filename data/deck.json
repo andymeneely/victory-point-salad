@@ -8,7 +8,7 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "Other players may transfer this card to their playing area for one of any of the following: Stone, Clay, Silk, Boar, Glass, Gold, Cattle, Vegetable.",
+    "Description": "Other players may transfer this card to their playing area for one of any of the following: Stone, Clay, Silk, Boar, Glass, Gold, Cattle, Vegetable, Food.",
     "VP": "0",
     "Snark": "Because just going around in a circle is not strategic enough."
   },
@@ -132,7 +132,7 @@
   "10": {
     "Type": "Engine",
     "Qty": "2",
-    "Title": "Insta-slaughter",
+    "Title": "The Insta-slaughter",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Stone",
@@ -145,7 +145,7 @@
   "11": {
     "Type": "Engine",
     "Qty": "2",
-    "Title": "Insta-slaughter",
+    "Title": "The Insta-slaughter",
     "Bonus1": null,
     "Bonus2": null,
     "Requires1": "Stone",
@@ -379,7 +379,7 @@
   "29": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "Cheap Resource Combo",
+    "Title": "The Cheap Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Wood",
     "Requires1": null,
@@ -392,7 +392,7 @@
   "30": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "Cheap Resource Combo",
+    "Title": "The Cheap Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Wood",
     "Requires1": null,
@@ -405,7 +405,7 @@
   "31": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Better Resource Combo",
+    "Title": "The Better Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -418,7 +418,7 @@
   "32": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Better Resource Combo",
+    "Title": "The Better Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -431,7 +431,7 @@
   "33": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Better Resource Combo",
+    "Title": "The Better Resource Combo",
     "Bonus1": "Clay",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -444,7 +444,7 @@
   "34": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Decent Resource Combo",
+    "Title": "The Decent Resource Combo",
     "Bonus1": "Wood",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -457,7 +457,7 @@
   "35": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Decent Resource Combo",
+    "Title": "The Decent Resource Combo",
     "Bonus1": "Wood",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -470,7 +470,7 @@
   "36": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Decent Resource Combo",
+    "Title": "The Decent Resource Combo",
     "Bonus1": "Wood",
     "Bonus2": "Stone",
     "Requires1": null,
@@ -613,7 +613,7 @@
   "47": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Bag of Grain",
+    "Title": "The Growing Resource",
     "Bonus1": "Grain",
     "Bonus2": null,
     "Requires1": null,
@@ -626,7 +626,7 @@
   "48": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Bag of Grain",
+    "Title": "The Growing Resource",
     "Bonus1": "Grain",
     "Bonus2": null,
     "Requires1": null,
@@ -639,7 +639,7 @@
   "49": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Bag of Grain",
+    "Title": "The Growing Resource",
     "Bonus1": "Grain",
     "Bonus2": null,
     "Requires1": null,
@@ -652,7 +652,7 @@
   "50": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "Veggies!",
+    "Title": "The Other Farming Resource",
     "Bonus1": "Vegetable",
     "Bonus2": null,
     "Requires1": null,
@@ -665,7 +665,7 @@
   "51": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "Veggies!",
+    "Title": "The Other Farming Resource",
     "Bonus1": "Vegetable",
     "Bonus2": null,
     "Requires1": null,
@@ -678,7 +678,7 @@
   "52": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Rare Yet Valuable Resource",
+    "Title": "The Rare yet Valuable Resource",
     "Bonus1": "Glass",
     "Bonus2": null,
     "Requires1": null,
@@ -691,7 +691,7 @@
   "53": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Rare Yet Valuable Resource",
+    "Title": "The Rare yet Valuable Resource",
     "Bonus1": "Glass",
     "Bonus2": null,
     "Requires1": null,
@@ -704,7 +704,7 @@
   "54": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "Rare Yet Valuable Resource",
+    "Title": "The Rare yet Valuable Resource",
     "Bonus1": "Glass",
     "Bonus2": null,
     "Requires1": null,
@@ -782,7 +782,7 @@
   "60": {
     "Type": "Early Game",
     "Qty": "1",
-    "Title": "An Early Investment",
+    "Title": "The Early Investment",
     "Bonus1": "Invested",
     "Bonus2": null,
     "Requires1": null,
