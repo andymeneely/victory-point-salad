@@ -561,7 +561,7 @@
   "43": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "The Not-as-Cute Yet Expensive Animal",
+    "Title": "The Not-as-Cute and Expensive Animal",
     "Bonus1": "Cattle",
     "Bonus2": null,
     "Requires1": null,
@@ -574,7 +574,7 @@
   "44": {
     "Type": "Resource",
     "Qty": "2",
-    "Title": "The Not-as-Cute Yet Expensive Animal",
+    "Title": "The Not-as-Cute and Expensive Animal",
     "Bonus1": "Cattle",
     "Bonus2": null,
     "Requires1": null,
@@ -1113,7 +1113,7 @@
     "Requires1": "Glass",
     "Requires2": null,
     "Requires3": null,
-    "Description": "huffle afterward. ",
+    "Description": "You may retrieve any Resource, Early Game, or Midgame card in the discard pile and play it immediately without prerequisites.",
     "VP": "1",
     "Snark": "Playing this has the hidden advantage of making your opponents hate you."
   },
