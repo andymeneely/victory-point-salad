@@ -66,42 +66,42 @@
   },
   "5": {
     "Type": "Engine",
-    "Qty": "3",
+    "Qty": "1",
     "Title": "The Military Strategy",
     "Bonus1": "Military",
     "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. Ties don't count.",
+    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
     "VP": "1",
     "Snark": "This strategy worked for me once. I think."
   },
   "6": {
     "Type": "Engine",
-    "Qty": "3",
-    "Title": "The Military Strategy",
+    "Qty": "2",
+    "Title": "The Reaction to Military Strategy",
     "Bonus1": "Military",
     "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. Ties don't count.",
-    "VP": "1",
-    "Snark": "This strategy worked for me once. I think."
+    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
+    "VP": "2",
+    "Snark": "If this card is available, somebody better take this."
   },
   "7": {
     "Type": "Engine",
-    "Qty": "3",
-    "Title": "The Military Strategy",
+    "Qty": "2",
+    "Title": "The Reaction to Military Strategy",
     "Bonus1": "Military",
     "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. Ties don't count.",
-    "VP": "1",
-    "Snark": "This strategy worked for me once. I think."
+    "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
+    "VP": "2",
+    "Snark": "If this card is available, somebody better take this."
   },
   "8": {
     "Type": "Engine",
@@ -112,7 +112,7 @@
     "Requires1": "Clay",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may use 1 Grain for any 1 Resource, once per play.",
+    "Description": "You may use 1 Grain for any 1 Resource, or 1 Grain for 2 Food, any number of times.",
     "VP": "1",
     "Snark": "A solid choice."
   },
@@ -125,7 +125,7 @@
     "Requires1": "Clay",
     "Requires2": null,
     "Requires3": null,
-    "Description": "You may use 1 Grain for any 1 Resource, once per play.",
+    "Description": "You may use 1 Grain for any 1 Resource, or 1 Grain for 2 Food, any number of times.",
     "VP": "1",
     "Snark": "A solid choice."
   },
@@ -524,7 +524,7 @@
     "Qty": "3",
     "Title": "The Soft, Cuddly Resource",
     "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
@@ -537,7 +537,7 @@
     "Qty": "3",
     "Title": "The Soft, Cuddly Resource",
     "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
@@ -550,7 +550,7 @@
     "Qty": "3",
     "Title": "The Soft, Cuddly Resource",
     "Bonus1": "Sheep",
-    "Bonus2": "Sheep",
+    "Bonus2": null,
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
@@ -833,7 +833,7 @@
   },
   "64": {
     "Type": "Early Game",
-    "Qty": "1",
+    "Qty": "2",
     "Title": "Sheep Breed!",
     "Bonus1": "Sheep",
     "Bonus2": "Sheep",
@@ -846,6 +846,19 @@
   },
   "65": {
     "Type": "Early Game",
+    "Qty": "2",
+    "Title": "Sheep Breed!",
+    "Bonus1": "Sheep",
+    "Bonus2": "Sheep",
+    "Requires1": "Sheep",
+    "Requires2": null,
+    "Requires3": null,
+    "Description": null,
+    "VP": "1",
+    "Snark": "Sheep: the rabbits of farm animals."
+  },
+  "66": {
+    "Type": "Early Game",
     "Qty": "1",
     "Title": "The Stone Building Building",
     "Bonus1": null,
@@ -857,7 +870,7 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need stone for our building."
   },
-  "66": {
+  "67": {
     "Type": "Early Game",
     "Qty": "1",
     "Title": "The Wood Building Building",
@@ -870,7 +883,7 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need Wood for our building."
   },
-  "67": {
+  "68": {
     "Type": "Early Game",
     "Qty": "1",
     "Title": "The Clay Building Building",
@@ -883,7 +896,7 @@
     "VP": "1",
     "Snark": "It is by pure coincidence that we actually need Clay for our building."
   },
-  "68": {
+  "69": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cheap Building",
@@ -896,7 +909,7 @@
     "VP": "2",
     "Snark": "Hey, VPs are VPs. Every little bit counts."
   },
-  "69": {
+  "70": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Okay Building",
@@ -909,7 +922,7 @@
     "VP": "4",
     "Snark": "Nice! Way to get some points on the board."
   },
-  "70": {
+  "71": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Premium Building",
@@ -922,7 +935,7 @@
     "VP": "7",
     "Snark": "Seems like a lot now, but we have an epic endgame coming up."
   },
-  "71": {
+  "72": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cheap Combo Building",
@@ -935,7 +948,7 @@
     "VP": "4",
     "Snark": "Nice! Way to get some bigger points on the board."
   },
-  "72": {
+  "73": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Better Combo Building",
@@ -948,7 +961,7 @@
     "VP": "6",
     "Snark": "Don't get all your VPs too early now."
   },
-  "73": {
+  "74": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Decent Combo Building",
@@ -961,7 +974,7 @@
     "VP": "5",
     "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this."
   },
-  "74": {
+  "75": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Military Building",
@@ -974,7 +987,7 @@
     "VP": "2",
     "Snark": "And how do we feel about going military right about now?"
   },
-  "75": {
+  "76": {
     "Type": "Midgame",
     "Qty": "1",
     "Title": "The Cattle Engine",
@@ -987,27 +1000,14 @@
     "VP": "1",
     "Snark": "Wish this had come out sooner…"
   },
-  "76": {
-    "Type": "Midgame",
-    "Qty": "2",
-    "Title": "Cattle Breed!",
-    "Bonus1": "Cattle",
-    "Bonus2": "Cattle",
-    "Requires1": "Cattle",
-    "Requires2": "Stone",
-    "Requires3": null,
-    "Description": null,
-    "VP": "3",
-    "Snark": "I won't tell you how we got this cow to breed by itself."
-  },
   "77": {
     "Type": "Midgame",
-    "Qty": "2",
+    "Qty": "1",
     "Title": "Cattle Breed!",
     "Bonus1": "Cattle",
     "Bonus2": "Cattle",
     "Requires1": "Cattle",
-    "Requires2": "Stone",
+    "Requires2": null,
     "Requires3": null,
     "Description": null,
     "VP": "3",
