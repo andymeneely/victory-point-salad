@@ -1,22 +1,22 @@
-title: 
-    font: 'Sans Extrabold 56'
-    align: !ruby/symbol right
+title:
+    font: Sans Extrabold 56
+    align: right
     x: 75
     y: 75
     width: 675
-    ellipsize: !ruby/symbol none
+    ellipsize: none
     spacing: -10
 
 type:
-    font: 'Sans 18'
-    x: 595
-    y: 870
-    width: 150
-    align: !ruby/symbol center
+    font: Sans 24
+    x: 585
+    y: 860
+    width: 170
+    align: center
 
 text: &text
-    font: 'Sans'
-    ellipsize: !ruby/symbol none
+    font: Sans
+    ellipsize: none
 
 large_text: &large_text
     <<: *text
@@ -27,8 +27,8 @@ medium_text: &medium_text
     font_size: 32
 
 descriptor: &descriptor
-    font: 'Sans Italic'
-    font_size: 24
+    font: Sans Italic
+    font_size: 28
 
 Bonus1Box:
     x: -15
@@ -41,10 +41,10 @@ Bonus1Box:
 Bonus1:
     x: 75
     extends: Bonus1Box
-    font: 'Sans Extrabold'
+    font: Sans Extrabold
     font_size: 42
-    align: !ruby/symbol left
-    valign: !ruby/symbol middle
+    align: left
+    valign: middle
     fill_color: foreground
     color: background
 
@@ -61,7 +61,7 @@ Requires:
     x: 575
     y: 275
     width: 170
-    align: !ruby/symbol right
+    align: right
 
 Requires1:
     extends: Requires
@@ -81,18 +81,18 @@ Description:
     y: 565
     width: 675
     height: 320
-    align: !ruby/symbol center
-    valign: !ruby/symbol middle
+    align: center
+    valign: middle
 
 Snark:
-    font: 'Sans Italic 18'
+    font: Sans Italic 19
     x: 75
-    y: 900
+    y: 880
     width: 515
-    height: 145
-    valign: !ruby/symbol bottom
+    height: 165
+    valign: bottom
 
-VP_img: 
+VP_img:
     width: 150
     height: 150
     x: 595
@@ -102,7 +102,7 @@ VP:
     extends: VP_img
     color: background
     y: -= 10
-    font: 'Sans Extrabold 64'
-    align: !ruby/symbol center
-    valign: !ruby/symbol middle
+    font: Sans Extrabold 64
+    align: center
+    valign: middle
 
