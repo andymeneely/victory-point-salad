@@ -28,12 +28,9 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
 
   # png file: 'tgc-proof-overlay.png'
   save format: :png
-
-  #cut lines
   rect layout: :cut_line
   save format: :pdf, file: 'deck.pdf', trim: 37
 
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
   puts "Done. #{deck['Title'].size} cards"
 end
-
