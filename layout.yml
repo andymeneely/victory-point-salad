@@ -97,7 +97,6 @@ VP_img:
     height: 150
     x: 595
     y: 900
-
 VP:
     extends: VP_img
     color: background
@@ -106,3 +105,11 @@ VP:
     align: center
     valign: middle
 
+cut_line:
+    x: 37
+    y: 37
+    width: 750
+    height: 1050
+    radius: 0
+    stroke_width: 3.0
+    stroke_color: black

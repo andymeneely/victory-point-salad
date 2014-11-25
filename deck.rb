@@ -30,7 +30,7 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   save format: :png
 
   #cut lines
-  rect x: 37, y: 37, width: 750, height: 1050, radius: 0, stroke_width: 3.0, stroke_color: 'black'
+  rect layout: :cut_line
   save format: :pdf, file: 'deck.pdf', trim: 37
 
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
