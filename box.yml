@@ -1,0 +1,18 @@
+coverart:
+  extends: title_bleed
+  x: 260       # full bleed
+  width: 2945  # full bleed
+  font: Sans Extrabold 52
+  markup: true
+  color: '#888'
+  justify: true
+flap: &flap
+  font: Sans Extrabold 80
+  align: center
+  valign: middle
+flap_north:
+  extends: north
+  <<: *flap
+flap_south:
+  extends: south
+  <<: *flap
