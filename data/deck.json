@@ -1113,7 +1113,7 @@
     "Requires1": null,
     "Requires2": null,
     "Requires3": null,
-    "Description": "When playing a card, you may substitute 3 of any single Resource for 1 of any Resource",
+    "Description": "You may substitute 3 Resources of any type(s) for 1 of any Resource.",
     "VP": "1",
     "Snark": "I'm sure I'll use this enough to justify its purchase."
   },
