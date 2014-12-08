@@ -1,0 +1,26 @@
+full:
+  x: 275
+  y: 165
+  width: 2910
+  height: 2315
+title:
+  x: 908
+  y: 818
+  width: 1631
+  height: 1021
+title_bleed:
+  extends: title
+  x: -= 40
+  y: -= 40
+  width:  += 90
+  height: += 90
+south:
+  x: 900
+  y: 2000
+  width: 1631
+  height: 209
+north:
+  extends: south
+  angle: 3.141592653
+  x: += 1631 # += width because of text rotate
+  y: 724     # 515 + 209 because of text rotate
