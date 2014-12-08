@@ -6,6 +6,7 @@ coverart:
   markup: true
   color: '#888'
   justify: true
+
 flap: &flap
   font: Sans Extrabold 80
   align: center
@@ -16,3 +17,51 @@ flap_north:
 flap_south:
   extends: south
   <<: *flap
+
+desc:
+  extends: title
+  width: 1250
+  font: Sans 24
+  align: left
+  justify: false
+
+bullet:
+  extends: title
+  y: += 50
+  align: right
+  font: Sans Extrabold 36
+  color: white
+bullet_rect:
+  extends: bullet
+  fill_color: black
+  radius: 25
+bullet2:
+  extends: bullet
+  y: += 100
+bullet_rect2:
+  extends: bullet_rect
+  y: += 100
+bullet3:
+  extends: bullet2
+  y: += 100
+bullet_rect3:
+  extends: bullet_rect2
+  y: += 100
+bullet4:
+  extends: bullet3
+  y: += 100
+bullet_rect4:
+  extends: bullet_rect3
+  y: += 100
+
+signature:
+  extends: title
+  y: += 900
+  align: right
+  font: Sans Extrabold 28
+
+copyright:
+  extends: title
+  y: += 975
+  align: right
+  font: Sans 16

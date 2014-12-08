@@ -4,14 +4,14 @@ require_relative 'squib_helpers'
 deck = Squib.xlsx file: 'data/deck.xlsx'
 
 Squib::Deck.new(cards: 1, width: 1600, height: 600) do
-  vps = '<span foreground="#888">Victory Points</span>'
-  str = deck['Title'].uniq.insert(deck['Title'].uniq.size/2 + 0,vps).join(' ')
+  vps = '<span foreground="#aaa">Victory Points</span>'
+  str = wordwall(deck['Title'],vps, 23)
   # str = deck['Title'].uniq.join(' ')
-  background color: :background
+  background color: :black
   text str: str, x: -50, y: -50,
        width: 1800, height: 700,
-       font: 'Sans bold 32', color: '#ccc',
-       spacing: -8,
+       font: 'Sans bold 30', color: '#222',
+       spacing: -5,
        ellipsize: false, markup: true
 
   save format: :png, prefix: 'backdrop_'

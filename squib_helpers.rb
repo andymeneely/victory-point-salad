@@ -47,3 +47,8 @@ def bonusbox_width(strs, font_size)
     end
   end
 end
+
+def wordwall(arr, title, loc)
+  prng = Random.new(1234)
+  arr.uniq.shuffle(random: prng).insert(loc, title).join(' ')
+end
