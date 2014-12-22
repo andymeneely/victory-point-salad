@@ -11,18 +11,21 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   text str: deck['Type'], layout: :type
   svg file: 'vp.svg', layout: :VP_img
 
+  # Put the text "Requires" when necessary
   range = [] ; deck['Requires1'].each_with_index { |n, i| range << i unless n.nil? }
   text str: 'Requires:', layout: :Requires, range: range
+  # Put the text "Trash" when necessary
+  range = [] ; deck['Trash1'].each_with_index { |n, i| range << i unless n.nil? }
+  text str: 'Trash:', layout: :Trash, range: range
 
   %w(Bonus1 Bonus2).each do |bonus|
       range = [] # only put rectangles out in with non-nil texts
       deck[bonus].each_with_index { |n, i| range << i unless n.nil? }
       widths = bonusbox_width(deck[bonus], @layout[bonus]['font_size'])
-      # puts widths
       rect range: range, layout: "#{bonus}Box", width: widths
   end
 
-  %w(Bonus1 Bonus2 Requires Requires1 Requires2 Requires3 Description Snark VP).each do |key|
+  %w(Bonus1 Bonus2 Trash1 Trash2 Requires1 Requires2 Description Snark VP).each do |key|
     text str: deck[key], layout: key
   end
 

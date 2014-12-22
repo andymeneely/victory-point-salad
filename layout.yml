@@ -27,8 +27,8 @@ medium_text: &medium_text
     font_size: 32
 
 descriptor: &descriptor
-    font: Sans Italic
-    font_size: 28
+    font: Sans
+    font_size: 30
 
 Bonus1Box:
     x: -15
@@ -56,23 +56,31 @@ Bonus2:
     extends: Bonus1
     y: += 100
 
-Requires:
+Trash:
     <<: *descriptor
-    x: 575
-    y: 275
     width: 170
     align: right
+    x: 400
+    y: 275
+Trash1:
+    extends: Trash
+    align: left
+    x: 575
+Trash2:
+    extends: Trash1
+    y: +=40
 
+Requires:
+    extends: Trash2
+    align: right
+    x: 400
+    y: +=60
 Requires1:
     extends: Requires
-    y: += 50
-
+    align: left
+    x: 575
 Requires2:
     extends: Requires1
-    y: += 40
-
-Requires3:
-    extends: Requires2
     y: += 40
 
 Description:
