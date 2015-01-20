@@ -57,12 +57,15 @@ Bonus2:
     y: += 100
 
 Trash:
-    <<: *descriptor
+    font: 'FontAwesome'
+    font_size: 30
     width: 170
     align: right
     x: 400
     y: 275
 Trash1:
+    font: Sans
+    font_size: 30
     extends: Trash
     align: left
     x: 575
@@ -78,7 +81,8 @@ Requires:
 Requires1:
     extends: Requires
     align: left
-    x: 575
+    width: +=30
+    x: 550
 Requires2:
     extends: Requires1
     y: += 40
