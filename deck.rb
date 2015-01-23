@@ -2,7 +2,7 @@ require 'squib'
 require_relative 'squib_helpers'
 
 trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
-requires_icon = "<span font=\"FontAwesome\">\uF08B</span> "
+requires_icon = "<span font=\"FontAwesome\">\uF09C</span> "
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
 deck = explode_quantities(deck)
@@ -13,13 +13,6 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   text str: deck['Title'], layout: :title
   text str: deck['Type'], layout: :type
   svg file: 'vp.svg', layout: :VP_img
-
-  # Put the text "Requires" when necessary
-  # range = [] ; deck['Requires1'].each_with_index { |n, i| range << i unless n.nil? }
-  # text str: 'Requires:', layout: :Requires, range: range
-  # Put the text "Trash" when necessary
-  # range = [] ; deck['Trash1'].each_with_index { |n, i| range << i unless n.nil? }
-  # text str: trash_icon, layout: :Trash, range: range, markup: true
 
   %w(Trash1 Trash2).each do |bonus|
     deck[bonus].map! { |str| str && (trash_icon + str)}
