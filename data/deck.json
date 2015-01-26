@@ -10,8 +10,9 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Other players may transfer this card to their playing area for 1 of any of the following: Stone, Clay, Silk, Boar, Glass, Gold, Cattle, Vegetable, Food.",
-    "VP": "0",
-    "Snark": "Because just going around in a circle is not strategic enough."
+    "VP": "3",
+    "Snark": "Because just going around in a circle is not strategic enough.",
+    "PreReq": ""
   },
   "1": {
     "Type": "Engine",
@@ -25,7 +26,8 @@
     "Requires2": null,
     "Description": "You may now build buildings. You may only take one of these into your hand per game.",
     "VP": "0",
-    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "2": {
     "Type": "Engine",
@@ -39,7 +41,8 @@
     "Requires2": null,
     "Description": "You may now build buildings. You may only take one of these into your hand per game.",
     "VP": "0",
-    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "3": {
     "Type": "Engine",
@@ -53,7 +56,8 @@
     "Requires2": null,
     "Description": "You may now build buildings. You may only take one of these into your hand per game.",
     "VP": "0",
-    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "4": {
     "Type": "Engine",
@@ -67,7 +71,8 @@
     "Requires2": null,
     "Description": "You may now build buildings. You may only take one of these into your hand per game.",
     "VP": "0",
-    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building."
+    "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "5": {
     "Type": "Engine",
@@ -81,7 +86,8 @@
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
     "VP": "1",
-    "Snark": "This strategy worked for me once. I think."
+    "Snark": "This strategy worked for me once. I think.",
+    "PreReq": ""
   },
   "6": {
     "Type": "Engine",
@@ -95,7 +101,8 @@
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
     "VP": "2",
-    "Snark": "If this card is available, somebody better take this."
+    "Snark": "If this card is available, somebody better take this.",
+    "PreReq": ""
   },
   "7": {
     "Type": "Engine",
@@ -109,7 +116,8 @@
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource for any 1 other Resource, once per turn. In the case of a tie, nobody gets the bonus. You may only own 1 Military Engine.",
     "VP": "2",
-    "Snark": "If this card is available, somebody better take this."
+    "Snark": "If this card is available, somebody better take this.",
+    "PreReq": ""
   },
   "8": {
     "Type": "Engine",
@@ -123,7 +131,8 @@
     "Requires2": null,
     "Description": "You may use 1 Grain instead of any 1 Resource, any number of times.",
     "VP": "1",
-    "Snark": "A solid choice, but be sure to commit to it."
+    "Snark": "A solid choice, but be sure to commit to it.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood"
   },
   "9": {
     "Type": "Engine",
@@ -137,7 +146,8 @@
     "Requires2": null,
     "Description": "You may use 1 Grain instead of any 1 Resource, any number of times.",
     "VP": "1",
-    "Snark": "A solid choice, but be sure to commit to it."
+    "Snark": "A solid choice, but be sure to commit to it.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood"
   },
   "10": {
     "Type": "Engine",
@@ -151,7 +161,8 @@
     "Requires2": null,
     "Description": "You may use 1 Animal for any 1 Resource, any number of times.",
     "VP": "1",
-    "Snark": "Let's just say you should be happy this card has no artwork."
+    "Snark": "Let's just say you should be happy this card has no artwork.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay"
   },
   "11": {
     "Type": "Engine",
@@ -165,7 +176,8 @@
     "Requires2": null,
     "Description": "You may use 1 Animal for any 1 Resource, any number of times.",
     "VP": "1",
-    "Snark": "Let's just say you should be happy this card has no artwork."
+    "Snark": "Let's just say you should be happy this card has no artwork.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay"
   },
   "12": {
     "Type": "Blocker",
@@ -179,7 +191,8 @@
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
     "VP": "-8",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
+    "PreReq": ""
   },
   "13": {
     "Type": "Blocker",
@@ -193,7 +206,8 @@
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
     "VP": "-8",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
+    "PreReq": ""
   },
   "14": {
     "Type": "Blocker",
@@ -207,7 +221,8 @@
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
     "VP": "-8",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
+    "PreReq": ""
   },
   "15": {
     "Type": "Blocker",
@@ -221,7 +236,8 @@
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
     "VP": "-8",
-    "Snark": "Food is how we keep you from making powerful moves. You're welcome."
+    "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
+    "PreReq": ""
   },
   "16": {
     "Type": "Resource",
@@ -235,7 +251,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "17": {
     "Type": "Resource",
@@ -249,7 +266,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "18": {
     "Type": "Resource",
@@ -263,7 +281,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "19": {
     "Type": "Resource",
@@ -277,7 +296,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "20": {
     "Type": "Resource",
@@ -291,7 +311,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "21": {
     "Type": "Resource",
@@ -305,7 +326,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Cheap. Abundant. Necessary."
+    "Snark": "Cheap. Abundant. Necessary.",
+    "PreReq": ""
   },
   "22": {
     "Type": "Resource",
@@ -319,7 +341,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Kinda like the double-wood, only clay."
+    "Snark": "Kinda like the double-wood, only clay.",
+    "PreReq": ""
   },
   "23": {
     "Type": "Resource",
@@ -333,7 +356,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Kinda like the double-wood, only clay."
+    "Snark": "Kinda like the double-wood, only clay.",
+    "PreReq": ""
   },
   "24": {
     "Type": "Resource",
@@ -347,7 +371,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Kinda like the double-wood, only clay."
+    "Snark": "Kinda like the double-wood, only clay.",
+    "PreReq": ""
   },
   "25": {
     "Type": "Resource",
@@ -361,7 +386,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Kinda like the double-wood, only clay."
+    "Snark": "Kinda like the double-wood, only clay.",
+    "PreReq": ""
   },
   "26": {
     "Type": "Resource",
@@ -375,7 +401,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Kinda like the double-wood, only clay."
+    "Snark": "Kinda like the double-wood, only clay.",
+    "PreReq": ""
   },
   "27": {
     "Type": "Resource",
@@ -389,7 +416,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "28": {
     "Type": "Resource",
@@ -403,7 +431,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "29": {
     "Type": "Resource",
@@ -417,7 +446,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "30": {
     "Type": "Resource",
@@ -431,7 +461,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "31": {
     "Type": "Resource",
@@ -445,7 +476,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "32": {
     "Type": "Resource",
@@ -459,7 +491,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "33": {
     "Type": "Resource",
@@ -473,7 +506,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay."
+    "Snark": "Or is it ore? Mountains? Rock? Definitely not clay.",
+    "PreReq": ""
   },
   "34": {
     "Type": "Resource",
@@ -487,7 +521,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "It's a safe bet that you'll find this useful."
+    "Snark": "It's a safe bet that you'll find this useful.",
+    "PreReq": ""
   },
   "35": {
     "Type": "Resource",
@@ -501,7 +536,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "It's a safe bet that you'll find this useful."
+    "Snark": "It's a safe bet that you'll find this useful.",
+    "PreReq": ""
   },
   "36": {
     "Type": "Resource",
@@ -515,7 +551,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Good for more narrow situations."
+    "Snark": "Good for more narrow situations.",
+    "PreReq": ""
   },
   "37": {
     "Type": "Resource",
@@ -529,7 +566,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Good for more narrow situations."
+    "Snark": "Good for more narrow situations.",
+    "PreReq": ""
   },
   "38": {
     "Type": "Resource",
@@ -543,7 +581,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Good for more narrow situations."
+    "Snark": "Good for more narrow situations.",
+    "PreReq": ""
   },
   "39": {
     "Type": "Resource",
@@ -556,8 +595,9 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": null,
-    "Snark": null
+    "VP": "0",
+    "Snark": "You know you want this one. Figure out how to spend it later.",
+    "PreReq": ""
   },
   "40": {
     "Type": "Resource",
@@ -570,8 +610,9 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": null,
-    "Snark": null
+    "VP": "0",
+    "Snark": "You know you want this one. Figure out how to spend it later.",
+    "PreReq": ""
   },
   "41": {
     "Type": "Resource",
@@ -585,7 +626,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Look at you, Dr. Fancy Man!"
+    "Snark": "Look at you, Dr. Fancy Man!",
+    "PreReq": ""
   },
   "42": {
     "Type": "Resource",
@@ -599,7 +641,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Look at you, Dr. Fancy Man!"
+    "Snark": "Look at you, Dr. Fancy Man!",
+    "PreReq": ""
   },
   "43": {
     "Type": "Resource",
@@ -613,7 +656,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Look at you, Dr. Fancy Man!"
+    "Snark": "Look at you, Dr. Fancy Man!",
+    "PreReq": ""
   },
   "44": {
     "Type": "Resource",
@@ -627,7 +671,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
+    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier.",
+    "PreReq": ""
   },
   "45": {
     "Type": "Resource",
@@ -641,7 +686,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
+    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier.",
+    "PreReq": ""
   },
   "46": {
     "Type": "Resource",
@@ -655,7 +701,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier."
+    "Snark": "I shall call him Skippy. Like the peanut butter. Only tastier.",
+    "PreReq": ""
   },
   "47": {
     "Type": "Resource",
@@ -669,7 +716,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Moo."
+    "Snark": "Moo.",
+    "PreReq": ""
   },
   "48": {
     "Type": "Resource",
@@ -683,7 +731,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Moo."
+    "Snark": "Moo.",
+    "PreReq": ""
   },
   "49": {
     "Type": "Resource",
@@ -697,7 +746,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "Everyone just calls them pigs."
+    "Snark": "Everyone just calls them pigs.",
+    "PreReq": ""
   },
   "50": {
     "Type": "Resource",
@@ -711,7 +761,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "Everyone just calls them pigs."
+    "Snark": "Everyone just calls them pigs.",
+    "PreReq": ""
   },
   "51": {
     "Type": "Resource",
@@ -725,7 +776,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds?",
+    "PreReq": ""
   },
   "52": {
     "Type": "Resource",
@@ -739,7 +791,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds?",
+    "PreReq": ""
   },
   "53": {
     "Type": "Resource",
@@ -753,7 +806,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds?",
+    "PreReq": ""
   },
   "54": {
     "Type": "Resource",
@@ -767,7 +821,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "0",
-    "Snark": "Personally, I find grain to be much more filling than vegetables."
+    "Snark": "Personally, I find grain to be much more filling than vegetables.",
+    "PreReq": ""
   },
   "55": {
     "Type": "Resource",
@@ -781,7 +836,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "0",
-    "Snark": "Personally, I find grain to be much more filling than vegetables."
+    "Snark": "Personally, I find grain to be much more filling than vegetables.",
+    "PreReq": ""
   },
   "56": {
     "Type": "Resource",
@@ -795,7 +851,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Just don't miss your opportunity to use it."
+    "Snark": "Just don't miss your opportunity to use it.",
+    "PreReq": ""
   },
   "57": {
     "Type": "Resource",
@@ -809,7 +866,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Just don't miss your opportunity to use it."
+    "Snark": "Just don't miss your opportunity to use it.",
+    "PreReq": ""
   },
   "58": {
     "Type": "Resource",
@@ -823,7 +881,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Just don't miss your opportunity to use it."
+    "Snark": "Just don't miss your opportunity to use it.",
+    "PreReq": ""
   },
   "59": {
     "Type": "Resource",
@@ -837,7 +896,8 @@
     "Requires2": null,
     "Description": "You may substitute 1 Gold for any 1 Resource.",
     "VP": "2",
-    "Snark": "Hey, you gotta spend VPs to earn VPs."
+    "Snark": "Hey, you gotta spend VPs to earn VPs.",
+    "PreReq": ""
   },
   "60": {
     "Type": "Resource",
@@ -851,7 +911,8 @@
     "Requires2": null,
     "Description": "You may substitute 1 Gold for any 1 Resource.",
     "VP": "2",
-    "Snark": "Hey, you gotta spend VPs to earn VPs."
+    "Snark": "Hey, you gotta spend VPs to earn VPs.",
+    "PreReq": ""
   },
   "61": {
     "Type": "Resource",
@@ -865,7 +926,8 @@
     "Requires2": null,
     "Description": "You may substitute 1 Gold for any 1 Resource.",
     "VP": "2",
-    "Snark": "Hey, you gotta spend VPs to earn VPs."
+    "Snark": "Hey, you gotta spend VPs to earn VPs.",
+    "PreReq": ""
   },
   "62": {
     "Type": "Resource",
@@ -879,7 +941,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Plus, you don't have to think about how to make your food!"
+    "Snark": "Plus, you don't have to think about how to make your food!",
+    "PreReq": ""
   },
   "63": {
     "Type": "Resource",
@@ -893,7 +956,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Plus, you don't have to think about how to make your food!"
+    "Snark": "Plus, you don't have to think about how to make your food!",
+    "PreReq": ""
   },
   "64": {
     "Type": "Resource",
@@ -907,7 +971,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Plus, you don't have to think about how to make your food!"
+    "Snark": "Plus, you don't have to think about how to make your food!",
+    "PreReq": ""
   },
   "65": {
     "Type": "Early Game",
@@ -921,7 +986,8 @@
     "Requires2": null,
     "Description": "You must play this card before playing an Engine.",
     "VP": "3",
-    "Snark": "Does nothing now, but it will pay off later. The engine can wait."
+    "Snark": "Does nothing now, but it will pay off later. The engine can wait.",
+    "PreReq": ""
   },
   "66": {
     "Type": "Early Game",
@@ -935,7 +1001,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "0",
-    "Snark": "Grain: the best breeder of them all."
+    "Snark": "Grain: the best breeder of them all.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "67": {
     "Type": "Early Game",
@@ -949,7 +1016,8 @@
     "Requires2": null,
     "Description": "You may trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "What's better than one veggie? Two veggies and a VP."
+    "Snark": "What's better than one veggie? Two veggies and a VP.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Carrot"
   },
   "68": {
     "Type": "Early Game",
@@ -959,11 +1027,12 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You may Trash 1 Silk for any 2 Resources, any number of times.",
     "VP": "4",
-    "Snark": "Be sure to take this from someone who has collected silk."
+    "Snark": "Be sure to take this from someone who has collected silk.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Building"
   },
   "69": {
     "Type": "Early Game",
@@ -977,7 +1046,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Sheep: the rabbits of farm animals."
+    "Snark": "Sheep: the rabbits of farm animals.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "70": {
     "Type": "Early Game",
@@ -991,7 +1061,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Sheep: the rabbits of farm animals."
+    "Snark": "Sheep: the rabbits of farm animals.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "71": {
     "Type": "Early Game",
@@ -1005,7 +1076,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "0",
-    "Snark": "Sheep: the rabbits of farm animals."
+    "Snark": "Sheep: the rabbits of farm animals.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "72": {
     "Type": "Early Game",
@@ -1015,11 +1087,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Stone",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Stone for Buildings.",
     "VP": "3",
-    "Snark": "It is by pure coincidence that we actually need stone for our building."
+    "Snark": "It is by pure coincidence that we actually need stone for our building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "73": {
     "Type": "Early Game",
@@ -1029,11 +1102,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Wood for Buildings",
     "VP": "3",
-    "Snark": "It is by pure coincidence that we actually need Wood for our building."
+    "Snark": "It is by pure coincidence that we actually need Wood for our building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "74": {
     "Type": "Early Game",
@@ -1043,11 +1117,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Clay for Buildings.",
     "VP": "3",
-    "Snark": "It is by pure coincidence that we actually need Clay for our building."
+    "Snark": "It is by pure coincidence that we actually need Clay for our building.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
   },
   "75": {
     "Type": "Early Game",
@@ -1061,7 +1136,8 @@
     "Requires2": null,
     "Description": "You may trash 1 Cattle for 2 Food, and/or 1 Cattle for any Resource. ",
     "VP": "1",
-    "Snark": "Don't base your entire strategy on this card."
+    "Snark": "Don't base your entire strategy on this card.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "76": {
     "Type": "Early Game",
@@ -1075,7 +1151,8 @@
     "Requires2": null,
     "Description": "You may substitute 2 different Resources for 1 of any Resource, any number of times.",
     "VP": "1",
-    "Snark": "I'm sure I'll use this enough to justify its purchase."
+    "Snark": "I'm sure I'll use this enough to justify its purchase.",
+    "PreReq": ""
   },
   "77": {
     "Type": "Early Game",
@@ -1085,11 +1162,12 @@
     "Bonus2": "Military",
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
-    "Requires2": "<span font=\"FontAwesome\"></span> Military",
-    "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. Ties don't count. You may only play this if you already have at least 1 Military.",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires2": "<span font=\"FontAwesome\"></span> Military",
+    "Description": "Highest military may substitute any 1 Resource for any 1 Resource, once per turn. Ties don't count.",
     "VP": "3",
-    "Snark": "And how do we feel about going military right about now?"
+    "Snark": "And how do we feel about going military right about now?",
+    "PreReq": "<span font=\"FontAwesome\"></span> Building\n<span font=\"FontAwesome\"></span> Military"
   },
   "78": {
     "Type": "Midgame",
@@ -1103,7 +1181,8 @@
     "Requires2": null,
     "Description": "You may also use this card for 1 Food",
     "VP": "0",
-    "Snark": "Grain: the best breeder of them all."
+    "Snark": "Grain: the best breeder of them all.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "79": {
     "Type": "Midgame",
@@ -1117,7 +1196,8 @@
     "Requires2": null,
     "Description": "You may also use this card for 1 Food",
     "VP": "0",
-    "Snark": "Grain: the best breeder of them all."
+    "Snark": "Grain: the best breeder of them all.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "80": {
     "Type": "Midgame",
@@ -1127,11 +1207,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": "<span font=\"FontAwesome\"></span> Wood",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "5",
-    "Snark": "Hey, VPs are VPs. Every little bit counts."
+    "Snark": "Hey, VPs are VPs. Every little bit counts.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "81": {
     "Type": "Midgame",
@@ -1141,11 +1222,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Wood",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "7",
-    "Snark": "Nice! Way to get some points on the board."
+    "Snark": "Nice! Way to get some points on the board.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "82": {
     "Type": "Midgame",
@@ -1155,11 +1237,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Clay",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "9",
-    "Snark": "Good move. Not Great. But Good."
+    "Snark": "Good move. Not Great. But Good.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
   },
   "83": {
     "Type": "Midgame",
@@ -1169,11 +1252,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "11",
-    "Snark": "Don't get all your VPs out too early now. We've got an endgame."
+    "Snark": "Don't get all your VPs out too early now. We've got an endgame.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "84": {
     "Type": "Midgame",
@@ -1183,11 +1267,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "13",
-    "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this."
+    "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "85": {
     "Type": "Midgame",
@@ -1197,11 +1282,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Stone",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
     "VP": "15",
-    "Snark": "Seems like a lot now, but we have an epic endgame coming up."
+    "Snark": "Seems like a lot now, but we have an epic endgame coming up.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "86": {
     "Type": "Midgame",
@@ -1215,7 +1301,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "3",
-    "Snark": "I won't tell you how we got this cow to breed by itself."
+    "Snark": "I won't tell you how we got this cow to breed by itself.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Cattle"
   },
   "87": {
     "Type": "Midgame",
@@ -1229,7 +1316,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "3",
-    "Snark": "I won't tell you how we got this cow to breed by itself."
+    "Snark": "I won't tell you how we got this cow to breed by itself.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Cattle"
   },
   "88": {
     "Type": "Midgame",
@@ -1243,7 +1331,8 @@
     "Requires2": null,
     "Description": "You may also Trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. "
+    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. ",
+    "PreReq": "<span font=\"FontAwesome\"></span> Carrot"
   },
   "89": {
     "Type": "Midgame",
@@ -1257,7 +1346,8 @@
     "Requires2": null,
     "Description": "You may also Trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. "
+    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. ",
+    "PreReq": "<span font=\"FontAwesome\"></span> Carrot"
   },
   "90": {
     "Type": "Midgame",
@@ -1267,11 +1357,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. In case of tie, nobody gets the bonus.",
     "VP": "2",
-    "Snark": "I'm pretty sure this strategy worked for me at least once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
   },
   "91": {
     "Type": "Midgame",
@@ -1281,11 +1372,12 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. In case of tie, nobody gets the bonus.",
     "VP": "2",
-    "Snark": "I'm pretty sure this strategy worked for me at least once."
+    "Snark": "I'm pretty sure this strategy worked for me at least once.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
   },
   "92": {
     "Type": "Midgame",
@@ -1295,11 +1387,12 @@
     "Bonus2": "Military",
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "If you currently have the most military you may substitute any 1 Resource to play a card. In case of tie, nobody gets the bonus.",
     "VP": "4",
-    "Snark": "You're in it now."
+    "Snark": "You're in it now.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Military"
   },
   "93": {
     "Type": "Midgame",
@@ -1313,7 +1406,8 @@
     "Requires2": null,
     "Description": "Upon playing, you may retrieve any card in the discard piles and play it immediately without prerequisites.",
     "VP": "0",
-    "Snark": "Playing this has the hidden advantage of making your opponents hate you."
+    "Snark": "Playing this has the hidden advantage of making your opponents hate you.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Glass"
   },
   "94": {
     "Type": "Midgame",
@@ -1327,7 +1421,8 @@
     "Requires2": null,
     "Description": "You may trash this card for any 2 Resources.",
     "VP": "2",
-    "Snark": "Make it count. No pressure. Are you sure you that's a good enough use for this card?? There's probably a better move."
+    "Snark": "Make it count. No pressure. Are you sure you that's a good enough use for this card?? There's probably a better move.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "95": {
     "Type": "Reconcile",
@@ -1341,7 +1436,8 @@
     "Requires2": null,
     "Description": "All players have their last chance to get rid of their Blockers.",
     "VP": "0",
-    "Snark": "Even though you knew it was coming, it still comes up too soon."
+    "Snark": "Even though you knew it was coming, it still comes up too soon.",
+    "PreReq": ""
   },
   "96": {
     "Type": "Endgame",
@@ -1355,7 +1451,8 @@
     "Requires2": null,
     "Description": "4 VPs for each Payoff you have placed.",
     "VP": "?",
-    "Snark": "This card is as close at this game gets to Victory Point Points."
+    "Snark": "This card is as close at this game gets to Victory Point Points.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Sheep\n<span font=\"FontAwesome\"></span> Cattle"
   },
   "97": {
     "Type": "Endgame",
@@ -1369,7 +1466,8 @@
     "Requires2": null,
     "Description": "3 VPs for each Cattle, Vegetable",
     "VP": "?",
-    "Snark": "Glad you didn't have to eat these!"
+    "Snark": "Glad you didn't have to eat these!",
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "98": {
     "Type": "Endgame",
@@ -1383,7 +1481,8 @@
     "Requires2": null,
     "Description": null,
     "VP": "8",
-    "Snark": "This card favors those who have this deck memorized."
+    "Snark": "This card favors those who have this deck memorized.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Glass\n<span font=\"FontAwesome\"></span> Carrot"
   },
   "99": {
     "Type": "Endgame",
@@ -1397,7 +1496,8 @@
     "Requires2": null,
     "Description": "3 VP for one of each of: Sheep, Wild Boar, Cattle, Glass, Silk, Grain, Veggie.",
     "VP": "?",
-    "Snark": "This is to make you feel better about having unused stuff."
+    "Snark": "This is to make you feel better about having unused stuff.",
+    "PreReq": ""
   },
   "100": {
     "Type": "Endgame",
@@ -1411,7 +1511,8 @@
     "Requires2": null,
     "Description": "6VP if you have Invested plus 2VP for each Gold.",
     "VP": "?",
-    "Snark": "See! I told you that card would pay off."
+    "Snark": "See! I told you that card would pay off.",
+    "PreReq": ""
   },
   "101": {
     "Type": "Endgame",
@@ -1425,7 +1526,8 @@
     "Requires2": null,
     "Description": "2 VP for each Wood, Sheep, or Grain",
     "VP": "?",
-    "Snark": "Hey, at least you know nobody else is going for it."
+    "Snark": "Hey, at least you know nobody else is going for it.",
+    "PreReq": ""
   },
   "102": {
     "Type": "Endgame",
@@ -1439,7 +1541,8 @@
     "Requires2": null,
     "Description": "At game end, VPs are the number of Glass you have in your hand squared plus the number of Silks squared.",
     "VP": "?",
-    "Snark": "Go ahead and take your next turn, this is gonna take me a moment."
+    "Snark": "Go ahead and take your next turn, this is gonna take me a moment.",
+    "PreReq": ""
   },
   "103": {
     "Type": "Endgame",
@@ -1453,7 +1556,8 @@
     "Requires2": null,
     "Description": "4 VP for each Military, +2 additional VP if you end the game with the most military (ties don't count).",
     "VP": "?",
-    "Snark": "Aggression does have its benefits."
+    "Snark": "Aggression does have its benefits.",
+    "PreReq": ""
   },
   "104": {
     "Type": "Endgame",
@@ -1463,10 +1567,11 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "3 VP for each Building you've played",
     "VP": "?",
-    "Snark": "You had to see this one coming."
+    "Snark": "You had to see this one coming.",
+    "PreReq": "<span font=\"FontAwesome\"></span> Building"
   }
 }

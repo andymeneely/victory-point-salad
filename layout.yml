@@ -24,7 +24,7 @@ large_text: &large_text
 
 medium_text: &medium_text
     <<: *text
-    font_size: 32
+    font_size: 30
 
 descriptor: &descriptor
     font: Sans
@@ -56,43 +56,22 @@ Bonus2:
     extends: Bonus1
     y: += 100
 
-Trash:
-    font: 'FontAwesome'
-    font_size: 30
-    width: 170
-    align: right
-    x: 400
-    y: 275
-Trash1:
+PreReq:
     font: Sans
     font_size: 30
-    extends: Trash
     align: left
-    x: 575
-Trash2:
-    extends: Trash1
-    y: +=40
-
-Requires:
-    extends: Trash2
-    align: right
-    x: 400
-    y: +=60
-Requires1:
-    extends: Requires
-    align: left
-    width: +=30
-    x: 550
-Requires2:
-    extends: Requires1
-    y: += 40
+    # x: 550
+    # y: 275
+    x: 75
+    y: 550
+    width: 200
 
 Description:
     <<: *medium_text
     x: 75
-    y: 565
+    y: 650
     width: 675
-    height: 320
+    height: 220
     align: center
     valign: middle
 
