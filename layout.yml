@@ -66,9 +66,9 @@ PreReq:
 
 Description:
     <<: *medium_text
-    x: 75
+    x: 235
     y: 650
-    width: 675
+    width: 515
     height: 220
     align: center
     valign: middle
@@ -79,7 +79,7 @@ Snark:
     y: 885
     width: 515
     height: 165
-    valign: bottom
+    valign: middle
     align: center
 
 VP_img:
