@@ -40,8 +40,9 @@ Squib::Deck.new(cards: deck['Title'].size, layout: 'layout.yml') do
   end
 
   # png file: 'tgc-proof-overlay.png'
-  save format: :png#, range: 90
-  # rect layout: :cut_line
+  # save format: :png#, range: 90
+  rect layout: :cut_line
+  save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save_pdf file: 'deck.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
 
