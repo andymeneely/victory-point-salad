@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "ruby simulation.rb",
+			"shell_cmd": "ruby sim/simulation.rb",
+			"working_dir": "${project_path:${folder}}"
+		},
+	]
+}
