@@ -55,6 +55,15 @@ _The Chain Rule_ There is a special case where you may play multiple Specials fo
 
 For example: Suppose you have three Resource Cards: Wood+Clay, Stone, and Sheep. You play Special that requires a Clay, but now there's 1 Wood leftover. So you play a second Special that requires Wood and Stone, using up your Stone card. With no more leftover Resources, no other cards can be played (i.e. the Sheep must be part of a separate transaction).
 
-Substitutions. In Victory Point Salad, the real bonuses are being able to exchange one resource when trashing another. These substitutions can be limited per-turn, or unlimited.
+Substitutions. Some bonuses allow a player to exchange one resource when trashing another. These substitutions can be limited per-turn, or unlimited. These substitutions may **only** be made as part of a Trash move in playing another card.
 
-At the end of your turn, replenish the piles with new cards. Replenish from the right of the row, and remove the left-most card. If no card were obtained during that turn, remove two of the left-most cards.
+At the end of your turn, replenish the piles with new cards. Replenish from the right of the row, and remove the left-most card. If no card were obtained during that turn, remove two of the left-most cards before replenishing.
+
+Endgame
+-------
+
+When you reach Endgame, resolve the Blocker cards. If any players cannot remove their Blocker (i.e. they cannot trash enough food), then the blocker stays on their tableau through the end of the game.
+
+When you draw the Endgame card, place all Payoff cards face-up on table for purchase alongside with any other Special cards. These are available for purchase until the end of the game.
+
+Hand the "Pay Up!" card to the current player - this is the "Starting Player". At any time, a player may declare "Game End", in which all other players after the Starting Player get one more turn. Game End is automatically ends when no more Payoff cards are available for pickup.
