@@ -10,7 +10,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Can be bought for 1 of any of: Stone, Clay, Silk, Boar, Glass, Gold, Cattle, Carrot, Food.",
-    "VP": "4",
+    "VP": "40",
     "Snark": "Because just going around in a circle is not strategic enough.",
     "Trash1 Cost": null,
     "Actions Cost": null,
@@ -28,11 +28,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may now build buildings.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "0.53792911818983824",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "2": {
@@ -46,11 +46,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may now build buildings.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "0.53792911818983824",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "3": {
@@ -64,11 +64,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may now build buildings.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "0.53792911818983824",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "4": {
@@ -82,11 +82,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may now build buildings.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Really, it's just a coincidence that we happen to also be housed in a building. In fact, we built our own building. We did not need a building building building building building.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "0.53792911818983824",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "5": {
@@ -100,11 +100,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "This strategy worked for me once. I think.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
-    "VP/Action": "1.5",
+    "VP/Action": "",
     "PreReq": ""
   },
   "6": {
@@ -118,11 +118,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "This strategy worked for me once. I think.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
-    "VP/Action": "1.5",
+    "VP/Action": "",
     "PreReq": ""
   },
   "7": {
@@ -136,11 +136,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "This strategy worked for me once. I think.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
-    "VP/Action": "1.5",
+    "VP/Action": "",
     "PreReq": ""
   },
   "8": {
@@ -154,11 +154,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Grain for any 1 Resource, any number of times.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "A solid choice, but be sure to commit to it.",
     "Trash1 Cost": 1.5604754635042337,
     "Actions Cost": 3.5604754635042335,
-    "VP/Action": "0.5617227307140582",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood"
   },
   "9": {
@@ -172,11 +172,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Grain for any 1 Resource, any number of times.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "A solid choice, but be sure to commit to it.",
     "Trash1 Cost": 1.5604754635042337,
     "Actions Cost": 3.5604754635042335,
-    "VP/Action": "0.5617227307140582",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood"
   },
   "10": {
@@ -190,11 +190,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Animal for any 1 Resource, any number of times.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Let's just say you should be happy this card has no artwork.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0.55085408827871607",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay"
   },
   "11": {
@@ -208,11 +208,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Animal for any 1 Resource, any number of times.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Let's just say you should be happy this card has no artwork.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0.55085408827871607",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay"
   },
   "12": {
@@ -226,7 +226,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
-    "VP": "-8",
+    "VP": "-80",
     "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
     "Trash1 Cost": null,
     "Actions Cost": null,
@@ -244,7 +244,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
-    "VP": "-8",
+    "VP": "-80",
     "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
     "Trash1 Cost": null,
     "Actions Cost": null,
@@ -262,7 +262,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
-    "VP": "-8",
+    "VP": "-80",
     "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
     "Trash1 Cost": null,
     "Actions Cost": null,
@@ -280,7 +280,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "To trash this card, you must trash 3 Food before Endgame.",
-    "VP": "-8",
+    "VP": "-80",
     "Snark": "Food is how we keep you from making powerful moves. You're welcome.",
     "Trash1 Cost": null,
     "Actions Cost": null,
@@ -1036,7 +1036,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Gold for any 1 Resource.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Hey, you gotta spend VPs to earn VPs.",
     "Trash1 Cost": null,
     "Actions Cost": 1.0,
@@ -1054,7 +1054,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Gold for any 1 Resource.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Hey, you gotta spend VPs to earn VPs.",
     "Trash1 Cost": null,
     "Actions Cost": 1.0,
@@ -1072,7 +1072,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash 1 Gold for any 1 Resource.",
-    "VP": "2",
+    "VP": "20",
     "Snark": "Hey, you gotta spend VPs to earn VPs.",
     "Trash1 Cost": null,
     "Actions Cost": 1.0,
@@ -1144,11 +1144,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You must play this card before playing an Engine.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "Does nothing now, but it will pay off later. The engine can wait.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
-    "VP/Action": "1.5",
+    "VP/Action": "",
     "PreReq": ""
   },
   "64": {
@@ -1166,7 +1166,7 @@
     "Snark": "Grain: the best breeder of them all.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "65": {
@@ -1184,7 +1184,7 @@
     "Snark": "Grain: the best breeder of them all.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "66": {
@@ -1198,11 +1198,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You may trash 1 Silk for any 2 Resources, any number of times.",
-    "VP": "5",
+    "VP": "50",
     "Snark": "Be sure to take this from someone who has collected silk.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 5.815362763531001,
-    "VP/Action": "0.85979159053597465",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Building"
   },
   "67": {
@@ -1216,11 +1216,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "0",
+    "VP": "5",
     "Snark": "Sheep: the rabbits of farm animals.",
     "Trash1 Cost": 1.6464466094067263,
     "Actions Cost": 3.646446609406726,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "68": {
@@ -1234,11 +1234,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "0",
+    "VP": "5",
     "Snark": "Sheep: the rabbits of farm animals.",
     "Trash1 Cost": 1.6464466094067263,
     "Actions Cost": 3.646446609406726,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "69": {
@@ -1252,11 +1252,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "0",
+    "VP": "5",
     "Snark": "Sheep: the rabbits of farm animals.",
     "Trash1 Cost": 1.6464466094067263,
     "Actions Cost": 3.646446609406726,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "70": {
@@ -1270,11 +1270,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Stone for Buildings.",
-    "VP": "5",
-    "Snark": "It is by pure coincidence that we actually need Stone for our building.",
+    "VP": "50",
+    "Snark": "Technically, we're just a shack made out of fiberglass, but this game doesn't need another resource.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 7.5333247261221175,
-    "VP/Action": "0.66371757248991159",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "71": {
@@ -1288,11 +1288,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Wood for Buildings",
-    "VP": "5",
-    "Snark": "It is by pure coincidence that we actually need Wood for our building.",
+    "VP": "50",
+    "Snark": "Not to be confused with the Building Wood Building, which is what we call our indoor arboretum",
     "Trash1 Cost": 1.5604754635042337,
     "Actions Cost": 7.375838227035235,
-    "VP/Action": "0.67788905424648693",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "72": {
@@ -1306,11 +1306,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "You do not need to pay any required Clay for Buildings.",
-    "VP": "5",
+    "VP": "50",
     "Snark": "It is by pure coincidence that we actually need Clay for our building.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 7.4460882905930035,
-    "VP/Action": "0.67149351510063848",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
   },
   "73": {
@@ -1324,11 +1324,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may substitute 2 different Resources for 1 of any Resource, any number of times.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "I'm sure I'll use this enough to justify its purchase.",
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
-    "VP/Action": "1.5",
+    "VP/Action": "",
     "PreReq": ""
   },
   "74": {
@@ -1342,11 +1342,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": "<span font=\"FontAwesome\"></span> Military",
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "5",
+    "VP": "50",
     "Snark": "And how do we feel about going military right about now?",
     "Trash1 Cost": 0.0,
     "Actions Cost": 5.815362763531001,
-    "VP/Action": "0.85979159053597465",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Building\n<span font=\"FontAwesome\"></span> Military"
   },
   "75": {
@@ -1359,12 +1359,12 @@
     "Trash2": null,
     "Requires1": null,
     "Requires2": null,
-    "Description": "You may trash 1 Cattle for 2 Food, and/or 1 Cattle for any Resource. ",
-    "VP": "6",
+    "Description": "You may trash 1 Cattle for 2 Food, and/or 1 Cattle for any Resource.",
+    "VP": "60",
     "Snark": "Don't base your entire strategy on this card.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "1.6137873545695149",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone"
   },
   "76": {
@@ -1382,7 +1382,7 @@
     "Snark": null,
     "Trash1 Cost": 1.6464466094067263,
     "Actions Cost": 3.646446609406726,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Sheep"
   },
   "77": {
@@ -1400,7 +1400,7 @@
     "Snark": "Grain: the best breeder of them all.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "78": {
@@ -1418,7 +1418,7 @@
     "Snark": "Grain: the best breeder of them all.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Grain"
   },
   "79": {
@@ -1432,11 +1432,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "9",
+    "VP": "90",
     "Snark": "Hey, VPs are VPs. Every little bit counts.",
     "Trash1 Cost": 3.1209509270084674,
     "Actions Cost": 8.936313690539468,
-    "VP/Action": "1.0071266868717863",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "80": {
@@ -1450,11 +1450,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "9",
+    "VP": "90",
     "Snark": "Hey, VPs are VPs. Every little bit counts.",
     "Trash1 Cost": 3.1209509270084674,
     "Actions Cost": 8.936313690539468,
-    "VP/Action": "1.0071266868717863",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "81": {
@@ -1468,11 +1468,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "10",
+    "VP": "100",
     "Snark": "Nice! Way to get some points on the board.",
     "Trash1 Cost": 3.1912009905662355,
     "Actions Cost": 9.006563754097236,
-    "VP/Action": "1.1103013616542527",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
   },
   "82": {
@@ -1486,11 +1486,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "11",
+    "VP": "110",
     "Snark": "Good move. Not Great. But Good.",
     "Trash1 Cost": 3.2614510541240036,
     "Actions Cost": 9.076813817655005,
-    "VP/Action": "1.2118789942131754",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
   },
   "83": {
@@ -1504,11 +1504,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "12",
+    "VP": "120",
     "Snark": "Don't get all your VPs out too early now. We've got an endgame.",
     "Trash1 Cost": 3.2784374260953504,
     "Actions Cost": 9.093800189626352,
-    "VP/Action": "1.3195803459250031",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "84": {
@@ -1522,11 +1522,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "13",
+    "VP": "130",
     "Snark": "Just when you think you've pulled ahead, someone else will get a bigger building than this.",
     "Trash1 Cost": 3.348687489653119,
     "Actions Cost": 9.16405025318412,
-    "VP/Action": "1.4185867210279701",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "85": {
@@ -1540,11 +1540,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": null,
-    "VP": "14",
+    "VP": "140",
     "Snark": "Seems like a lot now, but this won't win you the game alone.",
     "Trash1 Cost": 3.4359239251822338,
     "Actions Cost": 9.251286688713234,
-    "VP/Action": "1.5133030108212187",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
   },
   "86": {
@@ -1558,11 +1558,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "4",
+    "VP": "40",
     "Snark": "I won't tell you how we got this cow to breed by itself.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "1.0758582363796765",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Cattle"
   },
   "87": {
@@ -1576,11 +1576,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "4",
+    "VP": "40",
     "Snark": "I won't tell you how we got this cow to breed by itself.",
     "Trash1 Cost": 1.7179619625911169,
     "Actions Cost": 3.717961962591117,
-    "VP/Action": "1.0758582363796765",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Cattle"
   },
   "88": {
@@ -1595,10 +1595,10 @@
     "Requires2": null,
     "Description": "You may also Trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. ",
+    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin.",
     "Trash1 Cost": 1.815362763531001,
     "Actions Cost": 3.815362763531001,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Carrot"
   },
   "89": {
@@ -1613,10 +1613,10 @@
     "Requires2": null,
     "Description": "You may also Trash this card for 2 Food.",
     "VP": "0",
-    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin. ",
+    "Snark": "This is a garden, not some sort of weird patch that passively injects beta-Carotene into your skin.",
     "Trash1 Cost": 1.815362763531001,
     "Actions Cost": 3.815362763531001,
-    "VP/Action": "0",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Carrot"
   },
   "90": {
@@ -1630,11 +1630,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "4",
+    "VP": "40",
     "Snark": "I'm pretty sure this strategy worked for me at least once.",
     "Trash1 Cost": 1.5604754635042337,
     "Actions Cost": 3.5604754635042335,
-    "VP/Action": "1.1234454614281164",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
   },
   "91": {
@@ -1648,11 +1648,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "4",
+    "VP": "40",
     "Snark": "I'm pretty sure this strategy worked for me at least once.",
     "Trash1 Cost": 1.5604754635042337,
     "Actions Cost": 3.5604754635042335,
-    "VP/Action": "1.1234454614281164",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
   },
   "92": {
@@ -1666,11 +1666,11 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Military",
     "Requires2": null,
     "Description": "Highest Military may trash any 1 Resource for any 1 other Resource, once per turn. In a tie, nobody gets the bonus.",
-    "VP": "7",
+    "VP": "70",
     "Snark": "You're in it now.",
     "Trash1 Cost": 1.6307255270620018,
     "Actions Cost": 3.630725527062002,
-    "VP/Action": "1.9279893089755062",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Military"
   },
   "93": {
@@ -1684,11 +1684,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "Upon playing, you may retrieve any card in the discard piles and play it immediately without prerequisites.",
-    "VP": "3",
+    "VP": "30",
     "Snark": "Playing this has the hidden advantage of making your opponents hate you.",
     "Trash1 Cost": 1.815362763531001,
     "Actions Cost": 3.815362763531001,
-    "VP/Action": "0.78629482592727096",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Glass"
   },
   "94": {
@@ -1702,11 +1702,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "You may trash this card for any 2 Resources.",
-    "VP": "4",
+    "VP": "40",
     "Snark": "Make it count. No pressure. Are you sure you that's a good enough use for this card?? There's probably a better move.",
     "Trash1 Cost": 3.1209509270084674,
     "Actions Cost": 5.120950927008467,
-    "VP/Action": "0.78110492699774825",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood"
   },
   "95": {
@@ -1720,7 +1720,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "3 VPs for each Payoff you have placed.",
-    "VP": "?",
+    "VP": "*",
     "Snark": "This card is as close at this game gets to Victory Point Points.",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1738,7 +1738,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "6 VPs for each Cattle, Carrot",
-    "VP": "?",
+    "VP": "*",
     "Snark": "Glad you didn't have to eat these!",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1756,11 +1756,11 @@
     "Requires1": null,
     "Requires2": null,
     "Description": null,
-    "VP": "12",
+    "VP": "120",
     "Snark": "This card favors those who have this deck memorized.",
     "Trash1 Cost": "3.630725527062002",
     "Actions Cost": 5.630725527062002,
-    "VP/Action": "2.1311640821997866",
+    "VP/Action": "",
     "PreReq": "<span font=\"FontAwesome\"></span> Glass\n<span font=\"FontAwesome\"></span> Carrot"
   },
   "98": {
@@ -1774,7 +1774,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "5 VP for each type: Sheep, Wild Boar, Cattle, Glass, Silk, Grain, Carrot.",
-    "VP": "?",
+    "VP": "*",
     "Snark": "This is to make you feel better about having unused stuff.",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1792,7 +1792,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "8VP if you have Invested plus 3VP for each Gold.",
-    "VP": "?",
+    "VP": "*",
     "Snark": "See! I told you that card would pay off.",
     "Trash1 Cost": "2",
     "Actions Cost": 4.0,
@@ -1810,7 +1810,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "3 VP for each Wood, Sheep, or Grain",
-    "VP": "?",
+    "VP": "*",
     "Snark": "Hey, at least you know nobody else is going for it.",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1828,7 +1828,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "At game end, take the number of Glass and Silk you have. Square that for VPs.",
-    "VP": "?",
+    "VP": "*",
     "Snark": "Go ahead and take your next turn, this is gonna take me a moment.",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1846,7 +1846,7 @@
     "Requires1": null,
     "Requires2": null,
     "Description": "3 VP for each Military, +3 additional VP if you end the game with the most military (ties don't count).",
-    "VP": "?",
+    "VP": "*",
     "Snark": "Aggression does have its benefits.",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
@@ -1864,7 +1864,7 @@
     "Requires1": "<span font=\"FontAwesome\"></span> Building",
     "Requires2": null,
     "Description": "1 VP for each Building you've played",
-    "VP": "?",
+    "VP": "*",
     "Snark": "You had to see this one coming.",
     "Trash1 Cost": "0",
     "Actions Cost": 5.815362763531001,
@@ -1881,8 +1881,8 @@
     "Trash2": null,
     "Requires1": null,
     "Requires2": null,
-    "Description": "When this card is revealed, all Blockers must be paid by the end of the turn. Initiate Endgame. ",
-    "VP": "?",
+    "Description": "When this card is revealed, all Blockers must be paid by the end of the turn. Initiate Endgame.",
+    "VP": "*",
     "Snark": "You didn't forget about food, did you?",
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,

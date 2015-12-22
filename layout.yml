@@ -1,5 +1,5 @@
 title:
-    font: Arial Extrabold 56
+    font: Sans,Arial Extrabold 56
     align: right
     x: 75
     y: 75
@@ -66,10 +66,10 @@ PreReq:
 
 Description:
     <<: *medium_text
-    x: 235
+    x: 75
     y: 650
-    width: 515
-    height: 220
+    width: 675
+    height: 210
     align: center
     valign: middle
 
@@ -91,7 +91,7 @@ VP:
     extends: VP_img
     color: background
     y: -= 10
-    font: Sans Extrabold 64
+    font: Sans Extrabold 52
     align: center
     valign: middle
 

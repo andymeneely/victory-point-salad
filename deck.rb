@@ -5,7 +5,6 @@ trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
 requires_icon = "<span font=\"FontAwesome\">\uF023</span> "
 
 data = Squib.xlsx file: 'data/deck.xlsx'
-data = explode_quantities(data)
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
@@ -41,14 +40,18 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layout.yml') do
     text str: data[key], layout: key, markup: true
   end
 
-  # png file: 'tgc-proof-overlay.png'
-  # save_png #all
-  save_png range: id['The Building Building Building']
+  rect layout: 'Description',
+       range: data['Description'].each.with_index.inject([]) {|rng, (d, i)| rng << i unless d.to_s.strip.empty?; rng}
 
-  rect layout: :cut_line
+  # png file: 'tgc-proof-overlay.png'
+  # save_png range: id['The Building Building Building']
+
+  save_png #all
   # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
+  rect layout: :cut_line
+  save_pdf trim: 37.5
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
   puts "Done. #{data['Title'].size} cards"
