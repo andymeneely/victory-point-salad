@@ -1,16 +1,16 @@
 title:
-    font: Sans,Arial Extrabold 56
-    align: right
+    font: 3Dumb 52
+    align: center
     x: 75
-    y: 75
+    y: 45
     width: 675
     ellipsize: none
-    spacing: -10
+    spacing: -30
 
 type:
-    font: Sans 24
+    font: TrashHand 36
     x: 75
-    y: 860
+    y: 865
     width: 170
     align: center
 
@@ -32,46 +32,47 @@ descriptor: &descriptor
 
 Bonus1Box:
     x: -15
-    y: 300
+    y: 250
     width: 415
     height: 80
-    fill_color: foreground
+    # fill_color: foreground
     radius: 15
 
 Bonus1:
     x: 75
     extends: Bonus1Box
-    font: Sans Extrabold
-    font_size: 42
+    font: TrashHand
+    font_size: 50
     align: left
     valign: middle
-    fill_color: foreground
-    color: background
+    fill_color: black
+    color: black
 
 Bonus2Box:
     extends: Bonus1Box
-    y: += 100
+    y: += 85
 
 Bonus2:
     extends: Bonus1
-    y: += 100
+    y: += 85
 
 PreReq:
     font: Sans
     font_size: 30
     align: left
     x: 75
-    y: 550
+    y: 405
     width: 200
 
 Description:
-    <<: *medium_text
     x: 75
-    y: 650
+    y: 515
     width: 675
-    height: 210
+    height: 320
     align: center
-    valign: middle
+    font: Coming Soon,Sans
+    font_size: 45
+    spacing: -17
 
 Snark:
     font: Sans Italic 19
@@ -89,9 +90,9 @@ VP_img:
     y: 900
 VP:
     extends: VP_img
-    color: background
+    color: black
     y: -= 10
-    font: Sans Extrabold 52
+    font: TrashHand 75
     align: center
     valign: middle
 
