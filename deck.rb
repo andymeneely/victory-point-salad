@@ -56,7 +56,7 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layout.yml') do
   rect layout: :cut_line
 
   # build(:pdf) do
-    save_pdf trim: 37.5
+    # save_pdf trim: 37.5
   # end
 
 

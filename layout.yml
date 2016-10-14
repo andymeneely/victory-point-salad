@@ -57,8 +57,9 @@ Bonus2:
     y: += 85
 
 PreReq:
-    font: Sans
+    font: Coming Soon, Sans
     font_size: 30
+    spacing: -10
     align: left
     x: 75
     y: 405
@@ -66,13 +67,14 @@ PreReq:
 
 Description:
     x: 75
-    y: 515
+    y: 505
     width: 675
-    height: 320
+    height: 340
     align: center
+    valign: bottom
     font: Coming Soon,Sans
     font_size: 45
-    spacing: -17
+    spacing: -14
 
 Snark:
     font: Sans Italic 19
