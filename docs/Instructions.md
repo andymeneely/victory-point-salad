@@ -37,9 +37,10 @@ Each player will have a Hand of cards (limited to 5 cards by the end of your tur
 
 Players also have a Tableau of cards that have been played in front of them. Some of these cards are simply victory points, other may have bonuses. The cards should be face-up, but can be arranged however the player wants (opponents may ask for cards on the Tableau to be shown). There are no restrictions on the number of cards you can have on your Tableau.
 
-Special Purchase Pile: this is a rotating group of cards that you place into your Hand. Cards will cycle through quickly.
-Resource Purchase Pile: this is a rotating group of cards that you place directly into their Tableau. Cards will cycle through quickly.
-Engine Purchase Pile: these cards are always available to place in your hand.
+  * Special Purchase Pile: this is a rotating group of cards that you place into your Hand. Cards will cycle through quickly.
+  * Resource Purchase Pile: this is a rotating group of cards that you place directly into their Tableau. Cards will cycle through quickly.
+  * Engine Purchase Pile: these cards are always available to place in your hand.
+  * Point Ladders: these are markers for which rung of the ladder you are on
 
 Gameplay
 ========
@@ -62,8 +63,10 @@ At the end of your turn, replenish the piles with new cards. Replenish from the 
 Endgame
 -------
 
-When you reach Endgame, resolve the Blocker cards. If any players cannot remove their Blocker (i.e. they cannot trash enough food), then the blocker stays on their tableau through the end of the game.
+When you reach Endgame, resolve the Blocker cards. Give the Pay Up! card to the Starting Player.
+
+If any players cannot remove their Blocker (i.e. they cannot trash enough food), then the blocker stays on their tableau through the end of the game.
 
 When you draw the Endgame card, place all Payoff cards face-up on table for purchase alongside with any other Special cards. These are available for purchase until the end of the game.
 
-Hand the "Pay Up!" card to the current player - this is the "Starting Player". At any time, a player may declare "Game End", in which all other players after the Starting Player get one more turn. Game End is automatically ends when no more Payoff cards are available for pickup.
+At any time, a player may declare "Game Over", in which play continues player to the right of the player with the "Pay Up!" card. (Note that this may or may not be the Starting Player if the card has changed hands.)
