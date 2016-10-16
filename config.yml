@@ -20,3 +20,7 @@ custom_colors:
 #For reading image file command (e.g. png and svg), read from this directory instead
 img_dir: img
 #img_dir: img-bw
+
+# Use a SVG cairo back end, instead of an in-memory buffer
+# backend: :memory # default
+backend: :svg      # creates vector-based pdfs
