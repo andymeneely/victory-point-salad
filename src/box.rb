@@ -14,7 +14,7 @@ end
 
 #### TOP ####
 Squib::Deck.new(width: 3450, height: 2700,
-                layout: %w(tgc-small-pro-box-top.yml box.yml),
+                layout: %w(layouts/tgc-small-pro-box-top.yml layouts/box.yml),
                 config: 'config.yml') do
   background color: :white
 
