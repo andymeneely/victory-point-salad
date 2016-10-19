@@ -1,13 +1,19 @@
 require 'squib'
+require 'rake/clean'
 
-desc 'Build the main deck by default'
-task default: [:deck]
+CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
+
+desc 'Build the specials deck by default'
+task default: [:specials]
 
 desc 'Build everything'
-task all: [:deck, :backs, :marketing, :ladders]
+task all: [:specials, :resources, :backs, :marketing, :ladders]
 
 desc 'Build the main deck'
-task(:deck)      { load 'src/deck.rb' }
+task(:specials)  { load 'src/specials.rb' }
+
+desc 'Build resources deck'
+task(:resources) { load 'src/resources.rb' }
 
 desc 'Build the deck backs'
 task(:backs)     { load 'src/backs.rb' }

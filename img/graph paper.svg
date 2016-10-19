@@ -13,9 +13,9 @@
    inkscape:version="0.91 r13725"
    version="1.1"
    id="svg8904"
-   viewBox="0 0 825.00001 1125"
-   height="1125"
-   width="825">
+   viewBox="0 0 1125 825"
+   height="825"
+   width="1125">
   <defs
      id="defs8906" />
   <sodipodi:namedview
@@ -26,11 +26,11 @@
      inkscape:window-height="1017"
      inkscape:window-width="1920"
      showgrid="false"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      inkscape:document-units="px"
-     inkscape:cy="476.73964"
-     inkscape:cx="785.01063"
-     inkscape:zoom="0.49497475"
+     inkscape:cy="485.90678"
+     inkscape:cx="585.52125"
+     inkscape:zoom="0.9899495"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -50,8 +50,24 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,72.637839)" />
+     id="layer4"
+     inkscape:label="white"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.98823529;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4139"
+       width="1125"
+       height="825"
+       x="0"
+       y="-3.0517578e-005" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="major" />
+  <path
+     d="M 0,0 0,825 M 75,0 75,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 m 75,-825 0,825 M 0,0 1125,0 M 0,75 1125,75 M 0,150 1125,150 M 0,225 1125,225 M 0,300 1125,300 M 0,375 1125,375 M 0,450 1125,450 M 0,525 1125,525 M 0,600 1125,600 M 0,675 1125,675 M 0,750 1125,750 M 0,825 l 1125,0"
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#5f6fdd;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:1.5pt"
+     id="path5692" />
 </svg>

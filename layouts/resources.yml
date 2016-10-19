@@ -1,11 +1,11 @@
 title:
-    font: Rock Salt 46
+    font: Rock Salt 52
     align: center
     x: 75
     y: 45
-    width: 675
+    width: 975
     ellipsize: none
-    spacing: -52
+    spacing: -30
 
 type:
     font: TrashHand 36
@@ -57,7 +57,7 @@ Bonus2:
     y: += 85
 
 PreReq:
-    font: Covered By Your Grace, Sans
+    font: Coming Soon, Sans
     font_size: 30
     spacing: -10
     align: left
