@@ -9,9 +9,11 @@ data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
 Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
-  background color: :background
-  svg file: 'steno pad.svg'
-
+  background color: :white
+  build :color do
+    png file: 'table.png'
+    svg file: 'steno pad.svg'
+  end
   text str: data['Title'], layout: :title
   text str: data['Type'], layout: :type
   svg file: 'vp-drawn.svg', layout: :VP_img

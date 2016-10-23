@@ -22,5 +22,5 @@ img_dir: img
 #img_dir: img-bw
 
 # Use a SVG cairo back end, instead of an in-memory buffer
-# backend: :memory # default
-backend: :svg      # creates vector-based pdfs
+backend: :memory # default
+# backend: :svg      # creates vector-based pdfs

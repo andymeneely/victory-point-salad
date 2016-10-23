@@ -1,14 +1,14 @@
 title:
-    font: Rock Salt 52
+    font: Rock Salt 46
     align: center
     x: 75
-    y: 45
+    y: 75
     width: 975
     ellipsize: none
-    spacing: -30
+    spacing: -70
 
 type:
-    font: TrashHand 36
+    font: Covered By Your Grace 36
     x: 75
     y: 865
     width: 170
@@ -18,69 +18,63 @@ text: &text
     font: Sans
     ellipsize: none
 
-large_text: &large_text
-    <<: *text
-    font_size: 56
-
-medium_text: &medium_text
-    <<: *text
-    font_size: 30
-
 descriptor: &descriptor
     font: Sans
     font_size: 30
 
-Bonus1Box:
-    x: -15
-    y: 250
-    width: 415
-    height: 80
-    # fill_color: foreground
-    radius: 15
+Resource1Box:
+  x: 85
+  y: 270
 
-Bonus1:
-    x: 75
-    extends: Bonus1Box
-    font: TrashHand
-    font_size: 50
-    align: left
-    valign: middle
-    fill_color: black
-    color: black
+Resource1:
+  extends: Resource1Box
+  x: += 25
+  y: += 15
+  width: 415
+  height: 80
+  radius: 15
+  font: Covered By Your Grace
+  font_size: 50
+  align: left
+  valign: middle
+  fill_color: black
+  color: black
 
-Bonus2Box:
-    extends: Bonus1Box
-    y: += 85
+Resource1Img:
+  extends: Resource1Box
+  width: 90
+  height: 90
+  x: += 250
+  y: += 10
 
-Bonus2:
-    extends: Bonus1
-    y: += 85
+Resource2Box:
+  extends: Resource1Box
+  y: += 125
 
-PreReq:
-    font: Coming Soon, Sans
-    font_size: 30
-    spacing: -10
-    align: left
-    x: 75
-    y: 405
-    width: 200
+Resource2:
+  extends: Resource1
+  y: += 125
+
+Resource2Img:
+  extends: Resource1Img
+  y: += 125
 
 Description:
-    x: 75
-    y: 505
-    width: 675
-    height: 340
+    x: 460
+    y: 240
+    width: 500
+    height: 300
     align: center
-    valign: bottom
-    font: Coming Soon,Sans
+    valign: middle
+    font: Covered By Your Grace,Sans
     font_size: 45
     spacing: -14
 
 Snark:
     font: Sans Italic 19
-    x: 235
-    y: 885
-    width: 515
+    x: 260
+    y: 540
+    width: 700
     height: 165
     valign: middle
     align: center
@@ -88,13 +82,13 @@ Snark:
 VP_img:
     width: 150
     height: 150
-    x: 85
-    y: 900
+    x: 95
+    y: 550
 VP:
     extends: VP_img
     color: black
     y: -= 10
-    font: TrashHand 75
+    font: Covered By Your Grace 75
     align: center
     valign: middle
 

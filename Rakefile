@@ -1,5 +1,6 @@
 require 'squib'
 require 'rake/clean'
+require 'launchy'
 
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
@@ -23,3 +24,10 @@ task(:ladders)   { load 'src/ladders.rb' }
 
 desc 'Build marketing images'
 task(:marketing) { load 'src/marketing.rb' }
+
+desc 'Launch the Excel sheet'
+task :data do
+  url = "file:///#{Dir.pwd}/data/deck.xlsx"
+  puts "Launching #{url}"
+  Launchy.open url
+end
