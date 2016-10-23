@@ -1,8 +1,8 @@
 title:
-    font: Rock Salt 46
+    font: Rock Salt 38
     align: center
     x: 75
-    y: 45
+    y: 75
     width: 675
     ellipsize: none
     spacing: -52

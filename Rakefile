@@ -4,11 +4,14 @@ require 'launchy'
 
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
-desc 'Build the specials deck by default'
+desc 'Build the specials deck by default black-and-white'
 task default: [:specials]
 
-desc 'Build everything'
+desc 'Build everything black-and-white'
 task all: [:specials, :resources, :backs, :marketing, :ladders]
+
+desc 'Build default task with color'
+task color: [:with_color, :default]
 
 desc 'Build the main deck'
 task(:specials)  { load 'src/specials.rb' }
@@ -30,4 +33,10 @@ task :data do
   url = "file:///#{Dir.pwd}/data/deck.xlsx"
   puts "Launching #{url}"
   Launchy.open url
+end
+
+desc 'Enable color for the rest of the builds'
+task :with_color do
+  ENV['SQUIB_BUILD'] ||= ''
+  ENV['SQUIB_BUILD'] += ',color'
 end

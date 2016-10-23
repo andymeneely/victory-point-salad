@@ -53,7 +53,7 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
   # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
-  save_png range: [1,46,52, 67], prefix: 'special_'
+  save_png range: [1,28,46,52, 67], prefix: 'special_'
   # showcase range: [1,72], fill_color: :black
   rect layout: :cut_line
 
