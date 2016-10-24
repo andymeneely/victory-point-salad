@@ -8,6 +8,11 @@ Squib::Deck.new(cards: deck['Title'].size, width: 1125, height: 825,
                 layout: %w(layouts/layout.yml layouts/backs.yml)) do
   background color: :background
 
+  build :color do
+    png file: 'table.png'
+    svg file: 'steno pad.svg'
+  end
+
   text str: deck['Type'], layout: :type
 
   # save_png prefix: 'back_'

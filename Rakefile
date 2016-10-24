@@ -22,6 +22,9 @@ task(:resources) { load 'src/resources.rb' }
 desc 'Build the deck backs'
 task(:backs)     { load 'src/backs.rb' }
 
+desc 'Build the backs for the specials'
+task(:special_backs) { load 'src/special_backs.rb' }
+
 desc 'Build ladder cards'
 task(:ladders)   { load 'src/ladders.rb' }
 
