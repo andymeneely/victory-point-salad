@@ -14,6 +14,7 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
     png file: 'table.png'
     svg file: 'steno pad.svg'
   end
+
   text str: data['Title'], layout: :title
   text str: data['Type'], layout: :type
   svg file: 'vp-drawn.svg', layout: :VP_img
@@ -35,13 +36,17 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
   %w(Bonus1 Bonus2).each do |bonus|
       range = [] # only put rectangles out in with non-nil texts
       data[bonus].each_with_index { |n, i| range << i unless n.nil? }
-      widths = bonusbox_width(data[bonus], @layout[bonus]['font_size'])
-      rect range: range, layout: "#{bonus}Box", width: widths
+      svg range: range, layout: "#{bonus}Box"
   end
 
   %w(Bonus1 Bonus2 PreReq Description Snark VP).each do |key|
     text str: data[key], layout: key, markup: true
   end
+
+  svg file: data['Power'].map { |p| p.nil? ? nil : 'power.svg' }, layout: :Power
+  text str: data['Power'], layout: :PowerText
+
+  svg layout: :TypeImg
 
   # rect layout: 'Description',
   #      range: data['Description'].each.with_index.inject([]) {|rng, (d, i)| rng << i unless d.to_s.strip.empty?; rng}
@@ -53,7 +58,7 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
   # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
-  save_png range: [1,28,46,52, 67], prefix: 'special_'
+  save_png range: [1,6,28,40,46,52, 67], prefix: 'special_'
   # showcase range: [1,72], fill_color: :black
   rect layout: :cut_line
 

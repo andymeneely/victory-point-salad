@@ -21,8 +21,6 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
   %w(Resource1 Resource2).each do |bonus|
       range = [] # only put rectangles out in with non-nil texts
       data[bonus].each_with_index { |n, i| range << i unless n.nil? }
-      widths = bonusbox_width(data[bonus], @layout[bonus]['font_size'])
-      # rect range: range, layout: "#{bonus}Box", width: widths
       bonus_boxes = data[bonus].map { |b| b.nil? ? nil : 'bonus_box.svg' }
       svg file: bonus_boxes, layout: "#{bonus}Box"
   end

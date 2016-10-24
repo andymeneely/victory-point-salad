@@ -1,108 +1,112 @@
 title:
-    font: Rock Salt 38
-    align: center
-    x: 75
-    y: 75
-    width: 675
-    ellipsize: none
-    spacing: -52
+  font: Rock Salt 38
+  align: center
+  x: 95
+  y: 75
+  width: 635
+  ellipsize: none
+  spacing: -52
 
 type:
-    font: TrashHand 36
-    x: 75
-    y: 865
-    width: 170
-    align: center
+  font: Covered By Your Grace 36
+  x: 95
+  y: 590
+  width: 170
+  align: center
 
-text: &text
-    font: Sans
-    ellipsize: none
-
-large_text: &large_text
-    <<: *text
-    font_size: 56
-
-medium_text: &medium_text
-    <<: *text
-    font_size: 30
-
-descriptor: &descriptor
-    font: Sans
-    font_size: 30
+TypeImg:
+  extends: type
+  y: -= 20
+  width: native
+  file: type_img.svg
 
 Bonus1Box:
-    x: -15
-    y: 250
-    width: 415
-    height: 80
-    # fill_color: foreground
-    radius: 15
+  x: 85
+  y: 250
+  radius: 15
+  file: bonus_box.svg
 
 Bonus1:
-    x: 75
-    extends: Bonus1Box
-    font: TrashHand
-    font_size: 50
-    align: left
-    valign: middle
-    fill_color: black
-    color: black
+  x: 75
+  width: 250
+  height: 180
+  extends: Bonus1Box
+  font: Covered By Your Grace
+  font_size: 50
+  align: left
+  valign: middle
+  fill_color: black
+  color: black
 
 Bonus2Box:
-    extends: Bonus1Box
-    y: += 85
+  extends: Bonus1Box
+  y: += 85
 
 Bonus2:
-    extends: Bonus1
-    y: += 85
+  extends: Bonus1
+  y: += 85
+
+Power:
+  x: 280
+  y: 290
+  width: 460
+  height: 300
+
+PowerText:
+  extends: Power
+  font: Covered By Your Grace, Sans
+  font_size: 45
+  align: center
+  valign: middle
+
 
 PreReq:
-    font: Covered By Your Grace, Sans
-    font_size: 30
-    spacing: -10
-    align: left
-    x: 75
-    y: 405
-    width: 200
+  font: Covered By Your Grace, Sans
+  font_size: 30
+  spacing: -10
+  align: left
+  x: 95
+  y: 405
+  width: 200
 
 Description:
-    x: 75
-    y: 505
-    width: 675
-    height: 340
-    align: center
-    valign: bottom
-    font: Coming Soon,Sans
-    font_size: 45
-    spacing: -14
+  x: 75
+  y: 545
+  width: 675
+  height: 305
+  align: center
+  valign: bottom
+  font: Covered By Your Grace, Sans
+  font_size: 40
+  spacing: -14
 
 Snark:
-    font: Sans Italic 19
-    x: 235
-    y: 885
-    width: 515
-    height: 165
-    valign: middle
-    align: center
+  font: Sans Italic 19
+  x: 215
+  y: 855
+  width: 515
+  height: 165
+  valign: middle
+  align: center
 
 VP_img:
-    width: 150
-    height: 150
-    x: 85
-    y: 900
+  width: 120
+  height: 120
+  x: 95
+  y: 875
 VP:
-    extends: VP_img
-    color: black
-    y: -= 10
-    font: TrashHand 75
-    align: center
-    valign: middle
+  extends: VP_img
+  color: black
+  y: -= 10
+  font: Covered By Your Grace 65
+  align: center
+  valign: middle
 
 cut_line:
-    x: 37
-    y: 37
-    width: 750
-    height: 1050
-    radius: 0
-    stroke_width: 3.0
-    stroke_color: black
+  x: 37
+  y: 37
+  width: 750
+  height: 1050
+  radius: 0
+  stroke_width: 3.0
+  stroke_color: black
