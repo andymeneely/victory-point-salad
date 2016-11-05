@@ -2,7 +2,7 @@ require 'squib'
 require_relative 'squib_helpers'
 
 trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
-requires_icon = "<span font=\"FontAwesome\">\uF023</span> "
+requires_icon = "💥 "
 
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
 
@@ -54,16 +54,16 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
   # png file: 'tgc-proof-overlay.png'
   # save_png range: id['The Building Building Building']
 
-  # save_png #all
+  save_png #all
   # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
-  save_png range: [1,6,28,40,46,52, 67], prefix: 'special_'
+  # save_png range: [1,6,28,40,41,46,52, 67], prefix: 'special_'
   # showcase range: [1,72], fill_color: :black
   rect layout: :cut_line
 
   # build(:pdf) do
-    # save_pdf trim: 37.5
+    save_pdf trim: 37.5
   # end
 
 

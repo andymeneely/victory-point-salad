@@ -22,14 +22,14 @@ TypeImg:
 
 Bonus1Box:
   x: 85
-  y: 250
+  y: 235
   radius: 15
   file: bonus_box.svg
 
 Bonus1:
-  x: 75
+  x: 105
   width: 250
-  height: 180
+  height: 90
   extends: Bonus1Box
   font: Covered By Your Grace
   font_size: 50
@@ -61,12 +61,12 @@ PowerText:
 
 
 PreReq:
-  font: Covered By Your Grace, Sans
+  font: Covered By Your Grace, Segoe UI Symbol, Sans
   font_size: 30
   spacing: -10
   align: left
   x: 95
-  y: 405
+  y: 455
   width: 200
 
 Description:

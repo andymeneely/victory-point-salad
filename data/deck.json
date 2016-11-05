@@ -406,7 +406,7 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": "Silk Trade",
     "Description": "You may trash 1 Silk for any 2 Resources, any number of times.",
@@ -415,7 +415,7 @@
     "Trash1 Cost": 0.0,
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "💥 Building"
   },
   "22": {
     "Type": "Starter",
@@ -501,7 +501,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Stone",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": "Stone Building",
     "Description": "You do not need to pay any required Stone for Buildings.",
@@ -510,7 +510,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n💥 Building"
   },
   "27": {
     "Type": "Starter",
@@ -520,7 +520,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": "Wood Building",
     "Description": "You do not need to pay any required Wood for Buildings",
@@ -529,7 +529,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n💥 Building"
   },
   "28": {
     "Type": "Starter",
@@ -539,7 +539,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": "Clay Building",
     "Description": "You do not need to pay any required Clay for Buildings.",
@@ -548,7 +548,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n💥 Building"
   },
   "29": {
     "Type": "Starter",
@@ -577,8 +577,8 @@
     "Bonus2": "Soldier",
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
-    "Requires2": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "💥 Building",
+    "Requires2": "💥 Military",
     "Power": null,
     "Description": "Player with most soldiers may trash any 1 available Special at round start in Midgame.",
     "VP": "50",
@@ -586,7 +586,7 @@
     "Trash1 Cost": 0.0,
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Building\n<span font=\"FontAwesome\"></span> Military"
+    "PreReq": "💥 Building\n💥 Military"
   },
   "31": {
     "Type": "Midgame",
@@ -672,7 +672,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": "<span font=\"FontAwesome\"></span> Wood",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -681,7 +681,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Wood\n💥 Building"
   },
   "36": {
     "Type": "Midgame",
@@ -691,7 +691,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Wood",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -700,7 +700,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Wood\n💥 Building"
   },
   "37": {
     "Type": "Midgame",
@@ -710,7 +710,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Clay",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -719,7 +719,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Clay\n💥 Building"
   },
   "38": {
     "Type": "Midgame",
@@ -729,7 +729,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -738,7 +738,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Stone\n💥 Building"
   },
   "39": {
     "Type": "Midgame",
@@ -748,7 +748,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -757,7 +757,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Stone\n💥 Building"
   },
   "40": {
     "Type": "Midgame",
@@ -767,7 +767,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Stone",
     "Trash2": "<span font=\"FontAwesome\"></span> Stone",
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": null,
@@ -776,7 +776,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "<span font=\"FontAwesome\"></span> Stone\n<span font=\"FontAwesome\"></span> Stone\n💥 Building"
   },
   "41": {
     "Type": "Midgame",
@@ -824,7 +824,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "💥 Military",
     "Requires2": null,
     "Power": null,
     "Description": "Player with most soldiers may trash any 1 available Special at round start in Midgame.",
@@ -833,7 +833,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n💥 Military"
   },
   "44": {
     "Type": "Midgame",
@@ -843,7 +843,7 @@
     "Bonus2": null,
     "Trash1": "<span font=\"FontAwesome\"></span> Wood",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "💥 Military",
     "Requires2": null,
     "Power": null,
     "Description": "Player with most soldiers may trash any 1 available Special at round start in Midgame.",
@@ -852,7 +852,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n<span font=\"FontAwesome\"></span> Military"
+    "PreReq": "<span font=\"FontAwesome\"></span> Wood\n💥 Military"
   },
   "45": {
     "Type": "Midgame",
@@ -862,7 +862,7 @@
     "Bonus2": "Soldier",
     "Trash1": "<span font=\"FontAwesome\"></span> Clay",
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "💥 Military",
     "Requires2": null,
     "Power": null,
     "Description": "Player with most soldiers may trash any 1 available Special at round start in Midgame.",
@@ -871,7 +871,7 @@
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
-    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n<span font=\"FontAwesome\"></span> Military"
+    "PreReq": "<span font=\"FontAwesome\"></span> Clay\n💥 Military"
   },
   "46": {
     "Type": "Midgame",
@@ -1071,7 +1071,7 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Military",
+    "Requires1": "💥 Military",
     "Requires2": null,
     "Power": null,
     "Description": "Upon Endgame initiation, you may trash 1 available Payoff card of your choosing.",
@@ -1080,7 +1080,7 @@
     "Trash1 Cost": 0.0,
     "Actions Cost": 2.0,
     "VP/Action": "10",
-    "PreReq": "<span font=\"FontAwesome\"></span> Military"
+    "PreReq": "💥 Military"
   },
   "57": {
     "Type": "Midgame",
@@ -1147,8 +1147,8 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Glass",
-    "Requires2": "<span font=\"FontAwesome\"></span> Carrot",
+    "Requires1": "💥 Glass",
+    "Requires2": "💥 Carrot",
     "Power": null,
     "Description": "No substitutions",
     "VP": "100",
@@ -1156,7 +1156,7 @@
     "Trash1 Cost": "0",
     "Actions Cost": 2.0,
     "VP/Action": "",
-    "PreReq": "<span font=\"FontAwesome\"></span> Glass\n<span font=\"FontAwesome\"></span> Carrot"
+    "PreReq": "💥 Glass\n💥 Carrot"
   },
   "61": {
     "Type": "Endgame",
@@ -1261,7 +1261,7 @@
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
-    "Requires1": "<span font=\"FontAwesome\"></span> Building",
+    "Requires1": "💥 Building",
     "Requires2": null,
     "Power": null,
     "Description": "10 VP for each Building you've played",
@@ -1270,7 +1270,7 @@
     "Trash1 Cost": "0",
     "Actions Cost": "#REF!",
     "VP/Action": "",
-    "PreReq": "<span font=\"FontAwesome\"></span> Building"
+    "PreReq": "💥 Building"
   },
   "67": {
     "Type": "Endgame",

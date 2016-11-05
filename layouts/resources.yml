@@ -93,10 +93,10 @@ VP:
     valign: middle
 
 cut_line:
-    x: 37
-    y: 37
-    width: 750
-    height: 1050
+    x: 37.5
+    y: 37.5
+    width: 1050
+    height: 750
     radius: 0
     stroke_width: 3.0
     stroke_color: black
