@@ -1,9 +1,9 @@
 {
   "0": {
-    "Type": "First!",
+    "Type": "Setup",
     "Qty": "1",
     "Title": "The Coveted Starting Player",
-    "Bonus1": "Go first!",
+    "Bonus1": null,
     "Bonus2": null,
     "Trash1": null,
     "Trash2": null,
@@ -363,7 +363,7 @@
   "19": {
     "Type": "Starter",
     "Qty": "2",
-    "Title": "More Grain!",
+    "Title": "Grain Breed!",
     "Bonus1": "Grain",
     "Bonus2": "Grain",
     "Trash1": "<span font=\"FontAwesome\"></span> Grain",
@@ -373,7 +373,7 @@
     "Power": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "0",
-    "Snark": "Grain: the best breeder of them all.",
+    "Snark": "Grain: the sheep of plants.",
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
@@ -382,7 +382,7 @@
   "20": {
     "Type": "Starter",
     "Qty": "2",
-    "Title": "More Grain!",
+    "Title": "Grain Breed!",
     "Bonus1": "Grain",
     "Bonus2": "Grain",
     "Trash1": "<span font=\"FontAwesome\"></span> Grain",
@@ -392,7 +392,7 @@
     "Power": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "0",
-    "Snark": "Grain: the best breeder of them all.",
+    "Snark": "Grain: the sheep of plants.",
     "Trash1 Cost": "#REF!",
     "Actions Cost": "#REF!",
     "VP/Action": "#REF!",
