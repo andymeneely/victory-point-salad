@@ -9,11 +9,10 @@ title:
 
 type:
   font: Covered By Your Grace 36
-  x: 95
-  y: 590
+  x: 560
+  y: 240
   width: 170
   align: center
-
 TypeImg:
   extends: type
   y: -= 20
@@ -22,12 +21,13 @@ TypeImg:
 
 Bonus1Box:
   x: 85
-  y: 235
+  y: 240
   radius: 15
   file: bonus_box.svg
 
 Bonus1:
   x: 105
+  y: += 8
   width: 250
   height: 90
   extends: Bonus1Box
@@ -38,6 +38,10 @@ Bonus1:
   fill_color: black
   color: black
 
+Bonus1Img:
+  extends: Bonus1Box
+  x: += 250
+
 Bonus2Box:
   extends: Bonus1Box
   y: += 85
@@ -46,39 +50,42 @@ Bonus2:
   extends: Bonus1
   y: += 85
 
+Bonus2Img:
+  extends: Bonus1Img
+  y: += 85
+
 Power:
   x: 280
-  y: 290
+  y: 310
   width: 460
   height: 300
 
 PowerText:
   extends: Power
   font: Covered By Your Grace, Sans
-  font_size: 45
+  font_size: 40
   align: center
   valign: middle
 
-
 PreReq:
   font: Covered By Your Grace, Segoe UI Symbol, Sans
-  font_size: 30
-  spacing: -10
+  font_size: 35
+  spacing: -8
   align: left
   x: 95
   y: 455
-  width: 200
+  width: 250
 
 Description:
   x: 75
-  y: 545
+  y: 525
   width: 675
   height: 305
   align: center
   valign: bottom
-  font: Covered By Your Grace, Sans
-  font_size: 40
-  spacing: -14
+  font: Archivo Narrow, Sans
+  font_size: 35
+  spacing: -12
 
 Snark:
   font: Sans Italic 19
@@ -98,7 +105,7 @@ VP:
   extends: VP_img
   color: black
   y: -= 10
-  font: Covered By Your Grace 65
+  font: Covered By Your Grace 62
   align: center
   valign: middle
 

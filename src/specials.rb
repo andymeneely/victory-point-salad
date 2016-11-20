@@ -8,7 +8,8 @@ data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
-Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
+Squib::Deck.new(cards: data['Title'].size) do
+  use_layout file: 'layouts/specials.yml'
   background color: :white
   build :color do
     png file: 'table.png'
@@ -37,6 +38,8 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
       range = [] # only put rectangles out in with non-nil texts
       data[bonus].each_with_index { |n, i| range << i unless n.nil? }
       svg range: range, layout: "#{bonus}Box"
+      svg file: data[bonus].map {|b| b.nil? ? nil : "#{b.downcase}.svg" },
+          layout: "#{bonus}Img"
   end
 
   %w(Bonus1 Bonus2 PreReq Description Snark VP).each do |key|
@@ -62,10 +65,9 @@ Squib::Deck.new(cards: data['Title'].size, layout: 'layouts/layout.yml') do
   # showcase range: [1,72], fill_color: :black
   rect layout: :cut_line
 
-  # build(:pdf) do
+  build(:pdf) do
     save_pdf trim: 37.5
-  # end
-
+  end
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
   puts "Done. #{data['Title'].size} cards"
