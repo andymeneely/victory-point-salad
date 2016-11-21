@@ -41,6 +41,9 @@ Bonus1:
 Bonus1Img:
   extends: Bonus1Box
   x: += 250
+  y: += 5
+  width: 90
+  height: 90
 
 Bonus2Box:
   extends: Bonus1Box

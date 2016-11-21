@@ -57,7 +57,7 @@ Squib::Deck.new(cards: data['Title'].size) do
   # png file: 'tgc-proof-overlay.png'
   # save_png range: id['The Building Building Building']
 
-  save_png #all
+  save_png prefix: 'special_'
   # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black

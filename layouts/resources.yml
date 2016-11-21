@@ -23,7 +23,7 @@ descriptor: &descriptor
     font_size: 30
 
 Resource1Box:
-  x: 85
+  x: 100
   y: 270
 
 Resource1:
@@ -49,15 +49,15 @@ Resource1Img:
 
 Resource2Box:
   extends: Resource1Box
-  y: += 125
+  y: += 100
 
 Resource2:
   extends: Resource1
-  y: += 125
+  y: += 100
 
 Resource2Img:
   extends: Resource1Img
-  y: += 125
+  y: += 100
 
 Description:
     x: 460
@@ -66,9 +66,9 @@ Description:
     height: 300
     align: center
     valign: middle
-    font: Covered By Your Grace,Sans
-    font_size: 45
-    spacing: -14
+    font: Archivo Narrow, Covered By Your Grace,Sans
+    font_size: 35
+    spacing: -12
 
 Snark:
     font: Sans Italic 19
@@ -87,7 +87,7 @@ VP_img:
 VP:
     extends: VP_img
     color: black
-    y: -= 10
+    y: -=10
     font: Covered By Your Grace 75
     align: center
     valign: middle

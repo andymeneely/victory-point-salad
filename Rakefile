@@ -2,6 +2,7 @@ require 'squib'
 require 'rake/clean'
 require 'launchy'
 
+# Add clean & clobber tasks
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'Build the specials deck by default black-and-white'
@@ -14,22 +15,22 @@ desc 'Build default task with color'
 task color: [:with_color, :default]
 
 desc 'Build the main deck'
-task(:specials)  { load 'src/specials.rb' }
+task(:specials)      { load 'src/specials.rb' }
 
-desc 'Build resources deck'
-task(:resources) { load 'src/resources.rb' }
-
-desc 'Build the deck backs'
-task(:backs)     { load 'src/backs.rb' }
-
-desc 'Build the backs for the specials'
+desc 'Build the backs for specials'
 task(:special_backs) { load 'src/special_backs.rb' }
 
+desc 'Build resources deck'
+task(:resources)     { load 'src/resources.rb' }
+
+desc 'Build the resource backs'
+task(:backs)         { load 'src/resource_backs.rb' }
+
 desc 'Build ladder cards'
-task(:ladders)   { load 'src/ladders.rb' }
+task(:ladders)       { load 'src/ladders.rb' }
 
 desc 'Build marketing images'
-task(:marketing) { load 'src/marketing.rb' }
+task(:marketing)     { load 'src/marketing.rb' }
 
 desc 'Launch the Excel sheet'
 task :data do

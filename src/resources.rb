@@ -29,7 +29,6 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
   svg file: data['Resource2'].map {|b| b.nil? ? nil : "#{b.downcase}.svg" },
       layout: "Resource2Img"
 
-
   %w(Resource1 Resource2 Description Snark VP).each do |key|
     text str: data[key], layout: key, markup: true
   end
@@ -48,8 +47,8 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
   # showcase range: [1,72], fill_color: :black
   rect layout: :cut_line
 
-  save_pdf trim: 37.5, file: 'resources.pdf'
   build(:pdf) do
+    save_pdf trim: 37.5, file: 'resources.pdf'
   end
 
   save_json cards: @cards.size, deck: data, file: "data/resources.json"

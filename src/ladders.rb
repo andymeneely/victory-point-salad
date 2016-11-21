@@ -7,7 +7,7 @@ Squib::Deck.new(cards: 2) do
 
   save_png prefix: 'ladder_'
 
-  use_layout file: 'layouts/layout.yml'
+  use_layout file: 'layouts/specials.yml'
   rect layout: :cut_line
   save_pdf file: 'ladders.pdf', trim: 37.5
 end
