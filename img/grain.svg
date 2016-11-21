@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="107.37073"
+     inkscape:cx="46.003963"
      inkscape:cy="-3.5654733"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -56,10 +56,11 @@
      transform="translate(0,-952.36216)">
     <g
        id="g4144"
-       transform="matrix(0.17524323,0,0,0.17524323,-15.637722,832.75532)">
+       transform="matrix(0.17524323,0,0,0.17524323,-15.637722,832.75532)"
+       style="fill:#aa8800;stroke:#000000;stroke-opacity:1;stroke-width:5.70635453;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         style="opacity:1;fill:#000000"
+         style="opacity:1;fill:#aa8800;stroke:#000000;stroke-opacity:1;stroke-width:5.70635453;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
          inkscape:connector-curvature="0"
          id="path8"
          filter="0"
@@ -71,11 +72,11 @@
          filter="0"
          id="path4140"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#000000"
+         style="opacity:1;fill:#aa8800;stroke:#000000;stroke-opacity:1;stroke-width:5.70635453;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
       <path
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         style="opacity:1;fill:#000000"
+         style="opacity:1;fill:#aa8800;stroke:#000000;stroke-opacity:1;stroke-width:5.70635453;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-linejoin:round"
          inkscape:connector-curvature="0"
          id="path4142"
          filter="0"
