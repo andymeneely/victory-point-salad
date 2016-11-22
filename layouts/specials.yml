@@ -80,9 +80,9 @@ PreReq:
   width: 250
 
 Description:
-  x: 75
+  x: 85
   y: 525
-  width: 675
+  width: 655
   height: 305
   align: center
   valign: bottom

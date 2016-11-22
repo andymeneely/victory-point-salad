@@ -51,21 +51,12 @@ Squib::Deck.new(cards: data['Title'].size) do
 
   svg layout: :TypeImg
 
-  # rect layout: 'Description',
-  #      range: data['Description'].each.with_index.inject([]) {|rng, (d, i)| rng << i unless d.to_s.strip.empty?; rng}
-
-  # png file: 'tgc-proof-overlay.png'
-  # save_png range: id['The Building Building Building']
-
   save_png prefix: 'special_'
-  # save_sheet prefix: 'sheet_', columns: 8, margin: 75, gap: 5, trim: 37
-  # save format: :pdf, file: 'data.pdf', trim: 37
-  # showcase file: 'showcase.png', range: [3,15,20, 90], fill_color: :black
-  # save_png range: [1,6,28,40,41,46,52, 67], prefix: 'special_'
-  # showcase range: [1,72], fill_color: :black
-  rect layout: :cut_line
+  showcase file: 'special_showcase.png', fill_color: :black,
+           range: [3, 15, 20, 69]
 
   build(:pdf) do
+    rect layout: :cut_line
     save_pdf trim: 37.5
   end
 
