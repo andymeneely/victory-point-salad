@@ -2,8 +2,13 @@ require 'squib'
 
 Squib::Deck.new(cards: 2) do
   background color: :white
+  build :color do
+    png file: 'table.png'
+    svg file: 'steno pad.svg'
+  end
 
   svg file: ['point ladder.svg', 'resource ladder.svg']
+
 
   save_png prefix: 'ladder_'
 
