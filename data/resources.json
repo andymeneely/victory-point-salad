@@ -62,7 +62,7 @@
   "6": {
     "Type": "Resource",
     "Qty": "4",
-    "Title": "The Good Material",
+    "Title": "The Red Material",
     "Resource1": "Clay",
     "Resource2": "Clay",
     "Description": null,
@@ -72,7 +72,7 @@
   "7": {
     "Type": "Resource",
     "Qty": "4",
-    "Title": "The Good Material",
+    "Title": "The Red Material",
     "Resource1": "Clay",
     "Resource2": "Clay",
     "Description": null,
@@ -82,7 +82,7 @@
   "8": {
     "Type": "Resource",
     "Qty": "4",
-    "Title": "The Good Material",
+    "Title": "The Red Material",
     "Resource1": "Clay",
     "Resource2": "Clay",
     "Description": null,
@@ -92,7 +92,7 @@
   "9": {
     "Type": "Resource",
     "Qty": "4",
-    "Title": "The Good Material",
+    "Title": "The Red Material",
     "Resource1": "Clay",
     "Resource2": "Clay",
     "Description": null,
@@ -322,32 +322,32 @@
   "32": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Multiplying Plant",
+    "Title": "The Breeding Plant",
     "Resource1": "Grain",
     "Resource2": null,
     "Description": null,
     "VP": "1",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds? Reed?"
   },
   "33": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Multiplying Plant",
+    "Title": "The Breeding Plant",
     "Resource1": "Grain",
     "Resource2": null,
     "Description": null,
     "VP": "1",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds? Reed?"
   },
   "34": {
     "Type": "Resource",
     "Qty": "3",
-    "Title": "The Multiplying Plant",
+    "Title": "The Breeding Plant",
     "Resource1": "Grain",
     "Resource2": null,
     "Description": null,
     "VP": "1",
-    "Snark": "Or is it wheat? Or corn? Seeds?"
+    "Snark": "Or is it wheat? Or corn? Seeds? Reed?"
   },
   "35": {
     "Type": "Resource",
@@ -367,7 +367,7 @@
     "Resource2": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "1",
-    "Snark": "Personally, I find grain to be much more filling than carrots"
+    "Snark": "Think of carrots like a self-insta-slaughtering animal."
   },
   "37": {
     "Type": "Resource",
@@ -377,7 +377,7 @@
     "Resource2": null,
     "Description": "You may trash this card for 1 Food.",
     "VP": "1",
-    "Snark": "Personally, I find grain to be much more filling than carrots"
+    "Snark": "Think of carrots like a self-insta-slaughtering animal."
   },
   "38": {
     "Type": "Resource",

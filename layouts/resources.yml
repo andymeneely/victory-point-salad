@@ -87,7 +87,7 @@ VP_img:
 VP:
     extends: VP_img
     color: black
-    y: -=10
+    y: -= 10
     font: Covered By Your Grace 75
     align: center
     valign: middle

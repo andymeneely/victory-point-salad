@@ -4,7 +4,7 @@ require_relative 'squib_helpers'
 deck = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
 
 Squib::Deck.new(cards: deck['Title'].size) do
-  use_layout file: %w(layouts/layout.yml layouts/backs.yml)
+  use_layout file: 'layouts/backs.yml'
 
   background color: :white
   build :color do
@@ -14,8 +14,9 @@ Squib::Deck.new(cards: deck['Title'].size) do
 
   text str: deck['Type'], layout: :type
 
-  # save_png prefix: 'special_back_' #all
-  save_png prefix: 'special_back_', range: [1,20,30,50,60,68]
+  save_png prefix: 'special_back_'
   # rect layout: :cut_line
-  # save_pdf file: 'backs.pdf', trim: 37
+  build :pdf do
+    save_pdf file: 'special_backs.pdf', trim: 37
+  end
 end
