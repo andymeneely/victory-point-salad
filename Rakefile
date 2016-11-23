@@ -19,6 +19,9 @@ task all: [:specials,
 desc 'Build default task with color'
 task color: [:with_color, :all]
 
+desc 'Build only the faces'
+task faces: [:specials, :resources]
+
 desc 'Build the main deck'
 task(:specials)       { load 'src/specials.rb' }
 

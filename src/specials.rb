@@ -37,7 +37,21 @@ Squib::Deck.new(cards: data['Title'].size) do
   %w(Bonus1 Bonus2).each do |bonus|
       range = [] # only put rectangles out in with non-nil texts
       data[bonus].each_with_index { |n, i| range << i unless n.nil? }
-      svg range: range, layout: "#{bonus}Box"
+      bonus_files = data[bonus].map do |b|
+       if b.nil?
+         nil
+       else
+         case b.length
+         when 1..4
+           'bonus_box_sm.svg'
+         when 5..7
+           'bonus_box_md.svg'
+         else
+           'bonus_box.svg'
+         end
+       end
+     end
+      svg range: range, layout: "#{bonus}Box", file: bonus_files
       svg file: data[bonus].map {|b| b.nil? ? nil : "#{b.downcase}.svg" },
           layout: "#{bonus}Img"
   end

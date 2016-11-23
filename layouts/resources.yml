@@ -28,7 +28,7 @@ Resource1Box:
 
 Resource1:
   extends: Resource1Box
-  x: += 25
+  x: += 130
   y: += 15
   width: 415
   height: 80
@@ -42,9 +42,9 @@ Resource1:
 
 Resource1Img:
   extends: Resource1Box
-  width: 90
-  height: 90
-  x: += 250
+  width: 80
+  height: 80
+  x: += 25
   y: += 10
 
 Resource2Box:

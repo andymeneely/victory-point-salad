@@ -40,7 +40,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="387.59051"
+     inkscape:cx="176.87622"
      inkscape:cy="438.09831"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
@@ -134,7 +134,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Shadow"
-     style="display:inline">
+     style="display:none">
     <path
        transform="matrix(1.0075801,0.03944962,-0.04447344,1.0773489,-4.009509,-248.71431)"
        style="display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5049)"
