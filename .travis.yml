@@ -1,0 +1,21 @@
+language: ruby
+sudo: false # taking advantage of container-based infrastructure
+cache: bundler # cache bundled gems from build to build
+rvm:
+  - 2.2.5
+
+addons:
+  apt:
+    packages:
+      - libgirepository1.0-dev # for gobject-introspection
+
+env:
+  - SQUIB_BUILD=pdf  # enable pdf generation
+
+script:
+  - mkdir ~/.fonts
+  - cp fonts/*.otf ~/.fonts
+  - cp fonts/*.ttf ~/.fonts
+  - fc-cache -f -v
+  - bundle exec rake
+  - bundle exec rake color
