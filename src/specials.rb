@@ -71,7 +71,7 @@ Squib::Deck.new(cards: data['Title'].size) do
 
   build(:pdf) do
     rect layout: :cut_line
-    save_pdf trim: 37.5
+    save_pdf trim: 37.5, file: 'specials.pdf'
   end
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"

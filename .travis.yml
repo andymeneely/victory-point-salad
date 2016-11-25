@@ -20,6 +20,8 @@ deploy:
   provider: releases
   api_key:
     secure: QK4tCH451AQ4eCDQExj43qKioHqv46Zoz+v1+klvbiCTFMg7SsQKDezr6DucBmmFgXVfx07JzHq4mLcCiL//+s84DCf1jm2RFYx4Gl1cZQZkqX1WCe4uOKdD2OkzaKSys5BY+IUYGd0Yy7wqJkUfZLrXVgKJSsxfIuUtFWPeGWvdJrTQFQuYuzCkhUx8sk8Wqq7wLc0e/rz9y95YSQWDf3TTkmQZsVN6qfA/i4hV31g9t9MrVjmGMeQlyRWEaZkT8tVivBDM5whc5+Dc2bpm6dlDLh9UEsljWMaDqfvl76gL9CVALDxeMFaZsuN2PzSktWf6XpmsB3lvRG4W/7ryRimZ/iQdyCl19c6tqOyHCkRtYsb9QUuFjwWDsLPUs3MzBNyglpUAnUG4hZ68ClGK/W/ojlvAxkGS4q5O+3tQTath3x85XTLLcrfRv7TR+nc8u3vHa85vdd5CSbgJXZv7PJGuj+XnN4f4n7YrR4M3rjcspN9Odz4wO28N4u0142II8po1GVnAG0TlRmuEYr8jyq2ML+VpIsmItXpdqccZMqkptRuUheZbfyW+SqCHrFcpVWv0QKyEy+Z5HF12LtzzmgHFkXhwZwWxfmSj545JxArMmz7olPXgbgtySbiGQn7qspJ2+Pi+ph9nJsWJteRVZIMuXR7HvuumvH/ELJms4CY=
-  file: _output/specials.pdf
+  file:
+    - _output/specials.pdf
+    - _output/resources.pdf
   on:
     repo: andymeneely/victory-point-salad
