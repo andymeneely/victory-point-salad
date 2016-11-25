@@ -5,31 +5,18 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     cairo (1.15.3-x64-mingw32)
       pkg-config (>= 1.1.5)
-    cairo (1.15.3-x86-mingw32)
-      pkg-config (>= 1.1.5)
     coderay (1.1.1)
     ffi (1.9.14-x64-mingw32)
-    ffi (1.9.14-x86-mingw32)
     formatador (0.2.5)
     gdk_pixbuf2 (3.0.9-x64-mingw32)
       glib2 (= 3.0.9)
-    gdk_pixbuf2 (3.0.9-x86-mingw32)
-      glib2 (= 3.0.9)
     gio2 (3.0.9-x64-mingw32)
-      glib2 (= 3.0.9)
-      gobject-introspection (= 3.0.9)
-    gio2 (3.0.9-x86-mingw32)
       glib2 (= 3.0.9)
       gobject-introspection (= 3.0.9)
     glib2 (3.0.9-x64-mingw32)
       cairo (>= 1.12.8)
       pkg-config
-    glib2 (3.0.9-x86-mingw32)
-      cairo (>= 1.12.8)
-      pkg-config
     gobject-introspection (3.0.9-x64-mingw32)
-      glib2 (= 3.0.9)
-    gobject-introspection (3.0.9-x86-mingw32)
       glib2 (= 3.0.9)
     guard (2.14.0)
       formatador (>= 0.2.4)
@@ -56,15 +43,10 @@ GEM
     nenv (0.3.0)
     nokogiri (1.6.8.1-x64-mingw32)
       mini_portile2 (~> 2.1.0)
-    nokogiri (1.6.8.1-x86-mingw32)
-      mini_portile2 (~> 2.1.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pango (3.0.9-x64-mingw32)
-      cairo (>= 1.14.0)
-      glib2 (= 3.0.9)
-    pango (3.0.9-x86-mingw32)
       cairo (>= 1.14.0)
       glib2 (= 3.0.9)
     pkg-config (1.1.7)
@@ -81,10 +63,6 @@ GEM
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
     rsvg2 (3.0.9-x64-mingw32)
-      cairo (>= 1.12.8)
-      gdk_pixbuf2 (= 3.0.9)
-      pango (>= 3.0.9)
-    rsvg2 (3.0.9-x86-mingw32)
       cairo (>= 1.12.8)
       gdk_pixbuf2 (= 3.0.9)
       pango (>= 3.0.9)
@@ -107,7 +85,6 @@ GEM
 
 PLATFORMS
   x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   guard
