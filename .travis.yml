@@ -6,7 +6,7 @@ rvm:
 addons:
   apt:
     packages:
-    - libgirepository
+    - libgirepository-dev
 env:
 - SQUIB_BUILD=pdf
 script:
