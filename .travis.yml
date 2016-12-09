@@ -4,11 +4,10 @@ sudo: false
 cache: bundler
 rvm:
 - 2.3.3
-# addons:
-#   apt:
-#     packages:
-    # - libgirepository-dev
-    # - libgirepository
+addons:
+  apt:
+    packages:
+    - libgirepository-dev
 env:
 - SQUIB_BUILD=pdf
 script:
