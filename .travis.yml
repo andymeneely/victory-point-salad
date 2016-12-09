@@ -8,6 +8,7 @@ addons:
   apt:
     packages:
     - libgirepository-dev
+    - libpango1.0-dev
 env:
 - SQUIB_BUILD=pdf
 script:
