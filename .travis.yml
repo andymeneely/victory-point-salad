@@ -6,7 +6,7 @@ rvm:
 addons:
   apt:
     packages:
-    - gobject-introspection
+    - libgirepository
 env:
 - SQUIB_BUILD=pdf
 script:
