@@ -1,14 +1,14 @@
 language: ruby
 dist: trusty
-sudo: false
+sudo: required
 cache: bundler
 rvm:
 - 2.3.3
-addons:
-  apt:
-    packages:
-    - libgirepository-dev
-    - libpango1.0-dev
+# addons:
+#   apt:
+#     packages:
+#     - libgirepository-dev
+#     - libpango1.0-dev
 env:
 - SQUIB_BUILD=pdf
 script:
