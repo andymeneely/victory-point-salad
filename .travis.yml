@@ -1,12 +1,14 @@
 language: ruby
+dist: trusty
 sudo: false
 cache: bundler
 rvm:
 - 2.3.3
-addons:
-  apt:
-    packages:
-    - libgirepository-dev
+# addons:
+#   apt:
+#     packages:
+    # - libgirepository-dev
+    # - libgirepository
 env:
 - SQUIB_BUILD=pdf
 script:
