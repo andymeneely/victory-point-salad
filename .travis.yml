@@ -3,10 +3,10 @@ sudo: false
 cache: bundler
 rvm:
 - 2.3.3
-addons:
-  apt:
-    packages:
-    - libgirepository1.0-dev
+# addons:
+#   apt:
+#     packages:
+#     - libgirepository1.0-dev
 env:
 - SQUIB_BUILD=pdf
 script:
