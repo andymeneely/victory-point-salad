@@ -110,6 +110,7 @@ VP:
   font: Covered By Your Grace 62
   align: center
   valign: middle
+  hint: red
 
 cut_line:
   x: 37

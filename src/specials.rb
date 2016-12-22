@@ -5,6 +5,7 @@ trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
 requires_icon = "💥 "
 
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
+File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
@@ -52,7 +53,7 @@ Squib::Deck.new(cards: data['Title'].size) do
        end
      end
       svg range: range, layout: "#{bonus}Box", file: bonus_files
-      svg file: data[bonus].map {|b| b.nil? ? nil : "#{b.downcase}.svg" },
+      svg file: data[bonus].map {|b| b.nil? ? nil : "#{b.downcase.strip}.svg" },
           layout: "#{bonus}Img"
   end
 
@@ -74,6 +75,5 @@ Squib::Deck.new(cards: data['Title'].size) do
     save_pdf trim: 37.5, file: 'specials.pdf'
   end
 
-  save_json cards: @cards.size, deck: data, file: "data/deck.json"
   puts "Done. #{data['Title'].size} cards"
 end

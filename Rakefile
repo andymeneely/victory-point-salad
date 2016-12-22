@@ -54,14 +54,19 @@ task :with_color do
   ENV['SQUIB_BUILD'] += ',color'
 end
 
-desc 'Build the rules sheet'
-task :rules do
-  load 'src/rules.rb' # convert markdown
-  erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
-  File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/docs/RULES.html"
+desc 'Enable PDF builds'
+task :with_pdf do
+  Squib.enable_build_globally :pdf
 end
+
+# desc 'Build the rules sheet'
+# task :rules do
+#   load 'src/rules.rb' # convert markdown
+#   erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
+#   File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
+#   @launch ||= []
+#   @launch << "file:///#{Dir.pwd}/docs/RULES.html"
+# end
 
 desc 'Open up resources after building. Put last, e.g. rake rules launch'
 task :launch do
