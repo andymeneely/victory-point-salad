@@ -17,7 +17,7 @@ Squib::Deck.new(cards: deck['Title'].size, width: 1125, height: 825) do
   save_png prefix: 'resource_back_'
 
   build :pdf do
-    svg file: 'crop_landscape.svg'
-    save_pdf file: 'backs.pdf', crop_marks: true
+    # svg file: 'crop_landscape.svg'
+    save_pdf file: 'resource_backs.pdf', crop_marks: true
   end
 end
