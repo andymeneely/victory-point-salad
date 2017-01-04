@@ -13,8 +13,8 @@
    height="75"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="rules_figures_vp.svg">
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="rules_figure_vp.svg">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -23,8 +23,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="77.863512"
-     inkscape:cy="87.603655"
+     inkscape:cx="32.488512"
+     inkscape:cy="59.103655"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -85,8 +85,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.33797455px;line-height:125%;font-family:'Covered By Your Grace';-inkscape-font-specification:'Covered By Your Grace';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="36.420322"
        y="1023.5477"
-       id="text5282"
-       sodipodi:linespacing="125%"><tspan
+       id="text5282"><tspan
          sodipodi:role="line"
          id="tspan5284"
          x="36.420322"
