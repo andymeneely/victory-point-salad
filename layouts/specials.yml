@@ -1,5 +1,5 @@
 title:
-  font: Rock Salt 38
+  font: Rock Salt 12
   align: center
   x: 95
   y: 75
@@ -8,7 +8,7 @@ title:
   spacing: -52
 
 type:
-  font: Covered By Your Grace 36
+  font: Covered By Your Grace 12
   x: 560
   y: 240
   width: 170
@@ -31,7 +31,7 @@ Bonus1:
   width: 250
   height: 90
   font: Covered By Your Grace
-  font_size: 50
+  font_size: 16
   align: left
   valign: middle
   fill_color: black
@@ -65,13 +65,13 @@ Power:
 PowerText:
   extends: Power
   font: Covered By Your Grace, Sans
-  font_size: 40
+  font_size: 12.8
   align: center
   valign: middle
 
 PreReq:
   font: Covered By Your Grace, Segoe UI Symbol, Sans
-  font_size: 35
+  font_size: 11.2
   spacing: -8
   align: left
   x: 95
@@ -80,36 +80,37 @@ PreReq:
 
 Description:
   x: 85
-  y: 525
+  y: 530
   width: 655
   height: 305
   align: center
   valign: bottom
   font: Archivo Narrow, Sans
-  font_size: 35
+  font_size: 12
   spacing: -12
 
 Snark:
-  font: Sans Italic 19
+  font: Times New Roman,Serif Italic 6.5
   x: 215
-  y: 850
+  y: 857
   width: 515
   height: 165
   valign: middle
   align: center
 
 VP_img:
-  width: 120
-  height: 120
+  width: 100
+  height: 100
   x: 95
-  y: 885
+  y: 910
 VP:
   extends: VP_img
   color: black
   y: -= 10
-  font: Covered By Your Grace 62
+  font: Covered By Your Grace 16
   align: center
   valign: middle
+  # hint: red
 
 cut_line:
   x: 37

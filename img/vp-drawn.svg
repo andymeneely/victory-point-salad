@@ -9,11 +9,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="75"
-   height="75"
+   width="90"
+   height="90"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r15299"
    sodipodi:docname="vp-drawn.svg">
   <sodipodi:namedview
      id="base"
@@ -23,29 +23,30 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568543"
-     inkscape:cx="30.9617"
-     inkscape:cy="42.08538"
+     inkscape:cx="29.200762"
+     inkscape:cy="24.665342"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-page="true"
      inkscape:snap-grids="true"
-     inkscape:snap-to-guides="true" />
+     inkscape:snap-to-guides="true"
+     inkscape:snap-global="false" />
   <defs
      id="defs4">
     <inkscape:path-effect
        effect="vonkoch"
        id="path-effect5904"
        is_visible="true"
-       ref_path="m 0.35355341,1002.4315 99.49999959,0"
-       generator="m 0.35355341,1052.3241 33.16666659,0 m 33.166666,0 33.166667,0"
+       ref_path="M 0.35355341,1002.4315 H 99.853553"
+       generator="M 0.35355341,1052.3241 H 33.52022 m 33.166666,0 h 33.166667"
        similar_only="false"
        nbgenerations="1"
        drawall="true"
@@ -59,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -67,10 +68,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-977.36218)">
+     transform="translate(0,-962.36218)">
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 72.501822,980.99414 c -8.50788,2.25102 -22.716567,4.04025 -35.257738,4.05449 -12.54117,-0.0142 -26.171735,-1.56793 -34.6796142,-3.81896 m 0.726747,-1.09012 c 0,41.47835 6.411182,55.98195 33.7785972,70.46025 m 0,0 0,0.1879 m 0,0 c 0.0595,-0.031 0.114961,-0.063 0.17427,-0.094 m 0,0 c 0.05931,0.031 0.114772,0.063 0.17427,0.094 m 0,0 0,-0.1879 m -1.695743,0.2423 c 27.36742,-14.4784 36.051203,-29.2261 36.051203,-70.70444"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 86.996936,965.03015 c -10.223361,2.34671 -27.297007,4.212 -42.36691,4.22684 -15.069901,-0.0148 -31.448857,-1.63458 -41.6722168,-3.9813 m 0.8732842,-1.13645 c 0,43.24146 7.7038976,58.36156 40.5895236,73.45536 m 0,0 v 0.1958 m 0,0 c 0.07149,-0.032 0.138142,-0.066 0.209409,-0.098 m 0,0 c 0.07127,0.032 0.137913,0.066 0.209409,0.098 m 0,0 v -0.1958 m -2.037663,0.2525 c 32.885632,-15.0938 43.320364,-30.4684 43.320364,-73.70984"
        id="path3767-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccc" />
