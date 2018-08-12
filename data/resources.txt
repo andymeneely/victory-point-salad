@@ -113,7 +113,6 @@ Description |                                    |
          VP | 1                                  |
       Snark | Or is it brick? Pottery? Ok fine,  |
             | let's just call it the red one.    |
-            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
@@ -297,7 +296,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Cuddly Animal                  |
   Resource1 | Sheep                              |
@@ -309,7 +307,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Expensive Animal               |
   Resource1 | Cattle                             |
@@ -320,7 +317,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Expensive Animal               |
   Resource1 | Cattle                             |
@@ -331,7 +327,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Expensive Animal               |
   Resource1 | Cattle                             |
@@ -342,7 +337,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 2                                  |
       Title | The Windfall Animal                |
   Resource1 | Wild Boar                          |
@@ -354,7 +348,6 @@ Description | You may trash this card for 2 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 2                                  |
       Title | The Windfall Animal                |
   Resource1 | Wild Boar                          |
@@ -366,7 +359,6 @@ Description | You may trash this card for 2 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Breeding Plant                 |
   Resource1 | Grain                              |
@@ -382,7 +374,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Breeding Plant                 |
   Resource1 | Grain                              |
@@ -398,7 +389,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Breeding Plant                 |
   Resource1 | Grain                              |
@@ -414,7 +404,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 1                                  |
       Title | The Strange Combo                  |
   Resource1 | Wood                               |
@@ -427,7 +416,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 2                                  |
       Title | The Expensive Plant                |
   Resource1 | Carrot                             |
@@ -440,7 +428,6 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 2                                  |
       Title | The Expensive Plant                |
   Resource1 | Carrot                             |
@@ -453,7 +440,6 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Rare Resource                  |
   Resource1 | Glass                              |
@@ -465,7 +451,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Rare Resource                  |
   Resource1 | Glass                              |
@@ -477,7 +462,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Rare Resource                  |
   Resource1 | Glass                              |
@@ -489,7 +473,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Inherently Valuable Resource   |
   Resource1 | Gold                               |
@@ -502,7 +485,6 @@ Description | You may trash 1 Gold for any 1 Res |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Inherently Valuable Resource   |
   Resource1 | Gold                               |
@@ -515,10 +497,8 @@ Description | You may trash 1 Gold for any 1 Res |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | The Inherently Valuable Resource   |
-            |                                    |
   Resource1 | Gold                               |
   Resource2 |                                    |
 Description | You may trash 1 Gold for any 1 Res |
@@ -529,7 +509,6 @@ Description | You may trash 1 Gold for any 1 Res |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | Free Food!                         |
   Resource1 | Food                               |
@@ -542,7 +521,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | Free Food!                         |
   Resource1 | Food                               |
@@ -555,7 +533,6 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-            |                                    |
         Qty | 3                                  |
       Title | Free Food!                         |
   Resource1 | Food                               |
