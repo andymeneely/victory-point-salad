@@ -89,13 +89,6 @@ task :launch do
   end
 end
 
-desc 'Build all PDFs'
-task pdf: [:rules] do
-  sh 'wkhtmltopdf --page-size Letter docs/RULES.html _output/RULES.pdf'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/RULES.pdf"
-end
-
 desc 'Enable figure building for future builds'
 task :with_figures do
   Squib.enable_build_globally :figures
