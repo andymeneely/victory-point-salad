@@ -1,6 +1,6 @@
 body {
   font-family: 'Bitter';
-  font-size: 11pt;
+  font-size: 9pt;
   /*width: 49%;
   -webkit-columns: 0 0;*/
   /*-webkit-column-count: 2;
@@ -10,18 +10,19 @@ body {
 }
 
 .title{
-  font-size: 45pt;
+  font-size: 18pt;
   font-weight: bolder;
   text-align: center;
 }
 
 .snark{
   float: right;
-  width: 150px;
+  width: 8em;
   padding-left: 0.5em;
   margin-left: 1em;
   font-style: italic;
   border-left: 2pt solid black;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -34,7 +35,7 @@ h1, h2, h3 {
   display: block;
   padding: 0;
   text-align: center;
-  box-shadow: 4px 4px 100px #111;
+  /* box-shadow: 4px 4px 100px #111; */
   font-size: 85%;
 }
 
@@ -50,4 +51,8 @@ h1, h2, h3 {
 
 blockquote {
   font-size: 90%;
+}
+
+ol,ul {
+  padding-left: 2em;
 }

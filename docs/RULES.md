@@ -1,10 +1,14 @@
-<div class="title">Victory Point Salad</div>
+<div class="title">
+  Victory Point Salad
+</div>
 
 Objective {#objective}
 =========
 
 <div class="snark">
-  Duh. Every game has veeps.
+  Duh.
+
+  Every game has veeps.
 </div>
 
 The objective of this game is to get the most victory points.
@@ -15,7 +19,7 @@ Setup
 =====
 
 <div class="snark">
-Like most setups of victory point salad games, the setup looks much harder than it actually is. The main thing to remember is "number of players plus one" for the size of each Purchase Row.
+Like most board games, the setup looks much harder than it actually is. We just need to be detailed for you noobs.
 </div>
 
 1. Separate all cards into piles by their backs.
@@ -44,7 +48,9 @@ You will have a **Hand** of cards. In your Hand, you are limited to having 5 car
 Place Trashed cards back in the box, or in an agreed-upon receptacle.
 
 <div class="snark">
-You do not receive any extra VPs for having a well-organized Tableau. Or will you??
+You do not receive any extra VPs for having a well-organized Tableau.
+
+Or will you??
 </div>
 
 Your **Tableau** is the array of already-played, face-up cards in front of you. You may have an unlimited number of cards on your Tableau. You may *not* Trash a card on your Tableau, unless you play another card that allows you to. You may arrange your Tableau however you wish, but you must allow your opponents see any of your Tableau cards upon request.
@@ -57,7 +63,7 @@ These are usually little cubes or meeples, but this is a cheap game.
 </div>
 
 <div class="figure figure-left">
-  <img src="rules_resource_figure_36.png" width="200px"><br>
+  <img src="rules_resource_figure_36.png" width="300px"><br>
 </div>
 
 **Resource Cards** cards provide the raw materials for you to build your Tableau. Some may have a Description, but all will have one or two **Resources**.
@@ -71,12 +77,11 @@ This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Catt
 <div class="clear-both"/>
 
 <div class="snark">
-Every card is special. Every. Card.
-</div>
+Every card is special.
 
-<div class="figure figure-right">
-  <img src="rules_special_figure_20.png" width="150px">
-  <img src="rules_special_figure_27.png" width="150px">
+Every.
+
+Card.
 </div>
 
 All other types of cards are considered to be **Specials**, denoted by their portrait orientation. This game has the following types of Specials:
@@ -86,6 +91,14 @@ All other types of cards are considered to be **Specials**, denoted by their por
   * **Starters** are Specials that could be in your starting hand, potentially, and you will see early game.
   * **Midgames** are Specials that will appear after gameplay has gone past the Starters.
   * **Endgames** are Specials that you will see at the very end of the game.
+
+<div class="figure figure-right">
+  <img src="rules_special_figure_20.png" width="160px">
+</div>
+
+<div class="figure figure-right">
+  <img src="rules_special_figure_27.png" width="160px">
+</div>
 
 Specials can have the following:
 
@@ -111,7 +124,7 @@ On your turn, you get two **actions**. A given action can be one of the followin
 Remember, if your Hand contains more than 5 cards, you must trash your Hand down to 5 before the end of your turn.
 
 <div class="snark">
-This is handy. Evil if you use it right.
+This is an evil rule right here.
 </div>
 
 At any time, and without taking an action, you may Trash a card from your Hand without costing an action.

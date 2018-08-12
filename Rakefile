@@ -61,11 +61,23 @@ end
 
 desc 'Build the rules sheet'
 task :rules do
-#   load 'src/rules.rb' # convert markdown
-#   erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
-#   File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
-#   @launch ||= []
-#   @launch << "file:///#{Dir.pwd}/docs/RULES.html"
+  load 'src/rules.rb' # convert markdown
+  erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
+  File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
+  sh <<-EOS.gsub(/\n/, '')
+      wkhtmltopdf
+      --page-width    3.3in
+      --page-height   5.3in
+      --margin-left   0.15in
+      --margin-right  0.15in
+      --margin-bottom 0.15in
+      --margin-top    0.15in
+      --footer-right "[page] of [topage]"
+      --footer-left "Rules"
+      --footer-font-name "Archivo Narrow"
+      --footer-font-size "10"
+        docs/RULES.html _output/RULES.pdf
+    EOS
 end
 
 desc 'Open up resources after building. Put last, e.g. rake rules launch'
