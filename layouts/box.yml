@@ -8,7 +8,7 @@ coverart:
   justify: true
 
 flap: &flap
-  font: Sans Extrabold 80
+  font: Sans Extrabold 25
   align: center
   valign: middle
 flap_north:
@@ -29,7 +29,7 @@ bullet:
   extends: title
   y: += 50
   align: right
-  font: Sans Extrabold 36
+  font: Sans Extrabold 12
   color: white
 bullet_rect:
   extends: bullet
@@ -58,7 +58,7 @@ signature:
   extends: title
   y: += 900
   align: right
-  font: Sans Extrabold 28
+  font: Sans Extrabold 9
 
 copyright:
   extends: title

@@ -1,14 +1,14 @@
 title:
-    font: Rock Salt 46
+    font: Rock Salt 15
     align: center
     x: 75
     y: 75
     width: 975
     ellipsize: none
-    spacing: -70
+    spacing: -22
 
 type:
-    font: Covered By Your Grace 36
+    font: Covered By Your Grace 12
     x: 75
     y: 865
     width: 170
@@ -20,7 +20,7 @@ text: &text
 
 descriptor: &descriptor
     font: Sans
-    font_size: 30
+    font_size: 9
 
 Resource1Box:
   x: 100
@@ -34,7 +34,7 @@ Resource1:
   height: 80
   radius: 15
   font: Covered By Your Grace
-  font_size: 50
+  font_size: 16
   align: left
   valign: middle
   fill_color: black
@@ -67,11 +67,11 @@ Description:
     align: center
     valign: middle
     font: Archivo Narrow, Covered By Your Grace,Sans
-    font_size: 35
-    spacing: -12
+    font_size: 11
+    spacing: -3
 
 Snark:
-    font: Sans Italic 19
+    font: Sans Italic 6
     x: 260
     y: 540
     width: 700
@@ -88,7 +88,7 @@ VP:
     extends: VP_img
     color: black
     y: -= 10
-    font: Covered By Your Grace 75
+    font: Covered By Your Grace 24
     align: center
     valign: middle
 
