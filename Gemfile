@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'squib', git: 'git://github.com/andymeneely/squib', branch: 'master'
+gem 'squib', '0.14.2'
 gem 'guard'
 gem 'guard-rake'
 gem 'launchy'
