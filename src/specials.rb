@@ -4,7 +4,7 @@ require_relative 'squib_helpers'
 trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
 requires_icon = "💥 "
 
-data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
+data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'Qty'
 File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
@@ -67,8 +67,8 @@ Squib::Deck.new(cards: data['Title'].size) do
   svg layout: :TypeImg
 
   save_png prefix: 'special_'
-  showcase file: 'special_showcase.png', fill_color: :black,
-           range: [3, 15, 20, 69]
+  # showcase file: 'special_showcase.png', fill_color: :black,
+  #          range: [3, 15, 20, 69]
 
   build(:pdf) do
     rect layout: :cut_line

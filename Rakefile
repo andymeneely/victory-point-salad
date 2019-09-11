@@ -7,7 +7,7 @@ require 'erb'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'Build the specials deck by default black-and-white'
-task default: [:specials]
+task default: [:all]
 
 desc 'Build everything black-and-white'
 task all: [:specials,
