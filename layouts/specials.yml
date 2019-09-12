@@ -1,82 +1,83 @@
 title:
-  font: Rock Salt 12
+  font: Alfa Slab One Bold 12
   align: center
   x: 95
   y: 75
   width: 635
   ellipsize: none
-  spacing: -52
+  spacing: -10
 
 type:
-  font: Covered By Your Grace 12
-  x: 560
+  font: Archivo Narrow 10
+  x: 575
   y: 240
-  width: 170
-  align: center
-TypeImg:
+  width: 180
+  height: 75
+  align: left
+  valign: middle
+  color: white
+type_background:
   extends: type
-  y: -= 20
-  width: native
-  file: type_img.svg
+  x: -= 15
+  width: 300
+  radius: 12
+  fill_color: black
 
-Bonus1Box:
-  x: 85
-  y: 240
-  radius: 15
+
+
 
 Bonus1:
-  extends: Bonus1Box
-  x: += 100
-  y: += 8
+  x: 185
+  y: 248
   width: 250
   height: 90
-  font: Covered By Your Grace
-  font_size: 16
+  font: Archivo Narrow, Sans 12
   align: left
   valign: middle
   fill_color: black
   color: black
 
 Bonus1Img:
-  extends: Bonus1Box
-  x: += 25
-  y: += 20
-  width: 60
-  height: 60
-
-Bonus2Box:
-  extends: Bonus1Box
-  y: += 85
+  x: 105
+  y: 260
+  width: 75
+  height: 75
 
 Bonus2:
   extends: Bonus1
-  y: += 85
+  y: += 100
 
 Bonus2Img:
   extends: Bonus1Img
-  y: += 85
+  y: += 100
 
 Power:
-  x: 280
-  y: 310
-  width: 460
+  x: 330
+  y: 320
+  width: 300
   height: 300
 
 PowerText:
   extends: Power
-  font: Covered By Your Grace, Sans
-  font_size: 12.8
+  font: Archivo Black, Sans 10
+  spacing: -30
+  x: += 15
+  y: += 15
+  width: -= 30
+  height: -= 30
   align: center
   valign: middle
 
 PreReq:
-  font: Covered By Your Grace, Segoe UI Symbol, Sans
-  font_size: 11.2
+  font: Archivo Narrow, Segoe UI Symbol, Sans
+  font_size: 10
   spacing: -8
   align: left
   x: 95
-  y: 455
-  width: 250
+  y: 505
+  width: 350
+  word_wrap: true
+  ellipsize: false
 
 Description:
   x: 85
@@ -105,12 +106,29 @@ VP_img:
   y: 910
 VP:
   extends: VP_img
-  color: black
+  color: white
   y: -= 10
-  font: Covered By Your Grace 16
+  font: Archivo Narrow 12
   align: center
   valign: middle
   # hint: red
+
+cut_zone:
+  x: 37
+  y: 37
+  width: 750
+  height: 1050
+  radius: 37
+  stroke_width: 1.0
+  stroke_color: red
+
+safe_zone:
+  extends: cut_zone
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  stroke_color: blue
 
 cut_line:
   x: 37

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'squib', '0.14.2'
+gem 'squib'
 gem 'guard'
 gem 'guard-rake'
 gem 'launchy'

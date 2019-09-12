@@ -13,7 +13,7 @@
    height="100"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="vp.svg">
   <defs
      id="defs4" />
@@ -25,14 +25,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="89.687702"
+     inkscape:cx="-16.312298"
      inkscape:cy="35.081374"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1018"
-     inkscape:window-x="-8"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
@@ -43,7 +43,8 @@
     <sodipodi:guide
        orientation="1,0"
        position="50,111.07143"
-       id="guide2985" />
+       id="guide2985"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -63,16 +64,9 @@
      id="layer1"
      transform="translate(0,-952.36218)">
     <path
-       sodipodi:nodetypes="cccc"
-       inkscape:connector-curvature="0"
-       id="path3767"
-       d="m 50,957.84226 c -18.059382,0 -37.738624,-2.23595 -50,-5.48008 0,59.76022 10.317875,78.91092 50,99.78482 z"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.06814361;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.06814361;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 49.5,957.84226 c 18.059382,0 37.738624,-2.23595 50,-5.48008 0,59.76022 -10.317875,78.91092 -50,99.78482 z"
-       id="path8086"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       d="M 0 0 C 0 59.503141 10.239784 78.745503 49.5 99.515625 L 49.5 99.785156 C 49.585353 99.740258 49.664918 99.695273 49.75 99.650391 C 49.835082 99.695273 49.914647 99.740258 50 99.785156 L 50 99.515625 C 89.260216 78.745503 99.5 59.503141 99.5 0 C 87.294934 3.2292315 67.741066 5.4580988 49.75 5.4785156 C 31.758934 5.4580988 12.205066 3.2292315 0 0 z "
+       transform="translate(0,952.36218)"
+       id="path3767" />
   </g>
 </svg>

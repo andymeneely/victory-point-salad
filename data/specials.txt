@@ -28,12 +28,11 @@ Description | Can be bought by trashing 1 of any |
       Power | Building                           |
 Description | You may now build buildings.       |
          VP | 20                                 |
-      Snark | Really, it's just a coincidence th |
-            | at we happen to also be housed in  |
-            | a building. In fact, we built our  |
-            | own building. We did not need a bu |
-            | ilding building building building  |
-            | building.                          |
+      Snark | It's a total coincidence that we a |
+            | re housed in a building. In fact,  |
+            | we built our own building. We did  |
+            | not need a building building build |
+            | ing building building.             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -48,12 +47,11 @@ Description | You may now build buildings.       |
       Power | Building                           |
 Description | You may now build buildings.       |
          VP | 20                                 |
-      Snark | Really, it's just a coincidence th |
-            | at we happen to also be housed in  |
-            | a building. In fact, we built our  |
-            | own building. We did not need a bu |
-            | ilding building building building  |
-            | building.                          |
+      Snark | It's a total coincidence that we a |
+            | re housed in a building. In fact,  |
+            | we built our own building. We did  |
+            | not need a building building build |
+            | ing building building.             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -68,12 +66,11 @@ Description | You may now build buildings.       |
       Power | Building                           |
 Description | You may now build buildings.       |
          VP | 20                                 |
-      Snark | Really, it's just a coincidence th |
-            | at we happen to also be housed in  |
-            | a building. In fact, we built our  |
-            | own building. We did not need a bu |
-            | ilding building building building  |
-            | building.                          |
+      Snark | It's a total coincidence that we a |
+            | re housed in a building. In fact,  |
+            | we built our own building. We did  |
+            | not need a building building build |
+            | ing building building.             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -85,7 +82,7 @@ Description | You may now build buildings.       |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Military                           |
+      Power | Childish Aggression                |
 Description | At round start, player with most s |
             | oldiers may trash any 1 available  |
             | Special from purchase row. In a ti |
@@ -104,7 +101,7 @@ Description | At round start, player with most s |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Military                           |
+      Power | Childish Aggression                |
 Description | At round start, player with most s |
             | oldiers may trash any 1 available  |
             | Special from purchase row. In a ti |
@@ -123,7 +120,7 @@ Description | At round start, player with most s |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Military                           |
+      Power | Childish Aggression                |
 Description | At round start, player with most s |
             | oldiers may trash any 1 available  |
             | Special from purchase row. In a ti |
@@ -515,6 +512,21 @@ Description | You do not need to pay any require |
             ╭------------------------------------╮
        Type | Starter                            |
         Qty | 1                                  |
+      Title | The "Free" Soldier                 |
+     Bonus1 | Soldier                            |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 | Childish Aggression                |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 10                                 |
+      Snark | What's the catch?                  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
+        Qty | 1                                  |
       Title | The Obligatory Trader              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -539,7 +551,7 @@ Description | You may substitute 2 different Res |
      Trash1 |                                    |
      Trash2 |                                    |
   Requires1 | Building                           |
-  Requires2 | Military                           |
+  Requires2 | Childish Aggression                |
       Power |                                    |
 Description | At round start, player with most s |
             | oldiers may trash any 1 available  |
@@ -757,13 +769,10 @@ Description |                                    |
      Bonus2 |                                    |
      Trash1 | Wood                               |
      Trash2 |                                    |
-  Requires1 | Military                           |
+  Requires1 | Childish Aggression                |
   Requires2 |                                    |
       Power |                                    |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
+Description |                                    |
          VP | 40                                 |
       Snark | I'm pretty sure this strategy work |
             | ed for me at least once.           |
@@ -776,13 +785,10 @@ Description | At round start, player with most s |
      Bonus2 |                                    |
      Trash1 | Wood                               |
      Trash2 |                                    |
-  Requires1 | Military                           |
+  Requires1 | Childish Aggression                |
   Requires2 |                                    |
       Power |                                    |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
+Description |                                    |
          VP | 40                                 |
       Snark | I'm pretty sure this strategy work |
             | ed for me at least once.           |
@@ -790,18 +796,33 @@ Description | At round start, player with most s |
             ╭------------------------------------╮
        Type | Midgame                            |
         Qty | 1                                  |
+      Title | There's Always a Golem             |
+     Bonus1 | Soldier                            |
+     Bonus2 |                                    |
+     Trash1 | Clay                               |
+     Trash2 |                                    |
+  Requires1 | Childish Aggression                |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 50                                 |
+      Snark | Tank and spank always works.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        Qty | 1                                  |
       Title | The Military Commitment            |
      Bonus1 | Soldier                            |
      Bonus2 | Soldier                            |
-     Trash1 | Clay                               |
+     Trash1 | Stone                              |
      Trash2 |                                    |
-  Requires1 | Military                           |
+  Requires1 | Childish Aggression                |
   Requires2 |                                    |
-      Power |                                    |
+      Power | Resource Hog                       |
 Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
+            | oldiers may also trash any 1 avail |
+            | able Resource from purchase row. I |
+            | n a tie, nobody trashes.           |
          VP | 50                                 |
       Snark | You're in it now.                  |
             ╰------------------------------------╯
@@ -992,9 +1013,9 @@ Description | Upon playing, retrieve any Trashed |
      Bonus2 |                                    |
      Trash1 |                                    |
      Trash2 |                                    |
-  Requires1 | Military                           |
+  Requires1 | Childish Aggression                |
   Requires2 |                                    |
-      Power | Payoff Spoiler                     |
+      Power | Take That!                         |
 Description | Upon Endgame initiation, you may t |
             | rash 1 available Payoff card of yo |
             | ur choosing.                       |
@@ -1176,8 +1197,7 @@ Description | 30 VP for each Soldier, +30 additi |
             | onal VP if you end the game with t |
             | he most soldiers.                  |
          VP | ?                                  |
-      Snark | Aggression does have its benefits. |
-            |                                    |
+      Snark | Aggression does have benefits.     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |

@@ -2,7 +2,7 @@ require 'squib'
 require_relative 'squib_helpers'
 
 trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> "
-requires_icon = "💥 "
+requires_icon = "◎ "
 
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'Qty'
 File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
@@ -12,14 +12,12 @@ id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i;
 Squib::Deck.new(cards: data['Title'].size) do
   use_layout file: 'layouts/specials.yml'
   background color: :white
-  build :color do
-    png file: 'table.png'
-    svg file: 'steno pad.svg'
-  end
 
+  svg file: 'vp.svg', layout: :VP_img
   text str: data['Title'], layout: :title
+
+  rect layout: :type_background, width: 300
   text str: data['Type'], layout: :type
-  svg file: 'vp-drawn.svg', layout: :VP_img
 
   %w(Trash1 Trash2).each do |bonus|
     data[bonus].map! { |str| str && (trash_icon + str)}
@@ -36,23 +34,6 @@ Squib::Deck.new(cards: data['Title'].size) do
                     .map {|req| req.compact.join("\n")}
 
   %w(Bonus1 Bonus2).each do |bonus|
-      range = [] # only put rectangles out in with non-nil texts
-      data[bonus].each_with_index { |n, i| range << i unless n.nil? }
-      bonus_files = data[bonus].map do |b|
-       if b.nil?
-         nil
-       else
-         case b.length
-         when 1..4
-           'bonus_box_sm.svg'
-         when 5..7
-           'bonus_box_md.svg'
-         else
-           'bonus_box.svg'
-         end
-       end
-     end
-      svg range: range, layout: "#{bonus}Box", file: bonus_files
       svg file: data[bonus].map {|b| b.nil? ? nil : "#{b.downcase.strip}.svg" },
           layout: "#{bonus}Img"
   end
@@ -61,19 +42,26 @@ Squib::Deck.new(cards: data['Title'].size) do
     text str: data[key], layout: key, markup: true
   end
 
-  svg file: data['Power'].map { |p| p.nil? ? nil : 'power.svg' }, layout: :Power
-  text str: data['Power'], layout: :PowerText
+  svg file: data['Power'].map { |p| p.nil? ? nil : 'power.svg' },
+      layout: :Power
+  text str: data['Power'], layout: :PowerText,
+       font_size: data['Power'].map { |p| p.to_s.length > 15 ? 10 : 12 }
 
-  svg layout: :TypeImg
+  rect layout: :cut_zone
+  rect layout: :safe_zone
+
 
   save_png prefix: 'special_'
   # showcase file: 'special_showcase.png', fill_color: :black,
   #          range: [3, 15, 20, 69]
 
-  build(:pdf) do
+  save_sheet rows: 2, columns: 7, prefix: 'special_sheet_'
+
+
+  # build(:pdf) do
     rect layout: :cut_line
     save_pdf trim: 37.5, file: 'specials.pdf'
-  end
+  # end
 
   puts "Done. #{data['Title'].size} cards"
 end

@@ -14,7 +14,7 @@
    viewBox="0 0 170 100"
    id="svg6444"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="type_img.svg">
   <defs
      id="defs6446" />
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="98.426731"
-     inkscape:cy="44.951516"
+     inkscape:zoom="3.959798"
+     inkscape:cx="42.535743"
+     inkscape:cy="33.022793"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      units="px" />
@@ -54,17 +54,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-952.36216)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 159.74988,1036.1122 c -33.40978,-2.0926 -3.77474,-8.6329 -99.810465,-3.4361 -12.48076,0.6754 -28.61193,-0.6289 -51.1895399,2.7218"
-       id="path4138"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4140"
-       d="m 10.892858,1043.2551 c 41.766275,-2.8854 54.015754,-10.2772 151.000012,-0.7143"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect814"
+       width="181.54507"
+       height="95.723892"
+       x="1.2499999"
+       y="955.755"
+       ry="12.857142"
+       rx="12.857142" />
   </g>
 </svg>
