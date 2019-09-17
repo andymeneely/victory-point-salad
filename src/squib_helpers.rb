@@ -39,7 +39,7 @@ def bonusbox_width(strs, font_size)
   return strs.inject([]) do |widths, str|
     if str.nil?
       widths << 0
-    else 
+    else
       width = str.strip.scan(/./).inject(0) do |width, c|
         width + map[c]*font_size
       end
@@ -51,4 +51,24 @@ end
 def wordwall(arr, title, loc)
   prng = Random.new(1234)
   arr.uniq.shuffle(random: prng).insert(loc, title).join(' ')
+end
+
+def merge_front_back(faces, backs, per_sheet = 8)
+  z = faces.zip(backs)
+  merged = []
+  z.each_slice(per_sheet) do |pairs|
+    pairs.each { |(face, _back)| merged << face }
+    pairs.each { |(_face, back)| merged << back }
+  end
+  # We need to reverse the rows of backs so they line up front-to-back
+  # Assume 2 rows
+  merged2 = []
+  merged.each_slice(per_sheet / 2) do |row|
+    if row[0].to_s.match? /_back_/
+      merged2 += row.reverse # rows of back should be reversed
+    else
+      merged2 += row         # rows of faces NOT reversed
+    end
+  end
+  return merged2
 end
