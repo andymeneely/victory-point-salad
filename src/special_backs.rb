@@ -13,5 +13,5 @@ Squib::Deck.new(cards: deck['Title'].size) do
   save_png prefix: 'special_back_'
   # rect layout: :cut_line
   save_pdf file: 'special_backs.pdf', trim: 37
-  
+
 end

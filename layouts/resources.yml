@@ -1,5 +1,5 @@
 title:
-    font: Rock Salt 15
+    font: Alfa Slab One Bold 12
     align: center
     x: 75
     y: 75
@@ -8,7 +8,7 @@ title:
     spacing: -22
 
 type:
-    font: Covered By Your Grace 12
+    font: Archivo Narrow 10
     x: 75
     y: 865
     width: 170
@@ -33,8 +33,7 @@ Resource1:
   width: 415
   height: 80
   radius: 15
-  font: Covered By Your Grace
-  font_size: 16
+  font: Archivo Narrow 12
   align: left
   valign: middle
   fill_color: black
@@ -66,7 +65,7 @@ Description:
     height: 300
     align: center
     valign: middle
-    font: Archivo Narrow, Covered By Your Grace,Sans
+    font: Archivo Narrow
     font_size: 11
     spacing: -3
 
@@ -88,7 +87,8 @@ VP:
     extends: VP_img
     color: black
     y: -= 10
-    font: Covered By Your Grace 24
+    font: Archivo Narrow 16
+    color: white
     align: center
     valign: middle
 
