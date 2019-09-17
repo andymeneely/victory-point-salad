@@ -23,9 +23,6 @@ type_background:
   radius: 12
   fill_color: black
 
-
-
-
 Bonus1:
   x: 185
   y: 248

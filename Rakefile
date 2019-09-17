@@ -14,6 +14,7 @@ task all: [:specials,
            :special_backs,
            :resources,
            :resource_backs,
+           :bundle,
            :marketing,
            :ladders]
 
@@ -34,6 +35,9 @@ task(:resources)      { load 'src/resources.rb' }
 
 desc 'Build the resource backs'
 task(:resource_backs) { load 'src/resource_backs.rb' }
+
+desc 'Make a big PDF front-and-back.'
+task(:bundle) { load 'src/bundle.rb' }
 
 desc 'Build ladder cards'
 task(:ladders)        { load 'src/ladders.rb' }

@@ -14,7 +14,7 @@
    viewBox="0 0 100 100"
    id="svg5392"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="food.svg">
   <defs
      id="defs5394" />
@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-56.190742"
-     inkscape:cy="51.896738"
+     inkscape:zoom="2.8"
+     inkscape:cx="23.763172"
+     inkscape:cy="48.52517"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -54,20 +54,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-952.36216)">
-    <g
-       id="g5235"
-       transform="translate(5.1770325,-5.1770246)">
-      <circle
-         r="40.821743"
-         cy="1007.5392"
-         cx="44.822968"
-         id="path4140"
-         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         id="path6"
-         d="m 21.123989,981.85422 c -1.006619,1.53533 -1.254798,3.42127 -0.865862,5.59924 0.463679,2.59723 1.866852,5.52415 3.894886,8.27992 4.056285,5.51162 10.603841,10.27622 16.428833,10.99862 l 0.407152,0.052 0.262199,0.3139 21.43455,25.8746 c 2.136452,0.5106 3.515886,0.1927 4.233147,-0.5176 0.722789,-0.7159 1.056084,-2.0984 0.520755,-4.2918 l -46.315438,-46.309 z m 41.406764,0.25524 -11.978314,11.97833 c -1.32479,1.32453 -1.336271,2.78201 -0.652239,4.37453 l 0.282955,0.65913 -0.517552,0.49676 -4.022617,3.83629 3.267155,3.2671 3.819149,-4.0331 0.496795,-0.5244 0.658863,0.2863 c 1.674203,0.7215 3.261854,0.6919 4.491921,-0.5382 l 11.978316,-11.97829 -1.555968,-1.55597 -7.790096,7.78667 -1.455838,-1.45917 7.786456,-7.78642 -1.659304,-1.65986 -7.786454,7.78669 -1.459475,-1.45928 7.786458,-7.78645 -1.690211,-1.69066 z m -22.52519,26.72354 -20.468672,19.5304 c -0.505077,2.092 -0.181497,3.3988 0.50033,4.0743 0.682044,0.6754 2.001315,0.9852 4.067546,0.4862 l 19.123347,-20.1993 -3.222551,-3.8916 z"
-         style="fill:#333333;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-    </g>
+    <circle
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4140"
+       cx="50"
+       cy="1002.3622"
+       r="40.821743" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#333333;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 26.301021,976.6772 c -1.006619,1.53533 -1.254798,3.42127 -0.865862,5.59924 0.463679,2.59723 1.866853,5.52415 3.894886,8.27992 4.056285,5.51162 10.603842,10.27624 16.428834,10.99864 l 0.407152,0.052 0.262199,0.3139 21.43455,25.8746 c 2.136452,0.5106 3.515885,0.1927 4.233147,-0.5176 0.722789,-0.7159 1.056084,-2.0984 0.520754,-4.2918 L 26.301244,976.67708 Z m 41.406764,0.25524 -11.978313,11.97833 c -1.32479,1.32453 -1.336271,2.78201 -0.652239,4.37453 l 0.282955,0.65913 -0.517552,0.49676 -4.022617,3.83629 3.267155,3.26712 3.819149,-4.03312 0.496795,-0.5244 0.658863,0.2863 c 1.674203,0.7215 3.261854,0.6919 4.491921,-0.5382 l 11.978316,-11.97829 -1.555969,-1.55597 -7.790095,7.78667 -1.455838,-1.45917 7.786455,-7.78642 -1.659304,-1.65986 -7.786454,7.78669 -1.459475,-1.45928 7.786458,-7.78645 z m -22.525189,26.72356 -20.468672,19.5304 c -0.505077,2.092 -0.181497,3.3988 0.50033,4.0743 0.682044,0.6754 2.001315,0.9852 4.067546,0.4862 l 19.123347,-20.1993 z"
+       id="path6" />
   </g>
 </svg>

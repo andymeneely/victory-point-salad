@@ -1,5 +1,5 @@
             ╭------------------------------------╮
-       Type | Setup                              |
+       Type | Starting Player                    |
         Qty | 1                                  |
       Title | The Coveted Starting Player        |
      Bonus1 |                                    |

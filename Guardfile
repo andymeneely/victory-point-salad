@@ -60,3 +60,16 @@ group :faces do
     watch %r{img/.*}
   end
 end
+
+def watch_squibfiles(cxt)
+  cxt.watch %r{.*\.xlsx$}
+  cxt.watch %r{.*\.rb$}
+  cxt.watch %r{.*\.yml}
+  cxt.watch %r{img/.*}
+end
+
+group :bundle do
+  guard 'rake', :task => 'bundle' do
+    watch_squibfiles(self)
+  end
+end
