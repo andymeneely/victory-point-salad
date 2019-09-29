@@ -56,7 +56,19 @@ group :faces do
   guard 'rake', :task => 'faces' do
     watch %r{.*\.xlsx$}
     watch %r{.*\.rb$}
+    watch %r{.*\.yml$}
+    watch %r{img/.*}
+  end
+end
+
+group :rules do
+  guard 'rake', :task => 'rules' do
+    watch %r{.*\.xlsx$}
+    watch %r{.*\.rb$}
     watch %r{.*\.yml}
+    watch %r{.*\.md$}
+    watch %r{.*\.svg$}
+    watch %r{.*\.css$}
     watch %r{img/.*}
   end
 end

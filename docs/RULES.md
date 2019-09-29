@@ -6,9 +6,7 @@ Objective {#objective}
 =========
 
 <div class="snark">
-  Duh.
-
-  Every game has veeps.
+  Duh. Spend veeps to get veeps. Got it.
 </div>
 
 The objective of this game is to get the most victory points.
@@ -24,18 +22,22 @@ Like most board games, the setup looks much harder than it actually is. We just 
 
 1. Separate all cards into piles by their backs.
 2. Separate each **Engine card** by its name and place each Engine in its own face-up pile.
-3. Place the **Ladder** cards face-up where everyone can easily see them.
-4. Decide on **player colors**, and place those cubes at the bottom of each **Ladder** card.
+3. Place **Ladder** cards face-up where everyone can easily see them.
+4. Place one player color cubes at the bottom of each **Ladder**.
 3. Shuffle all **Resource Cards** and place them in a pile face down.
-4. **Draw 3 Resource cards** for each player and place them face-up on their Tableau
-5. Give each player one **Blocker** card (i.e. The Artificial Need) and place face-up in their tableau.
-6. Shuffle the **Endgame** cards and the pile face-down. This pile will be known as the *Special Pile*.
+4. **Draw 3 Resource cards** for each player and place them face-up on their Tableau.
+5. Give each player one **Blocker** card and place face-up in their Tableau.
+6. Shuffle the **Endgame** cards face-down. This pile will be known as the *Special Pile*.
 7. Place the **Initiate Endgame** card face-down on top of the Special Pile.
-8. Shuffle the **Midgame** cards and place face-down on top of the Special Pile.
+8. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile.
 9.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
 10. Distribute **3 Starter Cards** to the *Hands* of each player.
 11. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.
-12. Decide at random **who goes first**. We suggest the person who most recently won a game with Victory Points. Place *The Coveted Starting Player* on that player's Tableau.
+12. Decide who **goes first**. We suggest the person who most recently won a game with Victory Points. Place *The Coveted Starting Player* on that player's Tableau.
+
+<div class="figure">
+  <img src="rules_figure_layout.svg" width="100%"/>
+</div>
 
 The Table
 =========
@@ -43,12 +45,10 @@ The Table
 <div class="snark">
 Ah, the magical hand limit of 5.
 </div>
-You will have a **Hand** of cards. In your Hand, you are limited to having 5 cards by the end of your turn. At any time, you may **Trash** a card from your Hand for no cost or penalty.
-
-Place Trashed cards back in the box, or in an agreed-upon receptacle.
+You will have a **Hand** of Special cards. In your Hand, you are limited to having 5 cards by the end of your turn. At any time, you may **Trash** a card from your Hand. Place Trashed cards back in the box.
 
 <div class="snark">
-You do not receive any extra VPs for having a well-organized Tableau.
+You won't get extra veeps for having a well-organized tableau.
 
 Or will you??
 </div>
@@ -62,14 +62,14 @@ The Cards
 These are usually little cubes or meeples, but this is a cheap game.
 </div>
 
-<div class="figure figure-left">
-  <img src="rules_resource_figure_36.png" width="300px"><br>
+<div class="figure figure-left card">
+  <img src="rules_figure_resource_36.png" width="250px"><br>
 </div>
 
 **Resource Cards** cards provide the raw materials for you to build your Tableau. Some may have a Description, but all will have one or two **Resources**.
 
 <div class="snark">
-These kinds of games have not advanced past a medieval society.
+These games have not advanced past a medieval society.
 </div>
 
 This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Cattle, Grain, Carrot, Glass, Gold, Silk, and Food. Resource cards may not be exchanged, e.g. you may *not* "make change". Some Resource cards have descriptions that allow extra abilities to be done with the Resource(s) on the card.
@@ -77,11 +77,7 @@ This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Catt
 <div class="clear-both"/>
 
 <div class="snark">
-Every card is special.
-
-Every.
-
-Card.
+Every card is special. Every. Card.
 </div>
 
 All other types of cards are considered to be **Specials**, denoted by their portrait orientation. This game has the following types of Specials:
@@ -92,17 +88,17 @@ All other types of cards are considered to be **Specials**, denoted by their por
   * **Midgames** are Specials that will appear after gameplay has gone past the Starters.
   * **Endgames** are Specials that you will see at the very end of the game.
 
-<div class="figure figure-right">
-  <img src="rules_special_figure_20.png" width="160px">
+<div class="figure figure-right card">
+  <img src="rules_figure_special_20.png" width="140px">
 </div>
 
-<div class="figure figure-right">
-  <img src="rules_special_figure_27.png" width="160px">
+<div class="figure figure-right card">
+  <img src="rules_figure_special_27.png" width="140px">
 </div>
 
 Specials can have the following:
 
-  * **Resource**. These are raw materials that the Special provides, as in Resource Cards.
+  * **Resource**. These are raw materials that the Special provides.
   * **Trash Requirement**: To play this card from your hand, you must trash the noted Resource from your Tableau. This resource may be a Resource card or Special - as long as it has the Resource(s) you need.
   * **Power**. This card, when on your Tableau, will have a permanent power you may use.
   * **Requires Power**: To play this card from your hand, you must have the denoted Power on your Tableau (e.g. Building, Military)

@@ -1,6 +1,6 @@
             ╭------------------------------------╮
        Type | Starting Player                    |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Coveted Starting Player        |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -17,7 +17,7 @@ Description | Can be bought by trashing 1 of any |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
-        Qty | 3                                  |
+        qty | 3                                  |
       Title | The Building Building Building     |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -36,45 +36,7 @@ Description | You may now build buildings.       |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Building Building Building     |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 | Stone                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Building                           |
-Description | You may now build buildings.       |
-         VP | 20                                 |
-      Snark | It's a total coincidence that we a |
-            | re housed in a building. In fact,  |
-            | we built our own building. We did  |
-            | not need a building building build |
-            | ing building building.             |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Building Building Building     |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 | Stone                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Building                           |
-Description | You may now build buildings.       |
-         VP | 20                                 |
-      Snark | It's a total coincidence that we a |
-            | re housed in a building. In fact,  |
-            | we built our own building. We did  |
-            | not need a building building build |
-            | ing building building.             |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
+        qty | 3                                  |
       Title | The Military Strategy              |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
@@ -93,45 +55,7 @@ Description | At round start, player with most s |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Military Strategy              |
-     Bonus1 | Soldier                            |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Childish Aggression                |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
-         VP | 20                                 |
-      Snark | This strategy worked for me once.  |
-            | I think.                           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Military Strategy              |
-     Bonus1 | Soldier                            |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Childish Aggression                |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
-         VP | 20                                 |
-      Snark | This strategy worked for me once.  |
-            | I think.                           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | The Grain Engine                   |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -148,24 +72,7 @@ Description | You may trash 1 Grain for any 1 Re |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
-        Qty | 2                                  |
-      Title | The Grain Engine                   |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 | Wood                               |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Bake Bread                         |
-Description | You may trash 1 Grain for any 1 Re |
-            | source, any number of times.       |
-         VP | 20                                 |
-      Snark | A solid choice, but be sure to com |
-            | mit to it.                         |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | The Animal Engine                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -182,60 +89,7 @@ Description | You may trash 1 Animal for any 1 R |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
-        Qty | 2                                  |
-      Title | The Animal Engine                  |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 | Clay                               |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Insta-slaughter                    |
-Description | You may trash 1 Animal for any 1 R |
-            | esource, any number of times.      |
-         VP | 20                                 |
-      Snark | Let's just say you should be happy |
-            |  this card has no artwork.         |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Ladder Engine                  |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Trash-n-Climb                      |
-Description | As an action, once per turn, you m |
-            | ay trash 1 Special in your hand or |
-            |  1 Resource card on your tableau t |
-            | o Climb a Ladder 1 space.          |
-         VP | 20                                 |
-      Snark | See you at the top!                |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
-      Title | The Ladder Engine                  |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power | Trash-n-Climb                      |
-Description | As an action, once per turn, you m |
-            | ay trash 1 Special in your hand or |
-            |  1 Resource card on your tableau t |
-            | o Climb a Ladder 1 space.          |
-         VP | 20                                 |
-      Snark | See you at the top!                |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Engine                             |
-        Qty | 3                                  |
+        qty | 3                                  |
       Title | The Ladder Engine                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -253,61 +107,7 @@ Description | As an action, once per turn, you m |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Blocker                            |
-        Qty | 4                                  |
-      Title | The Artificial Need                |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | To trash this card, you must trash |
-            |  3 Food in one turn before Endgame |
-            | .                                  |
-         VP | -100                               |
-      Snark | Food is how we keep you from makin |
-            | g powerful moves. You're welcome.  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Blocker                            |
-        Qty | 4                                  |
-      Title | The Artificial Need                |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | To trash this card, you must trash |
-            |  3 Food in one turn before Endgame |
-            | .                                  |
-         VP | -100                               |
-      Snark | Food is how we keep you from makin |
-            | g powerful moves. You're welcome.  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Blocker                            |
-        Qty | 4                                  |
-      Title | The Artificial Need                |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | To trash this card, you must trash |
-            |  3 Food in one turn before Endgame |
-            | .                                  |
-         VP | -100                               |
-      Snark | Food is how we keep you from makin |
-            | g powerful moves. You're welcome.  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Blocker                            |
-        Qty | 4                                  |
+        qty | 4                                  |
       Title | The Artificial Need                |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -325,7 +125,7 @@ Description | To trash this card, you must trash |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Early Investment               |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -342,7 +142,7 @@ Description | You may only play this card before |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | Grain Breed!                       |
      Bonus1 | Grain                              |
      Bonus2 | Grain                              |
@@ -358,23 +158,7 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 2                                  |
-      Title | Grain Breed!                       |
-     Bonus1 | Grain                              |
-     Bonus2 | Grain                              |
-     Trash1 | Grain                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | You may trash this card for 1 Food |
-            | .                                  |
-         VP | 20                                 |
-      Snark | Grain: the sheep of plants.        |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Wildcard Building              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -391,39 +175,7 @@ Description | You may trash 1 Silk for any 2 Res |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 3                                  |
-      Title | Sheep Breed!                       |
-     Bonus1 | Sheep                              |
-     Bonus2 | Sheep                              |
-     Trash1 | Sheep                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description |                                    |
-         VP | 30                                 |
-      Snark | Sheep: the rabbits of farm animals |
-            | .                                  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Starter                            |
-        Qty | 3                                  |
-      Title | Sheep Breed!                       |
-     Bonus1 | Sheep                              |
-     Bonus2 | Sheep                              |
-     Trash1 | Sheep                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description |                                    |
-         VP | 30                                 |
-      Snark | Sheep: the rabbits of farm animals |
-            | .                                  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Starter                            |
-        Qty | 3                                  |
+        qty | 3                                  |
       Title | Sheep Breed!                       |
      Bonus1 | Sheep                              |
      Bonus2 | Sheep                              |
@@ -439,7 +191,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Special                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Early Sheep Climb!                 |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -455,7 +207,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Stone Building Building Buildi |
             | ng                                 |
      Bonus1 |                                    |
@@ -474,7 +226,7 @@ Description | You do not need to pay any require |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Wood Building Building Buildin |
             | g                                  |
      Bonus1 |                                    |
@@ -493,7 +245,7 @@ Description | You do not need to pay any require |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Clay Building Building Buildin |
             | g                                  |
      Bonus1 |                                    |
@@ -511,7 +263,7 @@ Description | You do not need to pay any require |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The "Free" Soldier                 |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
@@ -526,7 +278,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Obligatory Trader              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -544,7 +296,7 @@ Description | You may substitute 2 different Res |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Military Building              |
      Bonus1 | Soldier                            |
      Bonus2 | Soldier                            |
@@ -563,7 +315,7 @@ Description | At round start, player with most s |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Cattle Engine                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -581,7 +333,7 @@ Description | You may trash 1 Cattle for 2 Food, |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Even More Sheep!                   |
      Bonus1 | Sheep                              |
      Bonus2 | Sheep                              |
@@ -596,7 +348,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | Even More Grain!                   |
      Bonus1 | Grain                              |
      Bonus2 | Grain                              |
@@ -612,23 +364,7 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
-      Title | Even More Grain!                   |
-     Bonus1 | Grain                              |
-     Bonus2 | Grain                              |
-     Trash1 | Grain                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | You may trash this card for 1 Food |
-            |                                    |
-         VP | 30                                 |
-      Snark | Grain: the rabbits of plants.      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Cheap Building                 |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -644,7 +380,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Combo Building                 |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -660,7 +396,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Red Building                   |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -678,7 +414,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Cheap Stone Building           |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -695,7 +431,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Red Stone Building             |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -713,7 +449,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Premium Building               |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -729,7 +465,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Cattle Breed!                      |
      Bonus1 | Cattle                             |
      Bonus2 | Cattle                             |
@@ -745,7 +481,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Eat More Veggies!                  |
      Bonus1 | Food                               |
      Bonus2 | Food                               |
@@ -763,7 +499,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | The Arms Race                      |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
@@ -779,23 +515,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
-      Title | The Arms Race                      |
-     Bonus1 | Soldier                            |
-     Bonus2 |                                    |
-     Trash1 | Wood                               |
-     Trash2 |                                    |
-  Requires1 | Childish Aggression                |
-  Requires2 |                                    |
-      Power |                                    |
-Description |                                    |
-         VP | 40                                 |
-      Snark | I'm pretty sure this strategy work |
-            | ed for me at least once.           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | There's Always a Golem             |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
@@ -810,7 +530,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Military Commitment            |
      Bonus1 | Soldier                            |
      Bonus2 | Soldier                            |
@@ -828,7 +548,7 @@ Description | At round start, player with most s |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Sheep Climb!                       |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -847,7 +567,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
+        qty | 2                                  |
       Title | Grain Climb!                       |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -865,25 +585,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 2                                  |
-      Title | Grain Climb!                       |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 | Grain                              |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | Upon playing, climb 1 rung on a La |
-            | dder                               |
-         VP | 20                                 |
-      Snark | Thematically this card makes no se |
-            | nse. We needed it for game reasons |
-            | .                                  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Clay Climb!                        |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -900,7 +602,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Stone Climb!                       |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -917,7 +619,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Free Climb!                        |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -935,7 +637,7 @@ Description | Upon playing, climb 1 rung on a La |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Combo Thing-in-a-Set           |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -952,7 +654,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Animal Thing-in-a-Set          |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -970,7 +672,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Expensive Thing-in-a-Set       |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -988,7 +690,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Unfair Deck Dive               |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1007,7 +709,7 @@ Description | Upon playing, retrieve any Trashed |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Take That! Tactics                 |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1026,7 +728,7 @@ Description | Upon Endgame initiation, you may t |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The One-and-Done Card              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1046,7 +748,7 @@ Description | You may trash this card from your  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Payoff Gambit                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1064,7 +766,7 @@ Description | On your first turn in Endgame, you |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Payoff Payoff                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1081,7 +783,7 @@ Description | 40 VPs for each Payoff you have pl |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Foodie Payoff                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1097,7 +799,7 @@ Description | 50 VPs for each Cattle, Carrot     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Unexpected Payoff              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1114,7 +816,7 @@ Description | You may not do any substitutions t |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Diversified Strategy Payoff    |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1132,7 +834,7 @@ Description | 40 VP for each type: Sheep, Wild B |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Investment Payoff              |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1149,7 +851,7 @@ Description | 60 VP if you have Invested plus 10 |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Unused Resources Payoff        |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1166,7 +868,7 @@ Description | 30 VP for each Wood, Sheep, and Gr |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Payoff With Math               |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1184,7 +886,7 @@ Description | Take the total number of Glass and |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Military Payoff                |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1201,7 +903,7 @@ Description | 30 VP for each Soldier, +30 additi |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Building Payoff Building       |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1217,7 +919,7 @@ Description | 10 VP for each Building you've pla |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Things-in-a-Set Payoff         |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1233,7 +935,7 @@ Description | 20/40/70 VP if you have 1/2/3 Thin |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | The Unfulfilled Promises Payoff    |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1251,7 +953,7 @@ Description | 40 VP for each Clay, Stone, Silk,  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Transition                         |
-        Qty | 1                                  |
+        qty | 1                                  |
       Title | Initiate Endgame!                  |
      Bonus1 |                                    |
      Bonus2 |                                    |

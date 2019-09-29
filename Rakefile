@@ -70,8 +70,8 @@ task :rules do
   File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
   sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-      --page-width    3.3in
-      --page-height   5.3in
+      --page-width    5in
+      --page-height   3.5in
       --margin-left   0.15in
       --margin-right  0.15in
       --margin-bottom 0.15in

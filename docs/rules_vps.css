@@ -7,6 +7,7 @@ body {
   -webkit-column-width: 150px;*/
   /*-webkit-column-gap: 1em;*/
   text-align: justify;
+
 }
 
 .title{
@@ -17,25 +18,35 @@ body {
 
 .snark{
   float: right;
-  width: 8em;
+  width: 10em;
   padding-left: 0.5em;
   margin-left: 1em;
   font-style: italic;
-  border-left: 2pt solid black;
+  border: 1pt solid black;
+  border-left: 4pt solid black;
   text-align: center;
+  page-break-inside: avoid;
+}
+
+h1 {
+  font-size: 1.5em;
 }
 
 h1, h2, h3 {
   font-family: 'Bitter';
   clear: both;
+  page-break-after: avoid;
+}
+
+.card {
+  box-shadow: 4px 4px 16px #111;
 }
 
 .figure img{
-  /*border: 1pt solid black;*/
   display: block;
   padding: 0;
   text-align: center;
-  /* box-shadow: 4px 4px 100px #111; */
+
   font-size: 85%;
 }
 
@@ -54,5 +65,6 @@ blockquote {
 }
 
 ol,ul {
+  margin: 0;
   padding-left: 2em;
 }
