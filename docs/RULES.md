@@ -6,7 +6,7 @@ Objective {#objective}
 =========
 
 <div class="snark">
-  Duh. Spend veeps to get veeps. Got it.
+  Spend veeps to get veeps. Got it.
 </div>
 
 The objective of this game is to get the most victory points.
@@ -24,6 +24,9 @@ Like most board games, the setup looks much harder than it actually is. We just 
 2. Separate each **Engine card** by its name and place each Engine in its own face-up pile.
 3. Place **Ladder** cards face-up where everyone can easily see them.
 4. Place one player color cubes at the bottom of each **Ladder**.
+<div class="snark">
+Prefer starting off with analysis paralysis? Try our Drafting Variant.
+</div>
 3. Shuffle all **Resource Cards** and place them in a pile face down.
 4. **Draw 3 Resource cards** for each player and place them face-up on their Tableau.
 5. Give each player one **Blocker** card and place face-up in their Tableau.
@@ -80,7 +83,7 @@ This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Catt
 Every card is special. Every. Card.
 </div>
 
-All other types of cards are considered to be **Specials**, denoted by their portrait orientation. This game has the following types of Specials:
+All other types of cards are **Specials**, denoted by their portrait orientation. This game has the following types of Specials:
 
   * **Engines** are always available for purchase
   * **Blockers** have negative effects on your Tableau that must get rid of
@@ -88,13 +91,17 @@ All other types of cards are considered to be **Specials**, denoted by their por
   * **Midgames** are Specials that will appear after gameplay has gone past the Starters.
   * **Endgames** are Specials that you will see at the very end of the game.
 
-<div class="figure figure-right card">
-  <img src="rules_figure_special_20.png" width="140px">
+<div class="figure">
+  <span class="card">
+    <img src="rules_figure_special_20.png" width="40%">
+  </span>
+  <span class="card">
+    <img src="rules_figure_special_27.png" width="40%">
+  </span>
 </div>
 
-<div class="figure figure-right card">
-  <img src="rules_figure_special_27.png" width="140px">
-</div>
+<!-- <div class="figure figure-right card">
+</div> -->
 
 Specials can have the following:
 
@@ -125,9 +132,9 @@ This is an evil rule right here.
 
 At any time, and without taking an action, you may Trash a card from your Hand without costing an action.
 
-**_The Chain Rule_**. There is a special case where you may play multiple Specials for one action. If, upon playing a Special card, you have leftover Resources on the cards involved, you may play another Special using that resource. This can continue as long as you have leftover resources on the cards.
+**_The Chain Rule_**. There is a special case where you may play multiple Specials for one action. If, upon playing a Special card, you have leftover Resources on the cards involved, you may play another Special using that resource. This can continue as long as you have leftover resources.
 
-> Suppose you have three Resource Cards: Wood+Clay, Stone, and Sheep. You play Special that requires a Clay, but now there's 1 Wood leftover. So you play a second Special that requires Wood and Stone, using up your Stone card. This counts as one Action. With no more leftover Resources in the chain, the Sheep must be part of a separate transaction.
+> Suppose you have three Resource Cards: Wood+Clay, Stone, and Sheep. You play Special that requires a Clay, but now there's 1 Wood left over. So you play a second Special that requires Wood and Stone, using up your Stone card. This counts as one Action. With no more leftover Resources in the chain, the Sheep must be part of a separate transaction.
 
 Stealing the *The Coveted Starting Player* may be part of a chain rule that was initiated by placing a Special, and vice-versa.
 
@@ -135,9 +142,9 @@ Stealing the *The Coveted Starting Player* may be part of a chain rule that was 
 
 **Substitutions**. Some bonuses allow you to replace one resource with another when Trashing. These substitutions can be limited per-turn, or unlimited. These substitutions may *only* be made as part of a Trash move in playing another card.
 
-> For example, you have played *The Grain Engine*. Later, you can play *Sheep Breed!*, by trashing a *Grain* instead of a *Sheep*.
+> For example, you have played *The Grain Engine*. Later, you can play *Sheep Breed!*, by trashing a Grain instead of a Sheep.
 
-**Ladders**. When a card says that you can *Climb* a ladder, move your cube up one level. You choose which ladder to climb. For *The Point Ladder*, points are scored non-cumulatively at the *end* of the game. For *The Resource Ladder*, take your bonus immediately. A *Draw* means that you draw a face-down card from the Resource pile. A *Take* means you may take a face-up Resource card from the purchase rows.
+**Ladders**. When a card says that you may "Climb" a ladder, move your cube up one level on the Ladder card of your choice. For *The Point Ladder*, points are scored non-cumulatively at the *end* of the game. For *The Resource Ladder*, take your bonus immediately. A *Draw* means that you draw a face-down card from the Resource pile. A *Take* means you may take a face-up Resource card from the purchase rows.
 
 **At the end of the round**, replenish the purchase area with new cards in the following manner:
 
@@ -147,7 +154,7 @@ Stealing the *The Coveted Starting Player* may be part of a chain rule that was 
 Endgame
 =======
 
-When you draw the *Initiate Endgame* card, the Endgame is immediately initiated. Give the *Initiate Endgame* card to the player with *The Coveted Starting Player* to denote that they started Endgame.
+The Endgame phase starts immediately when the *Initiate Endgame* card drawn. Give the *Initiate Endgame* card to the player with *The Coveted Starting Player* to denote that they started Endgame.
 
 All players get their final chance to resolve their Blocker cards.
 If any players cannot remove their Blocker (i.e. they cannot trash enough Food), then the Blocker stays on their Tableau through the end of the game.
@@ -156,10 +163,10 @@ Remove all available Resource cards, Engine cards, and Midgame cards from the pu
 
 Play starts with "The Coveted Starting Player" and continues to the left. Each player gets *two actions* per turn during Endgame.
 
-At any time, the current player may declare "Game Over". Once Game Over is declared, players continue to take turns until every player has had the same number of Endgame turns. That is, continue turns until you reach the owner of the Initiate Endgame card. This may or may not be the Starting Player if the card has changed hands.
+At any time, the current player may declare "Game Over". Once Game Over is declared, players continue to take turns until every player has had the same number of Endgame turns. That is, continue turns until you reach the owner of the Initiate Endgame card. This may or may not be the player with *The Coveted Starting Player* card (if the card has moved during the phase).
 
 <div class="snark">
-  Ties are rare. Trust me.
+  With this many veeps, ties are rare right?
 </div>
 
 Add up the points on your Tableau to determine the winner. In the case of a tie, you share the victory.
@@ -168,7 +175,7 @@ Solo Campaign Variant
 =====================
 
 <div class="snark">
-  To play this game by yourself, first accept your own loneliness.
+  To play this game by yourself, you must first accept your own loneliness.
 </div>
 
 To play this game by yourself, take in 4 Resource and 4 Specials into your hand to start. Purchase rows have 3 cards available each for Resources and Specials. Take 2 Blockers instead of 1.
@@ -176,3 +183,12 @@ To play this game by yourself, take in 4 Resource and 4 Specials into your hand 
 During the Payoff phase, you only have 4 actions (two "turns").
 
 Your goal at the end of the game is to reach 250 points. At the end of each game, if you reached this goal, then you may keep any number of cards on your tableau that collectively are worth whatever exceeded your game goal. Your second game goal is 280, then 300.
+
+Analysis Paralysis Drafting Variant
+===================================
+
+<div class="snark">
+  Real gamers know how to shop for the best deals.
+</div>
+
+During setup, deal out 3 Specials to each player face-down. Select a card to start with in your hand and pass the rest to your left. Continue in this fashion until all of the drafted cards are selected. Then, do the same with 3 Resources to each player.
