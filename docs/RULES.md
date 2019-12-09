@@ -136,6 +136,8 @@ At any time, and without taking an action, you may Trash a card from your Hand w
 
 > Suppose you have three Resource Cards: Wood+Clay, Stone, and Sheep. You play Special that requires a Clay, but now there's 1 Wood left over. So you play a second Special that requires Wood and Stone, using up your Stone card. This counts as one Action. With no more leftover Resources in the chain, the Sheep must be part of a separate transaction.
 
+**_Immediate Effects_** Any abilities or resources granted by playing a card take effect immediately when played, even in the middle of a chain.
+
 Stealing the *The Coveted Starting Player* may be part of a chain rule that was initiated by placing a Special, and vice-versa.
 
 > Suppose you have a Wood+Clay card, and you play a Special that requires Clay. With your leftover Wood, you may steal *The Coveted Starting Player*.
@@ -184,7 +186,7 @@ During the Payoff phase, you only have 4 actions (two "turns").
 
 Your goal at the end of the game is to reach 250 points. At the end of each game, if you reached this goal, then you may keep any number of cards on your tableau that collectively are worth whatever exceeded your game goal. Your second game goal is 280, then 300.
 
-Analysis Paralysis Drafting Variant
+Analysis Paralysis Variant
 ===================================
 
 <div class="snark">
@@ -192,3 +194,12 @@ Analysis Paralysis Drafting Variant
 </div>
 
 During setup, deal out 3 Specials to each player face-down. Select a card to start with in your hand and pass the rest to your left. Continue in this fashion until all of the drafted cards are selected. Then, do the same with 3 Resources to each player.
+
+Lunchbreak Rules
+================
+
+<div class="snark">
+  Real gamers know how to shop for the best deals.
+</div>
+
+For a
