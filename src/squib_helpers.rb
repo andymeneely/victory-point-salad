@@ -1,4 +1,5 @@
 require 'json'
+require_relative 'version'
 
 # Generates a JSON output from deck for easy Git tracking.
 def save_json(cards: 1, deck: {}, file: 'deck.json')

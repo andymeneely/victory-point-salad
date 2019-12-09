@@ -16,7 +16,8 @@ task all: [:specials,
            :resource_backs,
            :bundle,
            :marketing,
-           :ladders]
+           # :ladders
+         ]
 
 desc 'Build default task with color'
 task color: [:with_color, :all]

@@ -53,12 +53,14 @@ Squib::Deck.new(cards: data['Title'].size) do
   text str: data['Power'], layout: :PowerText,
        font_size: data['Power'].map { |p| p.to_s.length > 15 ? 10 : 12 }
 
+  text str: VictoryPointSalad::VERSION, layout: :version
+
   # rect layout: :cut_zone
   rect layout: :safe_zone
   save_png prefix: 'special_', trim: 37.5, trim_radius: 37.5
   # showcase file: 'special_showcase.png', fill_color: :black,
   #          range: [3, 15, 20, 69]
-  save_sheet prefix: 'special_sheet_', columns: 12
+  save_sheet prefix: 'special_sheet_', columns: 13
 
   build(:pdf) do
     # rect layout: :cut_line

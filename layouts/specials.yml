@@ -87,7 +87,6 @@ Description:
   font: Archivo Narrow, Segoe UI Symbol
   font_size: 11
   spacing: -5
-  hint: red
 
 Snark:
   font: Times New Roman, Serif Italic 7
@@ -137,3 +136,8 @@ cut_line:
   radius: 0
   stroke_width: 3.0
   stroke_color: black
+
+version:
+  x: 65
+  y: 1040
+  font: Serif 7
