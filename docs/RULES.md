@@ -199,7 +199,7 @@ Lunchbreak Rules
 ================
 
 <div class="snark">
-  Real gamers know how to shop for the best deals.
+  Let's see if we can squeeze ourselves into your worklife, too.
 </div>
 
-For a
+For a shorter, more predictable gameplay time, deal 5 cards out on each purchase row regardless of how many players are playing. Always remove 2 cards at the end of each round.
