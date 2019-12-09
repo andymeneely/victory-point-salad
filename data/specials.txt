@@ -9,11 +9,13 @@
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Go First!                          |
-Description | Can be bought by trashing 1 of any |
-            |  Resource.                         |
+Description | Can be stolen by any player on the |
+            | ir turn if they trash 1 of any Res |
+            | ource.                             |
          VP | 40                                 |
       Snark | Because just going around in a cir |
             | cle is not strategic enough.       |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -33,6 +35,7 @@ Description | You may now build buildings.       |
             | we built our own building. We did  |
             | not need a building building build |
             | ing building building.             |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -44,14 +47,17 @@ Description | You may now build buildings.       |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Childish Aggression                |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
+      Power | Army                               |
+Description | At round start, player with the mo |
+            | st soldiers places the Army token  |
+            | on any card in a purchase row. Any |
+            | one who takes that card must pay t |
+            | his person 1 Resource Card. In a t |
+            | ie, nobody places the token.       |
          VP | 20                                 |
       Snark | This strategy worked for me once.  |
             | I think.                           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -69,6 +75,7 @@ Description | You may trash 1 Grain for any 1 Re |
          VP | 20                                 |
       Snark | A solid choice, but be sure to com |
             | mit to it.                         |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -86,6 +93,7 @@ Description | You may trash 1 Animal for any 1 R |
          VP | 20                                 |
       Snark | Let's just say you should be happy |
             |  this card has no artwork.         |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Engine                             |
@@ -104,6 +112,7 @@ Description | As an action, once per turn, you m |
             | o Climb a Ladder 1 space.          |
          VP | 20                                 |
       Snark | See you at the top!                |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Blocker                            |
@@ -122,6 +131,7 @@ Description | To trash this card, you must trash |
          VP | -100                               |
       Snark | Food is how we keep you from makin |
             | g powerful moves. You're welcome.  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -139,6 +149,7 @@ Description | You may only play this card before |
          VP | 30                                 |
       Snark | Does nothing now, but it will pay  |
             | off later. The engine can wait.    |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -155,6 +166,7 @@ Description | You may trash this card for 1 Food |
             | .                                  |
          VP | 20                                 |
       Snark | Grain: the sheep of plants.        |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -172,6 +184,7 @@ Description | You may trash 1 Silk for any 2 Res |
          VP | 50                                 |
       Snark | Be sure to take this from someone  |
             | who has collected silk.            |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -188,9 +201,10 @@ Description |                                    |
          VP | 30                                 |
       Snark | Sheep: the rabbits of farm animals |
             | .                                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Type | Special                            |
+       Type | Starter                            |
         qty | 1                                  |
       Title | Early Sheep Climb!                 |
      Bonus1 |                                    |
@@ -204,6 +218,7 @@ Description | Upon playing, climb 1 rung on a La |
             | dder                               |
          VP | 10                                 |
       Snark | I smell a strategy brewing…        |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -223,6 +238,7 @@ Description | You do not need to pay any require |
       Snark | Technically, we're just a shack ma |
             | de out of fiberglass, but this gam |
             | e doesn't need another resource.   |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -242,6 +258,7 @@ Description | You do not need to pay any require |
       Snark | Not to be confused with the Buildi |
             | ng Wood Building, which is what we |
             |  call our indoor arboretum         |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -260,6 +277,7 @@ Description | You do not need to pay any require |
          VP | 10                                 |
       Snark | We need some seed Clay for breedin |
             | g.                                 |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -269,12 +287,13 @@ Description | You do not need to pay any require |
      Bonus2 |                                    |
      Trash1 |                                    |
      Trash2 |                                    |
-  Requires1 | Childish Aggression                |
+  Requires1 | Army                               |
   Requires2 |                                    |
       Power |                                    |
 Description |                                    |
          VP | 10                                 |
       Snark | What's the catch?                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -293,6 +312,24 @@ Description | You may substitute 2 different Res |
          VP | 30                                 |
       Snark | I'm sure I'll use this enough to j |
             | ustify its purchase.               |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
+        qty | 2                                  |
+      Title | Feast!                             |
+     Bonus1 | Food                               |
+     Bonus2 | Food                               |
+     Trash1 | Sheep                              |
+     Trash2 | Grain                              |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 20                                 |
+      Snark | You didn't pick up an engine needi |
+            | ng these, did you??                |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
@@ -303,33 +340,50 @@ Description | You may substitute 2 different Res |
      Trash1 |                                    |
      Trash2 |                                    |
   Requires1 | Building                           |
-  Requires2 | Childish Aggression                |
+  Requires2 | Army                               |
       Power |                                    |
-Description | At round start, player with most s |
-            | oldiers may trash any 1 available  |
-            | Special from purchase row. In a ti |
-            | e, nobody trashes.                 |
+Description |                                    |
          VP | 40                                 |
-      Snark | And how do we feel about going mil |
-            | itary right about now?             |
+      Snark | Childish aggression combined with  |
+            | literal monumental ambition.       |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
         qty | 1                                  |
-      Title | The Cattle Engine                  |
+      Title | The Milk Engine                    |
      Bonus1 |                                    |
      Bonus2 |                                    |
-     Trash1 | Wood                               |
+     Trash1 | Grain                              |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Cow Power!                         |
-Description | You may trash 1 Cattle for 2 Food, |
-            |  and/or 1 Cattle for any Resource. |
-            |                                    |
+      Power | Teets!                             |
+Description | You may gain 1 Food this turn if y |
+            | ou have at least one Cattle on you |
+            | r tableau. It will expire at the e |
+            | nd of this turn if not used.       |
          VP | 40                                 |
-      Snark | Don't base your entire strategy on |
-            |  this card.                        |
+      Snark | I guess that cattle was female.    |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | Time to Build Fences               |
+     Bonus1 | Sheep                              |
+     Bonus2 | Cattle                             |
+     Trash1 | Wood                               |
+     Trash2 | Grain                              |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 30                                 |
+      Snark | Is it me or does it feel like this |
+            |  is your excuse to change strategi |
+            | es?                                |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -345,6 +399,7 @@ Description | You may trash 1 Cattle for 2 Food, |
 Description |                                    |
          VP | 30                                 |
       Snark | Sheep: the grain of animals.       |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -361,6 +416,7 @@ Description | You may trash this card for 1 Food |
             |                                    |
          VP | 30                                 |
       Snark | Grain: the rabbits of plants.      |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -377,6 +433,7 @@ Description |                                    |
          VP | 60                                 |
       Snark | Hey, VPs are VPs. Every little bit |
             |  counts.                           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -393,6 +450,7 @@ Description |                                    |
          VP | 70                                 |
       Snark | Nice! Way to get some points on th |
             | e board.                           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -411,6 +469,7 @@ Description |                                    |
             | e you going to do to get points? N |
             | o pressure. But you should think o |
             | f something. Now.                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -428,6 +487,7 @@ Description |                                    |
       Snark | Just when you think you've pulled  |
             | ahead, someone else will play a bi |
             | gger building than this.           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -446,6 +506,7 @@ Description |                                    |
             | t bricks stones? I don't know. You |
             | 're not supposed to think of theme |
             |  in these games.                   |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -462,6 +523,25 @@ Description |                                    |
          VP | 100                                |
       Snark | Seems like a lot now, but this won |
             | 't win you the game alone.         |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | The Fragile Building               |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Stone                              |
+     Trash2 | Glass                              |
+  Requires1 | Building                           |
+  Requires2 |                                    |
+      Power |                                    |
+Description | No substitution can be made for th |
+            | e glass.                           |
+         VP | 110                                |
+      Snark | People in glass houses shouldn't t |
+            | hrow stones. Go outside first.     |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -478,6 +558,7 @@ Description |                                    |
          VP | 40                                 |
       Snark | I won't tell you how we got this c |
             | ow to breed by itself.             |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -494,24 +575,26 @@ Description |                                    |
          VP | 10                                 |
       Snark | Wait, aren't carrots themselves fo |
             | od? And how does one measly carrot |
-            |  give you MORE food?? This makes n |
-            | o sense.                           |
+            |  give you MORE food? Is this desig |
+            | ner Big Vegetable??                |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
-        qty | 2                                  |
+        qty | 1                                  |
       Title | The Arms Race                      |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
      Trash1 | Wood                               |
      Trash2 |                                    |
-  Requires1 | Childish Aggression                |
+  Requires1 | Army                               |
   Requires2 |                                    |
       Power |                                    |
 Description |                                    |
          VP | 40                                 |
       Snark | I'm pretty sure this strategy work |
             | ed for me at least once.           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -521,12 +604,13 @@ Description |                                    |
      Bonus2 |                                    |
      Trash1 | Clay                               |
      Trash2 |                                    |
-  Requires1 | Childish Aggression                |
+  Requires1 | Army                               |
   Requires2 |                                    |
       Power |                                    |
 Description |                                    |
          VP | 50                                 |
       Snark | Tank and spank always works.       |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -536,15 +620,31 @@ Description |                                    |
      Bonus2 | Soldier                            |
      Trash1 | Stone                              |
      Trash2 |                                    |
-  Requires1 | Childish Aggression                |
+  Requires1 | Army                               |
   Requires2 |                                    |
-      Power | Resource Hog                       |
-Description | At round start, player with most s |
-            | oldiers may also trash any 1 avail |
-            | able Resource from purchase row. I |
-            | n a tie, nobody trashes.           |
+      Power |                                    |
+Description |                                    |
          VP | 50                                 |
       Snark | You're in it now.                  |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | Please, Think of the Children      |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Food                               |
+     Trash2 | Food                               |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 80                                 |
+      Snark | This was an altruistic act until y |
+            | ou noticed those sweet, sweet veep |
+            | s.                                 |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -564,6 +664,7 @@ Description | Upon playing, climb 1 rung on a La |
             |  sheep doing the climbing? Because |
             |  they're not goats. Should we be w |
             | orried?                            |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -582,6 +683,7 @@ Description | Upon playing, climb 1 rung on a La |
       Snark | Thematically this card makes no se |
             | nse. We needed it for game reasons |
             | .                                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -599,6 +701,7 @@ Description | Upon playing, climb 1 rung on a La |
          VP | 30                                 |
       Snark | Always make sure your clay ladders |
             |  are kiln-dried before embarking.  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -616,6 +719,7 @@ Description | Upon playing, climb 1 rung on a La |
          VP | 30                                 |
       Snark | Stone ladders: also known as "stai |
             | rs".                               |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -634,6 +738,51 @@ Description | Upon playing, climb 1 rung on a La |
       Snark | Yep. Free. The only cost is that y |
             | ou're not working on any of your o |
             | ther strategies.                   |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | Chain Climb Mastery                |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Chain 3x & Climb                   |
+Description | You may play this immediately upon |
+            |  taking this card. Once per turn,  |
+            | if you use the Chain Rule to play  |
+            | or steal 3 cards in one turn, you  |
+            | may climb a ladder.                |
+         VP | 10                                 |
+      Snark | Who needs a chain to climb a ladde |
+            | r? Is it a chain ladder? We really |
+            |  need artwork to clarify this stuf |
+            | f.                                 |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | Chain Rule Mastery                 |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Chain 3x & Draw                    |
+Description | You may play this immediately upon |
+            |  taking this card. Once per turn,  |
+            | if you use the Chain Rule to play  |
+            | or steal 3 cards in one turn, you  |
+            | may draw a Special card.           |
+         VP | 10                                 |
+      Snark | You're gonna have to learn that ru |
+            | le now.                            |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -651,6 +800,7 @@ Description |                                    |
       Snark | Hm, this card mysteriously looks l |
             | ike it's part of a set. I wonder i |
             | f that will pay off?               |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -669,6 +819,7 @@ Description |                                    |
             | rd mysteriously looks like it's pa |
             | rt of a set. I wonder if that will |
             |  pay off...)                       |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -687,6 +838,7 @@ Description |                                    |
             | mix. (Hm, this card mysteriously l |
             | ooks like it's part of a set. I wo |
             | nder if that will pay off…)        |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -706,6 +858,26 @@ Description | Upon playing, retrieve any Trashed |
       Snark | Playing this card has the hidden a |
             | dvantage of making your opponents  |
             | hate you.                          |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
+      Title | The Unnecessary Memory Mechanic    |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Glass                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | Once per game, if you can guess 3  |
+            | cards in another player's hand, yo |
+            | u may take one of them at random.  |
+         VP | 50                                 |
+      Snark | Memory games: we make you feel old |
+            | .                                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -715,7 +887,7 @@ Description | Upon playing, retrieve any Trashed |
      Bonus2 |                                    |
      Trash1 |                                    |
      Trash2 |                                    |
-  Requires1 | Childish Aggression                |
+  Requires1 | Army                               |
   Requires2 |                                    |
       Power | Take That!                         |
 Description | Upon Endgame initiation, you may t |
@@ -725,6 +897,7 @@ Description | Upon Endgame initiation, you may t |
       Snark | "Which is more fun… scoring more p |
             | oints for myself, or denying point |
             | s from my opponents?"              |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -745,6 +918,7 @@ Description | You may trash this card from your  |
             | u sure you that's a good enough us |
             | e for this card?? There's probably |
             |  a better move.                    |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -763,6 +937,7 @@ Description | On your first turn in Endgame, you |
       Snark | Ok everyone, this player is offici |
             | ally procrastinating on getting VP |
             | s.                                 |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Midgame                            |
@@ -780,21 +955,6 @@ Description | 40 VPs for each Payoff you have pl |
          VP | ?                                  |
       Snark | This card is as close at this game |
             |  gets to Victory Point Points.     |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Endgame                            |
-        qty | 1                                  |
-      Title | The Foodie Payoff                  |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | 50 VPs for each Cattle, Carrot     |
-         VP | ?                                  |
-      Snark | Glad you didn't have to eat these! |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -808,29 +968,12 @@ Description | 50 VPs for each Cattle, Carrot     |
   Requires1 |                                    |
   Requires2 |                                    |
       Power |                                    |
-Description | You may not do any substitutions t |
-            | o play this card.                  |
+Description | You may not make any substitutions |
+            |  to play this card.                |
          VP | 100                                |
       Snark | This card favors those who have th |
             | is deck memorized.                 |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Endgame                            |
-        qty | 1                                  |
-      Title | The Diversified Strategy Payoff    |
-     Bonus1 |                                    |
-     Bonus2 |                                    |
-     Trash1 |                                    |
-     Trash2 |                                    |
-  Requires1 |                                    |
-  Requires2 |                                    |
-      Power |                                    |
-Description | 40 VP for each type: Sheep, Wild B |
-            | oar, Cattle, Glass, Silk, Grain, C |
-            | arrot.                             |
-         VP | ?                                  |
-      Snark | This is to make you feel better ab |
-            | out having unused stuff.           |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -848,11 +991,12 @@ Description | 60 VP if you have Invested plus 10 |
          VP | ?                                  |
       Snark | See! I told you that card would pa |
             | y off.                             |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
         qty | 1                                  |
-      Title | The Unused Resources Payoff        |
+      Title | The Unused Garbage Payoff          |
      Bonus1 |                                    |
      Bonus2 |                                    |
      Trash1 |                                    |
@@ -865,6 +1009,7 @@ Description | 30 VP for each Wood, Sheep, and Gr |
          VP | ?                                  |
       Snark | Hey, at least you know nobody else |
             |  is going for it.                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -883,6 +1028,7 @@ Description | Take the total number of Glass and |
          VP | ?                                  |
       Snark | "Go ahead and take your next turn, |
             |  this is gonna take me a moment."  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -900,6 +1046,7 @@ Description | 30 VP for each Soldier, +30 additi |
             | he most soldiers.                  |
          VP | ?                                  |
       Snark | Aggression does have benefits.     |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -916,6 +1063,7 @@ Description | 10 VP for each Building you've pla |
             | yed                                |
          VP | ?                                  |
       Snark | You had to see this one coming.    |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -932,6 +1080,7 @@ Description | 20/40/70 VP if you have 1/2/3 Thin |
             | g-in-a-Set cards.                  |
          VP | ?                                  |
       Snark | Yay! Another point ladder.         |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Endgame                            |
@@ -945,11 +1094,30 @@ Description | 20/40/70 VP if you have 1/2/3 Thin |
   Requires2 |                                    |
       Power |                                    |
 Description | 40 VP for each Clay, Stone, Silk,  |
-            | Glass, Cattle, Carrot              |
+            | Glass, Carrot                      |
          VP | ?                                  |
       Snark | This card makes your leftover Ston |
             | es look intentional. Your secret's |
             |  safe with us.                     |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Endgame                            |
+        qty | 1                                  |
+      Title | The Animal Payoff                  |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | 50 VP if you have 4 Sheep. 50 VP i |
+            | f you have 3 Cattle.               |
+         VP | ?                                  |
+      Snark | Breeding isn't just fun for the an |
+            | imals.                             |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Transition                         |
@@ -968,4 +1136,5 @@ Description | All Blockers must be paid by the e |
          VP | 0                                  |
       Snark | You didn't forget about food, did  |
             | you?                               |
+            |                                    |
             ╰------------------------------------╯

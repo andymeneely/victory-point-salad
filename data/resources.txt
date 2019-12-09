@@ -450,7 +450,7 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 3                                  |
+        qty | 2                                  |
       Title | The Rare Resource                  |
   Resource1 | Glass                              |
   Resource2 |                                    |
@@ -461,18 +461,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 3                                  |
-      Title | The Rare Resource                  |
-  Resource1 | Glass                              |
-  Resource2 |                                    |
-Description |                                    |
-         VP | 1                                  |
-      Snark | Just don't miss your opportunity t |
-            | o use it.                          |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Resource                           |
-        qty | 3                                  |
+        qty | 2                                  |
       Title | The Rare Resource                  |
   Resource1 | Glass                              |
   Resource2 |                                    |
