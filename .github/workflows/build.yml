@@ -33,14 +33,21 @@ jobs:
       with:
         name: cards
         path: _output
-    - name: rename output directory
+    - name: organize output
       run: |
-        mkdir -p assets/cards
-        cp _output/* assets/cards
+        mkdir -p build/assets/cards/specials
+        cp _output/special_??.png assets/cards/specials
+
+        mkdir -p build/assets/cards/resources
+        cp _output/resource_??.png build/assets/cards/resources
+
+        cp assets/cards/special_sheet.png assets/cards/old_special_sheet.png
+        cp _output/special_sheet_00.png build/assets/cards/special_sheet.png
+
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
         BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: . # Deploy the entire repo so assets/cards maps over
+        FOLDER: build # Deploy the entire repo so assets/cards maps over
