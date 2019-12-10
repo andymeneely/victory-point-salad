@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#main_content {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  flex-shrink: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+img.card {
+  width: 20em;
+  min-width: 15em;
+}
+
+.nav-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  justify-content: center;
+  a {
+    padding: 1em;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1pt solid black;
+    border-radius: 0.25em;
+    display: block;
+    margin: 0.5em;
+    color: black;
+  }
+
+  a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+}

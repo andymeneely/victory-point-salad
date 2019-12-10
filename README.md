@@ -1,3 +1,7 @@
-# Victory Point Salad Website
+---
+---
+# Victory Point Salad
 
-This is used to deploy the latest version of the cards for my playtesters to view.
+Here's the latest build of Victory Point Salad.
+
+Images get auto-built from GitHub actions and posted [here](http://andyemeneely.github.io/victory-point-salad).
