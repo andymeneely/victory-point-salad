@@ -35,7 +35,7 @@ jobs:
         path: _output
     - name: rename output directory
       run: |
-        mkdir -f assets/cards
+        mkdir -p assets/cards
         cp _output/* assets/cards
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
