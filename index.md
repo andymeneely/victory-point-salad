@@ -2,21 +2,19 @@
 ---
 Here's the latest build of Victory Point Salad.
 
-[Engines](#engines)
 [Specials](#specials)
 [Resources](#resources)
-[Ladders](#Ladders)
+[Ladders](#adders)
+[Diff](#diff)
 {: class="nav-links"}
-
-# Engines
 
 # Specials
 
 <div class="cards">
 {% for myimage in site.static_files %}
-  {% if myimage.path contains 'assets/cards/special_' %}
+  {% if myimage.path contains "/assets/cards/specials/" %}
 <a href="{{ site.baseurl }}{{ myimage.path }}">
-  <img src="{{ site.baseurl }}{{ myimage.path }}" class="card" alt="image" />
+  <img src="{{ site.baseurl }}{{ myimage.path }}" class="portrait" alt="image" />
 </a>
   {% endif %}
 {% endfor %}
@@ -24,6 +22,26 @@ Here's the latest build of Victory Point Salad.
 
 # Resources
 
+<div class="cards">
+{% for myimage in site.static_files %}
+  {% if myimage.path contains "/assets/cards/resources/" %}
+<a href="{{ site.baseurl }}{{ myimage.path }}">
+  <img src="{{ site.baseurl }}{{ myimage.path }}"
+       class="landscape" alt="image" />
+</a>
+  {% endif %}
+{% endfor %}
+</div>
+
 # Ladders
 
 # Diff
+
+This is the image difference between this commit and the last commit.
+
+<img src="{{ site.baseurl }}/assets/cards/special_sheet.png" class="fullwidth"/>
+
+<div class="diff">
+  <img src="{{ site.baseurl }}/assets/cards/special_sheet.png"/>
+  <img src="{{ site.baseurl }}/assets/cards/old_special_sheet.png"/>
+</div>
