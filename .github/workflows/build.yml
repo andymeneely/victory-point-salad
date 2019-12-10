@@ -36,7 +36,7 @@ jobs:
     - name: organize output
       run: |
         mkdir -p build/assets/cards/specials
-        cp _output/special_??.png assets/cards/specials
+        cp _output/special_??.png build/assets/cards/specials
 
         mkdir -p build/assets/cards/resources
         cp _output/resource_??.png build/assets/cards/resources
