@@ -1,0 +1,70 @@
+body {
+  font-family: 'Bitter';
+  font-size: 9pt;
+  /*width: 49%;
+  -webkit-columns: 0 0;*/
+  /*-webkit-column-count: 2;
+  -webkit-column-width: 150px;*/
+  /*-webkit-column-gap: 1em;*/
+  text-align: justify;
+
+}
+
+.title{
+  font-size: 18pt;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.snark{
+  float: right;
+  width: 10em;
+  padding-left: 0.5em;
+  margin-left: 1em;
+  font-style: italic;
+  border: 1pt solid black;
+  border-left: 4pt solid black;
+  text-align: center;
+  page-break-inside: avoid;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h1, h2, h3 {
+  font-family: 'Bitter';
+  clear: both;
+  page-break-after: avoid;
+}
+
+.card {
+  box-shadow: 4px 4px 16px #111;
+}
+
+.figure img{
+  display: block;
+  padding: 0;
+  text-align: center;
+
+  font-size: 85%;
+}
+
+.figure-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.figure-left {
+  float: left;
+  margin-right: 30px;
+}
+
+blockquote {
+  font-size: 90%;
+}
+
+ol,ul {
+  margin: 0;
+  padding-left: 2em;
+}

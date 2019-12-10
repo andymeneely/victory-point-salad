@@ -1,0 +1,143 @@
+title:
+  font: Alfa Slab One Bold 12
+  align: center
+  x: 95
+  y: 75
+  width: 635
+  ellipsize: none
+  spacing: -10
+
+type:
+  font: Archivo Narrow 10
+  x: 575
+  y: 240
+  width: 180
+  height: 75
+  align: left
+  valign: middle
+  color: white
+type_background:
+  extends: type
+  x: -= 15
+  width: 300
+  radius: 12
+  fill_color: black
+
+Bonus1:
+  x: 235
+  y: 275
+  width: 250
+  height: 90
+  font: Archivo Narrow 11
+  align: left
+  valign: middle
+  fill_color: black
+  color: black
+
+Bonus1Img:
+  x: 105
+  y: 260
+  width: 125
+  height: 125
+
+Bonus2:
+  extends: Bonus1
+  y: += 150
+
+Bonus2Img:
+  extends: Bonus1Img
+  y: += 150
+
+Power:
+  x: 350
+  y: 250
+  width: 300
+  height: 300
+
+PowerText:
+  extends: Power
+  font: Archivo Black, Sans 10
+  spacing: -30
+  x: += 15
+  y: += 15
+  width: -= 30
+  height: -= 30
+  align: center
+  valign: middle
+
+PreReq:
+  font: Archivo Narrow, Segoe UI Symbol, Sans
+  font_size: 10
+  spacing: -8
+  # color: red
+  align: right
+  x: 75
+  y: 527
+  width: 675
+  word_wrap: true
+  ellipsize: false
+
+Description:
+  x: 85
+  y: 575
+  width: 655
+  height: 325
+  align: center
+  valign: middle
+  font: Archivo Narrow, Segoe UI Symbol
+  font_size: 11
+  spacing: -5
+
+Snark:
+  font: Times New Roman, Serif Italic 7
+  x: 225
+  y: 900
+  width: 515
+  height: 140
+  spacing: -5
+  valign: middle
+  align: center
+
+VP_img:
+  width: 100
+  height: 100
+  x: 95
+  y: 935
+VP:
+  extends: VP_img
+  color: white
+  y: -= 10
+  font: Archivo Narrow 12
+  align: center
+  valign: middle
+
+cut_zone:
+  x: 37
+  y: 37
+  width: 750
+  height: 1050
+  radius: 37
+  stroke_width: 1.0
+  stroke_color: red
+
+safe_zone:
+  extends: cut_zone
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  stroke_color: blue
+
+cut_line:
+  x: 37
+  y: 37
+  width: 750
+  height: 1050
+  radius: 0
+  stroke_width: 3.0
+  stroke_color: black
+
+version:
+  x: 65
+  y: 1040
+  font: Serif 7

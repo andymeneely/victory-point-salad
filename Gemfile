@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 
-gem "github-pages", group: :jekyll_plugins
+gem 'squib'
+gem 'guard'
+gem 'guard-rake'
+gem 'launchy'
+gem 'kramdown'

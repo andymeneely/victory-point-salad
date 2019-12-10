@@ -1,0 +1,17 @@
+type:
+  font: Alfa Slab One Bold 25
+  x: 75
+  y: 75
+  height: 675
+  width: 930
+  align: center
+  valign: middle
+
+cut_line:
+  x: 37
+  y: 37
+  height: 750
+  width: 1050
+  radius: 0
+  stroke_width: 3.0
+  stroke_color: black

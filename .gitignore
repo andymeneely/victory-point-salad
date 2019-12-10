@@ -1,1 +1,6 @@
-_site/
+_output/*.png
+_output/*.pdf
+~$*
+.DS_Store
+_output/*.svg
+Gemfile.lock

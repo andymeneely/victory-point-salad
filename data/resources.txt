@@ -1,0 +1,544 @@
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 6                                  |
+      Title | The Cheap Material                 |
+  Resource1 | Wood                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Cheap. Abundant. Literally the stu |
+            | ff games are made of.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Red Material                   |
+  Resource1 | Clay                               |
+  Resource2 | Clay                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it brick? Pottery? Ok fine,  |
+            | let's just call it the red one.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Red Material                   |
+  Resource1 | Clay                               |
+  Resource2 | Clay                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it brick? Pottery? Ok fine,  |
+            | let's just call it the red one.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Red Material                   |
+  Resource1 | Clay                               |
+  Resource2 | Clay                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it brick? Pottery? Ok fine,  |
+            | let's just call it the red one.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Red Material                   |
+  Resource1 | Clay                               |
+  Resource2 | Clay                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it brick? Pottery? Ok fine,  |
+            | let's just call it the red one.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 7                                  |
+      Title | The Premium Material               |
+  Resource1 | Stone                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it ore? Mountains? Rock? Def |
+            | initely not clay, unless we allow  |
+            | fossilization.                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 1                                  |
+      Title | The Expensive Materials            |
+  Resource1 | Stone                              |
+  Resource2 | Clay                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | There's only one card like this. S |
+            | ee? You don't need to memorize dec |
+            | k distributions to be good at this |
+            | .                                  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Combo Materials                |
+  Resource1 | Clay                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | It's a safe bet that you'll find t |
+            | his one useful.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Combo Materials                |
+  Resource1 | Clay                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | It's a safe bet that you'll find t |
+            | his one useful.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Combo Materials                |
+  Resource1 | Clay                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | It's a safe bet that you'll find t |
+            | his one useful.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 4                                  |
+      Title | The Combo Materials                |
+  Resource1 | Clay                               |
+  Resource2 | Wood                               |
+Description |                                    |
+         VP | 1                                  |
+      Snark | It's a safe bet that you'll find t |
+            | his one useful.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Wildcard Resource              |
+  Resource1 | Silk                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | What, exactly, are we making out o |
+            | f these?                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Wildcard Resource              |
+  Resource1 | Silk                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | What, exactly, are we making out o |
+            | f these?                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Wildcard Resource              |
+  Resource1 | Silk                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | What, exactly, are we making out o |
+            | f these?                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Cuddly Animal                  |
+  Resource1 | Sheep                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | I shall call him Skippy. Like the  |
+            | peanut butter. Only tastier.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Cuddly Animal                  |
+  Resource1 | Sheep                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | I shall call him Skippy. Like the  |
+            | peanut butter. Only tastier.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Cuddly Animal                  |
+  Resource1 | Sheep                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | I shall call him Skippy. Like the  |
+            | peanut butter. Only tastier.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Expensive Animal               |
+  Resource1 | Cattle                             |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Moo.                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Expensive Animal               |
+  Resource1 | Cattle                             |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Moo.                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Expensive Animal               |
+  Resource1 | Cattle                             |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Moo.                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Windfall Animal                |
+  Resource1 | Wild Boar                          |
+  Resource2 | Wild Boar                          |
+Description | You may trash this card for 2 Food |
+            | .                                  |
+         VP | 1                                  |
+      Snark | Everyone just calls them pigs.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Windfall Animal                |
+  Resource1 | Wild Boar                          |
+  Resource2 | Wild Boar                          |
+Description | You may trash this card for 2 Food |
+            | .                                  |
+         VP | 1                                  |
+      Snark | Everyone just calls them pigs.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Breeding Plant                 |
+  Resource1 | Grain                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it wheat? Reeds? Seeds? Corn |
+            | ? Did you know that corn is a type |
+            |  of grain? Be sure to bring up thi |
+            | s fact in your next Euro game. Eve |
+            | ryone will appreciate the rules am |
+            | biguity it creates.                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Breeding Plant                 |
+  Resource1 | Grain                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it wheat? Reeds? Seeds? Corn |
+            | ? Did you know that corn is a type |
+            |  of grain? Be sure to bring up thi |
+            | s fact in your next Euro game. Eve |
+            | ryone will appreciate the rules am |
+            | biguity it creates.                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Breeding Plant                 |
+  Resource1 | Grain                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Or is it wheat? Reeds? Seeds? Corn |
+            | ? Did you know that corn is a type |
+            |  of grain? Be sure to bring up thi |
+            | s fact in your next Euro game. Eve |
+            | ryone will appreciate the rules am |
+            | biguity it creates.                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 1                                  |
+      Title | The Strange Combo                  |
+  Resource1 | Wood                               |
+  Resource2 | Grain                              |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Not to be confused with wood grain |
+            | . Also, shouldn't wood be a plant? |
+            |  No. No it's not. Ever.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Expensive Plant                |
+  Resource1 | Carrot                             |
+  Resource2 |                                    |
+Description | You may trash this card for 1 Food |
+            | .                                  |
+         VP | 1                                  |
+      Snark | Think of carrots like a self-insta |
+            | -slaughtering animal.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Expensive Plant                |
+  Resource1 | Carrot                             |
+  Resource2 |                                    |
+Description | You may trash this card for 1 Food |
+            | .                                  |
+         VP | 1                                  |
+      Snark | Think of carrots like a self-insta |
+            | -slaughtering animal.              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Rare Resource                  |
+  Resource1 | Glass                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Just don't miss your opportunity t |
+            | o use it.                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
+      Title | The Rare Resource                  |
+  Resource1 | Glass                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Just don't miss your opportunity t |
+            | o use it.                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Inherently Valuable Resource   |
+  Resource1 | Gold                               |
+  Resource2 |                                    |
+Description | You may trash 1 Gold for any 1 Res |
+            | ource.                             |
+         VP | 20                                 |
+      Snark | Hey, you gotta spend VPs to earn V |
+            | Ps.                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Inherently Valuable Resource   |
+  Resource1 | Gold                               |
+  Resource2 |                                    |
+Description | You may trash 1 Gold for any 1 Res |
+            | ource.                             |
+         VP | 20                                 |
+      Snark | Hey, you gotta spend VPs to earn V |
+            | Ps.                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Inherently Valuable Resource   |
+  Resource1 | Gold                               |
+  Resource2 |                                    |
+Description | You may trash 1 Gold for any 1 Res |
+            | ource.                             |
+         VP | 20                                 |
+      Snark | Hey, you gotta spend VPs to earn V |
+            | Ps.                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | Free Food!                         |
+  Resource1 | Food                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Side benefit: easier planning! You |
+            |  don't have to think about how to  |
+            | make your food now!                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | Free Food!                         |
+  Resource1 | Food                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Side benefit: easier planning! You |
+            |  don't have to think about how to  |
+            | make your food now!                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | Free Food!                         |
+  Resource1 | Food                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Side benefit: easier planning! You |
+            |  don't have to think about how to  |
+            | make your food now!                |
+            ╰------------------------------------╯

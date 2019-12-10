@@ -1,0 +1,102 @@
+title:
+    font: Alfa Slab One Bold 12
+    align: center
+    x: 75
+    y: 75
+    width: 975
+    ellipsize: none
+    spacing: -22
+
+type:
+    font: Archivo Narrow 10
+    x: 75
+    y: 865
+    width: 170
+    align: center
+
+text: &text
+    font: Sans
+    ellipsize: none
+
+descriptor: &descriptor
+    font: Sans
+    font_size: 9
+
+Resource1Box:
+  x: 100
+  y: 270
+
+Resource1:
+  extends: Resource1Box
+  x: += 130
+  y: += 15
+  width: 415
+  height: 80
+  radius: 15
+  font: Archivo Narrow 12
+  align: left
+  valign: middle
+  fill_color: black
+  color: black
+
+Resource1Img:
+  extends: Resource1Box
+  width: 80
+  height: 80
+  x: += 25
+  y: += 10
+
+Resource2Box:
+  extends: Resource1Box
+  y: += 100
+
+Resource2:
+  extends: Resource1
+  y: += 100
+
+Resource2Img:
+  extends: Resource1Img
+  y: += 100
+
+Description:
+    x: 460
+    y: 240
+    width: 500
+    height: 300
+    align: center
+    valign: middle
+    font: Archivo Narrow
+    font_size: 11
+    spacing: -3
+
+Snark:
+    font: Sans Italic 6
+    x: 260
+    y: 540
+    width: 700
+    height: 165
+    valign: middle
+    align: center
+
+VP_img:
+    width: 150
+    height: 150
+    x: 95
+    y: 550
+VP:
+    extends: VP_img
+    color: black
+    y: -= 10
+    font: Archivo Narrow 16
+    color: white
+    align: center
+    valign: middle
+
+cut_line:
+    x: 37.5
+    y: 37.5
+    width: 1050
+    height: 750
+    radius: 0
+    stroke_width: 3.0
+    stroke_color: black
