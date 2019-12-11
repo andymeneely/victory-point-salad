@@ -41,9 +41,6 @@ jobs:
         mkdir -p build/assets/cards/resources
         cp _output/resource_??.png build/assets/cards/resources
 
-        cp build/assets/cards/special_sheet.png build/assets/cards/old_special_sheet.png
-        cp _output/special_sheet_00.png build/assets/cards/special_sheet.png
-
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
