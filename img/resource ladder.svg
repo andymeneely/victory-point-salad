@@ -14,7 +14,7 @@
    viewBox="0 0 825.00001 1125"
    id="svg7913"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="resource ladder.svg">
   <sodipodi:namedview
      id="base"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75377778"
-     inkscape:cx="528.80962"
-     inkscape:cy="605.63673"
+     inkscape:zoom="0.53300138"
+     inkscape:cx="593.4319"
+     inkscape:cy="397.33873"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,156 +58,173 @@
      transform="translate(0,72.637839)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="458.46741"
-       y="584.37811"
+       y="645.95129"
        id="text8468"
-       sodipodi:linespacing="125%"
        transform="scale(0.89937043,1.1118889)"><tspan
          sodipodi:role="line"
          id="tspan8470"
          x="458.46741"
-         y="584.37811"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Start Here</tspan></text>
+         y="645.95129"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">Start Here</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-543.4621"
-       y="599.81384"
-       id="text8590"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.63230515px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="458.34708"
+       y="544.66595"
+       id="text4810"
+       transform="scale(0.89932264,1.111948)"><tspan
          sodipodi:role="line"
-         id="tspan8592"
-         x="-543.4621"
-         y="599.81384" /></text>
+         id="tspan4812"
+         x="458.34708"
+         y="544.66595"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 1</tspan></text>
+    <text
+       transform="scale(0.89932264,1.111948)"
+       id="text4814"
+       y="341.15512"
+       x="458.34708"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.63230515px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px"
+         y="341.15512"
+         x="458.34708"
+         id="tspan4816"
+         sodipodi:role="line">Draw 1, Take 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.73524094px;line-height:125%;font-family:'Rock Salt';-inkscape-font-specification:'Rock Salt';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="413.08176"
-       y="127.73998"
-       id="text4158"
-       sodipodi:linespacing="125%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.63230515px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="458.34708"
+       y="443.88828"
+       id="text4818"
+       transform="scale(0.89932264,1.111948)"><tspan
          sodipodi:role="line"
-         id="tspan4160"
-         x="413.08176"
-         y="127.73998">Resource Ladder</tspan></text>
+         id="tspan4820"
+         x="458.34708"
+         y="443.88828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 2</tspan></text>
+    <text
+       transform="scale(0.89932264,1.111948)"
+       id="text4822"
+       y="240.14044"
+       x="458.34708"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.63230515px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px"
+         y="240.14044"
+         x="462.86069"
+         id="tspan4824"
+         sodipodi:role="line">Draw 2, Steal 1 </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="414.29749"
+       y="939.16931"
+       id="text4835"><tspan
+         sodipodi:role="line"
+         id="tspan4837"
+         x="417.26624"
+         y="939.16931"
+         style="font-size:23.75px;line-height:1.25">Just stick with it. </tspan><tspan
+         sodipodi:role="line"
+         x="414.29749"
+         y="968.85681"
+         style="font-size:23.75px;line-height:1.25"
+         id="tspan850">You'll find a place for all this stuff eventually.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.63230515px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="458.34708"
+       y="141.33792"
+       id="text4875"
+       transform="scale(0.89932264,1.111948)"><tspan
+         sodipodi:role="line"
+         id="tspan4877"
+         x="458.34708"
+         y="141.33792"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.50367355px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 1  Take 1 Steal 1</tspan></text>
+    <g
+       id="g846"
+       transform="translate(1.90154)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path840"
+         d="M 104.80542,-138.97038 V 1106.7549"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path842"
+         d="M 716.3915,-148.25694 V 1092.1617"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
     <path
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 141.86917,177.62297 c 51.56569,-0.23057 101.62518,1.76849 153.19087,0.90998 75.80695,-1.2621 153.12009,-5.43207 228.92704,-5.16156 53.03453,0.18926 106.06905,1.17445 159.10358,3.54447"
-       id="path4196"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssc" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path4198"
-       d="m 141.36144,590.53362 c 180.75651,-3.04229 361.51304,-4.40849 542.26956,0"
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0"
-       id="path4210"
-       d="m 143.11661,425.36937 389.37095,-7.50467 149.36491,7.50467"
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 143.07596,507.95153 c 184.30262,5.8343 362.5352,4.10757 538.85644,0"
-       id="path4212"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 106.82874,759.32181 H 717.71816"
+       id="path848"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       sodipodi:nodetypes="czzc"
+       sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path4214"
-       d="m 142.7183,342.78723 c 55.48595,-4.13107 106.2072,-3.7561 170.72183,0 64.51464,3.7561 174.37853,-7.07466 213.12702,0 38.74849,7.07466 155.72843,0 155.72843,0"
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path852"
+       d="M 106.82874,646.9987 H 717.71816"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 106.82874,534.67559 H 717.71816"
+       id="path854"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path4216"
-       d="m 141.96639,260.20513 c 182.05387,-10.46429 360.84791,-0.62583 541.12114,0"
-       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="458.34854"
-       y="503.24387"
-       id="text4810"
-       sodipodi:linespacing="125%"
-       transform="scale(0.89937043,1.1118889)"><tspan
-         sodipodi:role="line"
-         id="tspan4812"
-         x="458.34854"
-         y="503.24387"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 1 Resource card</tspan></text>
-    <text
-       transform="scale(0.89937043,1.1118889)"
-       sodipodi:linespacing="125%"
-       id="text4814"
-       y="351.71378"
-       x="458.34854"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px"
-         y="351.71378"
-         x="458.34854"
-         id="tspan4816"
-         sodipodi:role="line">Draw 1 Resource card, Take 1 Resource card</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="458.34854"
-       y="430.4617"
-       id="text4818"
-       sodipodi:linespacing="125%"
-       transform="scale(0.89937043,1.1118889)"><tspan
-         sodipodi:role="line"
-         id="tspan4820"
-         x="458.34854"
-         y="430.4617"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 2 Resource cards</tspan></text>
-    <text
-       transform="scale(0.89937043,1.1118889)"
-       sodipodi:linespacing="125%"
-       id="text4822"
-       y="278.93158"
-       x="458.34854"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px"
-         y="278.93158"
-         x="458.34854"
-         id="tspan4824"
-         sodipodi:role="line">Draw 3 Resource cards</tspan></text>
+       id="path856"
+       d="M 106.82874,422.35248 H 717.71816"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 524.02711,639.11044 c 3.45033,16.86895 -48.1821,28.27016 -107.45872,31.1763 -54.04821,2.6498 -105.62718,-13.04233 -107.45872,-31.1763 -1.73024,-17.13103 48.18159,-34.07172 107.45872,-31.17629 51.76266,2.52838 104.16174,15.05709 107.45872,31.17629 z"
-       id="path4832"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 106.82874,310.02932 H 717.71816"
+       id="path858"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssss" />
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g904"
+       transform="translate(0,41.275691)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 106.82874,156.4306 H 717.71816"
+         id="path860"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path862"
+         d="M 106.82874,44.10745 H 717.71816"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
     <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.75px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="413.57269"
-       y="830.81152"
-       id="text4835"
-       sodipodi:linespacing="125%"><tspan
+       transform="scale(0.89988848,1.1112488)"
+       id="text866"
+       y="721.46112"
+       x="129.28879"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.07556248px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
+         y="721.46112"
+         x="129.28879"
          sodipodi:role="line"
-         id="tspan4837"
-         x="413.57269"
-         y="830.81152">Just stick with it. You'll find a place for all this stuff.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.77358246px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="458.34854"
-       y="206.1494"
-       id="text4875"
-       sodipodi:linespacing="125%"
-       transform="scale(0.89937043,1.1118889)"><tspan
+         id="tspan868">Draw: Deal a card from the Resource deck</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
+         y="757.95734"
+         x="129.28879"
          sodipodi:role="line"
-         id="tspan4877"
-         x="458.34854"
-         y="206.1494"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';stroke-width:0.99999988px">Draw 2 Resource cards, Take 1 Resource card</tspan></text>
+         id="tspan874">Take: Take an available Resource card from the pool</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
+         y="794.45349"
+         x="129.28879"
+         sodipodi:role="line"
+         id="tspan878">Steal: Take a Resource card from another player's tableau</tspan></text>
   </g>
 </svg>

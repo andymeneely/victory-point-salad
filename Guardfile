@@ -52,6 +52,15 @@ group :resource_backs do
   end
 end
 
+group :ladders do
+  guard 'rake', :task => 'ladders' do
+    watch %r{.*\.xlsx$}
+    watch %r{.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end
+
 group :faces do
   guard 'rake', :task => 'faces' do
     watch %r{.*\.xlsx$}
