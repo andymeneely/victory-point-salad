@@ -1,9 +1,6 @@
 require 'squib'
 require_relative 'squib_helpers'
 
-trash_icon = "<span font=\"FontAwesome\">\uF1F8</span> Trash 1 "
-requires_icon = "◎ Requires "
-
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'Qty'
 File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
 
@@ -17,11 +14,11 @@ Squib::Deck.new(cards: data['Title'].size) do
   text str: data['Title'], layout: :title
 
   %w(Trash1 Trash2).each do |bonus|
-    data[bonus].map! { |str| str && (trash_icon + str)}
+    data[bonus].map! { |str| str && (":trash: Trash 1 #{str}")}
   end
 
   %w(Requires1 Requires2).each do |bonus|
-    data[bonus].map! { |str| str && (requires_icon + str)}
+    data[bonus].map! { |str| str && ("◎ Requires #{str}") }
   end
 
   # Combine Trash & Requires into a single string
@@ -45,7 +42,11 @@ Squib::Deck.new(cards: data['Title'].size) do
   end
 
   %w(Bonus1 Bonus2 Description Snark VP).each do |key|
-    text str: data[key], layout: key, markup: true
+    text(str: data[key], layout: key, markup: true) do |embed|
+      w = 35 # px
+      embed.svg key: ':trash:', file: 'img/trash.svg',
+                width: w, height: w * 1.14, dy: 5, dx: 2
+    end
   end
 
   svg file: data['Power'].map { |p| p.nil? ? nil : 'power.svg' },

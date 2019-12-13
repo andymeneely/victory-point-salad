@@ -56,7 +56,7 @@ Power:
 
 PowerText:
   extends: Power
-  font: Archivo Black, Sans 10
+  font: Alfa Slab One, Sans 10
   spacing: -30
   x: += 15
   y: += 15
@@ -66,7 +66,7 @@ PowerText:
   valign: middle
 
 PreReq:
-  font: Archivo Narrow, Segoe UI Symbol, Sans
+  font: Archivo Narrow, Sans
   font_size: 10
   spacing: -8
   # color: red
