@@ -41,6 +41,11 @@ jobs:
         mkdir -p build/assets/cards/resources
         cp _output/resource_??.png build/assets/cards/resources
 
+        mkdir -p build/assets/cards/ladders
+        cp _output/ladder_??.png build/assets/cards/ladders
+
+        cp _output/tree.svg build/assets/tree.svg
+
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:

@@ -16,7 +16,9 @@ task all: [:specials,
            :resource_backs,
            :bundle,
            :marketing,
-           # :ladders
+           :ladders,
+           :tree,
+           :tree_cli
          ]
 
 desc 'Build default task with color'
@@ -45,6 +47,12 @@ task(:ladders)        { load 'src/ladders.rb' }
 
 desc 'Build marketing images'
 task(:marketing)      { load 'src/marketing.rb' }
+
+desc 'Build the giant tree'
+task(:tree)           { load 'src/tree.rb' }
+
+desc 'Build the giant tree to SVG'
+task(tree_cli: :tree) { `./node_modules/.bin/mmdc -i tree.mm -o _output/tree.svg` }
 
 desc 'Launch the Excel sheet'
 task :data do

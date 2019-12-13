@@ -5,3 +5,4 @@ _output/*.pdf
 _output/*.svg
 Gemfile.lock
 _site/
+node_modules
