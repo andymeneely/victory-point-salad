@@ -25,6 +25,8 @@ jobs:
         mkdir ~/.fonts
         cp -r fonts/ ~/.fonts
         fc-cache -f -v
+    - name: yarn
+      run: yarn install
     - name: rake
       run: |
         bundle exec rake
