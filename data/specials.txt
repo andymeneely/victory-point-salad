@@ -106,10 +106,10 @@ Description | You may trash 1 Animal for any 1 R |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Trash-n-Climb                      |
-Description | As an action, once per turn, you m |
-            | ay trash 1 Special in your hand or |
-            |  1 Resource card on your tableau t |
-            | o Climb a Ladder 1 space.          |
+Description | Once per turn, you may trash 1 Spe |
+            | cial in your hand or 1 Resource ca |
+            | rd on your tableau to Climb a Ladd |
+            | er 1 space.                        |
          VP | 20                                 |
       Snark | See you at the top!                |
             |                                    |
