@@ -14,11 +14,10 @@ task all: [:specials,
            :special_backs,
            :resources,
            :resource_backs,
-           :bundle,
-           :marketing,
-           # :ladders,
+           :ladders,
            :tree,
-           :tree_cli
+           :tree_cli,
+           :bundle,
          ]
 
 desc 'Build default task with color'

@@ -1,6 +1,6 @@
 require 'squib'
 
-Squib::Deck.new(cards: 2) do
+Squib::Deck.new(cards: 2, config: 'config.yml') do
   background color: :white
   use_layout file: 'layouts/specials.yml'
 
