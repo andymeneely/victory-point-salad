@@ -1,4 +1,5 @@
 require 'json'
+require 'byebug'
 require_relative 'version'
 
 # Generates a JSON output from deck for easy Git tracking.
@@ -54,21 +55,62 @@ def wordwall(arr, title, loc)
   arr.uniq.shuffle(random: prng).insert(loc, title).join(' ')
 end
 
-def merge_front_back(faces, backs, per_sheet = 8)
+# Given two parallel arrays of images that correspond to front and back,
+# Arrange them such that they will be back-to-back if front-to-back printing
+# is enabled. This returns a single array.
+# e.g. if 'a' and 'A' are front-back
+# 8 cards per sheet
+#
+# faces: A B C D E F G H I J K
+# backs: a b c d e f g h i j k
+#
+# Would need to be arranged:
+#   -----------
+#   | A B C D |
+#   | E F G H |
+#   -----------
+#   -----------
+#   | d c b a |
+#   | h g f e |
+#   -----------
+#   -----------
+#   | I J K   |
+#   |         |
+#   -----------
+#   -----------
+#   |   k j i |
+#   |         |
+#   -----------
+#  And then flattened out to a single array:
+#  A B C D E F G H d c b a h g f e I J K nil nil nil nil nil k j i nil nil nil nil
+def merge_front_back(faces, backs, per_sheet = 8, rows = 2)
+  # Pad the arrays to be divisible by 8
+  faces += [nil] * (per_sheet - faces.size % per_sheet)
+  backs += [nil] * (per_sheet - backs.size % per_sheet)
+  # Combine them into pairs
   z = faces.zip(backs)
+  row_n = per_sheet / rows
   merged = []
-  z.each_slice(per_sheet) do |pairs|
-    pairs.each { |(face, _back)| merged << face }
-    pairs.each { |(_face, back)| merged << back }
+  z.each_slice(per_sheet) do |pairs| # [[A,a],[B,b],[C,c],...]
+    pairs.each { |(face, _back)| merged << face } # [A B C D]
+    pairs.each { |(_face, back)| merged << back } # [a b c d]
   end
+
   # We need to reverse the rows of backs so they line up front-to-back
   # Assume 2 rows
   merged2 = []
-  merged.each_slice(per_sheet / 2) do |row|
-    if row[0].to_s.match? /_back_/
-      merged2 += row.reverse # rows of back should be reversed
+  row_i = 0
+  on_face = true
+  merged.each_slice(row_n) do |row|
+    if on_face
+      merged2 += row # faces we put it as normal
     else
-      merged2 += row         # rows of faces NOT reversed
+      merged2 += row.reverse # back we need to reverse
+    end
+    row_i += 1
+    if row_i == rows # time for the next page!
+      on_face = !on_face
+      row_i = 0
     end
   end
   return merged2
