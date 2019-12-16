@@ -1,7 +1,7 @@
 require 'squib'
 require_relative 'squib_helpers'
 
-data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'Qty'
+data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'qty'
 File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}

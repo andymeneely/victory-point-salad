@@ -1,7 +1,7 @@
 require 'squib'
 require_relative 'squib_helpers'
 
-deck = Squib.xlsx file: 'data/deck.xlsx', sheet: 0
+deck = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'qty'
 
 Squib::Deck.new(cards: deck['Title'].size) do
   use_layout file: 'layouts/backs.yml'

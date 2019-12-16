@@ -40,6 +40,90 @@ Description | You may now build buildings.       |
             ╭------------------------------------╮
        Type | Engine                             |
         qty | 3                                  |
+      Title | The Building Building Building     |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Stone                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Building                           |
+Description | You may now build buildings.       |
+         VP | 20                                 |
+      Snark | It's a total coincidence that we a |
+            | re housed in a building. In fact,  |
+            | we built our own building. We did  |
+            | not need a building building build |
+            | ing building building.             |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
+      Title | The Building Building Building     |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Stone                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Building                           |
+Description | You may now build buildings.       |
+         VP | 20                                 |
+      Snark | It's a total coincidence that we a |
+            | re housed in a building. In fact,  |
+            | we built our own building. We did  |
+            | not need a building building build |
+            | ing building building.             |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
+      Title | The Military Strategy              |
+     Bonus1 | Soldier                            |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Army                               |
+Description | At round start, player with the mo |
+            | st soldiers places the Army token  |
+            | on any card in a purchase row. Any |
+            | one who takes that card must pay t |
+            | his person 1 Resource Card. In a t |
+            | ie, nobody places the token.       |
+         VP | 20                                 |
+      Snark | This strategy worked for me once.  |
+            | I think.                           |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
+      Title | The Military Strategy              |
+     Bonus1 | Soldier                            |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Army                               |
+Description | At round start, player with the mo |
+            | st soldiers places the Army token  |
+            | on any card in a purchase row. Any |
+            | one who takes that card must pay t |
+            | his person 1 Resource Card. In a t |
+            | ie, nobody places the token.       |
+         VP | 20                                 |
+      Snark | This strategy worked for me once.  |
+            | I think.                           |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
       Title | The Military Strategy              |
      Bonus1 | Soldier                            |
      Bonus2 |                                    |
@@ -80,6 +164,42 @@ Description | You may trash 1 Grain for any 1 Re |
             ╭------------------------------------╮
        Type | Engine                             |
         qty | 2                                  |
+      Title | The Grain Engine                   |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Wood                               |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Bake Bread                         |
+Description | You may trash 1 Grain for any 1 Re |
+            | source, any number of times.       |
+         VP | 20                                 |
+      Snark | A solid choice, but be sure to com |
+            | mit to it.                         |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 2                                  |
+      Title | The Animal Engine                  |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Clay                               |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Insta-slaughter                    |
+Description | You may trash 1 Animal for any 1 R |
+            | esource, any number of times.      |
+         VP | 20                                 |
+      Snark | Let's just say you should be happy |
+            |  this card has no artwork.         |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 2                                  |
       Title | The Animal Engine                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -112,6 +232,101 @@ Description | Once per turn, you may trash 1 Spe |
             | er 1 space.                        |
          VP | 20                                 |
       Snark | See you at the top!                |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
+      Title | The Ladder Engine                  |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Trash-n-Climb                      |
+Description | Once per turn, you may trash 1 Spe |
+            | cial in your hand or 1 Resource ca |
+            | rd on your tableau to Climb a Ladd |
+            | er 1 space.                        |
+         VP | 20                                 |
+      Snark | See you at the top!                |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Engine                             |
+        qty | 3                                  |
+      Title | The Ladder Engine                  |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power | Trash-n-Climb                      |
+Description | Once per turn, you may trash 1 Spe |
+            | cial in your hand or 1 Resource ca |
+            | rd on your tableau to Climb a Ladd |
+            | er 1 space.                        |
+         VP | 20                                 |
+      Snark | See you at the top!                |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Blocker                            |
+        qty | 4                                  |
+      Title | The Artificial Need                |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | To trash this card, you must trash |
+            |  3 Food in one turn before Endgame |
+            | .                                  |
+         VP | -100                               |
+      Snark | Food is how we keep you from makin |
+            | g powerful moves. You're welcome.  |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Blocker                            |
+        qty | 4                                  |
+      Title | The Artificial Need                |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | To trash this card, you must trash |
+            |  3 Food in one turn before Endgame |
+            | .                                  |
+         VP | -100                               |
+      Snark | Food is how we keep you from makin |
+            | g powerful moves. You're welcome.  |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Blocker                            |
+        qty | 4                                  |
+      Title | The Artificial Need                |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 |                                    |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | To trash this card, you must trash |
+            |  3 Food in one turn before Endgame |
+            | .                                  |
+         VP | -100                               |
+      Snark | Food is how we keep you from makin |
+            | g powerful moves. You're welcome.  |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -170,6 +385,23 @@ Description | You may trash this card for 1 Food |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
+        qty | 2                                  |
+      Title | Grain Breed!                       |
+     Bonus1 | Grain                              |
+     Bonus2 | Grain                              |
+     Trash1 | Grain                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | You may trash this card for 1 Food |
+            | .                                  |
+         VP | 20                                 |
+      Snark | Grain: the sheep of plants.        |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
         qty | 1                                  |
       Title | The Wildcard Building              |
      Bonus1 |                                    |
@@ -184,6 +416,40 @@ Description | You may trash 1 Silk for any 2 Res |
          VP | 50                                 |
       Snark | Be sure to take this from someone  |
             | who has collected silk.            |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
+        qty | 3                                  |
+      Title | Sheep Breed!                       |
+     Bonus1 | Sheep                              |
+     Bonus2 | Sheep                              |
+     Trash1 | Sheep                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 30                                 |
+      Snark | Sheep: the rabbits of farm animals |
+            | .                                  |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
+        qty | 3                                  |
+      Title | Sheep Breed!                       |
+     Bonus1 | Sheep                              |
+     Bonus2 | Sheep                              |
+     Trash1 | Sheep                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 30                                 |
+      Snark | Sheep: the rabbits of farm animals |
+            | .                                  |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -333,6 +599,23 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Starter                            |
+        qty | 2                                  |
+      Title | Feast!                             |
+     Bonus1 | Food                               |
+     Bonus2 | Food                               |
+     Trash1 | Sheep                              |
+     Trash2 | Grain                              |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description |                                    |
+         VP | 20                                 |
+      Snark | You didn't pick up an engine needi |
+            | ng these, did you??                |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Starter                            |
         qty | 1                                  |
       Title | The Military Building              |
      Bonus1 | Soldier                            |
@@ -399,6 +682,23 @@ Description |                                    |
 Description |                                    |
          VP | 30                                 |
       Snark | Sheep: the grain of animals.       |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 2                                  |
+      Title | Even More Grain!                   |
+     Bonus1 | Grain                              |
+     Bonus2 | Grain                              |
+     Trash1 | Grain                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | You may trash this card for 1 Food |
+            |                                    |
+         VP | 30                                 |
+      Snark | Grain: the rabbits of plants.      |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -664,6 +964,25 @@ Description | Upon playing, climb 1 rung on a La |
             |  sheep doing the climbing? Because |
             |  they're not goats. Should we be w |
             | orried?                            |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 2                                  |
+      Title | Grain Climb!                       |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Grain                              |
+     Trash2 |                                    |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | Upon playing, climb 1 rung on a La |
+            | dder                               |
+         VP | 20                                 |
+      Snark | Thematically this card makes no se |
+            | nse. We needed it for game reasons |
+            | .                                  |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
