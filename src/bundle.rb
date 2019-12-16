@@ -6,7 +6,8 @@ Squib.configure img_dir: '.'
 special_faces = Dir['_output/special_??.png'].sort
 special_backs = Dir['_output/special_back_??.png'].sort
 
-ladder_faces = Dir['_output/ladder_??.png'].sort
+special_faces += Dir['_output/ladder_??.png'].sort
+special_backs += Dir['_output/ladder_back_??.png'].sort
 
 Squib::Deck.new(cards: special_faces.length * 2) do
   background color: :white
