@@ -32,7 +32,7 @@ Prefer starting off with analysis paralysis? Try our Drafting Variant.
 5. Give each player one **Blocker** card and place face-up in their Tableau.
 6. Shuffle the **Endgame** cards face-down. This pile will be known as the *Special Pile*.
 7. Place the **Initiate Endgame** card face-down on top of the Special Pile.
-8. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile.
+8. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile. Deal 5 cards face-down and place them back in the box without looking.
 9.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
 10. Distribute **3 Starter Cards** to the *Hands* of each player.
 11. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.

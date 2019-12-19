@@ -72,6 +72,8 @@ graph LR
     silk[Silk] --> theexpensivething-in-a-set[The Expensive Thing-in-a-Set];
     glass[Glass] --> theunfairdeckdive[The Unfair Deck Dive];
     glass[Glass] --> theunnecessarymemorymechanic[The Unnecessary Memory Mechanic];
+    clay[Clay] --> themetagamingcard[The Metagaming Card];
+    sheep[Sheep] --> themetagamingcard[The Metagaming Card];
     silk[Silk] --> thepayoffgambit[The Payoff Gambit];
     glass[Glass] --> theunexpectedpayoff[The Unexpected Payoff];
     carrot[Carrot] --> theunexpectedpayoff[The Unexpected Payoff];

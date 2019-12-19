@@ -1189,10 +1189,11 @@ Description | Upon playing, retrieve any Trashed |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power |                                    |
+      Power | Recall & Steal!                    |
 Description | Once per game, if you can guess 3  |
             | cards in another player's hand, yo |
-            | u may take one of them at random.  |
+            | u may take one of their cards at r |
+            | andom.                             |
          VP | 50                                 |
       Snark | Memory games: we make you feel old |
             | .                                  |
@@ -1242,6 +1243,27 @@ Description | You may trash this card from your  |
             ╭------------------------------------╮
        Type | Midgame                            |
         qty | 1                                  |
+      Title | The Metagaming Card                |
+     Bonus1 |                                    |
+     Bonus2 |                                    |
+     Trash1 | Clay                               |
+     Trash2 | Sheep                              |
+  Requires1 |                                    |
+  Requires2 |                                    |
+      Power |                                    |
+Description | Play this card immediately upon ta |
+            | king it. You may look at the midga |
+            | me cards set aside in the box.     |
+         VP | 40                                 |
+      Snark | If the instructions say "put this  |
+            | back in the box", then it can't be |
+            |  part of the game. That's a rule.  |
+            | And we just broke it.              |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Midgame                            |
+        qty | 1                                  |
       Title | The Payoff Gambit                  |
      Bonus1 |                                    |
      Bonus2 |                                    |
@@ -1249,7 +1271,7 @@ Description | You may trash this card from your  |
      Trash2 |                                    |
   Requires1 |                                    |
   Requires2 |                                    |
-      Power | Endgame                            |
+      Power | Endgame Actions                    |
 Description | On your first turn in Endgame, you |
             |  get 2 extra Actions.              |
          VP | 40                                 |
