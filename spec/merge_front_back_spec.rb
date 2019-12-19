@@ -59,5 +59,31 @@ describe :merge_front_back do
     ]
   end
 
+  it 'handles one extra on the next page' do
+    faces = %w(A B C D E F G H I)
+    backs = %w(a b c d e f g h i)
+    expect(merge_front_back(faces, backs)).to eq [
+      #--------------------
+        'A', 'B', 'C', 'D',
+        'E', 'F', 'G', 'H',
+      #------page 1--------
+
+      #--------------------
+        'd', 'c', 'b', 'a',
+        'h', 'g', 'f', 'e',
+      #------page 2--------
+
+      #--------------------
+        'I', nil, nil, nil,
+        nil, nil, nil, nil,
+      #------page 3--------
+
+      #--------------------
+        nil, nil, nil, 'i',
+        nil, nil, nil, nil,
+      #------page 4--------
+    ]
+  end
+
 
 end

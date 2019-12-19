@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -120,16 +120,16 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:serif;-inkscape-font-specification:'serif Italic';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="414.29749"
-       y="939.16931"
+       y="947.16931"
        id="text4835"><tspan
          sodipodi:role="line"
          id="tspan4837"
          x="417.26624"
-         y="939.16931"
+         y="947.16931"
          style="font-size:23.75px;line-height:1.25">Just stick with it. </tspan><tspan
          sodipodi:role="line"
          x="414.29749"
-         y="968.85681"
+         y="976.85681"
          style="font-size:23.75px;line-height:1.25"
          id="tspan850">You'll find a place for all this stuff eventually.</tspan></text>
     <text
@@ -207,24 +207,36 @@
     <text
        transform="scale(0.89988848,1.1112488)"
        id="text866"
-       y="721.46112"
+       y="755.22791"
        x="129.28879"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.07556248px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
-         y="721.46112"
+         y="755.22791"
          x="129.28879"
          sodipodi:role="line"
          id="tspan868">Draw: Deal a card from the Resource deck</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
-         y="757.95734"
+         y="791.72412"
          x="129.28879"
          sodipodi:role="line"
          id="tspan874">Take: Take an available Resource card from the pool</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px"
-         y="794.45349"
+         y="828.22028"
          x="129.28879"
          sodipodi:role="line"
          id="tspan878">Steal: Take a Resource card from another player's tableau</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.07556248px;line-height:0%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="268.00574"
+       y="716.85016"
+       id="text1003"
+       transform="scale(0.89988848,1.1112488)"><tspan
+         id="tspan1001"
+         sodipodi:role="line"
+         x="268.00574"
+         y="716.85016"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.19694901px;line-height:1.25;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;text-anchor:start;stroke-width:0.99999988px">Do these once upon taking the rung</tspan></text>
   </g>
 </svg>
