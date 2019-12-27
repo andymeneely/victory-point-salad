@@ -17,26 +17,24 @@ Setup
 =====
 
 <div class="snark">
-Like most board games, the setup looks much harder than it actually is. We just need to be detailed for you noobs.
+Like most board games, the setup looks much harder than it actually is.
 </div>
 
 1. Separate all cards into piles by their backs.
 2. Separate each **Engine card** by its name and place each Engine in its own face-up pile.
 3. Place **Ladder** cards face-up where everyone can easily see them.
-4. Place one player color cubes at the bottom of each **Ladder**.
-<div class="snark">
-Prefer starting off with analysis paralysis? Try our Drafting Variant.
-</div>
-3. Shuffle all **Resource Cards** and place them in a pile face down.
-4. **Draw 3 Resource cards** for each player and place them face-up on their Tableau.
-5. Give each player one **Blocker** card and place face-up in their Tableau.
-6. Shuffle the **Endgame** cards face-down. This pile will be known as the *Special Pile*.
-7. Place the **Initiate Endgame** card face-down on top of the Special Pile.
-8. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile. Deal 5 cards face-down and place them back in the box without looking.
-9.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
-10. Distribute **3 Starter Cards** to the *Hands* of each player.
-11. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.
-12. Decide who **goes first**. We suggest the person who most recently won a game with Victory Points. Place *The Coveted Starting Player* on that player's Tableau.
+4. <span class="snark"> Prefer analysis paralysis? Try our Drafting Variant. </span>Place a cube at the bottom of each **Ladder**, according to player color.
+5. Shuffle all **Resource Cards** and place them in a pile face down.
+6. **Draw 3 Resource cards** for each player and place them face-up on their Tableau.
+7. Give each player one **Blocker** card and place face-up in their Tableau.
+8. Shuffle the **Endgame** cards face-down. This pile will be known as the *Special Pile*.
+9. Place the **Initiate Endgame** card face-down on top of the Special Pile.
+10. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile. Deal 5 cards face-down and place them back in the box without looking.
+11.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
+12. Distribute **3 Starter Cards** to the *Hands* of each player.
+13. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.
+14. <span class="snark">Dice are for pansies.</span> Decide at random who **goes first**. You may not use dice to make this decision. Place *The Coveted Starting Player* on that player's Tableau.
+
 
 <div class="figure">
   <img src="rules_figure_layout.svg" width="100%"/>
@@ -173,6 +171,8 @@ At any time, the current player may declare "Game Over". Once Game Over is decla
 
 Add up the points on your Tableau to determine the winner. In the case of a tie, you share the victory.
 
+<div class="clearpage"></div>
+
 Solo Campaign Variant
 =====================
 
@@ -202,4 +202,4 @@ Lunchbreak Rules
   Let's see if we can squeeze ourselves into your worklife, too.
 </div>
 
-For a shorter, more predictable gameplay time, deal 5 cards out on each purchase row regardless of how many players are playing. Always remove 2 cards at the end of each round.
+For a shorter, more predictable gameplay time, deal 5 cards out on each purchase row regardless of how many players are playing. Always remove 2 cards at the end of each round. If a player takes too long on their turn, it is socially acceptable to point at them until they make their move.
