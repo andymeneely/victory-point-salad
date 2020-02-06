@@ -251,7 +251,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 3                                  |
+        qty | 2                                  |
       Title | The Wildcard Resource              |
   Resource1 | Silk                               |
   Resource2 |                                    |
@@ -262,18 +262,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 3                                  |
-      Title | The Wildcard Resource              |
-  Resource1 | Silk                               |
-  Resource2 |                                    |
-Description |                                    |
-         VP | 1                                  |
-      Snark | What, exactly, are we making out o |
-            | f these?                           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Resource                           |
-        qty | 3                                  |
+        qty | 2                                  |
       Title | The Wildcard Resource              |
   Resource1 | Silk                               |
   Resource2 |                                    |

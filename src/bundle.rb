@@ -26,3 +26,5 @@ Squib::Deck.new(cards: resource_pngs.size, config: 'bundle.yml') do
   png file: resource_pngs, angle: Math::PI / 2, x: 825
   save_pdf file: 'bundle-resources-k40.pdf', margin: '0.125in', trim: '0.05in'
 end
+
+# Printing tip: print two-sided with "flip on long edge"

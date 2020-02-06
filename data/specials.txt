@@ -226,10 +226,10 @@ Description | You may trash 1 Animal for any 1 R |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Trash-n-Climb                      |
-Description | Once per turn, you may trash 1 Spe |
-            | cial in your hand or 1 Resource ca |
-            | rd on your tableau to Climb a Ladd |
-            | er 1 space.                        |
+Description | Once per turn, you may trash 1 car |
+            | d in your hand or 1 Resource card  |
+            | on your tableau to Climb a Ladder  |
+            | 1 space.                           |
          VP | 20                                 |
       Snark | See you at the top!                |
             |                                    |
@@ -245,10 +245,10 @@ Description | Once per turn, you may trash 1 Spe |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Trash-n-Climb                      |
-Description | Once per turn, you may trash 1 Spe |
-            | cial in your hand or 1 Resource ca |
-            | rd on your tableau to Climb a Ladd |
-            | er 1 space.                        |
+Description | Once per turn, you may trash 1 car |
+            | d in your hand or 1 Resource card  |
+            | on your tableau to Climb a Ladder  |
+            | 1 space.                           |
          VP | 20                                 |
       Snark | See you at the top!                |
             |                                    |
@@ -264,10 +264,10 @@ Description | Once per turn, you may trash 1 Spe |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Trash-n-Climb                      |
-Description | Once per turn, you may trash 1 Spe |
-            | cial in your hand or 1 Resource ca |
-            | rd on your tableau to Climb a Ladd |
-            | er 1 space.                        |
+Description | Once per turn, you may trash 1 car |
+            | d in your hand or 1 Resource card  |
+            | on your tableau to Climb a Ladder  |
+            | 1 space.                           |
          VP | 20                                 |
       Snark | See you at the top!                |
             |                                    |
@@ -360,7 +360,8 @@ Description | To trash this card, you must trash |
   Requires2 |                                    |
       Power | Invested                           |
 Description | You may only play this card before |
-            |  playing an Engine.                |
+            |  playing an Engine. This card has  |
+            | no special ability.                |
          VP | 30                                 |
       Snark | Does nothing now, but it will pay  |
             | off later. The engine can wait.    |
@@ -1070,11 +1071,10 @@ Description | Upon playing, climb 1 rung on a La |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Chain 3x & Climb                   |
-Description | You may play this immediately upon |
-            |  taking this card. Once per turn,  |
-            | if you use the Chain Rule to play  |
-            | or steal 3 cards in one turn, you  |
-            | may climb a ladder.                |
+Description | Play immediately. Once per turn, i |
+            | f you use the Chain Rule to play o |
+            | r steal 3 cards in one action, you |
+            |  may climb a ladder.               |
          VP | 10                                 |
       Snark | Who needs a chain to climb a ladde |
             | r? Is it a chain ladder? We really |
@@ -1093,11 +1093,10 @@ Description | You may play this immediately upon |
   Requires1 |                                    |
   Requires2 |                                    |
       Power | Chain 3x & Draw                    |
-Description | You may play this immediately upon |
-            |  taking this card. Once per turn,  |
-            | if you use the Chain Rule to play  |
-            | or steal 3 cards in one turn, you  |
-            | may draw a Special card.           |
+Description | Play immediately. Once per turn, i |
+            | f you use the Chain Rule to play o |
+            | r steal 3 cards in one action, you |
+            |  may draw a Special card.          |
          VP | 10                                 |
       Snark | You're gonna have to learn that ru |
             | le now.                            |
@@ -1116,9 +1115,10 @@ Description | You may play this immediately upon |
       Power |                                    |
 Description |                                    |
          VP | 60                                 |
-      Snark | Hm, this card mysteriously looks l |
+      Snark | Not the same thing as woodgrain. ( |
+            | Hm, this card mysteriously looks l |
             | ike it's part of a set. I wonder i |
-            | f that will pay off?               |
+            | f that will pay off?)              |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1417,7 +1417,7 @@ Description | 10 VP for each Building you've pla |
   Requires1 |                                    |
   Requires2 |                                    |
       Power |                                    |
-Description | 20/40/70 VP if you have 1/2/3 Thin |
+Description | 30/50/80 VP if you have 1/2/3 Thin |
             | g-in-a-Set cards.                  |
          VP | ?                                  |
       Snark | Yay! Another point ladder.         |
@@ -1434,8 +1434,8 @@ Description | 20/40/70 VP if you have 1/2/3 Thin |
   Requires1 |                                    |
   Requires2 |                                    |
       Power |                                    |
-Description | 40 VP for each Clay, Stone, Silk,  |
-            | Glass, Carrot                      |
+Description | 40 VP for each Clay, Stone, Carrot |
+            |                                    |
          VP | ?                                  |
       Snark | This card makes your leftover Ston |
             | es look intentional. Your secret's |
@@ -1445,7 +1445,7 @@ Description | 40 VP for each Clay, Stone, Silk,  |
             ╭------------------------------------╮
        Type | Endgame                            |
         qty | 1                                  |
-      Title | The Animal Payoff                  |
+      Title | The Breeding Animal Payoff         |
      Bonus1 |                                    |
      Bonus2 |                                    |
      Trash1 |                                    |
