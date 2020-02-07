@@ -251,18 +251,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 2                                  |
-      Title | The Wildcard Resource              |
-  Resource1 | Silk                               |
-  Resource2 |                                    |
-Description |                                    |
-         VP | 1                                  |
-      Snark | What, exactly, are we making out o |
-            | f these?                           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Resource                           |
-        qty | 2                                  |
+        qty | 3                                  |
       Title | The Wildcard Resource              |
   Resource1 | Silk                               |
   Resource2 |                                    |
@@ -274,13 +263,24 @@ Description |                                    |
             ╭------------------------------------╮
        Type | Resource                           |
         qty | 3                                  |
-      Title | The Cuddly Animal                  |
-  Resource1 | Sheep                              |
+      Title | The Wildcard Resource              |
+  Resource1 | Silk                               |
   Resource2 |                                    |
 Description |                                    |
          VP | 1                                  |
-      Snark | I shall call him Skippy. Like the  |
-            | peanut butter. Only tastier.       |
+      Snark | What, exactly, are we making out o |
+            | f these?                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 3                                  |
+      Title | The Wildcard Resource              |
+  Resource1 | Silk                               |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | What, exactly, are we making out o |
+            | f these?                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
@@ -307,6 +307,17 @@ Description |                                    |
             ╭------------------------------------╮
        Type | Resource                           |
         qty | 3                                  |
+      Title | The Cuddly Animal                  |
+  Resource1 | Sheep                              |
+  Resource2 |                                    |
+Description |                                    |
+         VP | 1                                  |
+      Snark | I shall call him Skippy. Like the  |
+            | peanut butter. Only tastier.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 2                                  |
       Title | The Expensive Animal               |
   Resource1 | Cattle                             |
   Resource2 |                                    |
@@ -316,17 +327,7 @@ Description |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
-        qty | 3                                  |
-      Title | The Expensive Animal               |
-  Resource1 | Cattle                             |
-  Resource2 |                                    |
-Description |                                    |
-         VP | 1                                  |
-      Snark | Moo.                               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Type | Resource                           |
-        qty | 3                                  |
+        qty | 2                                  |
       Title | The Expensive Animal               |
   Resource1 | Cattle                             |
   Resource2 |                                    |
@@ -355,6 +356,17 @@ Description | You may trash this card for 2 Food |
             | .                                  |
          VP | 1                                  |
       Snark | Everyone just calls them pigs.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Type | Resource                           |
+        qty | 1                                  |
+      Title | The Breeding Animals               |
+  Resource1 | Sheep                              |
+  Resource2 | Cattle                             |
+Description |                                    |
+         VP | 1                                  |
+      Snark | Just don't let them breed with eac |
+            | h other.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
@@ -404,7 +416,7 @@ Description |                                    |
             ╭------------------------------------╮
        Type | Resource                           |
         qty | 1                                  |
-      Title | The Strange Combo                  |
+      Title | The Pun Combo                      |
   Resource1 | Wood                               |
   Resource2 | Grain                              |
 Description |                                    |

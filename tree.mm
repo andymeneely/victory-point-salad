@@ -18,8 +18,11 @@ graph LR
     grain[Grain] --> feast![Feast!];
     feast![Feast!] --> food[Food];
     feast![Feast!] --> food[Food];
+    clay[Clay] --> themetagamingcard[The Metagaming Card];
+    sheep[Sheep] --> themetagamingcard[The Metagaming Card];
     themilitarybuilding[The Military Building] --> soldier[Soldier];
     themilitarybuilding[The Military Building] --> soldier[Soldier];
+    wood[Wood] --> thefood-to-climbenginebuilding[The Food-to-Climb Engine Building];
     grain[Grain] --> themilkengine[The Milk Engine];
     wood[Wood] --> timetobuildfences[Time to Build Fences];
     grain[Grain] --> timetobuildfences[Time to Build Fences];
@@ -71,9 +74,6 @@ graph LR
     stone[Stone] --> theexpensivething-in-a-set[The Expensive Thing-in-a-Set];
     silk[Silk] --> theexpensivething-in-a-set[The Expensive Thing-in-a-Set];
     glass[Glass] --> theunfairdeckdive[The Unfair Deck Dive];
-    glass[Glass] --> theunnecessarymemorymechanic[The Unnecessary Memory Mechanic];
-    clay[Clay] --> themetagamingcard[The Metagaming Card];
-    sheep[Sheep] --> themetagamingcard[The Metagaming Card];
     silk[Silk] --> thepayoffgambit[The Payoff Gambit];
     glass[Glass] --> theunexpectedpayoff[The Unexpected Payoff];
     carrot[Carrot] --> theunexpectedpayoff[The Unexpected Payoff];
