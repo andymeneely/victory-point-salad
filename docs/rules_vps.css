@@ -20,12 +20,15 @@ body {
   float: right;
   width: 10em;
   padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   margin-left: 1em;
   font-style: italic;
   border: 1pt solid black;
   border-left: 4pt solid black;
   text-align: center;
   page-break-inside: avoid;
+  line-height: 1.05;
 }
 
 h1 {
@@ -40,13 +43,27 @@ h1, h2, h3 {
 
 .card {
   box-shadow: 4px 4px 16px #111;
+  margin-bottom: 1em;
+}
+
+.figure {
+  margin: 0.5em;
+  text-align: center;
+}
+
+.figure-full-line {
+  width: 100%;
+}
+
+.figure-full-line img{
+  box-shadow: 4px 4px 16px #111;
+  margin-bottom: 1em;
 }
 
 .figure img{
-  display: block;
+  display: inline-block;
   padding: 0;
   text-align: center;
-
   font-size: 85%;
 }
 
@@ -68,6 +85,14 @@ ol,ul {
   margin: 0;
   padding-left: 2em;
 }
+
+ul {
+  list-style: square;
+}
+
+/* ul li::before {
+  content: ">";
+} */
 
 .clearpage {
   page-break-before: always;

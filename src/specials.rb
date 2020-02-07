@@ -66,5 +66,7 @@ Squib::Deck.new(cards: data['Title'].size) do
     save_pdf trim: 37.5, file: 'specials.pdf'
   end
 
+  save_png prefix: 'rules_figure_', range: 35, dir: 'docs', trim_radius: 37.5
+
   puts "Done. #{data['Title'].size} Special cards"
 end

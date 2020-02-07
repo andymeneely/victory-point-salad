@@ -56,16 +56,16 @@ Or will you??
 
 Your **Tableau** is the array of already-played, face-up cards in front of you. You may have an unlimited number of cards on your Tableau. You may *not* Trash a card on your Tableau, unless you play another card that allows you to. You may arrange your Tableau however you wish, but you must allow your opponents see any of your Tableau cards upon request.
 
-The Cards
+<div class="clearpage"></div>
+
+Resources
 =========
 
-<div class="snark">
+<!-- <div class="snark">
 These are usually little cubes or meeples, but this is a cheap game.
-</div>
+</div> -->
 
-<div class="figure figure-left card">
-  <img src="rules_figure_resource_36.png" width="250px"><br>
-</div>
+
 
 **Resource Cards** cards provide the raw materials for you to build your Tableau. Some may have a Description, but all will have one or two **Resources**.
 
@@ -73,30 +73,39 @@ These are usually little cubes or meeples, but this is a cheap game.
 These games have not advanced past a medieval society.
 </div>
 
-This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Cattle, Grain, Carrot, Glass, Gold, Silk, and Food. Resource cards may not be exchanged, e.g. you may *not* "make change". Some Resource cards have descriptions that allow extra abilities to be done with the Resource(s) on the card.
+This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Cattle, Grain, Carrot, Glass, Gold, Silk, and Food.
+
+Resource cards may not be exchanged, e.g. you may *not* "make change". Some Resource cards have descriptions that allow extra abilities to be done with the Resource(s) on the card.
+
+<div class="figure figure-full-line">
+  <img src="rules_figure_resource_36.png" width="225px"><br>
+  Resource card
+</div>
 
 <div class="clear-both"/>
+<div class="clearpage"></div>
+
+Specials
+========
 
 <div class="snark">
 Every card is special. Every. Card.
 </div>
 
-All other types of cards are **Specials**, denoted by their portrait orientation. This game has the following types of Specials:
+All other types of cards are **Specials**, denoted by their portrait orientation.
 
-  * **Engines** are always available for purchase
-  * **Blockers** have negative effects on your Tableau that must get rid of
-  * **Starters** are Specials that could be in your starting hand, potentially, and you will see early game.
-  * **Midgames** are Specials that will appear after gameplay has gone past the Starters.
-  * **Endgames** are Specials that you will see at the very end of the game.
+* **Engines** are always available for purchase until Endgame
+* **Blockers** have negative effects on your Tableau that must get rid of
+* **Starters** could be in your starting hand, potentially, and you will see early game
+* **Midgames** will appear after gameplay has gone past the Starters.
+* **Endgames** or "Payoffs" will be during the (you guessed it) Endgame.
 
-<div class="figure">
-  <span class="card">
-    <img src="rules_figure_special_20.png" width="40%">
-  </span>
-  <span class="card">
-    <img src="rules_figure_special_27.png" width="40%">
-  </span>
+<div class="figure figure-right">
+  <img src="rules_figure_special_27.png" width="160px" class="card"><br>
+  Special card
 </div>
+
+
 
 <!-- <div class="figure figure-right card">
 </div> -->
@@ -105,10 +114,12 @@ Specials can have the following:
 
   * **Resource**. These are raw materials that the Special provides.
   * **Trash Requirement**: To play this card from your hand, you must trash the noted Resource from your Tableau. This resource may be a Resource card or Special - as long as it has the Resource(s) you need.
-  * **Power**. This card, when on your Tableau, will have a permanent power you may use.
   * **Requires Power**: To play this card from your hand, you must have the denoted Power on your Tableau (e.g. Building, Military)
-  * **Description**: This text may have special rules about the card.
-  * **Victory Points** : This is how much the card is worth at the end of the game, if it's in your Tableau.
+  * **Power**. Active only when on your Tableau
+  * **Description**: Only takes effect when on your Tableau
+  * **Victory Points** : How much the card is worth at the end of the game, if it's in your Tableau.
+
+<div class="clearpage"></div>
 
 Gameplay
 ========
@@ -150,6 +161,8 @@ Stealing the *The Coveted Starting Player* may be part of a chain rule that was 
 
   * If someone took at *least one card* from a given row, Trash the left-most card, shift the cards to the left and draw cards until the row is full.
   * If *nobody* took a card from a given row, Trash the *two* left-most cards, then shift the cards to the left and draw cards until the row is full.
+
+<div class="clearpage"></div>
 
 Endgame
 =======
@@ -195,8 +208,8 @@ Analysis Paralysis Variant
 
 During setup, deal out 3 Specials to each player face-down. Select a card to start with in your hand and pass the rest to your left. Continue in this fashion until all of the drafted cards are selected. Then, do the same with 3 Resources to each player.
 
-Lunchbreak Rules
-================
+Lunchbreak Variant
+==================
 
 <div class="snark">
   Let's see if we can squeeze ourselves into your worklife, too.
