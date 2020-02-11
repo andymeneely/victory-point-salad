@@ -1,3 +1,3 @@
 module VictoryPointSalad
-  VERSION = 'v3.0'
+  VERSION = 'v4.0.alpha'
 end
