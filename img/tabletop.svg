@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72in"
+   height="48in"
+   viewBox="0 0 72 48"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="tabletop.svg"
+   inkscape:export-filename="D:\code\victory-point-salad\img\tabletop.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient834"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop832" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="2979.7461"
+     inkscape:cy="2198.7631"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:snap-page="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid821"
+       units="in"
+       spacingx="1"
+       spacingy="1"
+       originx="0"
+       originy="-0.083332064" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Backdrop"
+     style="display:inline"
+     transform="translate(0,0.08333031)"
+     sodipodi:insensitive="true">
+    <image
+       sodipodi:absref="D:\code\victory-point-salad\img\MMsVrn0.jpg"
+       xlink:href="MMsVrn0.jpg"
+       style="stroke-width:0.26919097"
+       width="72"
+       height="47.916668"
+       preserveAspectRatio="none"
+       id="image2310"
+       x="0"
+       y="-0.083330311" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.8451581px;line-height:1.25;font-family:'Roboto Black';-inkscape-font-specification:'Roboto Black, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041666"
+       x="53.76685"
+       y="41.133976"
+       id="text819"><tspan
+         sodipodi:role="line"
+         id="tspan817"
+         x="53.76685"
+         y="41.133976"
+         style="stroke-width:0.01041666">The Cozy, Customized Tabletop</tspan></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,922.28336)"
+     style="display:inline">
+    <g
+       id="g2430"
+       transform="translate(-1,4.9999846)">
+      <rect
+         rx="0.25"
+         y="-899.20001"
+         x="25"
+         height="3.480315"
+         width="2.480315"
+         id="rect815"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="26.228823"
+         y="-897.62573"
+         id="text2337"><tspan
+           sodipodi:role="line"
+           id="tspan2335"
+           x="26.228823"
+           y="-897.62573"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Special</tspan><tspan
+           id="tspan2339"
+           sodipodi:role="line"
+           x="26.228823"
+           y="-896.83496"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Deck</tspan></text>
+    </g>
+    <g
+       id="g2395"
+       transform="translate(-1,5.9999839)">
+      <rect
+         transform="rotate(90)"
+         rx="0.25"
+         y="-28"
+         x="-903.6803"
+         height="3.480315"
+         width="2.480315"
+         id="rect2389"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2373"
+         y="-902.6214"
+         x="26.264317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-902.6214"
+           x="26.264317"
+           sodipodi:role="line"
+           id="tspan2371">Resource</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-901.83063"
+           x="26.264317"
+           sodipodi:role="line"
+           id="tspan2377">Deck</tspan></text>
+    </g>
+    <g
+       transform="translate(4,5.9999839)"
+       id="g2411">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2403"
+         width="2.480315"
+         height="3.480315"
+         x="-903.6803"
+         y="-28"
+         rx="0.25"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="26.264317"
+         y="-902.6214"
+         id="text2409"><tspan
+           id="tspan2405"
+           sodipodi:role="line"
+           x="26.264317"
+           y="-902.6214"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Resource</tspan><tspan
+           id="tspan2407"
+           sodipodi:role="line"
+           x="26.264317"
+           y="-901.83063"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Card</tspan></text>
+    </g>
+    <g
+       id="g2524"
+       transform="translate(-1,4.9999846)">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2432"
+         width="2.480315"
+         height="3.480315"
+         x="30"
+         y="-899.20001"
+         rx="0.25" />
+      <text
+         id="text2438"
+         y="-897.62573"
+         x="31.228823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-897.62573"
+           x="31.228823"
+           id="tspan2434"
+           sodipodi:role="line">Special</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-896.83496"
+           x="31.228823"
+           sodipodi:role="line"
+           id="tspan2436">Card</tspan></text>
+    </g>
+    <g
+       id="g2530"
+       transform="translate(-1,4.9999846)">
+      <rect
+         rx="0.25"
+         y="-899.20001"
+         x="35"
+         height="3.480315"
+         width="2.480315"
+         id="rect2472"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="36.228821"
+         y="-897.62573"
+         id="text2478"><tspan
+           sodipodi:role="line"
+           id="tspan2474"
+           x="36.228821"
+           y="-897.62573"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Special</tspan><tspan
+           id="tspan2476"
+           sodipodi:role="line"
+           x="36.228821"
+           y="-896.83496"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Card</tspan></text>
+    </g>
+    <g
+       id="g2536"
+       transform="translate(-1,4.9999846)">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2480"
+         width="2.480315"
+         height="3.480315"
+         x="40"
+         y="-899.20001"
+         rx="0.25" />
+      <text
+         id="text2486"
+         y="-897.62573"
+         x="41.228825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-897.62573"
+           x="41.228825"
+           id="tspan2482"
+           sodipodi:role="line">Special</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-896.83496"
+           x="41.228825"
+           sodipodi:role="line"
+           id="tspan2484">Card</tspan></text>
+    </g>
+    <g
+       id="g2470"
+       transform="translate(9,5.9999839)">
+      <rect
+         transform="rotate(90)"
+         rx="0.25"
+         y="-28"
+         x="-903.6803"
+         height="3.480315"
+         width="2.480315"
+         id="rect2462"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2468"
+         y="-902.6214"
+         x="26.264317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-902.6214"
+           x="26.264317"
+           sodipodi:role="line"
+           id="tspan2464">Resource</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-901.83063"
+           x="26.264317"
+           sodipodi:role="line"
+           id="tspan2466">Card</tspan></text>
+    </g>
+    <g
+       transform="translate(14,5.9999839)"
+       id="g2496">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2488"
+         width="2.480315"
+         height="3.480315"
+         x="-903.6803"
+         y="-28"
+         rx="0.25"
+         transform="rotate(90)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="26.264317"
+         y="-902.6214"
+         id="text2494"><tspan
+           id="tspan2490"
+           sodipodi:role="line"
+           x="26.264317"
+           y="-902.6214"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Resource</tspan><tspan
+           id="tspan2492"
+           sodipodi:role="line"
+           x="26.264317"
+           y="-901.83063"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Card</tspan></text>
+    </g>
+    <g
+       id="g2556"
+       transform="translate(-5,-3.0000154)">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2548"
+         width="2.480315"
+         height="3.480315"
+         x="30"
+         y="-899.20001"
+         rx="0.25" />
+      <text
+         id="text2554"
+         y="-897.62573"
+         x="31.228823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-897.62573"
+           x="31.228823"
+           id="tspan2550"
+           sodipodi:role="line">Engine</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-896.83496"
+           x="31.228823"
+           sodipodi:role="line"
+           id="tspan2552">Cards</tspan></text>
+    </g>
+    <g
+       transform="translate(-2,-3.0000151)"
+       id="g2576">
+      <rect
+         rx="0.25"
+         y="-899.20001"
+         x="30"
+         height="3.480315"
+         width="2.480315"
+         id="rect2568"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="31.228823"
+         y="-897.62573"
+         id="text2574"><tspan
+           sodipodi:role="line"
+           id="tspan2570"
+           x="31.228823"
+           y="-897.62573"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Engine</tspan><tspan
+           id="tspan2572"
+           sodipodi:role="line"
+           x="31.228823"
+           y="-896.83496"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Cards</tspan></text>
+    </g>
+    <g
+       id="g2586"
+       transform="translate(4,-3.0000157)">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2578"
+         width="2.480315"
+         height="3.480315"
+         x="30"
+         y="-899.20001"
+         rx="0.25" />
+      <text
+         id="text2584"
+         y="-897.62573"
+         x="31.228823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-897.62573"
+           x="31.228823"
+           id="tspan2580"
+           sodipodi:role="line">Engine</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-896.83496"
+           x="31.228823"
+           sodipodi:role="line"
+           id="tspan2582">Cards</tspan></text>
+    </g>
+    <g
+       id="g2596"
+       transform="translate(1,-3.0000148)">
+      <rect
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2588"
+         width="2.480315"
+         height="3.480315"
+         x="30"
+         y="-899.20001"
+         rx="0.25" />
+      <text
+         id="text2594"
+         y="-897.62573"
+         x="31.228823"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-897.62573"
+           x="31.228823"
+           id="tspan2590"
+           sodipodi:role="line">Engine</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+           y="-896.83496"
+           x="31.228823"
+           sodipodi:role="line"
+           id="tspan2592">Cards</tspan></text>
+    </g>
+    <g
+       transform="translate(7,-3.0000157)"
+       id="g2606">
+      <rect
+         rx="0.25"
+         y="-899.20001"
+         x="30"
+         height="3.480315"
+         width="2.480315"
+         id="rect2598"
+         style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+         x="31.228823"
+         y="-897.62573"
+         id="text2604"><tspan
+           sodipodi:role="line"
+           id="tspan2600"
+           x="31.228823"
+           y="-897.62573"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Engine</tspan><tspan
+           id="tspan2602"
+           sodipodi:role="line"
+           x="31.228823"
+           y="-896.83496"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Cards</tspan></text>
+    </g>
+    <g
+       transform="translate(-7,-7.0000157)"
+       id="g2648">
+      <g
+         id="g2654">
+        <rect
+           rx="0.25"
+           y="-899.20001"
+           x="35"
+           height="3.480315"
+           width="2.480315"
+           id="rect2640"
+           style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+           x="36.228821"
+           y="-897.62573"
+           id="text2646"><tspan
+             sodipodi:role="line"
+             id="tspan2642"
+             x="36.228821"
+             y="-897.62573"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Ladder</tspan><tspan
+             id="tspan2644"
+             sodipodi:role="line"
+             x="36.228821"
+             y="-896.83496"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Card</tspan></text>
+      </g>
+      <g
+         id="g2664"
+         transform="translate(3)">
+        <rect
+           style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2656"
+           width="2.480315"
+           height="3.480315"
+           x="35"
+           y="-899.20001"
+           rx="0.25" />
+        <text
+           id="text2662"
+           y="-897.62573"
+           x="36.228821"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+             y="-897.62573"
+             x="36.228821"
+             id="tspan2658"
+             sodipodi:role="line">Ladder</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659"
+             y="-896.83496"
+             x="36.228821"
+             sodipodi:role="line"
+             id="tspan2660">Card</tspan></text>
+      </g>
+      <g
+         transform="translate(6)"
+         id="g2674">
+        <rect
+           rx="0.25"
+           y="-899.20001"
+           x="35"
+           height="3.480315"
+           width="2.480315"
+           id="rect2666"
+           style="opacity:0.5;vector-effect:none;fill:#c3c3c3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.01968504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.61086631px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01041659"
+           x="36.228821"
+           y="-897.62573"
+           id="text2672"><tspan
+             sodipodi:role="line"
+             id="tspan2668"
+             x="36.228821"
+             y="-897.62573"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Ladder</tspan><tspan
+             id="tspan2670"
+             sodipodi:role="line"
+             x="36.228821"
+             y="-896.83496"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Heavy';text-align:center;text-anchor:middle;stroke-width:0.01041659">Card</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

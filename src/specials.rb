@@ -11,7 +11,7 @@ Squib::Deck.new(cards: data['Title'].size) do
   background color: :white
 
   svg file: 'vp.svg', layout: :VP_img
-  text str: data['Title'], layout: :title
+  # text str: data['Title'], layout: :title
 
   %w(Trash1 Trash2).each do |bonus|
     data[bonus].map! { |str| str && (":trash: Trash 1 #{str}")}
@@ -67,6 +67,7 @@ Squib::Deck.new(cards: data['Title'].size) do
   end
 
   save_png prefix: 'rules_figure_', range: 35, dir: 'docs', trim_radius: 37.5
+  save_sheet prefix: '_sheet_special_', columns: 10, rows: 7
 
   puts "Done. #{data['Title'].size} Special cards"
 end
