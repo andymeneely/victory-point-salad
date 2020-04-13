@@ -51,9 +51,10 @@ graph LR
     cattle[Cattle] --> cattlebreed![Cattle Breed!];
     cattlebreed![Cattle Breed!] --> cattle[Cattle];
     cattlebreed![Cattle Breed!] --> cattle[Cattle];
-    carrot[Carrot] --> eatmoreveggies![Eat More Veggies!];
-    eatmoreveggies![Eat More Veggies!] --> food[Food];
-    eatmoreveggies![Eat More Veggies!] --> food[Food];
+    carrot[Carrot] --> veggiesoup[Veggie Soup];
+    clay[Clay] --> veggiesoup[Veggie Soup];
+    veggiesoup[Veggie Soup] --> food[Food];
+    veggiesoup[Veggie Soup] --> food[Food];
     wood[Wood] --> thearmsrace[The Arms Race];
     thearmsrace[The Arms Race] --> soldier[Soldier];
     clay[Clay] --> theresalwaysagolem[Theres Always a Golem];
