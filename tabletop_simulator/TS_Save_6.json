@@ -3,14 +3,14 @@
   "GameMode": "Victory Point Salad",
   "Gravity": 0.5,
   "PlayArea": 0.2944444,
-  "Date": "4/11/2020 1:45:54 PM",
+  "Date": "4/13/2020 1:16:48 AM",
   "Table": "Table_Custom",
   "TableURL": "http://cloud-3.steamusercontent.com/ugc/1019444842579717047/3B6EFA3E4480C696F8942562E48C60D50D83DC05/",
   "Sky": "Sky_Regal",
   "Note": "",
   "Rules": "",
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
-  "LuaScript": "starter_deck_guid = 'bc69b7'\nspecial_deck_zone_guid = '2992c4'\n\nnext_round_button_params = {\n  click_function = 'nextClicked',\n  function_owner = self,\n  label = 'Next Round',\n  position={-0.1,0.1,-1},\n  rotation = {0,180,0},\n  width = 650,\n  height = 200,\n  font_size = 100\n}\n\nfunction onLoad()\n  special_deck_zone = getObjectFromGUID(special_deck_zone_guid)\n  special_deck_zone.createButton(next_round_button_params)\nend\n\nfunction nextClicked()\n  starter_deck = getObjectFromGUID(starter_deck_guid)\n  starter_deck.shuffle()\n  broadcastToAll(\"Here!!\")\n  -- pos = starter_deck.getPosition()\n  card = starter_deck.takeObject({\n    position = {x=-7, y=3, z=-6.4},\n    top      = true,\n    flip     = true,\n    smooth   = true,\n  })\n  card = starter_deck.takeObject({\n    position = {x=-0.88, y=3, z=-6.4},\n    top      = true,\n    flip     = true,\n    smooth   = true,\n  })\n  card = starter_deck.takeObject({\n    position = {x=5.22, y=3, z=-6.4},\n    top      = true,\n    flip     = true,\n    smooth   = true,\n  })\n\nend",
+  "LuaScript": "zone_special_deck_guid = '2992c4'\ndeck_special_guid = '1a44bd'\ncard_endgame_guid = 'e0fa97'\ndeck_midgame_guid = '9526fc'\ndeck_starter_guid = 'bc69b7'\n\nin_the_box_guid = 'ca7e8a'\nin_the_box_pos = { x = -21, y = 0.96, z = 1.8 }\n\nspecial_deck_pos = { x = -13.1, y = 1.1, z = -6.3 }\nspecial_spacing_x = 6.1\n\ndrop_height = 5\n\nnum_players = 2\n\nnext_round_button_params = {\n  click_function = 'nextClicked',\n  function_owner = self,\n  label = 'Next Round',\n  position = { x = -0.1, y = -0.3, z = -1 },\n  rotation = {0,180,0},\n  width = 650,\n  height = 200,\n  font_size = 100\n}\n\nnew_game_params = {\n  click_function = 'newGame',\n  function_owner = self,\n  label = 'New Game (2P)',\n  position = { x = -0.1, y = -0.3, z = -1.5 },\n  rotation = {0,180,0},\n  width = 700,\n  height = 200,\n  font_size = 100\n}\n\nfunction onLoad()\n  zone_special_deck = getObjectFromGUID(zone_special_deck_guid)\n  zone_special_deck.createButton(next_round_button_params)\n  zone_special_deck.createButton(new_game_params)\nend\n\nfunction nextClicked()\n  deck_special = getObjectFromGUID(deck_special_guid)\n\n  for i=1,num_players + 1 do\n    deck_special.takeObject({\n      position = {\n        x = special_deck_pos.x + i * special_spacing_x,\n        y = special_deck_pos.y + drop_height,\n        z = special_deck_pos.z,\n      },\n      top      = true,\n      flip     = true,\n      smooth   = true,\n    })\n  end\n\nend\n\n-- hardcoded to 2p for now - but parameterize this!\nfunction newGame()\n  deck_special = getObjectFromGUID(deck_special_guid)\n  deck_special.shuffle()\n  card_endgame = getObjectFromGUID('e0fa97')\n\n  deck_midgame = getObjectFromGUID(deck_midgame_guid)\n  deck_midgame.shuffle()\n  for i=1,5 do\n    deck_midgame.takeObject({\n      position = in_the_box_pos,\n      top      = true,\n      flip     = false,\n      smooth   = true,\n    })\n  end\n\n  deck_starter = getObjectFromGUID('bc69b7')\n  card = deck_starter.deal(3, \"Blue\")\n  card = deck_starter.deal(3, \"Red\")\n\n  card_endgame.setPositionSmooth({\n    x = special_deck_pos.x,\n    y = special_deck_pos.y + 5,\n    z = special_deck_pos.z,\n  }, false, true)\n\n  deck_midgame.setPositionSmooth({\n    x = special_deck_pos.x,\n    y = special_deck_pos.y + 10,\n    z = special_deck_pos.z,\n  }, false, true)\n\n  deck_starter.setPositionSmooth({\n    x = special_deck_pos.x,\n    y = special_deck_pos.y + 15,\n    z = special_deck_pos.z,\n  }, false, true)\n\nend",
   "LuaScriptState": "",
   "MusicPlayer": {
     "RepeatSong": false,
@@ -87,21 +87,21 @@
         "Color": "Blue",
         "Transform": {
           "posX": 23.6700039,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": 34.4527626,
           "rotX": 0.0,
           "rotY": 179.8,
           "rotZ": 0.0,
-          "scaleX": 15.3381424,
+          "scaleX": 15.3388042,
           "scaleY": 11.8970528,
-          "scaleZ": 6.35573435
+          "scaleZ": 6.35608959
         }
       },
       {
         "Color": "Brown",
         "Transform": {
           "posX": 0.0,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": -34.42515,
           "rotX": 0.0,
           "rotY": 0.0,
@@ -115,7 +115,7 @@
         "Color": "Green",
         "Transform": {
           "posX": -23.6700039,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": 34.43159,
           "rotX": 0.0,
           "rotY": 180.0,
@@ -129,49 +129,49 @@
         "Color": "Orange",
         "Transform": {
           "posX": -51.6596222,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": -11.7324,
           "rotX": 0.0,
           "rotY": 90.0,
           "rotZ": 0.0,
-          "scaleX": 15.2040939,
+          "scaleX": 15.204689,
           "scaleY": 11.8970528,
-          "scaleZ": 6.411094
+          "scaleZ": 6.41141272
         }
       },
       {
         "Color": "Pink",
         "Transform": {
           "posX": 51.64263,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": -11.7324,
           "rotX": 0.0,
           "rotY": 270.0,
           "rotZ": 0.0,
-          "scaleX": 15.2040787,
+          "scaleX": 15.2046738,
           "scaleY": 11.8970528,
-          "scaleZ": 6.411094
+          "scaleZ": 6.41141272
         }
       },
       {
         "Color": "Purple",
         "Transform": {
           "posX": 51.5785675,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": 11.7324,
           "rotX": 0.0,
           "rotY": 270.0,
           "rotZ": 0.0,
-          "scaleX": 15.20408,
+          "scaleX": 15.2046757,
           "scaleY": 11.8970528,
-          "scaleZ": 6.411094
+          "scaleZ": 6.41141272
         }
       },
       {
         "Color": "Red",
         "Transform": {
           "posX": -23.6700039,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": -34.42515,
           "rotX": 0.0,
           "rotY": 0.0,
@@ -185,21 +185,21 @@
         "Color": "Teal",
         "Transform": {
           "posX": 0.0,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": 34.4527626,
           "rotX": 0.0,
           "rotY": 179.800049,
           "rotZ": 0.0,
-          "scaleX": 15.3381443,
+          "scaleX": 15.3388071,
           "scaleY": 11.8970528,
-          "scaleZ": 6.355733
+          "scaleZ": 6.356061
         }
       },
       {
         "Color": "White",
         "Transform": {
           "posX": 23.6700039,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": -34.2558136,
           "rotX": 0.0,
           "rotY": 0.0,
@@ -213,14 +213,14 @@
         "Color": "Yellow",
         "Transform": {
           "posX": -51.6596222,
-          "posY": 2.251718,
+          "posY": 2.08724451,
           "posZ": 11.7324,
           "rotX": 0.0,
           "rotY": 90.0,
           "rotZ": 0.0,
-          "scaleX": 15.204092,
+          "scaleX": 15.2046862,
           "scaleY": 11.8970528,
-          "scaleZ": 6.411094
+          "scaleZ": 6.41141272
         }
       }
     ]
@@ -240,11 +240,11 @@
       "Name": "Card",
       "Transform": {
         "posX": -30.7844639,
-        "posY": 1.0317136,
-        "posZ": 3.2644856,
-        "rotX": -6.77178E-07,
+        "posY": 1.03171372,
+        "posZ": 3.26448536,
+        "rotX": 7.49777342E-08,
         "rotY": 269.999939,
-        "rotZ": 4.38652734E-07,
+        "rotZ": 9.609137E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -287,12 +287,12 @@
     {
       "Name": "Card",
       "Transform": {
-        "posX": 0.7254591,
+        "posX": 0.7254597,
         "posY": 1.03171325,
-        "posZ": 15.2445211,
-        "rotX": 4.77535366E-07,
+        "posZ": 15.2445221,
+        "rotX": 5.112835E-07,
         "rotY": 359.965881,
-        "rotZ": 7.22078141E-07,
+        "rotZ": 6.83760845E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -335,12 +335,12 @@
     {
       "Name": "CardCustom",
       "Transform": {
-        "posX": -8.364447,
-        "posY": 1.03129268,
-        "posZ": 6.586255,
-        "rotX": 0.003063078,
-        "rotY": 180.067184,
-        "rotZ": 359.97934,
+        "posX": -8.364453,
+        "posY": 1.03130519,
+        "posZ": 6.586257,
+        "rotX": 0.00298567838,
+        "rotY": 180.067322,
+        "rotZ": 359.979919,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -539,12 +539,12 @@
     {
       "Name": "CardCustom",
       "Transform": {
-        "posX": -0.8579358,
-        "posY": 1.03137565,
-        "posZ": 6.68379545,
-        "rotX": 0.0024935035,
-        "rotY": 179.984009,
-        "rotZ": 359.983337,
+        "posX": -0.8579516,
+        "posY": 1.03137934,
+        "posZ": 6.68378973,
+        "rotX": 0.00246642414,
+        "rotY": 179.984253,
+        "rotZ": 359.983459,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -587,11 +587,11 @@
     {
       "Name": "CardCustom",
       "Transform": {
-        "posX": -4.541525,
+        "posX": -4.54154158,
         "posY": 1.03145015,
-        "posZ": 6.524236,
-        "rotX": 0.00198623445,
-        "rotY": 180.0017,
+        "posZ": 6.52422953,
+        "rotX": 0.001984712,
+        "rotY": 180.001938,
         "rotZ": 359.9869,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
@@ -638,9 +638,9 @@
         "posX": 28.1189766,
         "posY": 1.0317136,
         "posZ": 2.387364,
-        "rotX": -3.18725682E-07,
+        "rotX": -2.56431747E-07,
         "rotY": 89.99998,
-        "rotZ": 2.54747157E-09,
+        "rotZ": -1.87079038E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -686,9 +686,9 @@
         "posX": 0.200325012,
         "posY": 1.0317136,
         "posZ": -19.8453712,
-        "rotX": 1.80664141E-08,
+        "rotX": 9.71733E-09,
         "rotY": 180.000671,
-        "rotZ": -1.11042056E-07,
+        "rotZ": -1.039715E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -734,9 +734,9 @@
         "posX": -11.3125429,
         "posY": 1.0317136,
         "posZ": -12.597702,
-        "rotX": 2.86771247E-08,
+        "rotX": -1.41912517E-08,
         "rotY": 180.000122,
-        "rotZ": -5.64629836E-08,
+        "rotZ": -2.7961331E-08,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -779,12 +779,12 @@
     {
       "Name": "Card",
       "Transform": {
-        "posX": -23.3701077,
+        "posX": -16.4933834,
         "posY": 1.0317136,
-        "posZ": -6.530417,
-        "rotX": 6.555831E-08,
+        "posZ": -6.51193428,
+        "rotX": 4.97738952E-08,
         "rotY": 180.029984,
-        "rotZ": -6.28997E-08,
+        "rotZ": -8.029125E-09,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -827,12 +827,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -1.80312443,
-        "posY": 1.27938557,
-        "posZ": 5.879932,
-        "rotX": 0.00507828826,
-        "rotY": 359.958984,
-        "rotZ": 0.122131884,
+        "posX": -1.80311763,
+        "posY": 1.28003621,
+        "posZ": 5.879888,
+        "rotX": 0.006772073,
+        "rotY": 359.960632,
+        "rotZ": 0.08347644,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -863,12 +863,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -1.25257862,
-        "posY": 1.28050959,
-        "posZ": 5.89285469,
-        "rotX": 0.0024749178,
-        "rotY": 359.975861,
-        "rotZ": 0.0428647324,
+        "posX": -1.25277042,
+        "posY": 1.27981758,
+        "posZ": 5.892775,
+        "rotX": 359.99408,
+        "rotY": 359.976563,
+        "rotZ": 0.07300564,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -877,7 +877,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117999293,
+        "r": 0.1179992,
         "g": 0.53,
         "b": 1.0
       },
@@ -899,12 +899,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -0.448026329,
-        "posY": 1.28060985,
-        "posZ": 5.86495924,
-        "rotX": -0.005125373,
-        "rotY": 0.0250133313,
-        "rotZ": 0.0363651961,
+        "posX": -0.448169857,
+        "posY": 1.27990878,
+        "posZ": 5.86487532,
+        "rotX": 359.982056,
+        "rotY": 0.0255510379,
+        "rotZ": 0.06817316,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -914,7 +914,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999292,
+        "g": 0.1249992,
         "b": 0.941
       },
       "Locked": false,
@@ -935,12 +935,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 0.112878792,
-        "posY": 1.28024745,
-        "posZ": 5.87781668,
-        "rotX": 359.984344,
-        "rotY": 359.983521,
-        "rotZ": 179.982925,
+        "posX": 0.112815775,
+        "posY": 1.2810061,
+        "posZ": 5.877838,
+        "rotX": 0.0012091418,
+        "rotY": 359.982422,
+        "rotZ": 179.998489,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -949,9 +949,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191999316,
+        "r": 0.191999227,
         "g": 0.701,
-        "b": 0.1679993
+        "b": 0.167999208
       },
       "Locked": false,
       "Grid": true,
@@ -971,12 +971,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -9.15003,
-        "posY": 1.27969921,
-        "posZ": 5.71811867,
-        "rotX": 0.00353592238,
-        "rotY": 0.15121524,
-        "rotZ": 0.0927370638,
+        "posX": -9.150089,
+        "posY": 1.27989614,
+        "posZ": 5.718102,
+        "rotX": 0.004431597,
+        "rotY": 0.152877778,
+        "rotZ": 0.08297063,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1007,12 +1007,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -8.642293,
-        "posY": 1.28046,
-        "posZ": 5.73196,
-        "rotX": 0.000873656943,
-        "rotY": 0.168376088,
-        "rotZ": 0.04237358,
+        "posX": -8.642507,
+        "posY": 1.27969825,
+        "posZ": 5.73187,
+        "rotX": 359.990326,
+        "rotY": 0.169488683,
+        "rotZ": 0.07484037,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1021,7 +1021,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117999263,
+        "r": 0.117999174,
         "g": 0.53,
         "b": 1.0
       },
@@ -1043,12 +1043,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -7.93966961,
-        "posY": 1.28015149,
-        "posZ": 5.659504,
-        "rotX": 359.985443,
-        "rotY": 0.08749007,
-        "rotZ": 0.06443082,
+        "posX": -7.939627,
+        "posY": 1.28078914,
+        "posZ": 5.659527,
+        "rotX": -0.00072303327,
+        "rotY": 0.08808131,
+        "rotZ": 0.0323641449,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1058,7 +1058,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999262,
+        "g": 0.124999158,
         "b": 0.941
       },
       "Locked": false,
@@ -1079,12 +1079,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -7.32968473,
-        "posY": 1.27983022,
-        "posZ": 5.601202,
-        "rotX": 359.983429,
-        "rotY": 0.159989849,
-        "rotZ": 179.950577,
+        "posX": -7.32970142,
+        "posY": 1.2798965,
+        "posZ": 5.60109043,
+        "rotX": 359.982941,
+        "rotY": 0.157999784,
+        "rotZ": 179.956909,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1093,9 +1093,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191999286,
+        "r": 0.1919992,
         "g": 0.701,
-        "b": 0.167999268
+        "b": 0.167999178
       },
       "Locked": false,
       "Grid": true,
@@ -1115,12 +1115,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -5.0879817,
-        "posY": 1.28055251,
-        "posZ": 5.73655,
-        "rotX": 0.00464535924,
-        "rotY": 359.922882,
-        "rotZ": 0.04542793,
+        "posX": -5.088076,
+        "posY": 1.28055263,
+        "posZ": 5.7365303,
+        "rotX": 0.00464645261,
+        "rotY": 359.924072,
+        "rotZ": 0.0453111976,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1129,7 +1129,7 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.117999233,
+        "r": 0.117999129,
         "g": 0.53,
         "b": 1.0
       },
@@ -1151,12 +1151,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -5.6388607,
-        "posY": 1.27902842,
-        "posZ": 5.724587,
-        "rotX": 6.3688065E-05,
-        "rotY": 359.925537,
-        "rotZ": 0.151535362,
+        "posX": -5.639032,
+        "posY": 1.279028,
+        "posZ": 5.7245245,
+        "rotX": 4.39284959E-05,
+        "rotY": 359.928131,
+        "rotZ": 0.151427925,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1187,12 +1187,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -3.723776,
-        "posY": 1.28081131,
-        "posZ": 5.72267866,
-        "rotX": -0.00460692449,
-        "rotY": 359.986023,
-        "rotZ": 179.997284,
+        "posX": -3.723862,
+        "posY": 1.28081143,
+        "posZ": 5.72260237,
+        "rotX": -0.00448848633,
+        "rotY": 359.9855,
+        "rotZ": 179.997223,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1201,9 +1201,9 @@
       "Description": "",
       "GMNotes": "",
       "ColorDiffuse": {
-        "r": 0.191999257,
+        "r": 0.191999167,
         "g": 0.701,
-        "b": 0.167999238
+        "b": 0.167999148
       },
       "Locked": false,
       "Grid": true,
@@ -1223,12 +1223,12 @@
     {
       "Name": "BlockSquare",
       "Transform": {
-        "posX": -4.283241,
-        "posY": 1.28034,
-        "posZ": 5.70933867,
-        "rotX": 359.992523,
-        "rotY": 359.985229,
-        "rotZ": 0.03612948,
+        "posX": -4.28331947,
+        "posY": 1.28034031,
+        "posZ": 5.70929146,
+        "rotX": 359.9925,
+        "rotY": 359.98584,
+        "rotZ": 0.0365013,
         "scaleX": 0.350000441,
         "scaleY": 0.350000441,
         "scaleZ": 0.350000441
@@ -1238,7 +1238,7 @@
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.627,
-        "g": 0.124999233,
+        "g": 0.124999128,
         "b": 0.941
       },
       "Locked": false,
@@ -1262,9 +1262,9 @@
         "posX": -4.48161745,
         "posY": 1.03125358,
         "posZ": 2.27458358,
-        "rotX": -5.020418E-08,
+        "rotX": -2.35669475E-08,
         "rotY": 180.012726,
-        "rotZ": -2.12256182E-07,
+        "rotZ": -2.10551335E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -1460,9 +1460,9 @@
         "posX": -8.1925,
         "posY": 1.03858972,
         "posZ": 2.23992014,
-        "rotX": -9.258259E-08,
+        "rotX": -1.50682013E-07,
         "rotY": 179.975418,
-        "rotZ": -4.03179371E-07,
+        "rotZ": -3.75040628E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -1606,12 +1606,12 @@
     {
       "Name": "Deck",
       "Transform": {
-        "posX": -0.77262634,
+        "posX": -0.7726264,
         "posY": 1.03125358,
-        "posZ": 2.336475,
-        "rotX": 4.70277882E-07,
+        "posZ": 2.33647442,
+        "rotX": -8.291081E-08,
         "rotY": 180.046753,
-        "rotZ": 6.265154E-07,
+        "rotZ": -1.21390045E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -1804,11 +1804,11 @@
     {
       "Name": "Deck",
       "Transform": {
-        "posX": -26.7626266,
+        "posX": -13.0893192,
         "posY": 1.03113651,
-        "posZ": -6.59458971,
-        "rotX": 1.723544E-08,
-        "rotY": 180.0,
+        "posZ": -6.2939806,
+        "rotX": -3.67572319E-08,
+        "rotY": 180.001816,
         "rotZ": 180.0,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
@@ -1869,12 +1869,12 @@
         {
           "Name": "Card",
           "Transform": {
-            "posX": 12.5109005,
-            "posY": 1.17477453,
-            "posZ": -7.105736,
-            "rotX": -0.000170146523,
-            "rotY": 180.0,
-            "rotZ": 180.0005,
+            "posX": -26.2217255,
+            "posY": 1.15497947,
+            "posZ": -6.44232464,
+            "rotX": 0.0006465062,
+            "rotY": 180.001938,
+            "rotZ": 180.00061,
             "scaleX": 1.31135309,
             "scaleY": 1.0,
             "scaleZ": 1.31135309
@@ -2304,10 +2304,10 @@
     {
       "Name": "Deck",
       "Transform": {
-        "posX": -16.6229839,
-        "posY": 1.07910156,
-        "posZ": -6.5193305,
-        "rotX": -3.46160967E-09,
+        "posX": -23.4745159,
+        "posY": 1.07910192,
+        "posZ": -6.35006428,
+        "rotX": 6.253057E-08,
         "rotY": 180.0,
         "rotZ": 180.0,
         "scaleX": 1.31135309,
@@ -3237,11 +3237,11 @@
     {
       "Name": "Deck",
       "Transform": {
-        "posX": -20.0692348,
+        "posX": -19.8920479,
         "posY": 1.16970229,
-        "posZ": -6.541863,
-        "rotX": -1.34992845E-07,
-        "rotY": 180.005463,
+        "posZ": -6.49083567,
+        "rotX": 1.44044918E-08,
+        "rotY": 180.005478,
         "rotZ": 180.0,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
@@ -3320,12 +3320,12 @@
         {
           "Name": "Card",
           "Transform": {
-            "posX": 14.1471453,
-            "posY": 1.40601552,
-            "posZ": -1.56252742,
-            "rotX": -0.004457861,
-            "rotY": 180.019211,
-            "rotZ": 180.001984,
+            "posX": -22.3438435,
+            "posY": 1.406154,
+            "posZ": -0.34224087,
+            "rotX": 0.0008260229,
+            "rotY": 180.005524,
+            "rotZ": 180.000992,
             "scaleX": 1.31135309,
             "scaleY": 1.0,
             "scaleZ": 1.31135309
@@ -5006,9 +5006,9 @@
         "posX": -11.8497658,
         "posY": 1.03858972,
         "posZ": 2.12697816,
-        "rotX": 7.3958506E-09,
+        "rotX": 3.9885883E-08,
         "rotY": 180.005447,
-        "rotZ": 1.42189066E-07,
+        "rotZ": -2.5648264E-08,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -5155,9 +5155,9 @@
         "posX": 2.80452466,
         "posY": 1.03125358,
         "posZ": 2.29076314,
-        "rotX": -2.82817638E-07,
+        "rotX": -3.381679E-07,
         "rotY": 179.710037,
-        "rotZ": -1.92584537E-07,
+        "rotZ": -1.92889374E-07,
         "scaleX": 1.31135309,
         "scaleY": 1.0,
         "scaleZ": 1.31135309
@@ -5388,11 +5388,11 @@
       "Name": "Checker_red",
       "Transform": {
         "posX": 5.68637371,
-        "posY": 0.9600003,
+        "posY": 0.96,
         "posZ": -10.3319855,
-        "rotX": -4.01655683E-07,
+        "rotX": -4.738446E-08,
         "rotY": 180.0,
-        "rotZ": -3.47473645E-07,
+        "rotZ": -1.00787439E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -5415,9 +5415,51 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "self.setName(\"The Position Checker\")\r\nself.setDescription(\"Use this checker to find the coordinates on the table\")\r\nself.createButton({\r\n  click_function = 'check_position',\r\n  function_owner = self,\r\n  label = 'Check',\r\n  position = {0.1,0.23,2},\r\n  rotation = {0,0,0},\r\n  width = 500,\r\n  height = 500,\r\n  font_size = 100,\r\n})\r\n\r\nfunction check_position()\r\n    pos = self.getPosition()\r\n    pos_str = \"x: \"..pos[1]..\", y: \"..pos[2]..\",\\nz: \"..pos[3]..\".\"\r\n    broadcastToAll(pos_str)\r\n    print(pos_str)\r\n    setNotes(pos_str)\r\nend\r\n",
+      "XmlUI": "",
+      "LuaScript": "self.setName(\"The Position Checker\")\r\nself.setDescription(\"Use this checker to find the coordinates on the table\")\r\nself.createButton({\r\n  click_function = 'check_position',\r\n  function_owner = self,\r\n  label = 'Check',\r\n  position = {0.1,0.23,2},\r\n  rotation = {0,0,0},\r\n  width = 500,\r\n  height = 500,\r\n  font_size = 100,\r\n})\r\n\r\nfunction check_position()\r\n    pos = self.getPosition()\r\n    pos_str = \"{ x = \"..pos[1]..\", y = \"..pos[2]..\", z = \"..pos[3]..\" }\"\r\n    broadcastToAll(pos_str)\r\n    print(pos_str)\r\n    setNotes(pos_str)\r\nend",
       "LuaScriptState": "",
       "GUID": "bd053d"
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -21.5771427,
+        "posY": 1.0,
+        "posZ": 1.29686546,
+        "rotX": 0.0,
+        "rotY": 359.500183,
+        "rotZ": 0.0,
+        "scaleX": 9.157936,
+        "scaleY": 1.0,
+        "scaleZ": 6.38
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.75
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "FogHidePointers": false,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ca7e8a"
     }
   ],
   "SnapPoints": [
