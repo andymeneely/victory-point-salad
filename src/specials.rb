@@ -3,6 +3,7 @@ require_relative 'squib_helpers'
 
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 0, explode: 'qty'
 File.open('data/specials.txt', 'w+') { |f| f.write data.to_pretty_text }
+File.open('data/specials.json', 'w+') { |f| f.write data.to_json }
 
 id = data['Title'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
@@ -11,7 +12,7 @@ Squib::Deck.new(cards: data['Title'].size) do
   background color: :white
 
   svg file: 'vp.svg', layout: :VP_img
-  # text str: data['Title'], layout: :title
+  text str: data['Title'], layout: :title
 
   %w(Trash1 Trash2).each do |bonus|
     data[bonus].map! { |str| str && (":trash: Trash 1 #{str}")}

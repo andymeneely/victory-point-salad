@@ -1,5 +1,5 @@
 title:
-  font: Roboto Black Bold 14
+  font: Roboto Bold 14
 
   align: center
   x: 95
@@ -59,7 +59,7 @@ Power:
 
 PowerText:
   extends: Power
-  font: Roboto Black Bold 10
+  font: Roboto Bold 10
   spacing: -10
   x: += 15
   y: += 15
