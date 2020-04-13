@@ -4,8 +4,9 @@ Here's the latest build of Victory Point Salad.
 
 [Specials](#specials)
 [Resources](#resources)
-[Ladders](#adders)
-[Diff](#diff)
+[Ladders](#ladders)
+[Sheets](#sheets)
+[Tree](#tree)
 {: class="nav-links"}
 
 # Specials
@@ -41,6 +42,18 @@ Here's the latest build of Victory Point Salad.
 <a href="{{ site.baseurl }}{{ myimage.path }}">
 <img src="{{ site.baseurl }}{{ myimage.path }}"
 class="landscape" alt="image" />
+</a>
+{% endif %}
+{% endfor %}
+</div>
+
+# Sheets
+
+<div class="cards">
+{% for myimage in site.static_files %}
+{% if myimage.path contains "/assets/cards/sheets/" %}
+<a href="{{ site.baseurl }}{{ myimage.path }}">
+<img src="{{ site.baseurl }}{{ myimage.path }}" class="sheet" alt="image" />
 </a>
 {% endif %}
 {% endfor %}
