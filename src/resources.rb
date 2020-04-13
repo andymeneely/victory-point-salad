@@ -7,7 +7,7 @@ requires_icon = "<span font=\"FontAwesome\">\uF023</span> "
 data = Squib.xlsx file: 'data/deck.xlsx', sheet: 1
 
 Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
-  use_layout file: %w(layouts/base.yml layouts/resources.yml)
+  use_layout file: 'layouts/resources.yml'
   background color: :white
 
   text str: data['Title'], layout: :title
