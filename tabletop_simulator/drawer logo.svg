@@ -69,6 +69,32 @@
          in2="composite2"
          id="feComposite1053"
          operator="in"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1157" />
+      <feGaussianBlur
+         id="feGaussianBlur1159"
+         stdDeviation="0.3"
+         result="blur"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="blur"
+         id="feComposite1161"
+         in="fbSourceGraphic"
+         operator="atop"
+         result="composite1" />
+      <feComposite
+         in2="composite1"
+         id="feComposite1163"
+         operator="in"
+         result="composite2" />
+      <feComposite
+         in2="composite2"
+         id="feComposite1165"
+         operator="in"
          result="composite3" />
     </filter>
     <filter
@@ -120,6 +146,32 @@
          in2="composite2"
          id="feComposite1075"
          operator="in"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix1097" />
+      <feGaussianBlur
+         id="feGaussianBlur1099"
+         stdDeviation="0.4"
+         result="blur"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="blur"
+         id="feComposite1101"
+         in="fbSourceGraphic"
+         operator="atop"
+         result="composite1" />
+      <feComposite
+         in2="composite1"
+         id="feComposite1103"
+         operator="in"
+         result="composite2" />
+      <feComposite
+         in2="composite2"
+         id="feComposite1105"
+         operator="in"
          result="composite3" />
     </filter>
   </defs>
@@ -130,9 +182,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="64.321477"
-     inkscape:cy="75.966567"
+     inkscape:zoom="4"
+     inkscape:cx="121.78187"
+     inkscape:cy="22.215502"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
