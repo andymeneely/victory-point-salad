@@ -30,7 +30,7 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
   # save_png range: id['The Building Building Building']
 
   save_png prefix: 'resource_' #all
-  save_sheet prefix: '_sheet_resources_', columns: 10, row: 7
+  save_sheet prefix: 'sheet_resources_', columns: 10, row: 7
   # save format: :pdf, file: 'data.pdf', trim: 37
   # showcase file: 'resource_showcase.png', range: [3, 15, 42], fill_color: :black
   # save_png range: [0,5,7,10,30,33,42], prefix: 'resource_'

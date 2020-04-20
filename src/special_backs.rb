@@ -11,7 +11,7 @@ Squib::Deck.new(cards: deck['Title'].size) do
   text str: type_str, layout: :type
 
   save_png prefix: 'special_back_'
-  save_sheet prefix: '_sheet_special_back_', columns: 10, rows: 7
+  save_sheet prefix: 'sheet_special_back_', columns: 10, rows: 7
   # rect layout: :cut_line
   # save_pdf file: 'special_backs.pdf', trim: 37
 
