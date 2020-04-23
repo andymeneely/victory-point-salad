@@ -41,7 +41,7 @@ jobs:
         cp _output/special_??.png build/assets/cards/specials
 
         mkdir -p build/assets/cards/sheets
-        cp _output/_sheet_*.png build/assets/cards/sheets
+        cp _output/sheet_*.png build/assets/cards/sheets
 
         mkdir -p build/assets/cards/resources
         cp _output/resource_??.png build/assets/cards/resources
