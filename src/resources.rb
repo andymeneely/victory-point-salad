@@ -26,7 +26,7 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
        layout: :version
 
   save_png prefix: 'resource_' #all
-  save_sheet prefix: 'sheet_resources_', columns: 10, row: 7
+  save_sheet prefix: 'sheet_resources_', columns: 5, row: 5
 
   build(:pdf) do
     rect layout: :cut_line
