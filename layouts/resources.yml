@@ -100,3 +100,8 @@ cut_line:
     radius: 0
     stroke_width: 3.0
     stroke_color: black
+
+version:
+  x: 65
+  y: 750
+  font: Serif 7

@@ -55,7 +55,8 @@ Squib::Deck.new(cards: data['Title'].size) do
   text str: data['Power'], layout: :PowerText,
        font_size: data['Power'].map { |p| p.to_s.length > 15 ? 10 : 12 }
 
-  text str: VictoryPointSalad::VERSION, layout: :version
+  text str: "#{VictoryPointSalad::VERSION} #{VictoryPointSalad::GIT_HEAD}",
+       layout: :version
 
   # rect layout: :cut_zone
   # rect layout: :safe_zone
@@ -63,12 +64,12 @@ Squib::Deck.new(cards: data['Title'].size) do
   save_sheet prefix: 'special_sheet_', columns: 13
 
   build(:pdf) do
-    # rect layout: :cut_line
     save_pdf trim: 37.5, file: 'specials.pdf'
   end
 
   save_png prefix: 'rules_figure_', range: 35, dir: 'docs', trim_radius: 37.5
   save_sheet prefix: 'sheet_special_', columns: 10, rows: 7
 
-  puts "Done. #{data['Title'].size} Special cards"
 end
+
+puts "Done. #{data['Title'].size} Special cards"
