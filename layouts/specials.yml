@@ -1,11 +1,10 @@
 title:
-  font: Roboto Bold 14
-
+  font: Open Sans ExtraBold,Serif 14
   align: center
   x: 95
   y: 75
   width: 635
-  valign: middle
+  valign: top
   height: 175
   ellipsize: none
   spacing: -10
