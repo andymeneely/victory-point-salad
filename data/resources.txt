@@ -550,10 +550,10 @@ Description |                                    |
   Resource1 | Milk                               |
   Resource2 |                                    |
 Description | You may trash this card for 1 Food |
-            | . Must be trashed at the end of th |
-            | is turn.                           |
+            | . Must be trashed at the end of yo |
+            | ur turn.                           |
          VP | 1                                  |
-      Snark |                                    |
+      Snark | Spoiler: use it or lose it.        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
@@ -562,10 +562,10 @@ Description | You may trash this card for 1 Food |
   Resource1 | Milk                               |
   Resource2 |                                    |
 Description | You may trash this card for 1 Food |
-            | . Must be trashed at the end of th |
-            | is turn.                           |
+            | . Must be trashed at the end of yo |
+            | ur turn.                           |
          VP | 1                                  |
-      Snark |                                    |
+      Snark | Spoiler: use it or lose it.        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Type | Resource                           |
@@ -574,8 +574,8 @@ Description | You may trash this card for 1 Food |
   Resource1 | Milk                               |
   Resource2 |                                    |
 Description | You may trash this card for 1 Food |
-            | . Must be trashed at the end of th |
-            | is turn.                           |
+            | . Must be trashed at the end of yo |
+            | ur turn.                           |
          VP | 1                                  |
-      Snark |                                    |
+      Snark | Spoiler: use it or lose it.        |
             ╰------------------------------------╯

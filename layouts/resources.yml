@@ -1,5 +1,5 @@
 title:
-    font: Roboto Bold 14
+    font: Open Sans ExtraBold,Serif 14
     align: center
     x: 75
     y: 75
@@ -85,7 +85,6 @@ VP_img:
     y: 550
 VP:
     extends: VP_img
-    color: black
     y: -= 10
     font: Archivo Narrow 16
     color: white

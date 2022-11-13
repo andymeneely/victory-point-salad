@@ -307,9 +307,9 @@
     null,
     null,
     null,
-    "You may trash this card for 1 Food. Must be trashed at the end of this turn.",
-    "You may trash this card for 1 Food. Must be trashed at the end of this turn.",
-    "You may trash this card for 1 Food. Must be trashed at the end of this turn."
+    "You may trash this card for 1 Food. Must be trashed at the end of your turn.",
+    "You may trash this card for 1 Food. Must be trashed at the end of your turn.",
+    "You may trash this card for 1 Food. Must be trashed at the end of your turn."
   ],
   "VP": [
     "1",
@@ -411,8 +411,8 @@
     "Side benefit: easier planning! You don't have to think about how to make your food now!",
     "Side benefit: easier planning! You don't have to think about how to make your food now!",
     "Side benefit: easier planning! You don't have to think about how to make your food now!",
-    null,
-    null,
-    null
+    "Spoiler: use it or lose it.",
+    "Spoiler: use it or lose it.",
+    "Spoiler: use it or lose it."
   ]
 }

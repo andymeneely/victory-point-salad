@@ -90,11 +90,11 @@ Est. VP/Action Max |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Largest Army token on any car |
-                   | d in a purchase row. Anyone who ta |
-                   | kes that card must pay this person |
-                   |  1 Resource Card. In a tie, nobody |
-                   |  places the token.                 |
+                   | aces the Army token on any card in |
+                   |  a purchase row. Anyone who takes  |
+                   | that card must pay this person 1 R |
+                   | esource Card. In a tie, nobody pla |
+                   | ces the token.                     |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -119,11 +119,11 @@ Est. VP/Action Max |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Largest Army token on any car |
-                   | d in a purchase row. Anyone who ta |
-                   | kes that card must pay this person |
-                   |  1 Resource Card. In a tie, nobody |
-                   |  places the token.                 |
+                   | aces the Army token on any card in |
+                   |  a purchase row. Anyone who takes  |
+                   | that card must pay this person 1 R |
+                   | esource Card. In a tie, nobody pla |
+                   | ces the token.                     |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -148,11 +148,11 @@ Est. VP/Action Max |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Largest Army token on any car |
-                   | d in a purchase row. Anyone who ta |
-                   | kes that card must pay this person |
-                   |  1 Resource Card. In a tie, nobody |
-                   |  places the token.                 |
+                   | aces the Army token on any card in |
+                   |  a purchase row. Anyone who takes  |
+                   | that card must pay this person 1 R |
+                   | esource Card. In a tie, nobody pla |
+                   | ces the token.                     |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -770,7 +770,7 @@ Est. VP/Action Max | 18.88888888888889                  |
                    ╭------------------------------------╮
               Type | Starter                            |
                qty | 1                                  |
-             Title | The Milk Engine                    |
+             Title | The Milk Strategy                  |
             Bonus1 |                                    |
             Bonus2 |                                    |
             Trash1 | Cattle                             |
@@ -780,8 +780,8 @@ Est. VP/Action Max | 18.88888888888889                  |
            AntiReq |                                    |
              Power | Teets!                             |
        Description | Once per turn, you may use an acti |
-                   | on to get a resource card with Mil |
-                   | k from the discard pile.           |
+                   | on to gain a resource card with Mi |
+                   | lk from the Trash pile.            |
                 VP | 40                                 |
         VP + Climb | 40                                 |
   Est. Actions Min | 3.0                                |
@@ -1125,7 +1125,7 @@ Est. VP/Action Max | 15.11111111111111                  |
                    ╭------------------------------------╮
               Type | Midgame                            |
                qty | 1                                  |
-             Title | There's Always a Golem             |
+             Title | Clay Soldier                       |
             Bonus1 | Soldier                            |
             Bonus2 |                                    |
             Trash1 | Clay                               |
@@ -1141,7 +1141,7 @@ Est. VP/Action Max | 15.11111111111111                  |
   Est. Actions Max | 4.6923076923076925                 |
 Est. VP/Action Min | 8.524590163934425                  |
 Est. VP/Action Max | 14.857142857142856                 |
-             Snark | Tank and spank always works.       |
+             Snark | Kiln recommended.                  |
                    |                                    |
                    ╰------------------------------------╯
                    ╭------------------------------------╮
@@ -1336,6 +1336,28 @@ Est. VP/Action Max |                                    |
                    ╭------------------------------------╮
               Type | Midgame                            |
                qty | 1                                  |
+             Title | Milk Climb!                        |
+            Bonus1 |                                    |
+            Bonus2 |                                    |
+            Trash1 | Milk                               |
+            Trash2 |                                    |
+         Requires1 |                                    |
+         Requires2 |                                    |
+           AntiReq |                                    |
+             Power |                                    |
+       Description | Climb 1 rung on a Ladder           |
+                VP | 20                                 |
+        VP + Climb | 40                                 |
+  Est. Actions Min | 2.0                                |
+  Est. Actions Max | 2.0                                |
+Est. VP/Action Min | 20.0                               |
+Est. VP/Action Max |                                    |
+             Snark |                                    |
+                   |                                    |
+                   ╰------------------------------------╯
+                   ╭------------------------------------╮
+              Type | Midgame                            |
+               qty | 1                                  |
              Title | Chain Climb Mastery                |
             Bonus1 |                                    |
             Bonus2 |                                    |
@@ -1385,6 +1407,31 @@ Est. VP/Action Min | 10.0                               |
 Est. VP/Action Max |                                    |
              Snark | You're gonna have to learn that ru |
                    | le now.                            |
+                   |                                    |
+                   ╰------------------------------------╯
+                   ╭------------------------------------╮
+              Type | Midgame                            |
+               qty | 1                                  |
+             Title | Milk Mastery                       |
+            Bonus1 |                                    |
+            Bonus2 |                                    |
+            Trash1 | Milk                               |
+            Trash2 |                                    |
+         Requires1 | Teets!                             |
+         Requires2 |                                    |
+           AntiReq |                                    |
+             Power | Double Teets!                      |
+       Description | Play immediately. When you gain a  |
+                   | Milk resource card from the Trash  |
+                   | pile, you may gain an extra one.   |
+                VP | 10                                 |
+        VP + Climb | 10                                 |
+  Est. Actions Min | 1.0                                |
+  Est. Actions Max | 4.0                                |
+Est. VP/Action Min | 2.5                                |
+Est. VP/Action Max |                                    |
+             Snark | Gotta milk this joke as long as we |
+                   |  can.                              |
                    |                                    |
                    ╰------------------------------------╯
                    ╭------------------------------------╮

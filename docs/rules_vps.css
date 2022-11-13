@@ -11,14 +11,15 @@ body {
 }
 
 .title{
-  font-size: 18pt;
+  font-family: "Open Sans ExtraBold";
+  font-size: 24pt;
   font-weight: bolder;
   text-align: center;
 }
 
 .snark{
   float: right;
-  width: 10em;
+  width: 12em;
   padding-left: 0.5em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -32,11 +33,14 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.75em;
+  text-align: center;
+  margin-bottom: 0.15em;
 }
 
 h1, h2, h3 {
-  font-family: 'Bitter';
+  font-family: "Open Sans ExtraBold";
+  /* font-family: 'Bitter'; */
   clear: both;
   page-break-after: avoid;
 }
@@ -55,13 +59,33 @@ h1, h2, h3 {
   width: 100%;
 }
 
-.figure-full-line img{
-  box-shadow: 4px 4px 16px #111;
+img.card-landscape {
+  width: 25em;
   margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+img.card-portrait {
+  width: 18em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.rotate-left {
+  transform: rotate(-4deg);
+}
+
+.rotate-right {
+  transform: rotate(4deg);
+}
+
+.figure-full-line img{
+
+  width: 10em;
 }
 
 .figure img{
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0;
   text-align: center;
   font-size: 85%;
@@ -83,6 +107,7 @@ blockquote {
 
 ol,ul {
   margin: 0;
+  margin-bottom: 0.15em;
   padding-left: 2em;
 }
 
@@ -96,4 +121,9 @@ ul {
 
 .clearpage {
   page-break-before: always;
+}
+
+hr {
+  page-break-before: always;
+  border: none;
 }

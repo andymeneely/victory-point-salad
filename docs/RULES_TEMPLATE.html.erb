@@ -5,6 +5,42 @@
     <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="squib.css">
     <link rel="stylesheet" href="rules_vps.css">
+    <style>
+        @page {
+
+            /* TGC Medium Coil Book*/
+            size: 5.25in 8.25in;
+            margin: 0;
+            margin-bottom: 0.30in;
+            padding: 0.25in;
+            padding-top: 0.25in;
+            padding-bottom: 0.25in;
+
+            /*
+            @bottom-center {
+                font-family: 'Archivo Black';
+                height: 0in;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 0.25in;
+                text-align: center;
+
+                font-size: 8pt;
+                font-weight: bold;
+                content: counter(page);
+            }
+             */
+        }
+        /* Binding gutters */
+        @page: left {
+            background-position: left top;
+            padding-right: 0.50in;
+        }
+        @page: right {
+            background-position: right top;
+            padding-left: 0.50in;
+        }
+    </style>
 </head>
 <body>
 

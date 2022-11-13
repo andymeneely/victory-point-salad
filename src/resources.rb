@@ -22,10 +22,10 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
     text str: data[key], layout: key, markup: true
   end
 
-  text str: "#{VictoryPointSalad::VERSION} #{VictoryPointSalad::GIT_HEAD}",
-       layout: :version
+  # text str: "#{VictoryPointSalad::VERSION} #{VictoryPointSalad::GIT_HEAD}",
+  #      layout: :version
 
-  save_png prefix: 'resource_' #all
+  save_png prefix: 'resource_', count_format: '[%02d]' #all
   save_sheet prefix: 'sheet_resources_', columns: 5, rows: 5
 
   build(:pdf) do
@@ -33,11 +33,11 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
     save_pdf trim: 37.5, file: 'resources.pdf'
   end
 
-  build(:figures) do
-    save_png range: 36,
-             dir: 'docs', prefix: 'rules_resource_figure_',
-             trim: 37.5, trim_radius: 37.5
-  end
+  save_png range: 36,
+            dir: 'docs', prefix: 'rules_resource', count_format: '',
+            trim: 37.5, trim_radius: 37.5,
+            shadow_radius: 10
+
 end
 
 puts "Done. #{data.nrows} Resource cards"

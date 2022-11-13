@@ -76,20 +76,11 @@ task :rules do
   load 'src/rules.rb' # convert markdown
   erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
   File.open('docs/RULES.html', 'w+') { |html|  html.write(erb.result) }
-  sh <<-EOS.gsub(/\n/, '')
-      wkhtmltopdf
-      --page-width    3.5in
-      --page-height   5in
-      --margin-left   0.15in
-      --margin-right  0.15in
-      --margin-bottom 0.15in
-      --margin-top    0.15in
-      --footer-right "[page] of [topage]"
-      --footer-left "Rules"
-      --footer-font-name "Archivo Narrow"
-      --footer-font-size "10"
-        docs/RULES.html _output/RULES.pdf
-    EOS
+  puts "Weasyprinting..."
+  `python src/weasybuild.py`
+  puts "Ghostscripting PDF to PNGs..."
+  `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
+  # `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
 end
 
 desc 'Open up resources after building. Put last, e.g. rake rules launch'

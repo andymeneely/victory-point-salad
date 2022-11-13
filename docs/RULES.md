@@ -5,13 +5,23 @@
 Objective {#objective}
 =========
 
+The objective of this game is to get the most victory points.
+
 <div class="snark">
   Spend veeps to get veeps. Got it.
 </div>
 
-The objective of this game is to get the most victory points.
 
 You will get victory points by playing cards, but to play the good cards you'll need other cards first.
+
+Parts List
+==========
+
+* 16 cubes, 4 of each player color
+* 83 Special cards
+* 50 Resource cards
+* 3 Ladder cards
+* 1 Army token
 
 Setup
 =====
@@ -33,18 +43,16 @@ Like most board games, the setup looks much harder than it actually is.
 11.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
 12. Distribute **3 Starter Cards** to the *Hands* of each player.
 13. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.
-14. <span class="snark">Dice are for pansies.</span> Decide at random who **goes first**. You may not use dice to make this decision. Place *The Coveted Starting Player* on that player's Tableau.
+14. <span class="snark">Dice are for gamblers and children.</span> Decide at random who **goes first**. You may not use dice to make this decision. Place *The Coveted Starting Player* on that player's Tableau.
 
 
-<div class="figure">
-  <img src="rules_figure_layout.svg" width="100%"/>
-</div>
+
 
 The Table
 =========
 
 <div class="snark">
-Ah, the magical hand limit of 5.
+Ah, the ubiquitous, arbitrary hand limit of 5.
 </div>
 You will have a **Hand** of Special cards. In your Hand, you are limited to having 5 cards by the end of your turn. At any time, you may **Trash** a card from your Hand. Place Trashed cards back in the box.
 
@@ -56,40 +64,45 @@ Or will you??
 
 Your **Tableau** is the array of already-played, face-up cards in front of you. You may have an unlimited number of cards on your Tableau. You may *not* Trash a card on your Tableau, unless you play another card that allows you to. You may arrange your Tableau however you wish, but you must allow your opponents see any of your Tableau cards upon request.
 
-<div class="clearpage"></div>
+<div class="figure">
+  <img src="rules_figure_layout.svg" width="100%"/>
+</div>
 
-Resources
-=========
+---
+
+Resource Cards and Resources
+===========================
 
 <!-- <div class="snark">
 These are usually little cubes or meeples, but this is a cheap game.
 </div> -->
 
-
+<div class="snark">
+Yep, Resource Cards and Resources are different things. We figure you're the kind of person who splits hairs anyway.
+</div>
 
 **Resource Cards** cards provide the raw materials for you to build your Tableau. Some may have a Description, but all will have one or two **Resources**.
+
+<div class="clearboth"></div>
+
+Resource cards may not be exchanged, e.g. you may *not* "make change". Some Resource cards have descriptions that allow extra abilities to be done with the Resource(s) on the card.
 
 <div class="snark">
 These games have not advanced past a medieval society.
 </div>
 
-This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Cattle, Grain, Carrot, Glass, Gold, Silk, and Food.
+This game has the following Resources: Wood, Clay, Stone, Sheep, Wild Boar, Cattle, Grain, Carrot, Glass, Gold, Silk, Milk, and Food.
 
-Resource cards may not be exchanged, e.g. you may *not* "make change". Some Resource cards have descriptions that allow extra abilities to be done with the Resource(s) on the card.
 
-<div class="figure figure-full-line">
-  <img src="rules_figure_resource_36.png" width="225px"><br>
-  Resource card
-</div>
+![resource figure](rules_resource.png){:.card-landscape .rotate-left}
 
-<div class="clear-both"/>
-<div class="clearpage"></div>
+---
 
 Specials
 ========
 
 <div class="snark">
-Every card is special. Every. Card.
+Every Special card is special. Every. Card.
 </div>
 
 All other types of cards are **Specials**, denoted by their portrait orientation.
@@ -100,16 +113,6 @@ All other types of cards are **Specials**, denoted by their portrait orientation
 * **Midgames** will appear after gameplay has gone past the Starters.
 * **Endgames** or "Payoffs" will be during the (you guessed it) Endgame.
 
-<div class="figure figure-right">
-  <img src="rules_figure_special_27.png" width="160px" class="card"><br>
-  Special card
-</div>
-
-
-
-<!-- <div class="figure figure-right card">
-</div> -->
-
 Specials can have the following:
 
   * **Resource**. These are raw materials that the Special provides.
@@ -119,62 +122,76 @@ Specials can have the following:
   * **Description**: Only takes effect when on your Tableau
   * **Victory Points** : How much the card is worth at the end of the game, if it's in your Tableau.
 
-<div class="clearpage"></div>
+![special figure](rules_special.png){:.card-portrait .rotate-right}
+
+---
+
+Ladders
+=======
+
+**_Climbing Ladders_**. When a card says that you may "Climb" a ladder, move your cube up one level on the Ladder card of your choice.
+
+For _The Point Ladder_, points are scored non-cumulatively at the *end* of the game.
+
+For *The Resource Ladder*, take your bonus immediately.
+
+  * A *Draw* means that you draw a face-down card from the Resource pile.
+  * A *Take* means you may take a face-up Resource card from the purchase rows.
+
+![ladder figure](rules_ladder.png){:.card-portrait .rotate-left}
+
+---
 
 Gameplay
 ========
 
 Gameplay is done in **Rounds**. In a given Round, the player with the *The Coveted Starting Player* card on their tableau takes the first turn. Play continues to the left.
 
-On your turn, you get two **actions**. A given action can be one of the following:
+On your turn, you get two **Actions**. An Action can be one of the following:
 
 * **Take an available Resource card** and place directly on your Tableau
-* **Take an available Special** and place in your Hand. Prerequisites are not enforced for this action.
+* **Take an available Special** and place in your Hand. Prerequisites are not enforced for this Action.
 * **Play a Special card** from your Hand, trashing the necessary Resources and satisfying any prerequisites of the Special. Place the card face-up on your tableau. *The Chain Rule* applies to this (see below).
 * **Steal the _The Coveted Starting Player_** by trashing a card from your Tableau. *The Chain Rule* applies to this (see below).
 
-Remember, if your Hand contains more than 5 cards, you must trash your Hand down to 5 before the end of your turn.
+
+If your Hand contains more than 5 cards, you must trash your Hand down to 5 before the end of your turn.
 
 <div class="snark">
 This is an evil rule right here.
 </div>
 
-At any time, and without taking an action, you may Trash a card from your Hand without costing an action.
+At any time, you may Trash a card from your Hand without costing an action.
 
 **_The Chain Rule_**. There is a special case where you may play multiple Specials for one action. If, upon playing a Special card, you have leftover Resources on the cards involved, you may play another Special using that resource. This can continue as long as you have leftover resources.
 
 > Suppose you have three Resource Cards: Wood+Clay, Stone, and Sheep. You play Special that requires a Clay, but now there's 1 Wood left over. So you play a second Special that requires Wood and Stone, using up your Stone card. This counts as one Action. With no more leftover Resources in the chain, the Sheep must be part of a separate transaction.
 
-**_Immediate Effects_** Any abilities or resources granted by playing a card take effect immediately when played, even in the middle of a chain.
-
 Stealing the *The Coveted Starting Player* may be part of a chain rule that was initiated by placing a Special, and vice-versa.
 
 > Suppose you have a Wood+Clay card, and you play a Special that requires Clay. With your leftover Wood, you may steal *The Coveted Starting Player*.
 
-**Substitutions**. Some bonuses allow you to replace one resource with another when Trashing. These substitutions can be limited per-turn, or unlimited. These substitutions may *only* be made as part of a Trash move in playing another card.
+**_Effects are Immediate_**. Any abilities or resources granted by playing a card take effect immediately when played, even in the middle of a chain.
+
+**_Substitutions_**. Some bonuses allow you to replace one resource with another when Trashing. These substitutions can be limited per-turn, or unlimited. These substitutions may *only* be made as part of a Trash move in playing another card.
 
 > For example, you have played *The Grain Engine*. Later, you can play *Sheep Breed!*, by trashing a Grain instead of a Sheep.
-
-**Ladders**. When a card says that you may "Climb" a ladder, move your cube up one level on the Ladder card of your choice. For *The Point Ladder*, points are scored non-cumulatively at the *end* of the game. For *The Resource Ladder*, take your bonus immediately. A *Draw* means that you draw a face-down card from the Resource pile. A *Take* means you may take a face-up Resource card from the purchase rows.
 
 **At the end of the round**, replenish the purchase area with new cards in the following manner:
 
   * If someone took at *least one card* from a given row, Trash the left-most card, shift the cards to the left and draw cards until the row is full.
   * If *nobody* took a card from a given row, Trash the *two* left-most cards, then shift the cards to the left and draw cards until the row is full.
 
-<div class="clearpage"></div>
-
 Endgame
 =======
 
 The Endgame phase starts immediately when the *Initiate Endgame* card drawn. Give the *Initiate Endgame* card to the player with *The Coveted Starting Player* to denote that they started Endgame.
 
-All players get their final chance to resolve their Blocker cards.
-If any players cannot remove their Blocker (i.e. they cannot trash enough Food), then the Blocker stays on their Tableau through the end of the game.
+All players get their final chance to resolve their Blocker cards. If any players cannot remove their Blocker (e.g. they cannot trash enough Food), then the Blocker stays on their Tableau through the end of the game.
 
 Remove all available Resource cards, Engine cards, and Midgame cards from the purchase rows. Place *all* Endgame cards face-up in a grid (order does not matter).
 
-Play starts with "The Coveted Starting Player" and continues to the left. Each player gets *two actions* per turn during Endgame.
+Play starts with "The Coveted Starting Player" and continues to the left. Each player gets *two Actions* per turn during Endgame.
 
 At any time, the current player may declare "Game Over". Once Game Over is declared, players continue to take turns until every player has had the same number of Endgame turns. That is, continue turns until you reach the owner of the Initiate Endgame card. This may or may not be the player with *The Coveted Starting Player* card (if the card has moved during the phase).
 
@@ -206,7 +223,7 @@ Analysis Paralysis Variant
   Real gamers know how to shop for the best deals.
 </div>
 
-During setup, deal out 3 Specials to each player face-down. Select a card to start with in your hand and pass the rest to your left. Continue in this fashion until all of the drafted cards are selected. Then, do the same with 3 Resources to each player.
+During setup, deal out 3 Starters to each player face-down. Select a card to start with in your hand and pass the rest to your left. Continue in this fashion until all of the drafted cards are selected. Then, do the same with 3 Resources to each player.
 
 Lunchbreak Variant
 ==================
@@ -215,4 +232,6 @@ Lunchbreak Variant
   Let's see if we can squeeze ourselves into your worklife, too.
 </div>
 
-For a shorter, more predictable gameplay time, deal 5 cards out on each purchase row regardless of how many players are playing. Always remove 2 cards at the end of each round. If a player takes too long on their turn, it is socially acceptable to point at them until they make their move.
+For a shorter, more predictable gameplay time, deal 5 cards out on each purchase row regardless of how many players are playing. Always remove 2 cards at the end of each round.
+
+If a player takes too long on their turn, it is socially acceptable to silently point a finger at them until they make their move.
