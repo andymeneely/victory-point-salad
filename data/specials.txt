@@ -8,6 +8,7 @@
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Building                           |
        Description | You may now build buildings.       |
                 VP | 20                                 |
@@ -33,6 +34,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Building                           |
        Description | You may now build buildings.       |
                 VP | 20                                 |
@@ -58,6 +60,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Building                           |
        Description | You may now build buildings.       |
                 VP | 20                                 |
@@ -83,14 +86,15 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Army token on any card in a p |
-                   | urchase row. Anyone who takes that |
-                   |  card must pay this person 1 Resou |
-                   | rce Card. In a tie, nobody places  |
-                   | the token.                         |
+                   | aces Largest Army token on any car |
+                   | d in a purchase row. Anyone who ta |
+                   | kes that card must pay this person |
+                   |  1 Resource Card. In a tie, nobody |
+                   |  places the token.                 |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -111,14 +115,15 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Army token on any card in a p |
-                   | urchase row. Anyone who takes that |
-                   |  card must pay this person 1 Resou |
-                   | rce Card. In a tie, nobody places  |
-                   | the token.                         |
+                   | aces Largest Army token on any car |
+                   | d in a purchase row. Anyone who ta |
+                   | kes that card must pay this person |
+                   |  1 Resource Card. In a tie, nobody |
+                   |  places the token.                 |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -139,14 +144,15 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Army                               |
        Description | At each round start before Endgame |
                    | , player with the most soldiers pl |
-                   | aces Army token on any card in a p |
-                   | urchase row. Anyone who takes that |
-                   |  card must pay this person 1 Resou |
-                   | rce Card. In a tie, nobody places  |
-                   | the token.                         |
+                   | aces Largest Army token on any car |
+                   | d in a purchase row. Anyone who ta |
+                   | kes that card must pay this person |
+                   |  1 Resource Card. In a tie, nobody |
+                   |  places the token.                 |
                 VP | 20                                 |
         VP + Climb | 20                                 |
   Est. Actions Min | 2.0                                |
@@ -167,6 +173,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Bake Bread                         |
        Description | You may trash 1 Grain for any 1 Re |
                    | source, any number of times.       |
@@ -190,6 +197,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Bake Bread                         |
        Description | You may trash 1 Grain for any 1 Re |
                    | source, any number of times.       |
@@ -213,6 +221,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Insta-slaughter                    |
        Description | You may trash 1 Animal for any 1 R |
                    | esource, any number of times.      |
@@ -236,6 +245,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Insta-slaughter                    |
        Description | You may trash 1 Animal for any 1 R |
                    | esource, any number of times.      |
@@ -259,6 +269,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Trash-n-Climb                      |
        Description | Once per turn, you may trash 1 car |
                    | d in your hand or 1 Resource card  |
@@ -283,6 +294,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Trash-n-Climb                      |
        Description | Once per turn, you may trash 1 car |
                    | d in your hand or 1 Resource card  |
@@ -307,6 +319,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Trash-n-Climb                      |
        Description | Once per turn, you may trash 1 car |
                    | d in your hand or 1 Resource card  |
@@ -331,6 +344,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Invested                           |
        Description | You may only play this card before |
                    |  playing an Engine. This card has  |
@@ -355,6 +369,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may trash this card for 1 Food |
                    | .                                  |
@@ -377,6 +392,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may trash this card for 1 Food |
                    | .                                  |
@@ -399,6 +415,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Silk Trade                         |
        Description | You may trash 1 Silk for any 2 Res |
                    | ources, any number of times.       |
@@ -422,6 +439,7 @@ Est. VP/Action Max | 25.0                               |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -444,6 +462,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -466,6 +485,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -488,6 +508,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Upon playing, climb 1 rung on a La |
                    | dder                               |
@@ -511,6 +532,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Stone Building                     |
        Description | You do not need to pay any require |
                    | d Stone for Buildings.             |
@@ -536,6 +558,7 @@ Est. VP/Action Max | 6.666666666666667                  |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Wood Building                      |
        Description | You do not need to pay any require |
                    | d Wood for Buildings               |
@@ -561,6 +584,7 @@ Est. VP/Action Max | 7.555555555555555                  |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Clay Building                      |
        Description | You do not need to pay any require |
                    | d Clay for Buildings.              |
@@ -584,6 +608,7 @@ Est. VP/Action Max | 7.428571428571428                  |
             Trash2 |                                    |
          Requires1 | Army                               |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 10                                 |
@@ -605,6 +630,7 @@ Est. VP/Action Max | 5.0                                |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | 2:1 Trade                          |
        Description | You may substitute 2 different Res |
                    | ources for 1 of any Resource, any  |
@@ -629,6 +655,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Grain                              |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -651,6 +678,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Grain                              |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -673,6 +701,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Sheep                              |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | When played, you may look at the m |
                    | idgame cards set aside in the box. |
@@ -699,6 +728,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 | Army                               |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 60                                 |
@@ -721,6 +751,7 @@ Est. VP/Action Max | 30.0                               |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may spend an action to trash 1 |
                    |  Food for 1 Climb. May be part of  |
@@ -737,15 +768,16 @@ Est. VP/Action Max | 18.88888888888889                  |
                    |                                    |
                    ╰------------------------------------╯
                    ╭------------------------------------╮
-              Type | Midgame                            |
+              Type | Starter                            |
                qty | 1                                  |
              Title | The Milk Engine                    |
             Bonus1 |                                    |
             Bonus2 |                                    |
-            Trash1 | Grain                              |
+            Trash1 | Cattle                             |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Teets!                             |
        Description | Once per turn, you may use an acti |
                    | on to get a resource card with Mil |
@@ -770,6 +802,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Grain                              |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -793,6 +826,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -814,6 +848,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may trash this card for 1 Food |
                    |                                    |
@@ -836,6 +871,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may trash this card for 1 Food |
                    |                                    |
@@ -858,6 +894,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Wood                               |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 60                                 |
@@ -880,6 +917,7 @@ Est. VP/Action Max | 18.214285714285715                 |
             Trash2 | Wood                               |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 70                                 |
@@ -902,6 +940,7 @@ Est. VP/Action Max | 20.962059620596204                 |
             Trash2 | Clay                               |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 70                                 |
@@ -926,6 +965,7 @@ Est. VP/Action Max | 20.68181818181818                  |
             Trash2 | Stone                              |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 80                                 |
@@ -949,6 +989,7 @@ Est. VP/Action Max | 21.935483870967744                 |
             Trash2 | Stone                              |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 90                                 |
@@ -973,6 +1014,7 @@ Est. VP/Action Max | 24.375                             |
             Trash2 | Stone                              |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 100                                |
@@ -995,6 +1037,7 @@ Est. VP/Action Max | 25.0                               |
             Trash2 | Glass                              |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | No substitution can be made for th |
                    | e glass.                           |
@@ -1018,6 +1061,7 @@ Est. VP/Action Max | 27.5                               |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 40                                 |
@@ -1040,6 +1084,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Clay                               |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 30                                 |
@@ -1064,6 +1109,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Army                               |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 40                                 |
@@ -1086,6 +1132,7 @@ Est. VP/Action Max | 15.11111111111111                  |
             Trash2 |                                    |
          Requires1 | Army                               |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 40                                 |
@@ -1107,6 +1154,7 @@ Est. VP/Action Max | 14.857142857142856                 |
             Trash2 |                                    |
          Requires1 | Army                               |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 40                                 |
@@ -1128,6 +1176,7 @@ Est. VP/Action Max | 13.333333333333334                 |
             Trash2 | Food                               |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 80                                 |
@@ -1151,6 +1200,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 10                                 |
@@ -1175,6 +1225,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 10                                 |
@@ -1198,6 +1249,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 10                                 |
@@ -1221,6 +1273,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 10                                 |
@@ -1243,6 +1296,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 20                                 |
@@ -1265,6 +1319,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Climb 1 rung on a Ladder           |
                 VP | 10                                 |
@@ -1288,7 +1343,8 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
-             Power | Chain 3x & Climb                   |
+           AntiReq |                                    |
+             Power | Chain 3x Climb                     |
        Description | Play immediately. Once per turn, i |
                    | f you use the Chain Rule to play o |
                    | r steal 3 cards in one action, you |
@@ -1315,7 +1371,8 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
-             Power | Chain 3x & Draw                    |
+           AntiReq |                                    |
+             Power | Chain 3x Draw                      |
        Description | Play immediately. Once per turn, i |
                    | f you use the Chain Rule to play o |
                    | r steal 3 cards in one action, you |
@@ -1340,6 +1397,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Grain                              |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 60                                 |
@@ -1364,6 +1422,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Cattle                             |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 70                                 |
@@ -1388,6 +1447,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Silk                               |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description |                                    |
                 VP | 80                                 |
@@ -1412,6 +1472,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Upon playing, retrieve any Trashed |
                    |  card and play it immediately with |
@@ -1437,6 +1498,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq | Army                               |
              Power | Take That!                         |
        Description | Play immediately. You may only pla |
                    | y this card if you have no Army. Y |
@@ -1462,6 +1524,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Army                               |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Hate Draft                         |
        Description | Before starting Endgame actions, y |
                    | ou may trash 1 Payoff card availab |
@@ -1487,6 +1550,7 @@ Est. VP/Action Max | 10.0                               |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Trash Me!                          |
        Description | You may trash this card from your  |
                    | tableau for any 2 available Resour |
@@ -1513,6 +1577,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Endgame Actions                    |
        Description | On your first turn in Endgame, you |
                    |  get 1 extra Action.               |
@@ -1537,6 +1602,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 40 VPs for each Payoff you have pl |
                    | ayed by endgame scoring.           |
@@ -1560,6 +1626,7 @@ Est. VP/Action Max |                                    |
             Trash2 | Carrot                             |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | You may not make any substitutions |
                    |  to play this card.                |
@@ -1583,6 +1650,7 @@ Est. VP/Action Max | 25.0                               |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 60 VP if you have Invested plus 10 |
                    |  VP for each Gold.                 |
@@ -1606,6 +1674,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 30 VP for each Wood, Sheep, and Gr |
                    | ain                                |
@@ -1629,6 +1698,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | Take the total number of Glass and |
                    |  Silk you have. Square that number |
@@ -1653,6 +1723,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Military                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 10 VP for each Soldier, +30 additi |
                    | onal VP if you end the game with t |
@@ -1676,6 +1747,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 | Building                           |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 10 VP for each Building you've pla |
                    | yed                                |
@@ -1698,6 +1770,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 30/50/80 VP if you have 1/2/3 Thin |
                    | g-in-a-Set cards.                  |
@@ -1720,6 +1793,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 40 VP for each Clay, Stone, Carrot |
                    |                                    |
@@ -1744,6 +1818,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | 50 VP if you have 4 Sheep. 50 VP i |
                    | f you have 3 Cattle.               |
@@ -1767,6 +1842,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | All Blockers must be paid by the e |
                    | nd of this turn. Initiate Endgame. |
@@ -1791,6 +1867,7 @@ Est. VP/Action Max | 0.0                                |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power | Go First!                          |
        Description | Can be stolen by any player on the |
                    | ir turn if they trash 1 of any Res |
@@ -1815,6 +1892,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | To trash this card, place 3 Food o |
                    | r equivalent on this card in a sin |
@@ -1841,6 +1919,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | To trash this card, place 3 Food o |
                    | r equivalent on this card in a sin |
@@ -1867,6 +1946,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | To trash this card, place 3 Food o |
                    | r equivalent on this card in a sin |
@@ -1893,6 +1973,7 @@ Est. VP/Action Max |                                    |
             Trash2 |                                    |
          Requires1 |                                    |
          Requires2 |                                    |
+           AntiReq |                                    |
              Power |                                    |
        Description | To trash this card, place 3 Food o |
                    | r equivalent on this card in a sin |

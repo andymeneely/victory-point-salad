@@ -22,9 +22,14 @@ Squib::Deck.new(cards: data['Title'].size) do
     data[bonus].map! { |str| str && ("◎ Requires #{str}") }
   end
 
+  %w(AntiReq).each do |bonus|
+    data[bonus].map! { |str| str && ("⊘ No #{str}") }
+  end
+
   # Combine Trash & Requires into a single string
   data['PreReq'] = [data['Trash1'], data['Trash2'],
-                    data['Requires1'], data['Requires2']]
+                    data['Requires1'], data['Requires2'],
+                    data['AntiReq']]
                     .transpose
                     .map {|req| req.compact.join("\n")}
 

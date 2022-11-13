@@ -23,7 +23,7 @@ graph LR
     themilitarybuilding[The Military Building] --> soldier[Soldier];
     themilitarybuilding[The Military Building] --> soldier[Soldier];
     wood[Wood] --> thefood-to-climbenginebuilding[The Food-to-Climb Engine Building];
-    grain[Grain] --> themilkengine[The Milk Engine];
+    cattle[Cattle] --> themilkengine[The Milk Engine];
     wood[Wood] --> timetobuildfences[Time to Build Fences];
     grain[Grain] --> timetobuildfences[Time to Build Fences];
     timetobuildfences[Time to Build Fences] --> sheep[Sheep];
