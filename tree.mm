@@ -23,7 +23,7 @@ graph LR
     themilitarybuilding[The Military Building] --> soldier[Soldier];
     themilitarybuilding[The Military Building] --> soldier[Soldier];
     wood[Wood] --> thefood-to-climbenginebuilding[The Food-to-Climb Engine Building];
-    cattle[Cattle] --> themilkengine[The Milk Engine];
+    cattle[Cattle] --> themilkstrategy[The Milk Strategy];
     wood[Wood] --> timetobuildfences[Time to Build Fences];
     grain[Grain] --> timetobuildfences[Time to Build Fences];
     timetobuildfences[Time to Build Fences] --> sheep[Sheep];
@@ -57,8 +57,8 @@ graph LR
     veggiesoup[Veggie Soup] --> food[Food];
     wood[Wood] --> thearmsrace[The Arms Race];
     thearmsrace[The Arms Race] --> soldier[Soldier];
-    clay[Clay] --> theresalwaysagolem[Theres Always a Golem];
-    theresalwaysagolem[Theres Always a Golem] --> soldier[Soldier];
+    clay[Clay] --> claysoldier[Clay Soldier];
+    claysoldier[Clay Soldier] --> soldier[Soldier];
     stone[Stone] --> themilitarycommitment[The Military Commitment];
     themilitarycommitment[The Military Commitment] --> soldier[Soldier];
     themilitarycommitment[The Military Commitment] --> soldier[Soldier];
@@ -68,6 +68,8 @@ graph LR
     grain[Grain] --> grainclimb![Grain Climb!];
     clay[Clay] --> clayclimb![Clay Climb!];
     stone[Stone] --> stoneclimb![Stone Climb!];
+    milk[Milk] --> milkclimb![Milk Climb!];
+    milk[Milk] --> milkmastery[Milk Mastery];
     wood[Wood] --> thecombothing-in-a-set[The Combo Thing-in-a-Set];
     grain[Grain] --> thecombothing-in-a-set[The Combo Thing-in-a-Set];
     wildboar[Wild Boar] --> theanimalthing-in-a-set[The Animal Thing-in-a-Set];

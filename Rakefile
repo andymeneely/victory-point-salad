@@ -80,7 +80,7 @@ task :rules do
   `python src/weasybuild.py`
   puts "Ghostscripting PDF to PNGs..."
   `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
-  # `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
+  # `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-[%02d].png" _output/RULES.pdf`
 end
 
 desc 'Open up resources after building. Put last, e.g. rake rules launch'

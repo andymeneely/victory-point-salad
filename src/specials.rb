@@ -65,7 +65,8 @@ Squib::Deck.new(cards: data['Title'].size) do
 
   # rect layout: :cut_zone
   # rect layout: :safe_zone
-  save_png prefix: 'special_', count_format: '[%02d]' # , trim: 37.5, trim_radius: 37.5,
+  prefixes = data.type.map {|t| "special_#{t}" }
+  save_png prefix: prefixes # , trim: 37.5, trim_radius: 37.5,
 
   save_sheet prefix: 'special_sheet_', columns: 13
 

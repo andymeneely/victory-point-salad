@@ -25,7 +25,7 @@ Squib::Deck.new(cards: data['Title'].size, width: 1125, height: 825) do
   # text str: "#{VictoryPointSalad::VERSION} #{VictoryPointSalad::GIT_HEAD}",
   #      layout: :version
 
-  save_png prefix: 'resource_', count_format: '[%02d]' #all
+  save_png prefix: 'resource_', rotate: :clockwise #all
   save_sheet prefix: 'sheet_resources_', columns: 5, rows: 5
 
   build(:pdf) do

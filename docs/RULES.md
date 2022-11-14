@@ -22,6 +22,7 @@ Parts List
 * 50 Resource cards
 * 3 Ladder cards
 * 1 Army token
+{:.parts}
 
 Setup
 =====
@@ -33,17 +34,17 @@ Like most board games, the setup looks much harder than it actually is.
 1. Separate all cards into piles by their backs.
 2. Separate each **Engine card** by its name and place each Engine in its own face-up pile.
 3. Place **Ladder** cards face-up where everyone can easily see them.
-4. <span class="snark"> Prefer analysis paralysis? Try our Drafting Variant. </span>Place a cube at the bottom of each **Ladder**, according to player color.
+4. Place a cube at the bottom of each **Ladder**, according to player color.
 5. Shuffle all **Resource Cards** and place them in a pile face down.
-6. **Draw 3 Resource cards** for each player and place them face-up on their Tableau.
+6. **Draw 3 Resource cards** for each player and place them face-up on their Tableau. <span class="snark"> Prefer analysis paralysis? Try our Drafting Variant. </span>
 7. Give each player one **Blocker** card and place face-up in their Tableau.
 8. Shuffle the **Endgame** cards face-down. This pile will be known as the *Special Pile*.
-9. Place the **Initiate Endgame** card face-down on top of the Special Pile.
+9. Place the **Initiate Endgame** card face-up and sideways on top of the Special Pile.
 10. Shuffle the **Midgame** cards and place them face-down on top of the Special Pile. Deal 5 cards face-down and place them back in the box without looking.
 11.  Shuffle the **Starter pile** and place face-down on top of the Special Pile.
 12. Distribute **3 Starter Cards** to the *Hands* of each player.
 13. Populate the **Purchase Rows**. For the Resources Pile and the Special Pile each, draw 3/4/5 cards for 2/3/4 players. Place these cards face-up in a row next to the pile, as shown.
-14. <span class="snark">Dice are for gamblers and children.</span> Decide at random who **goes first**. You may not use dice to make this decision. Place *The Coveted Starting Player* on that player's Tableau.
+14. <span class="snark">Dice are for gamblers. Card randomness is superior.</span> Decide at random who **goes first**. You may not use dice to make this decision. Place *The Coveted Starting Player* on that player's Tableau.
 
 
 
@@ -54,7 +55,9 @@ The Table
 <div class="snark">
 Ah, the ubiquitous, arbitrary hand limit of 5.
 </div>
-You will have a **Hand** of Special cards. In your Hand, you are limited to having 5 cards by the end of your turn. At any time, you may **Trash** a card from your Hand. Place Trashed cards back in the box.
+You will have a **Hand** of Special cards. In your Hand, you are limited to having 5 cards by the end of your turn. At any time, you may **Trash** a card from your Hand. Place Trashed cards in the Trash pile.
+
+![layout figure](rules_figure_layout.svg){:.figure-full-line}
 
 <div class="snark">
 You won't get extra veeps for having a well-organized tableau.
@@ -64,9 +67,6 @@ Or will you??
 
 Your **Tableau** is the array of already-played, face-up cards in front of you. You may have an unlimited number of cards on your Tableau. You may *not* Trash a card on your Tableau, unless you play another card that allows you to. You may arrange your Tableau however you wish, but you must allow your opponents see any of your Tableau cards upon request.
 
-<div class="figure">
-  <img src="rules_figure_layout.svg" width="100%"/>
-</div>
 
 ---
 
@@ -131,12 +131,23 @@ Ladders
 
 **_Climbing Ladders_**. When a card says that you may "Climb" a ladder, move your cube up one level on the Ladder card of your choice.
 
-For _The Point Ladder_, points are scored non-cumulatively at the *end* of the game.
+For _The Point Ladder_:
+  * Points are scored non-cumulatively at the *end* of the game.
+  * Taking a Climb at the top of this ladder has no effect.
 
 For *The Resource Ladder*, take your bonus immediately.
 
   * A *Draw* means that you draw a face-down card from the Resource pile.
   * A *Take* means you may take a face-up Resource card from the purchase rows.
+  * A *Steal* means you may take a Resource card from an opponent's tableau.
+  * If your cube is already at the top, take the bonus from the top of the ladder.
+
+For *The Special Ladder*, take your bonus immediately.
+
+  * A *Draw* means that you draw a face-down card from the Special pile.
+  * A *Take* means you may take a face-up Special card from the purchase rows.
+  * A *Play* means you may take an extra Action to play a Special card from your hand.
+  * If your cube is already at the top, take the bonus from the top of the ladder.
 
 ![ladder figure](rules_ladder.png){:.card-portrait .rotate-left}
 

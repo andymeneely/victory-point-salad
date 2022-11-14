@@ -32,10 +32,14 @@ body {
   line-height: 1.05;
 }
 
+.parts{
+  columns: 2;
+}
+
 h1 {
   font-size: 1.75em;
   text-align: center;
-  margin-bottom: 0.15em;
+  /* margin-bottom: 0.15em; */
 }
 
 h1, h2, h3 {
@@ -63,12 +67,14 @@ img.card-landscape {
   width: 25em;
   margin-bottom: 1em;
   margin-top: 1em;
+  margin-left: 5em;
 }
 
 img.card-portrait {
   width: 18em;
   margin-bottom: 1em;
   margin-top: 1em;
+  margin-left: 10em;
 }
 
 .rotate-left {

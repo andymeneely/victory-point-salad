@@ -20,7 +20,9 @@ Squib::Deck.new(cards: data.length, config: 'config.yml') do
   # cut_zone
   # safe_zone
   save_png prefix: 'ladder_', count_format: '[%02d]'
-  save_png range: 0, dir: 'docs', prefix: 'rules_ladder', count_format: ''
+  save_png range: 0, dir: 'docs', prefix: 'rules_ladder', count_format: '',
+           trim: 37.5, trim_radius: 37.5,
+           shadow_radius: 10
   save_sheet prefix: 'sheet_ladder_', rows: 3, columns: 3
 end
 
